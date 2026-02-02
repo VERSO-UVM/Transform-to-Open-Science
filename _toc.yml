@@ -1,0 +1,35 @@
+format: jb-book
+root: README.md
+chapters:
+- file: docs/Area1_Engagement/readme.md
+  title: Area 1 - Engagement
+  sections:
+  - file: docs/Area1_Engagement/contactus.md
+  - file: docs/Area1_Engagement/Community_Forums/readme.md
+  - file: docs/Area1_Engagement/Community_Panels/readme.md
+  - file: docs/Area1_Engagement/Hackathons/readme.md
+  - file: docs/Area1_Engagement/Newsletters/readme.md
+  - file: docs/Area1_Engagement/Open-Science-Stories/readme.md
+  - file: docs/Area1_Engagement/Outreach/readme.md
+- file: docs/Area2_Capacity_Sharing/readme.md
+  title: Area 2 - Capacity Sharing
+  sections:
+  - file: docs/Area2_Capacity_Sharing/Open-Science-101/readme.md
+  - file: docs/Area2_Capacity_Sharing/Activity_Templates/readme.md
+  - file: docs/Area2_Capacity_Sharing/ScienceCore/readme.md
+- file: docs/Area3_Incentives/readme.md
+  title: Area 3 - Incentives
+- file: docs/Area4_Moving_To_Openness/readme.md
+  title: Area 4 - Moving to Openness
+  sections:
+  - file: docs/Area4_Moving_To_Openness/federal_guidance.md
+  - file: docs/Area4_Moving_To_Openness/funding_opportunities.md
+  - file: docs/Area4_Moving_To_Openness/global_policies.md
+  - file: docs/Area4_Moving_To_Openness/Open_Science.md
+  - file: docs/Area4_Moving_To_Openness/Open_Timeline.md
+  - file: docs/Area4_Moving_To_Openness/OSdmp.md
+  - file: docs/Area4_Moving_To_Openness/TOPST/readme.md
+- file: CONTRIBUTING.md
+  title: Contributing
+- file: CODE_OF_CONDUCT.md
+  title: Code of Conduct

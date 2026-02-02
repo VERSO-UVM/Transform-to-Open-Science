@@ -1,0 +1,14 @@
+# Book settings
+title: Transform to Open Science
+author: NASA TOPS
+logo: https://zenodo.org/record/7742997/files/Tops_Badge_Nasa.png
+
+format: jb-book
+
+options:
+  numbered: false
+
+html:
+  home_page_in_navbar: true
+  use_issues_button: false
+  use_repository_button: false
