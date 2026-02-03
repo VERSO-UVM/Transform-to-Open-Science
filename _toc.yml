@@ -1,42 +1,23 @@
 format: jb-book
 root: README.md
 chapters:
-- file: docs/Area2_Capacity_Sharing/Open-Science-101/readme.md
+- file: docs/Open-Science-101/readme.md
   title: Open Science 101
   sections:
-  - file: docs/Area2_Capacity_Sharing/Open-Science-101/modules/open_science_ethos_module.md
+  - file: docs/Open-Science-101/modules/open_science_ethos_module.md
     title: Module 1 - Open Science Ethos
-  - file: docs/Area2_Capacity_Sharing/Open-Science-101/modules/open_data_module.md
+  - file: docs/Open-Science-101/modules/open_data_module.md
     title: Module 2 - Open Data
-  - file: docs/Area2_Capacity_Sharing/Open-Science-101/modules/open_software_module.md
+  - file: docs/Open-Science-101/modules/open_software_module.md
     title: Module 3 - Open Software
-  - file: docs/Area2_Capacity_Sharing/Open-Science-101/modules/open_results_module.md
+  - file: docs/Open-Science-101/modules/open_results_module.md
     title: Module 4 - Open Results
-  - file: docs/Area2_Capacity_Sharing/Open-Science-101/modules/open_science_tools_module.md
+  - file: docs/Open-Science-101/modules/open_science_tools_module.md
     title: Module 5 - Open Science Tools
-  - file: docs/Area2_Capacity_Sharing/Activity_Templates/readme.md
-  - file: docs/Area2_Capacity_Sharing/ScienceCore/readme.md
-- file: docs/Area1_Engagement/readme.md
-  title: Resources and Supporting Documents
-  sections:
-  - file: docs/Area1_Engagement/contactus.md
-  - file: docs/Area1_Engagement/Community_Forums/readme.md
-  - file: docs/Area1_Engagement/Community_Panels/readme.md
-  - file: docs/Area1_Engagement/Hackathons/readme.md
-  - file: docs/Area1_Engagement/Newsletters/readme.md
-  - file: docs/Area1_Engagement/Open-Science-Stories/readme.md
-  - file: docs/Area1_Engagement/Outreach/readme.md
-  - file: docs/Area3_Incentives/readme.md
-    title: Area 3 - Incentives
-  - file: docs/Area4_Moving_To_Openness/readme.md
-    title: Area 4 - Moving to Openness
-  - file: docs/Area4_Moving_To_Openness/federal_guidance.md
-  - file: docs/Area4_Moving_To_Openness/funding_opportunities.md
-  - file: docs/Area4_Moving_To_Openness/global_policies.md
-  - file: docs/Area4_Moving_To_Openness/Open_Science.md
-  - file: docs/Area4_Moving_To_Openness/Open_Timeline.md
-  - file: docs/Area4_Moving_To_Openness/OSdmp.md
-  - file: docs/Area4_Moving_To_Openness/TOPST/readme.md
+  - file: docs/Open-Science-101/readme.md
+    title: Overview
+- file: docs/Open-Science-101/modules/course_guidance.md
+  title: Course Guidance
 - file: CONTRIBUTING.md
   title: Contributing
 - file: CODE_OF_CONDUCT.md
