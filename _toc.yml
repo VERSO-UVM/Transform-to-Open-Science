@@ -14,8 +14,6 @@ chapters:
     title: Module 4 - Open Results
   - file: docs/Open-Science-101/modules/open_science_tools_module.md
     title: Module 5 - Open Science Tools
-  - file: docs/Open-Science-101/readme.md
-    title: Overview
 - file: docs/Open-Science-101/modules/course_guidance.md
   title: Course Guidance
 - file: CONTRIBUTING.md
