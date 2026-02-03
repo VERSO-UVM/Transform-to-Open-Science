@@ -2,9 +2,20 @@
 
 [![Deploy Book](https://github.com/kefortney/Transform-to-Open-Science/actions/workflows/book.yml/badge.svg?branch=main)](https://github.com/kefortney/Transform-to-Open-Science/actions/workflows/book.yml)
 
+## About This Project
+
+**This repository is a continuation and expansion of NASA's Transform to Open Science (TOPS) initiative.** The original NASA TOPS repository and Open Science 101 curriculum were archived in January 2025 and made available under an open source license. This project preserves and builds upon that foundation by:
+
+- Maintaining and enhancing the Open Science 101 curriculum
+- Expanding the original NASA TOPS materials with new content and resources
+- Creating a community-driven platform for open science education and engagement
+- Building on NASA's pioneering work to make open science practices accessible to all
+
+**Rewritten and expanded by VERSO** - a collaborative effort to democratize open science knowledge and practices.
+
 ## Introduction
 
-Want a website instead of a GitHub repo? [https://nasa.github.io/Transform-to-Open-Science/](https://nasa.github.io/Transform-to-Open-Science/)
+Want a website instead of a GitHub repo? [https://localhost:8000/](http://localhost:8000/) (or check GitHub Pages when deployed)
 
 Ready to get started transforming towards open science with us? Get started [here!](./CONTRIBUTING.md) 
 
