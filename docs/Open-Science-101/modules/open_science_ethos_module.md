@@ -370,26 +370,26 @@ Doing open science responsibly means:
 **Deliverable:** A 1-2 page data sharing plan for your selected dataset.
 :::
 
-### Lesson 4: When Not to Be Open
+### Lesson 4: When To Be or Not To Be Open
 
 #### Overview
 In this lesson, you will consider potential barriers to adopting open science practices. Barriers can come in the form of personal fears, as a result of misaligned social challenges, or institutional/infrastructure barriers. We discuss common barriers and mitigation strategies.
 
 #### 4.1 Personal and Fear-Based Barriers
 
-**Fear 1: "My work isn't good enough"**
+**"My work isn't good enough"**
 
 Many researchers, especially early-career scientists, hesitate to share their work openly because they worry it isn't polished enough or may contain errors that will be judged harshly. This perfectionism is understandable but misplaced—the reality is that all research has limitations, and acknowledging these openly actually builds trust with the scientific community and demonstrates intellectual honesty. Transparency about your methods and assumptions allows others to understand the context and appropriate uses of your work, rather than leaving them to speculate. The best approach is to start small: choose one modest open science practice, implement it in your next project, seek feedback from trusted colleagues, and gradually build confidence as you experience the constructive responses that open science typically generates.
 
-**Fear 2: "I will be scooped"**
+**"I will be scooped"**
 
 The fear of being "scooped"—having competitors publish similar findings first—is one of the most commonly cited barriers to sharing work openly before formal publication. However, this fear is largely unfounded when examined against actual evidence. Preprints establish a clear, timestamped public record of priority for your discoveries, providing the same protection as traditional publication but much faster. Furthermore, simultaneous discoveries are actually quite common in science, reflecting the reality that multiple researchers are often working on similar problems using similar approaches—this is normal and even validates the importance of the finding. Historical analysis shows that most significant scientific findings are independently verified by multiple research groups, and the first to publish typically receives appropriate credit. Rather than hoarding work until formal publication, a more productive strategy is to post preprints early to establish your priority, then embrace collaboration rather than competition, recognizing that open discussion typically improves the work and accelerates progress for everyone involved.
 
-**Fear 3: "I don't have time"**
+**"I don't have time"**
 
 Time constraints are real in academic research, and researchers legitimately worry that adopting open science practices will add to their already overwhelming workload. The honest answer is that there is an initial learning curve: your first open science project will likely require 15-20% additional effort as you learn new tools, establish workflows, and figure out documentation practices. However, this investment pays off quickly—by your second and third projects, the additional effort typically drops to just 5-10% as you reuse templates and documentation infrastructure you've already created. The long-term benefit is even more compelling: researchers who regularly build on openly available data, code, and methods report time savings of 30-40% compared to recreating everything from scratch. The key to minimizing the time burden is to integrate open practices into your workflow from the beginning—document your work as you go rather than trying to reconstruct everything retroactively, use templates and automation tools to reduce repetitive tasks, and plan for openness from your project's inception rather than treating it as an afterthought.
 
-**Fear 4: "I'll be publicly shamed or attacked"**
+**"I'll be publicly shamed or attacked"**
 
 Some researchers avoid sharing work openly because they fear public criticism, harsh judgment, or even personal attacks on social media or in online forums. While these concerns are understandable given occasional high-profile controversies, the reality is that the vast majority of open science interactions are constructive and professional. Most feedback on openly shared work focuses on improving methods, clarifying assumptions, or suggesting alternative interpretations—exactly the kind of peer input that strengthens research before formal publication. Personal attacks are rare and typically come from the same small number of individuals who would likely critique your work regardless of how it's shared. The most effective strategy is to approach open sharing with the right mindset: focus on substantive feedback that can improve your work, recognize that constructive criticism is a gift rather than an attack, ignore the rare trolls who contribute nothing valuable, and actively build relationships within supportive open science communities where respectful discourse is the norm.
 
@@ -558,7 +558,7 @@ No researcher adopts open science in isolation—engaging with open science comm
 - "Open Data Handbook" - Open Knowledge Foundation
 
 **Free Online Training:**
-- "Open Science 101" (NASA TOPS) - This course!
+- "Open Science 101" - This course!
 - [The Carpentries](https://carpentries.org) workshops
 - [FOSTER Plus Learning Portal](https://learning.foster.org)
 - YouTube tutorials (Git, Jupyter, etc.)

@@ -89,7 +89,16 @@ Open data is data that is freely available, accessible, and usable by anyone wit
 
 #### 1.3 Why Open Data Matters: The FAIR Principles
 
-The FAIR principles provide a framework for making data maximally useful for both humans and machines.
+The FAIR (Findable, Accessible, Interoperable, Reusable) principles were developed in 2016 by an international consortium of researchers, funding agencies, and infrastructure providers ([Wilkinson et al., 2016](bibliography.md)). Created in response to the "big data" challenge—where vast amounts of scientific data were being generated but difficult to discover, access, and reuse—FAIR emerged as a set of guidelines for improving data stewardship. Unlike "open data" which focuses on access and licensing, FAIR emphasizes how data should be managed and described to maximize their value throughout their lifecycle and beyond.
+
+Key drivers for FAIR's development included:
+- **Data Fragmentation:** Researchers struggled to find relevant datasets scattered across incompatible repositories
+- **Technical Barriers:** Different data formats, missing metadata, and lack of standardization made data integration difficult
+- **Machine-Readability:** As data volumes grew, manual data handling became infeasible—automated systems needed structured, standardized information
+- **Long-term Preservation:** Data needed to remain interpretable and usable decades after collection
+- **Global Collaboration:** International research required interoperable data infrastructure
+
+Since 2016, FAIR has been adopted by major funding agencies (NIH, NSF, European Commission), research institutions, and data repositories worldwide. FAIR is now embedded in funder mandates, data management requirements, and infrastructure planning globally. Importantly, **FAIR is complementary to "open"**—data can be FAIR but not open (restricted access with proper documentation) or open but not FAIR (freely available but poorly documented and hard to discover). The goal is to achieve both: make data FAIR AND OPEN when possible.
 
 **What FAIR Stands For:**
 
@@ -226,28 +235,27 @@ Version: "2.1 (Quality flags updated)"
 **Minimal Metadata Checklist:**
 
 At minimum, include:
-- ✅ Title and description (what is this?)
-- ✅ Creator/author (who made this?)
-- ✅ Date created and last modified (when?)
-- ✅ Temporal coverage (what time period?)
-- ✅ Spatial coverage (what geographic area?)
-- ✅ Methodology (how was it created?)
-- ✅ Variable definitions (what do columns mean?)
-- ✅ Units of measurement
-- ✅ Missing data handling
-- ✅ License/rights (how can it be used?)
-- ✅ DOI or permanent identifier (where to cite?)
-- ✅ Data quality notes (what are limitations?)
+- Title and description (what is this?)
+- Creator/author (who made this?)
+- Date created and last modified (when?)
+- Temporal coverage (what time period?)
+- Spatial coverage (what geographic area?)
+- Methodology (how was it created?)
+- Variable definitions (what do columns mean?)
+- Units of measurement
+- Missing data handling
+- License/rights (how can it be used?)
+- DOI or permanent identifier (where to cite?)
+- Data quality notes (what are limitations?)
 
 **Metadata Standards by Discipline:**
 
-- **Dublin Core:** Generic, all disciplines
-- **MIAPPE:** Minimum Information About a Plant Phenotyping Experiment
-- **MIAME:** Minimum Information About a Microarray Experiment
-- **EML:** Ecological Metadata Language
-- **FGDC:** Federal Geographic Data Committee (GIS)
-- **MIAPPE:** Plant phenotyping
-- **Darwin Core:** Biodiversity occurrence data
+- **[Dublin Core](https://www.dublincore.org/):** Generic, all disciplines
+- **[MIAPPE](http://miappe.org/):** Minimum Information About a Plant Phenotyping Experiment
+- **[MIAME](http://www.mged.org/workgroups/miame/):** Minimum Information About a Microarray Experiment
+- **[EML](https://eml.ecoinformatics.org/):** Ecological Metadata Language
+- **[FGDC](https://www.fgdc.gov/metadata):** Federal Geographic Data Committee (GIS)
+- **[Darwin Core](https://dwc.tdwg.org/):** Biodiversity occurrence data
 
 **Creating Good Metadata:**
 
@@ -1110,7 +1118,7 @@ A Data Management Plan (DMP) is a document describing how data will be created, 
 - Cross-contamination assessment
 
 ### Data Organization
-```
+
 project_data/
 ├── raw_sequences/
 │   ├── run_2024_01/
@@ -1474,7 +1482,7 @@ Dataset:
 
 **Essential Documentation:**
 
-**README.md** (We covered this in Lesson 1)
+**README** (We covered this in Lesson 1)
 - Overview and description
 - Variable definitions
 - Methods
@@ -1497,7 +1505,7 @@ humidity,Mean relative humidity,Float,Percent,0 to 100,-9999,Hygrometer readings
 quality_flag,Data quality assessment,Integer,Code,0-5,-9999,QC procedures
 ```
 
-**METHODS.md**
+**METHODS**
 
 Detailed description of data collection and processing:
 
@@ -1784,7 +1792,7 @@ In this lesson, you learn about the practice of sharing your data. The discussio
 
 **Can Your Data Be Shared?**
 
-**✅ Data That Should Be Shared:**
+**Data That Should Be Shared:**
 
 1. **Research datasets supporting publications**
    - Essential for reproducibility
@@ -1808,7 +1816,7 @@ In this lesson, you learn about the practice of sharing your data. The discussio
    - Geographic basemaps
    - Standard reference materials
 
-**⚠️ Data That May Have Restrictions:**
+**Data That May Have Restrictions:**
 
 1. **Personally Identifiable Information (PII)**
    - Names, addresses, phone numbers
@@ -1911,7 +1919,7 @@ Start: Should I share this data?
 
 **General-Purpose Repositories:**
 
-**Zenodo** (zenodo.org)
+**[Zenodo](https://zenodo.org/)**
 - **Pros:**
   - Free unlimited storage
   - DOI automatically assigned
@@ -1924,7 +1932,7 @@ Start: Should I share this data?
 - **Cost:** Free
 - **Best for:** Datasets for papers, multi-disciplinary data
 
-**Figshare** (figshare.com)
+**[Figshare](https://figshare.com/)**
 - **Pros:**
   - User-friendly interface
   - 20 GB free storage per user
@@ -1936,7 +1944,7 @@ Start: Should I share this data?
 - **Cost:** Free up to 20GB
 - **Best for:** Individual datasets, figures, multi-media
 
-**Dataverse** (dataverse.org)
+**[Dataverse](https://dataverse.org/)**
 - **Pros:**
   - Federated network of institutional repositories
   - Built-in version control
@@ -1947,7 +1955,7 @@ Start: Should I share this data?
 - **Cost:** Usually free through institution
 - **Best for:** Academic institutions, longitudinal studies
 
-**Open Science Framework (OSF)** (osf.io)
+**[Open Science Framework (OSF)](https://osf.io/)**
 - **Pros:**
   - Good for organizing whole projects
   - Version control and documentation
@@ -1960,35 +1968,35 @@ Start: Should I share this data?
 **Discipline-Specific Repositories:**
 
 **Life Sciences:**
-- **NCBI Sequence Read Archive (SRA):** Raw sequencing data
-- **Gene Expression Omnibus (GEO):** Microarray and sequencing expression data
-- **Dryad:** Life sciences datasets from publications
-- **GBIF:** Biodiversity occurrence data
-- **PhysioBank:** Physiological signals and time series
+- **[NCBI Sequence Read Archive (SRA)](https://www.ncbi.nlm.nih.gov/sra):** Raw sequencing data
+- **[Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/):** Microarray and sequencing expression data
+- **[Dryad](https://datadryad.org/):** Life sciences datasets from publications
+- **[GBIF](https://www.gbif.org/):** Biodiversity occurrence data
+- **[PhysioBank](https://physionet.org/physiobank/):** Physiological signals and time series
 
 **Earth & Environmental Sciences:**
-- **NOAA Data Centers:** Climate, oceanography, meteorology
-- **NASA Earth Data:** Satellite imagery, environmental data
-- **PANGAEA:** Oceanography, paleoceanography, marine data
-- **ESA CCI:** Climate data records from ESA satellites
-- **SEDAC:** Socioeconomic data for Earth sciences
+- **[NOAA Data Centers](https://www.ncei.noaa.gov/):** Climate, oceanography, meteorology
+- **[NASA Earth Data](https://earthdata.nasa.gov/):** Satellite imagery, environmental data
+- **[PANGAEA](https://www.pangaea.de/):** Oceanography, paleoceanography, marine data
+- **[ESA CCI](https://www.esa-cci.org/):** Climate data records from ESA satellites
+- **[SEDAC](https://sedac.ciesin.columbia.edu/):** Socioeconomic data for Earth sciences
 
 **Astronomy & Astrophysics:**
-- **MAST:** Multi-mission archive (HST, Kepler, etc.)
-- **SDSS:** Sloan Digital Sky Survey data
-- **ESO Archive:** European Southern Observatory
-- **Gaia Archive:** ESA Gaia spacecraft data
+- **[MAST](https://mast.stsci.edu/):** Multi-mission archive (HST, Kepler, etc.)
+- **[SDSS](https://www.sdss.org/):** Sloan Digital Sky Survey data
+- **[ESO Archive](https://archive.eso.org/):** European Southern Observatory
+- **[Gaia Archive](https://gea.esac.esa.int/):** ESA Gaia spacecraft data
 
 **Social Sciences:**
-- **ICPSR:** Inter-university Consortium for Political and Social Research
-- **UK Data Archive:** Social and economic data
-- **GESIS:** German social science data
-- **DANS:** Netherlands data repository
+- **[ICPSR](https://www.icpsr.umich.edu/):** Inter-university Consortium for Political and Social Research
+- **[UK Data Archive](https://www.data-archive.ac.uk/):** Social and economic data
+- **[GESIS](https://www.gesis.org/):** German social science data
+- **[DANS](https://dans.knaw.nl/):** Netherlands data repository
 
 **Cross-Cutting:**
-- **Mendeley Data:** All disciplines
-- **Harvard Dataverse:** Institutional focus
-- **UK Research Data Catalogue:** UK research data across disciplines
+- **[Mendeley Data](https://data.mendeley.com/):** All disciplines
+- **[Harvard Dataverse](https://dataverse.harvard.edu/):** Institutional focus
+- **[UK Research Data Catalogue](https://www.ukri.org/):** UK research data across disciplines
 
 **Repository Selection Checklist:**
 
@@ -2008,12 +2016,12 @@ Start: Should I share this data?
 1. **Primary:** Discipline-specific repository if available
 2. **Secondary:** General repository (Zenodo or Figshare) as backup
 3. **Institutional:** Deposit in institutional repository
-4. **Archive:** Software Heritage or Zenodo for permanent preservation
+4. **Archive:** [Software Heritage](https://www.softwareheritage.org/) or Zenodo for permanent preservation
 
 **Example Strategy:**
 
 A genomics researcher with transcriptomics data:
-1. **Primary:** Gene Expression Omnibus (GEO)
+1. **Primary:** [Gene Expression Omnibus (GEO)](https://www.ncbi.nlm.nih.gov/geo/)
 2. **Secondary:** Zenodo backup
 3. **Institutional:** University data repository
 4. **Archive:** Software Heritage for code
@@ -2819,128 +2827,6 @@ A researcher gets involved in open data communities:
    - Train-the-trainer program
    - Become certified to teach data skills
    - Community of instructors
-
-#### 5.4 Practical Exercises
-
-**Exercise 1: Write Your First DMP**
-
-For a real or hypothetical project:
-
-1. Use DMPTool (dmptool.org)
-2. Select your institution and funder
-3. Answer all sections
-4. Aim for 2-3 pages
-5. Have advisor review
-
-**Deliverable:** Completed DMP document
-
-**Exercise 2: Explore Repositories**
-
-1. Visit Zenodo, Figshare, and one discipline-specific repository
-2. Search for datasets in your field
-3. Read READMEs and documentation
-4. Note: What information was helpful? What was missing?
-5. Write a 1-page reflection
-
-**Deliverable:** Reflection on repository quality
-
-**Exercise 3: Assess a Dataset**
-
-Find a published dataset:
-
-1. Check: Is it FAIR?
-   - Findable: Can you find it? Is there metadata?
-   - Accessible: Can you download/access it?
-   - Interoperable: Is the format standard? Well documented?
-   - Reusable: Is there a license? Is it documented?
-
-2. Write up assessment (1-2 pages)
-3. Suggest improvements
-
-**Deliverable:** Dataset assessment
-
-**Exercise 4: Create a Data Dictionary**
-
-For a dataset you have access to:
-
-1. Choose a CSV or spreadsheet file
-2. Document every column
-   - Name, description, type, units, range, missing codes
-3. Create DATA_DICTIONARY.csv
-4. Include examples
-
-**Deliverable:** Complete data dictionary
-
-**Exercise 5: Prepare Data for Sharing**
-
-Take a dataset and:
-
-1. Clean it thoroughly
-2. Create README.md
-3. Write DATA_DICTIONARY.csv
-4. Add METHODS.md
-5. Choose and add LICENSE file
-6. Organize in folder with all documentation
-7. Share folder link with colleague for feedback
-
-**Deliverable:** Complete shareable dataset package
-
-**Exercise 6: Share Data Online**
-
-1. Choose a small dataset
-2. Create free Zenodo account
-3. Upload dataset
-4. Add all metadata
-5. Get DOI
-6. Share link with others
-7. Track downloads
-
-**Deliverable:** Published dataset with DOI
-
-#### 5.5 Implementation Roadmap
-
-**For the Next 3 Months:**
-
-**Week 1-2: Learn**
-- Complete one Data Carpentry lesson
-- Watch 2-3 webinars on data management
-- Read your funder's data sharing requirements
-
-**Week 3-4: Assess**
-- Evaluate your current data practices
-- Identify gaps
-- Review your institution's data services
-
-**Week 5-8: Plan**
-- Write DMP for current/next project
-- Get feedback from advisor/librarian
-- Identify repository for your data
-
-**Week 9-12: Implement**
-- Create README and documentation
-- Organize files
-- Prepare first dataset for sharing
-
-**For the Next Year:**
-
-**Quarters 1-2:** Foundation
-- Implement DMP in current project
-- Share first dataset
-- Get DOI
-
-**Quarters 3-4:** Advanced
-- Automate data management workflows
-- Contribute to community discussions
-- Mentor others on data sharing
-- Attend conference or workshop
-
-**For Long-Term Success:**
-
-- Make open data practices standard in your lab
-- Integrate data management training into grad student onboarding
-- Advocate for institutional data support
-- Participate in professional communities
-- Keep learning about evolving standards
 
 #### Summary
 
