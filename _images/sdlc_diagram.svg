@@ -1,0 +1,212 @@
+<svg viewBox="0 0 1200 850" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define styles -->
+  <defs>
+    <style>
+      .phase-box {
+        fill: #4A90E2;
+        stroke: #2C5AA0;
+        stroke-width: 2;
+      }
+      .phase-text {
+        fill: white;
+        font-size: 14px;
+        font-weight: bold;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        font-family: Arial, sans-serif;
+      }
+      .phase-number {
+        fill: white;
+        font-size: 32px;
+        font-weight: bold;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        font-family: Arial, sans-serif;
+      }
+      .arrow {
+        fill: none;
+        stroke: #333;
+        stroke-width: 3;
+        marker-end: url(#arrowhead);
+      }
+      .arrow-curved {
+        fill: none;
+        stroke: #666;
+        stroke-width: 2;
+        stroke-dasharray: 5,5;
+        marker-end: url(#arrowhead-curved);
+      }
+      .title {
+        fill: #333;
+        font-size: 26px;
+        font-weight: bold;
+        text-anchor: middle;
+        font-family: Arial, sans-serif;
+      }
+      .subtitle {
+        fill: #666;
+        font-size: 12px;
+        text-anchor: start;
+        font-family: Arial, sans-serif;
+      }
+      .detail-label {
+        fill: #333;
+        font-size: 12px;
+        font-weight: bold;
+        text-anchor: start;
+        font-family: Arial, sans-serif;
+      }
+      .detail-box {
+        fill: #FAFAFA;
+        stroke: #D0D0D0;
+        stroke-width: 1;
+      }
+    </style>
+    
+    <!-- Arrow markers -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333"/>
+    </marker>
+    <marker id="arrowhead-curved" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- Title -->
+  <text x="600" y="35" class="title">Software Development Lifecycle for Research</text>
+  <text x="600" y="60" class="subtitle" text-anchor="middle" font-size="13">(7 Phases: Plan → Develop → Test → Document → Release → Maintain → Archive)</text>
+  
+  <!-- Phase 1: Planning and Design -->
+  <rect x="40" y="100" width="130" height="130" rx="8" class="phase-box"/>
+  <text x="105" y="145" class="phase-number">1</text>
+  <text x="105" y="170" class="phase-text">Planning</text>
+  <text x="105" y="188" class="phase-text">Design</text>
+  
+  <!-- Arrow 1→2 -->
+  <path d="M 170 165 L 210 165" class="arrow"/>
+  
+  <!-- Phase 2: Development -->
+  <rect x="210" y="100" width="130" height="130" rx="8" class="phase-box"/>
+  <text x="275" y="145" class="phase-number">2</text>
+  <text x="275" y="178" class="phase-text">Development</text>
+  
+  <!-- Arrow 2→3 -->
+  <path d="M 340 165 L 380 165" class="arrow"/>
+  
+  <!-- Phase 3: Testing and Validation -->
+  <rect x="380" y="100" width="130" height="130" rx="8" class="phase-box"/>
+  <text x="445" y="145" class="phase-number">3</text>
+  <text x="445" y="170" class="phase-text">Testing</text>
+  <text x="445" y="188" class="phase-text">Validation</text>
+  
+  <!-- Arrow 3→4 -->
+  <path d="M 510 165 L 550 165" class="arrow"/>
+  
+  <!-- Phase 4: Documentation -->
+  <rect x="550" y="100" width="130" height="130" rx="8" class="phase-box"/>
+  <text x="615" y="145" class="phase-number">4</text>
+  <text x="615" y="178" class="phase-text">Documentation</text>
+  
+  <!-- Arrow 4→5 -->
+  <path d="M 615 230 L 615 280" class="arrow"/>
+  
+  <!-- Phase 5: Release and Distribution -->
+  <rect x="550" y="280" width="130" height="130" rx="8" class="phase-box"/>
+  <text x="615" y="325" class="phase-number">5</text>
+  <text x="615" y="350" class="phase-text">Release</text>
+  <text x="615" y="368" class="phase-text">Distribution</text>
+  
+  <!-- Arrow 5→6 -->
+  <path d="M 550 345 L 510 345" class="arrow"/>
+  
+  <!-- Phase 6: Maintenance -->
+  <rect x="380" y="280" width="130" height="130" rx="8" class="phase-box"/>
+  <text x="445" y="325" class="phase-number">6</text>
+  <text x="445" y="368" class="phase-text">Maintenance</text>
+  
+  <!-- Arrow 6→7 -->
+  <path d="M 380 345 L 340 345" class="arrow"/>
+  
+  <!-- Phase 7: Archival -->
+  <rect x="210" y="280" width="130" height="130" rx="8" class="phase-box"/>
+  <text x="275" y="325" class="phase-number">7</text>
+  <text x="275" y="368" class="phase-text">Archival</text>
+  
+  <!-- Feedback loop (curved arrow from Phase 6 back to Phase 2) -->
+  <path d="M 445 410 Q 275 480 275 230" class="arrow-curved"/>
+  <text x="350" y="480" class="subtitle">Feedback &amp; Iterations</text>
+  
+  <!-- Detail boxes below phases -->
+  
+  <!-- Phase 1 details -->
+  <rect x="40" y="520" width="130" height="140" rx="5" class="detail-box"/>
+  <text x="50" y="535" class="detail-label">Planning:</text>
+  <text x="50" y="553" class="subtitle">• Requirements</text>
+  <text x="50" y="568" class="subtitle">• Similar tools</text>
+  <text x="50" y="583" class="subtitle">• Architecture</text>
+  <text x="50" y="598" class="subtitle">• Design</text>
+  <text x="50" y="613" class="subtitle">• Documentation</text>
+  <text x="50" y="628" class="subtitle">plan</text>
+  
+  <!-- Phase 2 details -->
+  <rect x="210" y="520" width="130" height="140" rx="5" class="detail-box"/>
+  <text x="220" y="535" class="detail-label">Development:</text>
+  <text x="220" y="553" class="subtitle">• Write code</text>
+  <text x="220" y="568" class="subtitle">• Core features</text>
+  <text x="220" y="583" class="subtitle">• Iterative</text>
+  <text x="220" y="598" class="subtitle">• Test regularly</text>
+  <text x="220" y="613" class="subtitle">• Version</text>
+  <text x="220" y="628" class="subtitle">control</text>
+  
+  <!-- Phase 3 details -->
+  <rect x="380" y="520" width="130" height="140" rx="5" class="detail-box"/>
+  <text x="390" y="535" class="detail-label">Testing:</text>
+  <text x="390" y="553" class="subtitle">• Unit tests</text>
+  <text x="390" y="568" class="subtitle">• Known data</text>
+  <text x="390" y="583" class="subtitle">• Edge cases</text>
+  <text x="390" y="598" class="subtitle">• Performance</text>
+  <text x="390" y="613" class="subtitle">• Benchmarks</text>
+  
+  <!-- Phase 4 details -->
+  <rect x="550" y="520" width="130" height="140" rx="5" class="detail-box"/>
+  <text x="560" y="535" class="detail-label">Documentation:</text>
+  <text x="560" y="553" class="subtitle">• README</text>
+  <text x="560" y="568" class="subtitle">• Tutorials</text>
+  <text x="560" y="583" class="subtitle">• API docs</text>
+  <text x="560" y="598" class="subtitle">• Comments</text>
+  <text x="560" y="613" class="subtitle">• Examples</text>
+  
+  <!-- Phase 5 details -->
+  <rect x="720" y="520" width="130" height="140" rx="5" class="detail-box"/>
+  <text x="730" y="535" class="detail-label">Release:</text>
+  <text x="730" y="553" class="subtitle">• Version tag</text>
+  <text x="730" y="568" class="subtitle">• Repository</text>
+  <text x="730" y="583" class="subtitle">• Packages</text>
+  <text x="730" y="598" class="subtitle">• DOI</text>
+  <text x="730" y="613" class="subtitle">• Release notes</text>
+  
+  <!-- Phase 6 details -->
+  <rect x="890" y="520" width="130" height="140" rx="5" class="detail-box"/>
+  <text x="900" y="535" class="detail-label">Maintenance:</text>
+  <text x="900" y="553" class="subtitle">• Bug fixes</text>
+  <text x="900" y="568" class="subtitle">• User support</text>
+  <text x="900" y="583" class="subtitle">• Dependencies</text>
+  <text x="900" y="598" class="subtitle">• Features</text>
+  <text x="900" y="613" class="subtitle">• Versions</text>
+  
+  <!-- Phase 7 details -->
+  <rect x="1050" y="520" width="130" height="140" rx="5" class="detail-box"/>
+  <text x="1060" y="535" class="detail-label">Archival:</text>
+  <text x="1060" y="553" class="subtitle">• Freeze code</text>
+  <text x="1060" y="568" class="subtitle">• Mark status</text>
+  <text x="1060" y="583" class="subtitle">• Long-term</text>
+  <text x="1060" y="598" class="subtitle">access</text>
+  <text x="1060" y="613" class="subtitle">• DOI</text>
+  <text x="1060" y="628" class="subtitle">preservation</text>
+  
+  <!-- Key insight box -->
+  <rect x="40" y="700" width="1140" height="120" fill="#F0F7FF" stroke="#4A90E2" stroke-width="2" rx="8"/>
+  <text x="610" y="725" class="detail-label" text-anchor="middle" font-size="13">Key Insight: Research Software Development is Iterative</text>
+  <text x="50" y="748" class="subtitle" font-size="12">Most research software follows a natural evolution: starting with a script, becoming more structured as reusability becomes clear, and eventually reaching professional practices if community adoption occurs. Feedback from maintenance often loops back to development for improvements and new features.</text>
+  <text x="50" y="785" class="subtitle" font-size="12">The key is to match the development rigor to your software's lifecycle stage—don't over-engineer a quick script, but invest in sustainability if you expect long-term use.</text>
+</svg>

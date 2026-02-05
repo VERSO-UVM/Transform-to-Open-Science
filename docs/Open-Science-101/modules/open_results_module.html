@@ -1,0 +1,3213 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Module 4 - Open Results &#8212; Open Science 101</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/clipboard.min.js"></script>
+    <script src="../../../_static/copybutton.js"></script>
+    <script src="../../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/Open-Science-101/modules/open_results_module';</script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Module 5 - Open Science Tools" href="open_science_tools_module.html" />
+    <link rel="prev" title="Module 3 - Open Software" href="open_software_module.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../README.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../_static/open_science_101_logo.png" class="logo__image only-light" alt="Open Science 101 - Home"/>
+    <script>document.write(`<img src="../../../_static/open_science_101_logo.png" class="logo__image only-dark" alt="Open Science 101 - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../../README.html">
+                    Open Science 101 Course
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="open_science_ethos_module.html">Module 1 - Open Science Ethos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open_data_module.html">Module 2 - Open Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open_software_module.html">Module 3 - Open Software</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 4 - Open Results</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open_science_tools_module.html">Module 5 - Open Science Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bibliography.html">Bibliography &amp; Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../CONTRIBUTING.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../CODE_OF_CONDUCT.html">Code of Conduct</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../../_sources/docs/Open-Science-101/modules/open_results_module.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Module 4 - Open Results</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-1-introduction-to-open-results">Lesson 1: Introduction to Open Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-open-results">1.1 What Are Open Results?</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-reproducibility-crisis-and-open-science">1.2 The Reproducibility Crisis and Open Science</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#case-study-open-results-in-action">1.3 Case Study: Open Results in Action</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-results-across-the-research-lifecycle">1.4 Open Results Across the Research Lifecycle</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-results-principles">1.5 Open Results Principles</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-2-using-open-results">Lesson 2: Using Open Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Overview</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#discovering-open-results">2.1 Discovering Open Results</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Lesson 2: Using Open Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#assessing-open-results-quality">2.2 Assessing Open Results Quality</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#reusing-open-results">2.3 Reusing Open Results</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#citing-open-results">2.4 Citing Open Results</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#providing-feedback-and-contributing">2.5 Providing Feedback and Contributing</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#collaboration-vs-citation">2.6 Collaboration vs. Citation</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-3-making-open-results">Lesson 3: Making Open Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Overview</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#computational-reproducibility">3.1 Computational Reproducibility</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#repository-structure">Repository Structure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods">Methods</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#results">Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citation">Citation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collaboration-and-contribution-framework">3.2 Collaboration and Contribution Framework</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contributor-roles-and-responsibilities">3.3 Contributor Roles and Responsibilities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#authorship-and-contribution-guidelines">3.4 Authorship and Contribution Guidelines</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-contributor-guidelines">3.5 Creating Contributor Guidelines</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ensuring-reproducible-manuscript-preparation">3.6 Ensuring Reproducible Manuscript Preparation</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Summary</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-4-sharing-open-results">Lesson 4: Sharing Open Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Overview</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-access-publishing-models">4.1 Open Access Publishing Models</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluating-and-selecting-journals">4.2 Evaluating and Selecting Journals</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-access-policies-and-self-archiving">4.3 Open Access Policies and Self-Archiving</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#concerns-about-open-access-and-rebuttals">4.4 Concerns About Open Access and Rebuttals</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-access-best-practices">4.5 Open Access Best Practices</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-5-from-theory-to-practice">Lesson 5: From Theory to Practice</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Lesson 5: From Theory to Practice</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Overview</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#writing-the-sharing-results-section-of-an-osdmp">5.1 Writing the Sharing Results Section of an OSDMP</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#components-of-results-sharing-section">5.1.1 Components of Results Sharing Section</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#impact-of-artificial-intelligence-on-open-science">5.2 Impact of Artificial Intelligence on Open Science</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#how-ai-is-changing-scientific-research">5.2.1 How AI Is Changing Scientific Research</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#risks-and-concerns-with-ai-in-research">5.2.2 Risks and Concerns with AI in Research</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities-for-ai-in-open-science">5.2.3 Opportunities for AI in Open Science</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#guidelines-for-responsible-ai-use-in-research">5.2.4 Guidelines for Responsible AI Use in Research</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#implementation-roadmap-for-open-results">5.3 Implementation Roadmap for Open Results</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-examples">5.4 Practical Examples</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Summary</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">Additional Resources</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="module-4-open-results">
+<h1>Module 4 - Open Results<a class="headerlink" href="#module-4-open-results" title="Permalink to this heading">#</a></h1>
+<p>This module focuses on giving you the tools you need to kick-start a scientific collaboration by creating contributor guidelines that ensure ethical contributorship. It starts out with a use case of open science in action, then a review of how to discover and assess open results. Next, the focus is on how to publish results which includes a task checklist. The module wraps up with specific guidance for writing the sharing results section of the Open Science and Data Management Plans (OSDMP). We will also reflect on how our society and technology are constantly evolving in the way we do science.</p>
+<section id="learning-objectives">
+<h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h2>
+<p>After completing this module, you should be able to:</p>
+<ul class="simple">
+<li><p>Describe what constitutes an open result.</p></li>
+<li><p>Explain what the reproducibility crisis is and how open science can help combat it.</p></li>
+<li><p>Use a process to discover, assess and cite open results for reuse.</p></li>
+<li><p>List the responsibilities of the following participants that are creating open results: open results user, project leader, collaborator, contributor and author.</p></li>
+<li><p>List the tasks for creating reproducible results and the items to include in a manuscript to ensure reproducible results.</p></li>
+<li><p>Define a strategy for sharing your results including selecting publishers, interpreting journal policies and licenses, and determining when to share your data or software with your manuscript.</p></li>
+</ul>
+<section id="lesson-1-introduction-to-open-results">
+<h3>Lesson 1: Introduction to Open Results<a class="headerlink" href="#lesson-1-introduction-to-open-results" title="Permalink to this heading">#</a></h3>
+<section id="overview">
+<h4>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h4>
+<p>This lesson aims to broaden your perspective regarding what shareable research outputs are produced throughout the research lifecycle. We will first consider what constitutes an open result. To do so, we will read an example of a forward-thinking research project that utilizes open result best practices. The perspectives gained from this example will ultimately get us thinking about how we can work towards creating reproducible research.</p>
+</section>
+<section id="what-are-open-results">
+<h4>1.1 What Are Open Results?<a class="headerlink" href="#what-are-open-results" title="Permalink to this heading">#</a></h4>
+<p><strong>Definition:</strong>
+Open results are research outputs—including manuscripts, figures, datasets, code, protocols, and findings—that are made freely available and accessible to anyone for reuse, verification, and building upon, with appropriate attribution.</p>
+<p><strong>Characteristics of Open Results:</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Accessible:</strong> Freely available without paywalls or registration</p></li>
+<li><p><strong>Transparent:</strong> Methods and data fully documented</p></li>
+<li><p><strong>Reproducible:</strong> Others can verify findings with original data and code</p></li>
+<li><p><strong>Reusable:</strong> Licensed for reuse with clear permissions</p></li>
+<li><p><strong>Citable:</strong> Have persistent identifiers (DOIs) enabling proper attribution</p></li>
+<li><p><strong>Traceable:</strong> Include provenance and version history</p></li>
+<li><p><strong>Interoperable:</strong> Use standard formats enabling integration with other work</p></li>
+</ol>
+<p><strong>Types of Research Outputs:</strong></p>
+<p>Research outputs take many forms throughout the research lifecycle. The most fundamental outputs are primary research results, which include peer-reviewed journal articles published as open access, preprints that share findings rapidly, conference papers that disseminate work to specialized audiences, technical reports that document detailed findings, raw and processed datasets that form the foundation of analysis, and code or software tools that enable reproducibility and reuse.</p>
+<p>Beyond these primary outputs, supporting materials are equally important for enabling reproducibility and extending the work. These include supplementary figures and tables that provide additional detail, comprehensive protocols and detailed methods that allow others to replicate procedures, raw data that preserves the original observations, analysis code that documents computational workflows, and reproducible workflows that integrate all components into executable documents.</p>
+<p>Research findings must also be communicated to broader audiences through diverse formats. Communication outputs encompass blog posts and commentary that interpret results for general audiences, tutorials and guides that teach methods to practitioners, educational materials that integrate findings into curricula, data visualizations that reveal patterns and relationships, and interactive tools that allow exploration and discovery.</p>
+<p>Finally, professional outputs represent the culmination of research work and engagement with the scientific community. These include presentations and slides from conferences and seminars, posters that summarize key findings for visual communication, open educational resources that share knowledge freely, and review articles that synthesize and advance understanding of research areas. Together, these diverse output types create a comprehensive research ecosystem that maximizes impact and enables collaboration.</p>
+</section>
+<section id="the-reproducibility-crisis-and-open-science">
+<h4>1.2 The Reproducibility Crisis and Open Science<a class="headerlink" href="#the-reproducibility-crisis-and-open-science" title="Permalink to this heading">#</a></h4>
+<p><strong>What Is the Reproducibility Crisis?</strong></p>
+<p>A significant portion of published research findings cannot be reliably reproduced or replicated by other scientists, raising fundamental concerns about the integrity and reliability of the scientific record. Multiple surveys have documented this troubling pattern: research by Baker (2016)<a class="footnote-reference brackets" href="#id13" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> found that 70% of researchers have failed to reproduce the results of other scientists, while 50% have even failed to reproduce their own earlier results. This reproducibility crisis spans virtually all scientific disciplines, though it has proven particularly severe in psychology, biology, and medicine—fields where the consequences of irreproducible findings can directly impact human health and wellbeing. High-profile failures in psychology, such as the inability to replicate well-known effects, have been especially jarring and have catalyzed broader conversations about research practices. The problem is not merely a statistical artifact or an occasional oversight; rather, it reflects systemic issues in how research is conducted, reported, and evaluated that create perverse incentives for producing results that are more likely to be novel and statistically significant than accurately representative of underlying phenomena.</p>
+<p><strong>Causes of Irreproducibility:</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Data Unavailability</strong></p>
+<ul class="simple">
+<li><p>Researchers don’t share raw data</p></li>
+<li><p>Others can’t verify calculations</p></li>
+<li><p>Makes independent analyses impossible</p></li>
+</ul>
+</li>
+<li><p><strong>Method Opacity</strong></p>
+<ul class="simple">
+<li><p>Insufficient methodological detail in papers</p></li>
+<li><p>“Methods available upon request” (often denied)</p></li>
+<li><p>Missing parameters or procedures</p></li>
+</ul>
+</li>
+<li><p><strong>Code Unavailability</strong></p>
+<ul class="simple">
+<li><p>Analysis code not shared</p></li>
+<li><p>Computation cannot be verified</p></li>
+<li><p>Errors in analysis go undetected</p></li>
+</ul>
+</li>
+<li><p><strong>Publication Bias</strong></p>
+<ul class="simple">
+<li><p>Only positive/significant results published</p></li>
+<li><p>Negative or null results disappear</p></li>
+<li><p>Field develops skewed understanding</p></li>
+</ul>
+</li>
+<li><p><strong>Statistical Issues</strong></p>
+<ul class="simple">
+<li><p>P-hacking/multiple comparisons</p></li>
+<li><p>HARKing (Hypothesizing After Results are Known)</p></li>
+<li><p>Underpowered studies</p></li>
+</ul>
+</li>
+<li><p><strong>Inadequate Peer Review</strong></p>
+<ul class="simple">
+<li><p>Reviewers lack access to data/code</p></li>
+<li><p>Limited statistical expertise</p></li>
+<li><p>No time to fully verify claims</p></li>
+</ul>
+</li>
+<li><p><strong>Incentive Misalignment</strong></p>
+<ul class="simple">
+<li><p>Publish-or-perish pressure</p></li>
+<li><p>Novel/positive results prioritized</p></li>
+<li><p>Limited reward for replication</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>Example: The Replication Crisis in Psychology</strong></p>
+<p>Many famous psychology findings failed replication:</p>
+<ul class="simple">
+<li><p>Power posing: Original finding didn’t replicate with larger sample</p></li>
+<li><p>Ego depletion: Effect largely disappears with proper controls</p></li>
+<li><p>Implicit associations: Effects smaller than originally reported</p></li>
+</ul>
+<p><strong>Impact:</strong> Wasted resources, misleading theories, loss of public trust in science</p>
+<p><strong>How Open Science Addresses Reproducibility:</strong></p>
+<p>Open science practices directly counter the systemic problems that create irreproducible research. By implementing complementary strategies that increase transparency, accountability, and verification at every stage of research, open science makes it substantially harder for false findings to survive unchallenged and easier for errors and inflated effects to be discovered and corrected. The following practices work together to create a research ecosystem where the incentives, infrastructure, and norms all support reproducibility rather than undermining it:</p>
+<p><strong>1. Open Data</strong></p>
+<ul class="simple">
+<li><p>All data available for independent analysis</p></li>
+<li><p>Others can check calculations</p></li>
+<li><p>Errors in original analysis discovered</p></li>
+<li><p>Enables meta-analyses</p></li>
+</ul>
+<p><strong>2. Open Code</strong></p>
+<ul class="simple">
+<li><p>Analysis code transparent and auditable</p></li>
+<li><p>Computation fully verifiable</p></li>
+<li><p>Bugs identified and fixed</p></li>
+<li><p>Methods can be adapted for new data</p></li>
+</ul>
+<p><strong>3. Open Methods</strong></p>
+<ul class="simple">
+<li><p>Complete protocol documentation</p></li>
+<li><p>Allows exact replication</p></li>
+<li><p>Enables adaptation for new contexts</p></li>
+<li><p>Builds on previous work</p></li>
+</ul>
+<p><strong>4. Preregistration</strong></p>
+<ul class="simple">
+<li><p>Declare hypotheses and methods before data analysis</p></li>
+<li><p>Separates confirmatory from exploratory research</p></li>
+<li><p>Prevents p-hacking and HARKing</p></li>
+<li><p>Builds confidence in positive findings</p></li>
+</ul>
+<p><strong>5. Open Access</strong></p>
+<ul class="simple">
+<li><p>Results freely available to all researchers</p></li>
+<li><p>Increases citations and impact</p></li>
+<li><p>Speeds scientific progress</p></li>
+<li><p>Reduces redundant research</p></li>
+</ul>
+<p><strong>6. Open Review</strong></p>
+<ul class="simple">
+<li><p>Peer review transparent</p></li>
+<li><p>Increases accountability</p></li>
+<li><p>Can improve review quality</p></li>
+<li><p>Enables post-publication discussion</p></li>
+<li><p>Enables post-publication discussion</p></li>
+</ul>
+</section>
+<section id="case-study-open-results-in-action">
+<h4>1.3 Case Study: Open Results in Action<a class="headerlink" href="#case-study-open-results-in-action" title="Permalink to this heading">#</a></h4>
+<p><strong>Example: Forest Biodiversity and Climate Change Study</strong></p>
+<p><strong>Background:</strong>
+A research group studies how forest species composition is changing in response to climate change.</p>
+<p><strong>Open Results Practices:</strong></p>
+<p><strong>Step 1: Planning (Preregistration)</strong></p>
+<ul class="simple">
+<li><p>Register hypotheses and analysis plan before data collection</p></li>
+<li><p>Specify which analyses are confirmatory vs. exploratory</p></li>
+<li><p>Anticipate alternative explanations</p></li>
+<li><p>Plan for multiple testing corrections</p></li>
+</ul>
+<p><strong>Step 2: Data Collection</strong></p>
+<ul class="simple">
+<li><p>Document protocols in detail</p></li>
+<li><p>Share field methods openly</p></li>
+<li><p>Train students using open protocols</p></li>
+<li><p>Record all metadata comprehensively</p></li>
+</ul>
+<p><strong>Step 3: Analysis</strong></p>
+<ul class="simple">
+<li><p>Write analysis code in reproducible format (R Markdown, Jupyter)</p></li>
+<li><p>Include all data cleaning steps</p></li>
+<li><p>Document all decisions and assumptions</p></li>
+<li><p>Save intermediate results</p></li>
+<li><p>Use version control (Git)</p></li>
+</ul>
+<p><strong>Step 4: Sharing During Research</strong></p>
+<ul class="simple">
+<li><p>Post preprints early (bioRxiv)</p></li>
+<li><p>Share preliminary code on GitHub</p></li>
+<li><p>Openly discuss methods and findings</p></li>
+<li><p>Invite feedback from community</p></li>
+</ul>
+<p><strong>Step 5: Publication</strong></p>
+<ul class="simple">
+<li><p>Submit to open access journal or use hybrid option</p></li>
+<li><p>Ensure peer review focuses on verification</p></li>
+<li><p>Include supplementary materials with full methods</p></li>
+<li><p>Publish accepted version in institutional repository</p></li>
+</ul>
+<p><strong>Step 6: Data and Code Release</strong></p>
+<ul class="simple">
+<li><p>Share raw data with full documentation</p></li>
+<li><p>Release analysis code on GitHub with DOI</p></li>
+<li><p>Archive data in disciplinary repository</p></li>
+<li><p>Publish data descriptor paper</p></li>
+<li><p>Obtain DOIs for all outputs</p></li>
+</ul>
+<p><strong>Step 7: Transparency and Engagement</strong></p>
+<ul class="simple">
+<li><p>Share supplementary analyses openly</p></li>
+<li><p>Respond to post-publication critique</p></li>
+<li><p>Acknowledge limitations clearly</p></li>
+<li><p>Share derived datasets</p></li>
+<li><p>Update analysis as new methods emerge</p></li>
+</ul>
+<p><strong>Results of Open Approach:</strong></p>
+<ul class="simple">
+<li><p>5x more citations than average</p></li>
+<li><p>20+ follow-up studies building on their methods</p></li>
+<li><p>Community identified data quality improvements</p></li>
+<li><p>Methods adopted by other research groups</p></li>
+<li><p>Media attention and public engagement</p></li>
+<li><p>Career advancement for team members</p></li>
+<li><p>Funding for follow-up research</p></li>
+</ul>
+</section>
+<section id="open-results-across-the-research-lifecycle">
+<h4>1.4 Open Results Across the Research Lifecycle<a class="headerlink" href="#open-results-across-the-research-lifecycle" title="Permalink to this heading">#</a></h4>
+<p><strong>Where Open Results Fit:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Research Lifecycle with Open Results Integration
+
+┌─────────────────────────────────────────────────────────────────┐
+│ 1. RESEARCH DESIGN &amp; PLANNING                                   │
+│    - Register protocol/hypotheses (OSF, AsPredicted)            │
+│    - Share research plan openly                                 │
+│    - Discuss methods with community                             │
+└─────────────────────────────────────────────────────────────────┘
+                          ↓
+┌─────────────────────────────────────────────────────────────────┐
+│ 2. RESEARCH EXECUTION                                           │
+│    - Document methods thoroughly                                │
+│    - Share protocols openly                                     │
+│    - Version control analysis code                              │
+│    - Regular progress updates                                   │
+└─────────────────────────────────────────────────────────────────┘
+                          ↓
+┌─────────────────────────────────────────────────────────────────┐
+│ 3. ANALYSIS &amp; VERIFICATION                                      │
+│    - Reproducible code with documentation                       │
+│    - Data availability statements                               │
+│    - Sensitivity analyses                                       │
+│    - Limitations discussion                                     │
+└─────────────────────────────────────────────────────────────────┘
+                          ↓
+┌─────────────────────────────────────────────────────────────────┐
+│ 4. PREPRINT SHARING (Optional)                                  │
+│    - Rapid dissemination                                        │
+│    - Early feedback                                             │
+│    - Community engagement                                       │
+│    - Establishes precedence                                     │
+└─────────────────────────────────────────────────────────────────┘
+                          ↓
+┌─────────────────────────────────────────────────────────────────┐
+│ 5. PEER REVIEW &amp; PUBLICATION                                    │
+│    - Open access journals                                       │
+│    - Transparent review (optional)                              │
+│    - Revise with open methods                                   │
+│    - Include methods in supplementary                           │
+└─────────────────────────────────────────────────────────────────┘
+                          ↓
+┌─────────────────────────────────────────────────────────────────┐
+│ 6. DATA &amp; CODE RELEASE                                          │
+│    - Publish data with paper                                    │
+│    - Release analysis code                                      │
+│    - Obtain DOIs                                                │
+│    - Archive in repositories                                    │
+└─────────────────────────────────────────────────────────────────┘
+                          ↓
+┌─────────────────────────────────────────────────────────────────┐
+│ 7. POST-PUBLICATION ENGAGEMENT                                  │
+│    - Respond to critiques                                       │
+│    - Share additional analyses                                  │
+│    - Support replication efforts                                │
+│    - Contribute to meta-analyses                                │
+└─────────────────────────────────────────────────────────────────┘
+</pre></div>
+</div>
+</section>
+<section id="open-results-principles">
+<h4>1.5 Open Results Principles<a class="headerlink" href="#open-results-principles" title="Permalink to this heading">#</a></h4>
+<p><strong>Core Principles:</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Transparency</strong></p>
+<ul class="simple">
+<li><p>Methods fully documented</p></li>
+<li><p>Analysis decisions justified</p></li>
+<li><p>Limitations acknowledged</p></li>
+<li><p>Assumptions stated</p></li>
+</ul>
+</li>
+<li><p><strong>Reproducibility</strong></p>
+<ul class="simple">
+<li><p>Others can replicate your analysis</p></li>
+<li><p>Code and data available</p></li>
+<li><p>Results are verifiable</p></li>
+<li><p>Methods are detailed</p></li>
+</ul>
+</li>
+<li><p><strong>Accessibility</strong></p>
+<ul class="simple">
+<li><p>Results freely available</p></li>
+<li><p>No paywalls or registration required</p></li>
+<li><p>Multiple formats for different audiences</p></li>
+<li><p>Inclusive language</p></li>
+</ul>
+</li>
+<li><p><strong>Reusability</strong></p>
+<ul class="simple">
+<li><p>Clear licensing</p></li>
+<li><p>Metadata enabling discovery</p></li>
+<li><p>Interoperable formats</p></li>
+<li><p>Building blocks for others</p></li>
+</ul>
+</li>
+<li><p><strong>Accountability</strong></p>
+<ul class="simple">
+<li><p>Clear authorship and contributions</p></li>
+<li><p>Conflicts of interest disclosed</p></li>
+<li><p>Funding sources stated</p></li>
+<li><p>Errors corrected promptly</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="summary">
+<h4>Summary<a class="headerlink" href="#summary" title="Permalink to this heading">#</a></h4>
+<p>Open results are essential for addressing the reproducibility crisis by making research transparent, verifiable, and reusable. By adopting open results practices—sharing data, code, methods, and publications openly—researchers can:</p>
+<ul class="simple">
+<li><p>Build trust in science</p></li>
+<li><p>Accelerate discovery through reuse</p></li>
+<li><p>Improve research quality</p></li>
+<li><p>Advance their careers</p></li>
+<li><p>Serve the public good</p></li>
+</ul>
+<p>The shift toward open results requires changes in incentives, culture, and practices, but the benefits for science and society are substantial.</p>
+</section>
+</section>
+<section id="lesson-2-using-open-results">
+<h3>Lesson 2: Using Open Results<a class="headerlink" href="#lesson-2-using-open-results" title="Permalink to this heading">#</a></h3>
+<section id="id2">
+<h4>Overview<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h4>
+<p>By the end of this lesson, you will be familiar with resources for open results utilization, how and when to cite the sources of the open results that you use, how to provide feedback to open results providers, and how to determine when it is appropriate to invite authors of the open results materials to be formal collaborators versus simply citing those resources in your work.</p>
+</section>
+<section id="discovering-open-results">
+<h4>2.1 Discovering Open Results<a class="headerlink" href="#discovering-open-results" title="Permalink to this heading">#</a></h4>
+<p><strong>Where to Find Open Results:</strong></p>
+<p><strong>Preprint Servers:</strong></p>
+<p><strong>ArXiv</strong> (<a class="reference external" href="http://arxiv.org">arxiv.org</a>)</p>
+<ul class="simple">
+<li><p>Physics, mathematics, computer science, and more</p></li>
+<li><p>Established 1991, highly trusted</p></li>
+<li><p>Permanent archive</p></li>
+<li><p>~14,000 new papers daily</p></li>
+<li><p>No peer review, but highly cited</p></li>
+</ul>
+<p><strong>bioRxiv</strong> (<a class="reference external" href="http://biorxiv.org">biorxiv.org</a>)</p>
+<ul class="simple">
+<li><p>Biology and life sciences preprints</p></li>
+<li><p>~6,000 new papers daily</p></li>
+<li><p>Often precedes journal publication by months</p></li>
+<li><p>Growing influence in biology</p></li>
+</ul>
+<p><strong>medRxiv</strong> (<a class="reference external" href="http://medrxiv.org">medrxiv.org</a>)</p>
+<ul class="simple">
+<li><p>Medical and clinical research</p></li>
+<li><p>Growing importance for health research</p></li>
+<li><p>Enables rapid dissemination of timely findings</p></li>
+</ul>
+<p><strong>PsyArXiv</strong> (<a class="reference external" href="http://psyarxiv.org">psyarxiv.org</a>)</p>
+<ul class="simple">
+<li><p>Psychology and cognitive sciences</p></li>
+<li><p>~500 papers posted monthly</p></li>
+</ul>
+<p><strong>OSF Preprints</strong> (<a class="reference external" href="http://osf.io/preprints">osf.io/preprints</a>)</p>
+<ul class="simple">
+<li><p>Multidisciplinary</p></li>
+<li><p>Integrates with Open Science Framework</p></li>
+<li><p>~1,000 papers monthly across disciplines</p></li>
+</ul>
+<p><strong>Open Access Journals:</strong></p>
+<p><strong>Directory of Open Access Journals (DOAJ)</strong> (<a class="reference external" href="http://doaj.org">doaj.org</a>)</p>
+<ul class="simple">
+<li><p>20,000+ open access journals</p></li>
+<li><p>Browse by subject</p></li>
+<li><p>Check for quality (has DOAJ seal)</p></li>
+</ul>
+<p><strong>PLOS</strong> (<a class="reference external" href="http://plos.org">plos.org</a>)</p>
+<ul class="simple">
+<li><p>Pioneering open access publisher</p></li>
+<li><p>PLOS ONE, PLOS Biology, PLOS Medicine, etc.</p></li>
+<li><p>High quality, peer-reviewed</p></li>
+</ul>
+<p><strong>eLife</strong> (<a class="reference external" href="http://elifesciences.org">elifesciences.org</a>)</p>
+<ul class="simple">
+<li><p>Open access life sciences journal</p></li>
+<li><p>Innovation in peer review and publishing</p></li>
+<li><p>Early-career researcher friendly</p></li>
+</ul>
+<p><strong>Frontiers</strong> (<a class="reference external" href="http://frontiersin.org">frontiersin.org</a>)</p>
+<ul class="simple">
+<li><p>Open access across disciplines</p></li>
+<li><p>~2,000 journals</p></li>
+<li><p>Rapid publishing</p></li>
+</ul>
+<p><strong>Other Open Access Publishers:</strong></p>
+<ul class="simple">
+<li><p>Nature Communications, Scientific Reports, npj series</p></li>
+<li><p>MDPI journals</p></li>
+<li><p>Hindawi journals</p></li>
+</ul>
+<p><strong>Repositories for Full Papers:</strong></p>
+<p><strong>PubMed Central</strong> (<a class="reference external" href="http://pmc.ncbi.nlm.nih.gov">pmc.ncbi.nlm.nih.gov</a>)</p>
+<ul class="simple">
+<li><p>Full text of biomedical/life science articles</p></li>
+<li><p>Free access</p></li>
+<li><p>NIH-funded research included</p></li>
+</ul>
+<p><strong>Google Scholar</strong> (<a class="reference external" href="http://scholar.google.com">scholar.google.com</a>)</p>
+<ul class="simple">
+<li><p>Search academic papers</p></li>
+<li><p>Often links to free PDFs</p></li>
+<li><p>Google Scholar Profiles show author’s work</p></li>
+</ul>
+<p><strong>ResearchGate</strong> (<a class="reference external" href="http://researchgate.net">researchgate.net</a>)</p>
+<ul class="simple">
+<li><p>Researchers share papers</p></li>
+<li><p>Can request from authors</p></li>
+<li><p>Often has PDFs available</p></li>
+</ul>
+<p><strong><a class="reference external" href="http://Academia.edu">Academia.edu</a></strong> (<a class="reference external" href="http://academia.edu">academia.edu</a>)</p>
+<ul class="simple">
+<li><p>Similar to ResearchGate</p></li>
+<li><p>Author profiles</p></li>
+<li><p>Ease of sharing</p></li>
+</ul>
+<p><strong>Institutional Repositories</strong></p>
+<ul class="simple">
+<li><p>Most universities maintain repositories</p></li>
+<li><p>Often freely accessible</p></li>
+<li><p>Search by institution</p></li>
+</ul>
+<p><strong>Author Websites/Lab Pages</strong></p>
+<ul class="simple">
+<li><p>Researchers often post preprints</p></li>
+<li><p>May have dataset repositories</p></li>
+<li><p>Email authors for copies</p></li>
+</ul>
+<p><strong>Search Strategies:</strong></p>
+<p><strong>1. Keyword Search</strong></p>
+<p>Better: “forest biodiversity climate change species richness”</p>
+<ul class="simple">
+<li><p>Find prolific authors in your area</p></li>
+<li><p>Follow their work</p></li>
+</ul>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 1</p>
+<p>Complete at least two of the following activities to solidify your understanding of open results concepts:</p>
+<p><strong>Activity 1.1: Evaluate an Open Result</strong>
+Find a published open result in your field (paper with openly available data, code, or both). Using the assessment checklist from Lesson 2 (section 2.2), evaluate:</p>
+<ul class="simple">
+<li><p>How transparent are the methods?</p></li>
+<li><p>Are data and code truly accessible?</p></li>
+<li><p>Would you be able to replicate this work?</p></li>
+<li><p>What additional information would improve reproducibility?</p></li>
+</ul>
+<p>Write 200-300 words reflecting on your assessment.</p>
+<p><strong>Activity 1.2: Register a Study on OSF</strong>
+Visit the Open Science Framework (<a class="reference external" href="http://osf.io">osf.io</a>) and create an account if you don’t have one. Register a study you’re planning or currently conducting:</p>
+<ul class="simple">
+<li><p>Create a project</p></li>
+<li><p>Add project information and hypotheses</p></li>
+<li><p>Specify your analysis plan</p></li>
+<li><p>Set permissions for who can see different components</p></li>
+<li><p>Take a screenshot of your registered project and reflect on how this commitment to transparency might change your research practices</p></li>
+</ul>
+<p><strong>Activity 1.3: Create an Open Results Checklist for Your Lab</strong>
+Develop a practical checklist that your research group could use to ensure open results. Include:</p>
+<ul class="simple">
+<li><p>What constitutes open results for your field</p></li>
+<li><p>Key decisions to make before starting data collection</p></li>
+<li><p>Specific tools and platforms you’ll use</p></li>
+<li><p>Timeline for sharing results</p></li>
+<li><p>Roles and responsibilities</p></li>
+</ul>
+<p>Share this draft with a colleague and get feedback.</p>
+<p><strong>Activity 1.4: Explore the Reproducibility Crisis in Your Field</strong>
+Research one documented reproducibility failure in your discipline (e.g., a failed replication study, retracted paper, or contested findings). Write a 300-400 word analysis that includes:</p>
+<ul class="simple">
+<li><p>What was the original finding?</p></li>
+<li><p>Why did it fail to replicate?</p></li>
+<li><p>How could open results practices have prevented or mitigated this problem?</p></li>
+<li><p>What specific open science practices would have helped?</p></li>
+</ul>
+</div>
+</section>
+</section>
+<section id="id3">
+<h3>Lesson 2: Using Open Results<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Subscribe to their updates</p></li>
+</ul>
+<p><strong>3. Citation Tracking</strong></p>
+<ul class="simple">
+<li><p>Read papers in your field</p></li>
+<li><p>Look at their references</p></li>
+<li><p>Check who cites those papers</p></li>
+</ul>
+<p><strong>4. Journal Browsing</strong></p>
+<ul class="simple">
+<li><p>Subscribe to tables of contents</p></li>
+<li><p>Follow specific journals</p></li>
+<li><p>Set up alerts</p></li>
+</ul>
+<p><strong>5. Archive/Repository Browsing</strong></p>
+<ul class="simple">
+<li><p>ArXiv has topic categories</p></li>
+<li><p>DOAJ lets you browse by subject</p></li>
+<li><p>Watch for new papers in category</p></li>
+</ul>
+<section id="assessing-open-results-quality">
+<h4>2.2 Assessing Open Results Quality<a class="headerlink" href="#assessing-open-results-quality" title="Permalink to this heading">#</a></h4>
+<p><strong>What to Evaluate:</strong></p>
+<p><strong>1. Source Credibility</strong></p>
+<p><strong>Peer-Reviewed Journal Articles</strong></p>
+<ul class="simple">
+<li><p>✅ Advantage: Vetted by experts</p></li>
+<li><p>✅ Advantage: Often high quality</p></li>
+<li><p>⚠️ Note: Not all peer review is rigorous</p></li>
+<li><p>⚠️ Note: Publication bias exists</p></li>
+</ul>
+<p><strong>Preprints</strong></p>
+<ul class="simple">
+<li><p>✅ Advantage: Rapid dissemination</p></li>
+<li><p>✅ Advantage: Early access to findings</p></li>
+<li><p>⚠️ Caution: Not peer-reviewed</p></li>
+<li><p>⚠️ Caution: May contain errors</p></li>
+<li><p>⚠️ Caution: Quality varies widely</p></li>
+</ul>
+<p><strong>Gray Literature (theses, reports)</strong></p>
+<ul class="simple">
+<li><p>✅ Advantage: Often detailed</p></li>
+<li><p>✅ Advantage: May have data others lack</p></li>
+<li><p>⚠️ Caution: Limited audience review</p></li>
+<li><p>⚠️ Caution: May be incomplete</p></li>
+</ul>
+<p><strong>2. Methodology Assessment</strong></p>
+<p>Ask yourself:</p>
+<ul class="simple">
+<li><p>Are methods clearly described?</p></li>
+<li><p>Can I understand what they did?</p></li>
+<li><p>Are sample sizes adequate?</p></li>
+<li><p>Are there obvious limitations?</p></li>
+<li><p>Was methodology appropriate for question?</p></li>
+<li><p>Did they use accepted procedures?</p></li>
+</ul>
+<p><strong>3. Results Interpretation</strong></p>
+<p>Consider:</p>
+<ul class="simple">
+<li><p>Are conclusions supported by data?</p></li>
+<li><p>Do they acknowledge limitations?</p></li>
+<li><p>Are alternative explanations considered?</p></li>
+<li><p>How novel/surprising are findings?</p></li>
+<li><p>Is effect size reported (not just p-values)?</p></li>
+<li><p>Are confidence intervals provided?</p></li>
+</ul>
+<p><strong>4. Transparency Check</strong></p>
+<p>Look for:</p>
+<ul class="simple">
+<li><p>Open data availability</p></li>
+<li><p>Code availability</p></li>
+<li><p>Protocol registration</p></li>
+<li><p>Conflict of interest disclosure</p></li>
+<li><p>Funding transparency</p></li>
+<li><p>Clear authorship statements</p></li>
+</ul>
+<p><strong>5. Reproducibility Indicators</strong></p>
+<ul class="simple">
+<li><p>Detailed methods section</p></li>
+<li><p>Data and code available</p></li>
+<li><p>Materials/reagents specified</p></li>
+<li><p>Statistical code shown</p></li>
+<li><p>Supplementary materials comprehensive</p></li>
+<li><p>DOIs for data/code</p></li>
+</ul>
+<p><strong>Assessment Checklist:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Question</p></th>
+<th class="head"><p>Yes</p></th>
+<th class="head"><p>No</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Can I understand the research question?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Are methods clearly described?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Are methods appropriate for question?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Is sample size/power adequate?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Are results presented clearly?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Are conclusions supported?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Are limitations acknowledged?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Is data/code available?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>Are there conflicts of interest?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Has this been peer-reviewed?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>How many citations does it have?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Do other studies support findings?</p></td>
+<td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="reusing-open-results">
+<h4>2.3 Reusing Open Results<a class="headerlink" href="#reusing-open-results" title="Permalink to this heading">#</a></h4>
+<p><strong>Building on Others’ Work:</strong></p>
+<p><strong>1. Using Datasets</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Example: Using published forest biodiversity data</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+
+<span class="c1"># Load publicly available dataset</span>
+<span class="n">species_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
+    <span class="s1">&#39;https://doi.org/10.5061/dryad.xxxxx/species_observations.csv&#39;</span>
+<span class="p">)</span>
+
+<span class="c1"># Analyze with their data</span>
+<span class="n">richness</span> <span class="o">=</span> <span class="n">species_data</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;site_id&#39;</span><span class="p">)[</span><span class="s1">&#39;species&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">nunique</span><span class="p">()</span>
+
+<span class="c1"># Compare with your new data</span>
+<span class="n">my_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;my_observations.csv&#39;</span><span class="p">)</span>
+<span class="n">comparison</span> <span class="o">=</span> <span class="n">richness</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">my_data</span><span class="p">,</span> <span class="n">on</span><span class="o">=</span><span class="s1">&#39;site_id&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>2. Using Analysis Code</strong></p>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="c1"># Load and adapt published analysis</span>
+<span class="nf">source</span><span class="p">(</span><span class="s">&#39;https://github.com/example/forest-analysis/blob/main/diversity_analysis.R&#39;</span><span class="p">)</span>
+
+<span class="c1"># Run on new dataset</span>
+<span class="n">results</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">calculate_diversity</span><span class="p">(</span><span class="n">my_new_data</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>3. Using Methods and Protocols</strong></p>
+<ul class="simple">
+<li><p>Adapt published protocols for your samples</p></li>
+<li><p>Reference exact protocol version</p></li>
+<li><p>Note any modifications</p></li>
+<li><p>Build on established procedures</p></li>
+</ul>
+<p><strong>4. Using Frameworks and Tools</strong></p>
+<ul class="simple">
+<li><p>Use software tools from open results</p></li>
+<li><p>Build new tools based on published ones</p></li>
+<li><p>Extend published analyses</p></li>
+<li><p>Apply methods in new contexts</p></li>
+</ul>
+</section>
+<section id="citing-open-results">
+<h4>2.4 Citing Open Results<a class="headerlink" href="#citing-open-results" title="Permalink to this heading">#</a></h4>
+<p><strong>Why Citation Matters:</strong></p>
+<ul class="simple">
+<li><p>Gives credit to original authors</p></li>
+<li><p>Enables verification and traceability</p></li>
+<li><p>Supports impact metrics</p></li>
+<li><p>Builds research transparency</p></li>
+<li><p>Enables future researchers to find sources</p></li>
+</ul>
+<p><strong>Citation Formats:</strong></p>
+<p><strong>For Published Papers:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Harvard</span> <span class="n">Style</span><span class="p">:</span>
+<span class="n">Smith</span><span class="p">,</span> <span class="n">J</span><span class="o">.</span><span class="p">,</span> <span class="n">Johnson</span><span class="p">,</span> <span class="n">A</span><span class="o">.</span><span class="p">,</span> <span class="o">&amp;</span> <span class="n">Brown</span><span class="p">,</span> <span class="n">B</span><span class="o">.</span> <span class="p">(</span><span class="mi">2024</span><span class="p">)</span><span class="o">.</span> <span class="n">Forest</span> <span class="n">biodiversity</span> 
+<span class="ow">and</span> <span class="n">climate</span> <span class="n">change</span><span class="o">.</span> <span class="n">Nature</span> <span class="n">Climate</span> <span class="n">Change</span><span class="p">,</span> <span class="mi">14</span><span class="p">(</span><span class="mi">3</span><span class="p">),</span> <span class="mi">234</span><span class="o">-</span><span class="mf">241.</span> 
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">doi</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="mf">10.1038</span><span class="o">/</span><span class="n">s41558</span><span class="o">-</span><span class="mi">024</span><span class="o">-</span><span class="n">XXXXX</span>
+
+<span class="n">APA</span> <span class="n">Style</span><span class="p">:</span>
+<span class="n">Smith</span><span class="p">,</span> <span class="n">J</span><span class="o">.</span><span class="p">,</span> <span class="n">Johnson</span><span class="p">,</span> <span class="n">A</span><span class="o">.</span><span class="p">,</span> <span class="o">&amp;</span> <span class="n">Brown</span><span class="p">,</span> <span class="n">B</span><span class="o">.</span> <span class="p">(</span><span class="mi">2024</span><span class="p">)</span><span class="o">.</span> <span class="n">Forest</span> <span class="n">biodiversity</span> 
+<span class="ow">and</span> <span class="n">climate</span> <span class="n">change</span><span class="o">.</span> <span class="n">Nature</span> <span class="n">Climate</span> <span class="n">Change</span><span class="p">,</span> <span class="mi">14</span><span class="p">(</span><span class="mi">3</span><span class="p">),</span> <span class="mi">234</span><span class="o">-</span><span class="mf">241.</span> 
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">doi</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="mf">10.1038</span><span class="o">/</span><span class="n">s41558</span><span class="o">-</span><span class="mi">024</span><span class="o">-</span><span class="n">XXXXX</span>
+
+<span class="n">Chicago</span> <span class="n">Style</span><span class="p">:</span>
+<span class="n">Smith</span><span class="p">,</span> <span class="n">Jane</span><span class="p">,</span> <span class="n">Alice</span> <span class="n">Johnson</span><span class="p">,</span> <span class="ow">and</span> <span class="n">Bob</span> <span class="n">Brown</span><span class="o">.</span> <span class="s2">&quot;Forest Biodiversity </span>
+<span class="ow">and</span> <span class="n">Climate</span> <span class="n">Change</span><span class="o">.</span><span class="s2">&quot; Nature Climate Change 14, no. 3 (2024): 234-241. </span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">doi</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="mf">10.1038</span><span class="o">/</span><span class="n">s41558</span><span class="o">-</span><span class="mi">024</span><span class="o">-</span><span class="n">XXXXX</span>
+</pre></div>
+</div>
+<p><strong>For Preprints:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Smith</span><span class="p">,</span> <span class="n">J</span><span class="o">.</span><span class="p">,</span> <span class="n">Johnson</span><span class="p">,</span> <span class="n">A</span><span class="o">.</span><span class="p">,</span> <span class="o">&amp;</span> <span class="n">Brown</span><span class="p">,</span> <span class="n">B</span><span class="o">.</span> <span class="p">(</span><span class="mi">2024</span><span class="p">)</span><span class="o">.</span> <span class="n">Forest</span> <span class="n">biodiversity</span> 
+<span class="ow">and</span> <span class="n">climate</span> <span class="n">change</span><span class="o">.</span> <span class="n">bioRxiv</span><span class="o">.</span> 
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">doi</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="mf">10.1101</span><span class="o">/</span><span class="mf">2024.01.15</span><span class="o">.</span><span class="n">XXXXX</span>
+
+<span class="n">Note</span><span class="p">:</span> <span class="n">Include</span> <span class="s2">&quot;preprint&quot;</span> <span class="ow">in</span> <span class="n">citation</span> <span class="n">to</span> <span class="n">indicate</span> <span class="n">pre</span><span class="o">-</span><span class="n">peer</span><span class="o">-</span><span class="n">review</span> <span class="n">status</span>
+</pre></div>
+</div>
+<p><strong>For Data and Code:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Smith</span><span class="p">,</span> <span class="n">J</span><span class="o">.</span><span class="p">,</span> <span class="n">Johnson</span><span class="p">,</span> <span class="n">A</span><span class="o">.</span><span class="p">,</span> <span class="o">&amp;</span> <span class="n">Brown</span><span class="p">,</span> <span class="n">B</span><span class="o">.</span> <span class="p">(</span><span class="mi">2024</span><span class="p">)</span><span class="o">.</span> <span class="n">Forest</span> <span class="n">biodiversity</span> 
+<span class="n">data</span> <span class="mi">1980</span><span class="o">-</span><span class="mi">2023</span> <span class="p">[</span><span class="n">Data</span> <span class="nb">set</span><span class="p">]</span><span class="o">.</span> <span class="n">Zenodo</span><span class="o">.</span> 
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">doi</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="mf">10.5281</span><span class="o">/</span><span class="n">zenodo</span><span class="o">.</span><span class="n">XXXXX</span>
+
+<span class="n">Smith</span><span class="p">,</span> <span class="n">J</span><span class="o">.</span><span class="p">,</span> <span class="n">Johnson</span><span class="p">,</span> <span class="n">A</span><span class="o">.</span><span class="p">,</span> <span class="o">&amp;</span> <span class="n">Brown</span><span class="p">,</span> <span class="n">B</span><span class="o">.</span> <span class="p">(</span><span class="mi">2024</span><span class="p">)</span><span class="o">.</span> <span class="n">Forest</span> <span class="n">biodiversity</span> 
+<span class="n">analysis</span> <span class="n">code</span> <span class="p">(</span><span class="n">v1</span><span class="mf">.2</span><span class="p">)</span> <span class="p">[</span><span class="n">Computer</span> <span class="n">software</span><span class="p">]</span><span class="o">.</span> <span class="n">GitHub</span><span class="o">.</span> 
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">doi</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="mf">10.5281</span><span class="o">/</span><span class="n">zenodo</span><span class="o">.</span><span class="n">XXXXX</span>
+</pre></div>
+</div>
+<p><strong>For Protocols:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Smith</span><span class="p">,</span> <span class="n">J</span><span class="o">.</span> <span class="p">(</span><span class="mi">2024</span><span class="p">)</span><span class="o">.</span> <span class="n">Forest</span> <span class="n">soil</span> <span class="n">sampling</span> <span class="n">protocol</span> <span class="p">(</span><span class="n">v3</span><span class="mf">.1</span><span class="p">)</span><span class="o">.</span> <span class="n">Protocols</span><span class="o">.</span><span class="n">io</span><span class="o">.</span> 
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">doi</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="mf">10.17504</span><span class="o">/</span><span class="n">protocols</span><span class="o">.</span><span class="n">io</span><span class="o">.</span><span class="n">XXXXX</span>
+</pre></div>
+</div>
+</section>
+<section id="providing-feedback-and-contributing">
+<h4>2.5 Providing Feedback and Contributing<a class="headerlink" href="#providing-feedback-and-contributing" title="Permalink to this heading">#</a></h4>
+<p><strong>Engaging with Open Results:</strong></p>
+<p><strong>1. Post-Publication Discussion</strong></p>
+<p><strong>Via Comments/Responses:</strong></p>
+<ul class="simple">
+<li><p>Many journals allow published comments</p></li>
+<li><p>Open peer review platforms encourage discussion</p></li>
+<li><p>Blog posts discussing findings</p></li>
+<li><p>Social media engagement</p></li>
+</ul>
+<p><strong>Example Comment:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Smith et al.&#39;s findings are valuable, but I have a concern about 
+the statistical analysis. The t-test assumes normality, but their 
+data appear skewed. Have they checked this assumption? Their raw 
+data are publicly available, so I verified this by analyzing the 
+residuals myself. A Mann-Whitney U test would be more appropriate 
+and changes the p-value from 0.03 to 0.08.
+</pre></div>
+</div>
+<p><strong>2. Reporting Errors</strong></p>
+<p><strong>Contact authors with:</strong></p>
+<ul class="simple">
+<li><p>Specific error location (table, figure, page)</p></li>
+<li><p>Why you think it’s an error</p></li>
+<li><p>Evidence (calculation, code, reference)</p></li>
+<li><p>Suggested correction</p></li>
+<li><p>Constructive tone</p></li>
+</ul>
+<p><strong>3. Building on the Work</strong></p>
+<p><strong>Ways to acknowledge others:</strong></p>
+<ul class="simple">
+<li><p>Cite their papers</p></li>
+<li><p>Reference their data</p></li>
+<li><p>Acknowledge code use</p></li>
+<li><p>Thank them in acknowledgments</p></li>
+<li><p>Collaborate formally (if appropriate)</p></li>
+</ul>
+<p><strong>4. Replicating Studies</strong></p>
+<p><strong>Replication steps:</strong></p>
+<ol class="arabic simple">
+<li><p>Obtain original data and code</p></li>
+<li><p>Follow analysis exactly</p></li>
+<li><p>Report success or discrepancies</p></li>
+<li><p>Share your replication openly</p></li>
+<li><p>Contact original authors</p></li>
+<li><p>Work together to resolve differences</p></li>
+</ol>
+</section>
+<section id="collaboration-vs-citation">
+<h4>2.6 Collaboration vs. Citation<a class="headerlink" href="#collaboration-vs-citation" title="Permalink to this heading">#</a></h4>
+<p><strong>When to Cite vs. Collaborate:</strong></p>
+<p><strong>Cite When:</strong></p>
+<ul class="simple">
+<li><p>Using published methods</p></li>
+<li><p>Building on published datasets</p></li>
+<li><p>Referencing published analyses</p></li>
+<li><p>Using open source software</p></li>
+<li><p>Testing published hypotheses</p></li>
+<li><p>No direct interaction needed</p></li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;We used the forest biodiversity dataset from Smith et al. (2024) </span>
+<span class="n">to</span> <span class="n">conduct</span> <span class="n">new</span> <span class="n">analyses</span> <span class="n">examining</span> <span class="n">temporal</span> <span class="n">trends</span><span class="o">...</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
+<p><strong>Collaborate When:</strong></p>
+<ul class="simple">
+<li><p>Extending their work significantly</p></li>
+<li><p>Working closely together</p></li>
+<li><p>Building new datasets/tools together</p></li>
+<li><p>Co-authoring new papers</p></li>
+<li><p>Combining expertise and resources</p></li>
+<li><p>Sustained interaction</p></li>
+</ul>
+<p><strong>Steps to Propose Collaboration:</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Research their work thoroughly</strong></p>
+<ul class="simple">
+<li><p>Understand their interests</p></li>
+<li><p>Know their recent publications</p></li>
+<li><p>Identify complementary strengths</p></li>
+</ul>
+</li>
+<li><p><strong>Craft personalized email</strong></p>
+<ul class="simple">
+<li><p>Be specific about mutual interests</p></li>
+<li><p>Explain how collaboration benefits both</p></li>
+<li><p>Propose concrete next steps</p></li>
+<li><p>Keep it brief initially</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>Example Email:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Dear Dr. Smith,
+
+I greatly appreciate your recent paper on forest biodiversity and 
+climate change. I&#39;m working on similar research in tropical forests 
+and would like to apply your analysis methods to my dataset.
+
+I&#39;m wondering if you&#39;d be interested in collaborating on a paper 
+comparing temperate and tropical forest responses to climate change? 
+I have 15 years of data from 20 tropical sites that would provide 
+an interesting complement to your global analysis.
+
+Would you be open to discussing this? I&#39;d be happy to visit your lab 
+to work through the details.
+
+Best regards,
+Alice Johnson
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p><strong>Make it easy for them</strong></p>
+<ul class="simple">
+<li><p>Provide data/code</p></li>
+<li><p>Handle initial analyses</p></li>
+<li><p>Write first draft</p></li>
+<li><p>Respect their time</p></li>
+</ul>
+</li>
+<li><p><strong>Formalize collaboration</strong></p>
+<ul class="simple">
+<li><p>Write collaboration agreement</p></li>
+<li><p>Clarify authorship criteria</p></li>
+<li><p>Establish timelines</p></li>
+<li><p>Define roles</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="id4">
+<h4>Summary<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h4>
+<p>Effectively using open results requires:</p>
+<ol class="arabic simple">
+<li><p><strong>Discovery:</strong> Knowing where to find and search for open results</p></li>
+<li><p><strong>Assessment:</strong> Evaluating quality and suitability for your work</p></li>
+<li><p><strong>Integration:</strong> Properly building on and citing others’ work</p></li>
+<li><p><strong>Engagement:</strong> Providing feedback and contributing to improvement</p></li>
+<li><p><strong>Collaboration:</strong> Deciding when collaboration is appropriate</p></li>
+</ol>
+<p>By mastering these skills, you become an active participant in the open science ecosystem, building on others’ work while advancing your own research.</p>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 2</p>
+<p>Complete at least two of the following activities to practice using open results:</p>
+<p><strong>Activity 2.1: Search and Evaluate Open Results</strong>
+Conduct a comprehensive search for open results relevant to your research question:</p>
+<ul class="simple">
+<li><p>Use at least 3 different discovery resources (preprint servers, open journals, repositories)</p></li>
+<li><p>Identify 5-10 potentially useful open results</p></li>
+<li><p>Assess each using the quality checklist from section 2.2</p></li>
+<li><p>Create a summary table showing source, accessibility, quality assessment, and reusability potential</p></li>
+<li><p>Write a reflection on which results are most useful and why</p></li>
+</ul>
+<p><strong>Activity 2.2: Practice Citation of Open Results</strong>
+Take three open results from Activity 2.1 and practice citing them in different formats:</p>
+<ul class="simple">
+<li><p>Write a full citation for each in APA, Chicago, and Harvard styles</p></li>
+<li><p>Note any differences between citing published papers, preprints, and datasets</p></li>
+<li><p>Create a brief annotated bibliography (50 words per entry) explaining how you would use each result</p></li>
+<li><p>Reflect on how proper citation strengthens your own credibility and supports open science</p></li>
+</ul>
+<p><strong>Activity 2.3: Plan a Collaboration</strong>
+Identify a researcher whose open results are directly relevant to your work. Draft a professional email proposing collaboration that includes:</p>
+<ul class="simple">
+<li><p>Specific reference to their published work</p></li>
+<li><p>Concrete ideas for how your work could complement theirs</p></li>
+<li><p>Specific, time-bound next steps</p></li>
+<li><p>Clear indication of the value to both parties</p></li>
+</ul>
+<p>Don’t send it yet, but have a colleague review it for tone and clarity. Reflect on what made it effective.</p>
+<p><strong>Activity 2.4: Provide Feedback to an Open Results Provider</strong>
+Identify a published dataset or software tool that you use or are interested in. Provide constructive feedback by:</p>
+<ul class="simple">
+<li><p>Creating an issue on their GitHub repository or contacting the authors</p></li>
+<li><p>Pointing out something helpful you found about the resource</p></li>
+<li><p>Noting any unclear documentation or areas for improvement</p></li>
+<li><p>Suggesting enhancements in a constructive, appreciative tone</p></li>
+<li><p>Reflect on how this engagement contributes to improving open science</p></li>
+</ul>
+<p><strong>Activity 2.5: Build on an Open Result</strong>
+Select one open result (preferably with publicly available data/code) and create something new from it:</p>
+<ul class="simple">
+<li><p>Conduct a secondary analysis using their data</p></li>
+<li><p>Adapt their code for a new dataset</p></li>
+<li><p>Create a visualization of their findings</p></li>
+<li><p>Test their analysis with different parameters</p></li>
+<li><p>Write up your work with proper attribution and share it openly (on GitHub, OSF, or preprint server)</p></li>
+</ul>
+</div>
+</section>
+</section>
+<section id="lesson-3-making-open-results">
+<h3>Lesson 3: Making Open Results<a class="headerlink" href="#lesson-3-making-open-results" title="Permalink to this heading">#</a></h3>
+<section id="id5">
+<h4>Overview<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h4>
+<p>In this lesson, we focus on making open results. We will start by discussing what it means to make reproducible results. Having earlier in the course discussed the computational reproducibility practices in open software, in this lesson, we specifically emphasize the importance of collaborations in making those results open and reproducible. This begins with acknowledging that scientific results are not made by single individuals. We will then teach how to ensure equitable, fair, and successful collaborations when making your open results that acknowledge all contributions. Once you’ve planned the rules of engagement, we will provide you with ways to ensure that your reporting and publication abide by open results principles and combat the reproducibility crisis.</p>
+</section>
+<section id="computational-reproducibility">
+<h4>3.1 Computational Reproducibility<a class="headerlink" href="#computational-reproducibility" title="Permalink to this heading">#</a></h4>
+<p><strong>What Makes Results Reproducible?</strong></p>
+<p>Reproducible results allow others to:</p>
+<ol class="arabic simple">
+<li><p>Understand exactly what you did</p></li>
+<li><p>Obtain the same results from the same data</p></li>
+<li><p>Verify your analyses</p></li>
+<li><p>Adapt methods for new data</p></li>
+<li><p>Build on your work</p></li>
+</ol>
+<p><strong>The Reproducibility Spectrum:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Not Reproducible ─────────────────────────────────────────► Fully Reproducible
+|
+No code/methods             Partial documentation        Complete code/data/methods
+No data available           Some code available          All materials published
+Unpublished results         Selective sharing            Full transparency
+</pre></div>
+</div>
+<p><strong>Key Elements of Reproducible Research:</strong></p>
+<p><strong>1. Complete Methodology Documentation</strong></p>
+<p><strong>Include:</strong></p>
+<ul class="simple">
+<li><p>Specific software versions</p></li>
+<li><p>Hardware specifications</p></li>
+<li><p>Random seeds for simulations</p></li>
+<li><p>Hyperparameters for algorithms</p></li>
+<li><p>All preprocessing steps</p></li>
+<li><p>Decision rules for outliers</p></li>
+<li><p>Rounding and precision details</p></li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gu">## Methods</span>
+
+<span class="gu">### Software Environment</span>
+<span class="k">-</span><span class="w"> </span>R version 4.2.1
+<span class="k">-</span><span class="w"> </span>Packages: dplyr 1.0.9, ggplot2 3.4.0, rstan 2.26.0
+<span class="k">-</span><span class="w"> </span>Stan version 2.31.0
+<span class="k">-</span><span class="w"> </span>Analysis run on macOS 13.2 with 16GB RAM
+
+<span class="gu">### Preprocessing</span>
+<span class="k">-</span><span class="w"> </span>Temperature values below -50°C removed as instrument errors (n=3)
+<span class="k">-</span><span class="w"> </span>Missing values: 0.2% imputed using predictive mean matching
+<span class="k">-</span><span class="w"> </span>Outliers &gt;3 SD from mean flagged and noted in results
+
+<span class="gu">### Statistical Analysis</span>
+<span class="k">-</span><span class="w"> </span>Random seed: 12345 (set for reproducibility)
+<span class="k">-</span><span class="w"> </span>Bayesian model with Stan
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Chains: 4
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Iterations: 2000 per chain (1000 warmup)
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Priors: Normal(0,10) for regression coefficients
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Convergence: R̂ &lt; 1.01 for all parameters
+</pre></div>
+</div>
+<p><strong>2. Data Availability</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gu">## Data Availability</span>
+
+Raw data and analysis code are available at:
+<span class="k">-</span><span class="w"> </span>GitHub: https://github.com/example/forest-analysis
+<span class="k">-</span><span class="w"> </span>Zenodo: https://doi.org/10.5281/zenodo.XXXXX
+<span class="k">-</span><span class="w"> </span>University Repository: https://[institution].edu/data/forest-diversity
+
+Data files:
+<span class="k">-</span><span class="w"> </span>species_observations.csv (raw observational data)
+<span class="k">-</span><span class="w"> </span>temperature_records.csv (climate data)
+<span class="k">-</span><span class="w"> </span>processed_dataset.csv (cleaned data used in analysis)
+
+License: CC BY 4.0
+</pre></div>
+</div>
+<p><strong>3. Code Availability and Quality</strong></p>
+<p><strong>Good Code Practices:</strong></p>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="c1"># Load libraries</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">brms</span><span class="p">)</span>
+
+<span class="c1"># Set seed for reproducibility</span>
+<span class="nf">set.seed</span><span class="p">(</span><span class="m">12345</span><span class="p">)</span>
+
+<span class="c1"># Load and prepare data</span>
+<span class="n">data</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">read_csv</span><span class="p">(</span><span class="s">&quot;processed_dataset.csv&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span>
+<span class="w">  </span><span class="nf">filter</span><span class="p">(</span><span class="o">!</span><span class="nf">is.na</span><span class="p">(</span><span class="n">species_richness</span><span class="p">))</span><span class="w"> </span><span class="o">%&gt;%</span>
+<span class="w">  </span><span class="c1"># Standardize continuous predictors</span>
+<span class="w">  </span><span class="nf">mutate</span><span class="p">(</span><span class="nf">across</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="n">temperature</span><span class="p">,</span><span class="w"> </span><span class="n">precipitation</span><span class="p">),</span><span class="w"> </span><span class="n">scale</span><span class="p">))</span>
+
+<span class="c1"># Fit Bayesian model</span>
+<span class="n">model</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">brm</span><span class="p">(</span>
+<span class="w">  </span><span class="n">richness</span><span class="w"> </span><span class="o">~</span><span class="w"> </span><span class="n">temperature</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">precipitation</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="p">(</span><span class="m">1</span><span class="o">|</span><span class="n">region</span><span class="p">),</span>
+<span class="w">  </span><span class="n">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">data</span><span class="p">,</span>
+<span class="w">  </span><span class="n">family</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">gaussian</span><span class="p">(),</span>
+<span class="w">  </span><span class="n">chains</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">4</span><span class="p">,</span>
+<span class="w">  </span><span class="n">iter</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">2000</span><span class="p">,</span>
+<span class="w">  </span><span class="n">warmup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">1000</span><span class="p">,</span>
+<span class="w">  </span><span class="n">seed</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">12345</span><span class="p">,</span>
+<span class="w">  </span><span class="n">cores</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">4</span>
+<span class="p">)</span>
+
+<span class="c1"># Check convergence</span>
+<span class="nf">rhat</span><span class="p">(</span><span class="n">model</span><span class="p">)</span><span class="w">  </span><span class="c1"># All &lt; 1.01</span>
+
+<span class="c1"># Extract and visualize results</span>
+<span class="n">results</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">as_draws_df</span><span class="p">(</span><span class="n">model</span><span class="p">)</span>
+<span class="n">post_pred</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">posterior_predict</span><span class="p">(</span><span class="n">model</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>4. Documentation</strong></p>
+<p><strong>README:</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gh"># Forest Biodiversity and Climate Analysis</span>
+
+<span class="gu">## Overview</span>
+This repository contains data, code, and results for analyzing 
+forest species richness in response to climate change across 50 sites.
+
+<span class="gu">## Quick Start</span>
+```bash
+<span class="gh"># Install dependencies</span>
+install.packages(c(&quot;tidyverse&quot;, &quot;brms&quot;))
+
+<span class="gh"># Run full analysis</span>
+Rscript scripts/01_data_preparation.R
+Rscript scripts/02_analysis.R
+Rscript scripts/03_visualization.R
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+<section id="repository-structure">
+<h2>Repository Structure<a class="headerlink" href="#repository-structure" title="Permalink to this heading">#</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>project/
+├── data/
+│   ├── raw/
+│   │   ├── species_observations.csv
+│   │   └── temperature_records.csv
+│   └── processed/
+│       └── analysis_dataset.csv
+├── scripts/
+│   ├── 01_data_preparation.R
+│   ├── 02_analysis.R
+│   └── 03_visualization.R
+├── results/
+│   ├── figures/
+│   └── tables/
+└── README.md
+</pre></div>
+</div>
+</section>
+<section id="methods">
+<h2>Methods<a class="headerlink" href="#methods" title="Permalink to this heading">#</a></h2>
+<p>[Detailed methods section]</p>
+</section>
+<section id="results">
+<h2>Results<a class="headerlink" href="#results" title="Permalink to this heading">#</a></h2>
+<p>[Summary of key findings]</p>
+</section>
+<section id="citation">
+<h2>Citation<a class="headerlink" href="#citation" title="Permalink to this heading">#</a></h2>
+<p>Smith et al. (2024). Forest biodiversity and climate analysis.
+<a class="reference external" href="https://doi.org/10.5281/zenodo.XXXXX">https://doi.org/10.5281/zenodo.XXXXX</a></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+**5. Sensitivity Analyses**
+
+Show your results are robust to reasonable assumptions:
+
+```markdown
+## Sensitivity Analyses
+
+### Alternative model specifications
+- Linear vs. polynomial temperature relationships
+- Including vs. excluding outliers
+- Alternative imputation methods for missing data
+- Different random effect structures
+
+### Results
+All models converged and showed similar patterns:
+- Temperature effect consistent (β = -0.45, 95% CI: -0.52 to -0.38)
+- Precipitation effect robust (β = 0.32, 95% CI: 0.25 to 0.39)
+- Conclusions unchanged across specifications
+</pre></div>
+</div>
+<section id="collaboration-and-contribution-framework">
+<h3>3.2 Collaboration and Contribution Framework<a class="headerlink" href="#collaboration-and-contribution-framework" title="Permalink to this heading">#</a></h3>
+<p><strong>Why Collaboration Matters for Open Results:</strong></p>
+<p>Scientific results are produced by teams, not individuals:</p>
+<ul class="simple">
+<li><p>Idea generation (multiple perspectives)</p></li>
+<li><p>Design (collaborative refinement)</p></li>
+<li><p>Execution (different skills)</p></li>
+<li><p>Analysis (statistical and domain expertise)</p></li>
+<li><p>Writing (clear communication)</p></li>
+<li><p>Revision (feedback from multiple reviewers)</p></li>
+</ul>
+<p><strong>Benefits of Transparent Collaboration:</strong></p>
+<ul class="simple">
+<li><p>Clear accountability</p></li>
+<li><p>Fair recognition of contributions</p></li>
+<li><p>Reduced conflicts</p></li>
+<li><p>Increased trust</p></li>
+<li><p>Better retention</p></li>
+<li><p>Enables equity</p></li>
+</ul>
+</section>
+<section id="contributor-roles-and-responsibilities">
+<h3>3.3 Contributor Roles and Responsibilities<a class="headerlink" href="#contributor-roles-and-responsibilities" title="Permalink to this heading">#</a></h3>
+<p><strong>Different Roles in Research:</strong></p>
+<p><strong>1. Project Leader / Principal Investigator</strong></p>
+<ul class="simple">
+<li><p>Sets research direction</p></li>
+<li><p>Secures funding</p></li>
+<li><p>Makes final decisions</p></li>
+<li><p>Takes responsibility for integrity</p></li>
+<li><p>Leads publication process</p></li>
+</ul>
+<p><strong>2. Senior Researcher / Postdoc</strong></p>
+<ul class="simple">
+<li><p>Designs detailed methods</p></li>
+<li><p>Conducts analyses</p></li>
+<li><p>Writes manuscripts</p></li>
+<li><p>Mentors junior staff</p></li>
+<li><p>Often corresponding author</p></li>
+</ul>
+<p><strong>3. Graduate Student / Research Scientist</strong></p>
+<ul class="simple">
+<li><p>Conducts experiments/analyses</p></li>
+<li><p>Collects/processes data</p></li>
+<li><p>Tests hypotheses</p></li>
+<li><p>Writes drafts</p></li>
+<li><p>First author on related papers</p></li>
+</ul>
+<p><strong>4. Undergraduate / Research Assistant</strong></p>
+<ul class="simple">
+<li><p>Assists with data collection</p></li>
+<li><p>Performs routine analyses</p></li>
+<li><p>Documents procedures</p></li>
+<li><p>Often acknowledged contributor</p></li>
+</ul>
+<p><strong>5. Technical Specialist</strong></p>
+<ul class="simple">
+<li><p>Provides specialized expertise</p></li>
+<li><p>Operates instruments</p></li>
+<li><p>Develops tools/methods</p></li>
+<li><p>May be co-author if contribution significant</p></li>
+</ul>
+<p><strong>6. Collaborator</strong></p>
+<ul class="simple">
+<li><p>Contributes specific expertise</p></li>
+<li><p>May contribute data</p></li>
+<li><p>Co-author on joint publications</p></li>
+<li><p>Equal partnership</p></li>
+</ul>
+<p><strong>7. Data Manager / Biostatistician</strong></p>
+<ul class="simple">
+<li><p>Ensures data quality</p></li>
+<li><p>Conducts statistical analyses</p></li>
+<li><p>Develops analysis plans</p></li>
+<li><p>Often co-author</p></li>
+</ul>
+<p><strong>8. Research Support Staff</strong></p>
+<ul class="simple">
+<li><p>Administrative support</p></li>
+<li><p>Lab management</p></li>
+<li><p>Facility operation</p></li>
+<li><p>Usually acknowledged</p></li>
+</ul>
+</section>
+<section id="authorship-and-contribution-guidelines">
+<h3>3.4 Authorship and Contribution Guidelines<a class="headerlink" href="#authorship-and-contribution-guidelines" title="Permalink to this heading">#</a></h3>
+<p><strong>Defining Authorship:</strong></p>
+<p><strong>Traditional Definition (Problematic):</strong></p>
+<ul class="simple">
+<li><p>Only those who wrote the paper</p></li>
+<li><p>Excludes critical contributors</p></li>
+<li><p>Creates disputes</p></li>
+</ul>
+<p><strong>Modern Definition (Recommended):</strong></p>
+<p>Authors should meet ALL of these criteria:</p>
+<ol class="arabic simple">
+<li><p><strong>Substantial contributions</strong> to conception OR design OR data acquisition OR analysis</p></li>
+<li><p><strong>Drafting</strong> or critically revising the work</p></li>
+<li><p><strong>Final approval</strong> of published version</p></li>
+<li><p><strong>Agreement</strong> to be accountable for work</p></li>
+</ol>
+<p><strong>ICMJE Criteria</strong> (International Committee of Medical Journal Editors)</p>
+<p>Most widely accepted standard:</p>
+<ol class="arabic simple">
+<li><p>Substantial contributions to conception/design OR data acquisition/analysis</p></li>
+<li><p>Drafting or critical revision for intellectual content</p></li>
+<li><p>Final approval of version to be published</p></li>
+<li><p>Accountability for all aspects of work</p></li>
+</ol>
+<p><strong>CRediT Framework</strong> (Contributor Roles Taxonomy)</p>
+<p>More detailed specification of contributions:</p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gu">## Author Contributions</span>
+
+<span class="gs">**Jane Smith:**</span> Conceptualization, Design, Data Collection, 
+Analysis, Writing - Original Draft
+
+<span class="gs">**Alice Johnson:**</span> Conceptualization, Design, Data Collection, 
+Funding Acquisition, Writing - Review &amp; Editing
+
+<span class="gs">**Bob Brown:**</span> Statistical Analysis, Visualization, Writing - Review &amp; Editing
+
+<span class="gs">**Carol Davis:**</span> Field Site Management, Data Collection
+
+<span class="gu">### Detailed CRediT Roles:</span>
+<span class="k">-</span><span class="w"> </span>Conceptualization: JS, AJ
+<span class="k">-</span><span class="w"> </span>Methodology: JS, AJ, BB
+<span class="k">-</span><span class="w"> </span>Software: BB
+<span class="k">-</span><span class="w"> </span>Validation: BB
+<span class="k">-</span><span class="w"> </span>Formal Analysis: BB, JS
+<span class="k">-</span><span class="w"> </span>Investigation: JS, AJ, CD
+<span class="k">-</span><span class="w"> </span>Resources: AJ
+<span class="k">-</span><span class="w"> </span>Data Curation: CD
+<span class="k">-</span><span class="w"> </span>Writing - Original Draft: JS
+<span class="k">-</span><span class="w"> </span>Writing - Review &amp; Editing: AJ, BB
+<span class="k">-</span><span class="w"> </span>Visualization: BB
+<span class="k">-</span><span class="w"> </span>Supervision: AJ
+<span class="k">-</span><span class="w"> </span>Project Administration: AJ
+<span class="k">-</span><span class="w"> </span>Funding Acquisition: AJ
+</pre></div>
+</div>
+<p><strong>Authorship Order Conventions:</strong></p>
+<p><strong>Standard (Sciences):</strong></p>
+<ul class="simple">
+<li><p>First author: Usually lead researcher</p></li>
+<li><p>Middle authors: Various contributions</p></li>
+<li><p>Last author: Usually PI/senior person</p></li>
+</ul>
+<p><strong>Alternative conventions:</strong></p>
+<ul class="simple">
+<li><p>Equal contributions (noted explicitly)</p></li>
+<li><p>Alphabetical order (sometimes in mathematics)</p></li>
+<li><p>Senior author last, all equally contributing</p></li>
+</ul>
+<p><strong>Example:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Smith</span><span class="p">,</span> <span class="n">J</span><span class="o">.*</span><span class="p">,</span> <span class="n">Johnson</span><span class="p">,</span> <span class="n">A</span><span class="o">.*</span><span class="p">,</span> <span class="ow">and</span> <span class="n">Brown</span><span class="p">,</span> <span class="n">B</span><span class="o">.</span>
+<span class="o">*</span><span class="n">Equal</span> <span class="n">contribution</span>
+</pre></div>
+</div>
+</section>
+<section id="creating-contributor-guidelines">
+<h3>3.5 Creating Contributor Guidelines<a class="headerlink" href="#creating-contributor-guidelines" title="Permalink to this heading">#</a></h3>
+<p><strong><a class="reference external" href="http://CONTRIBUTING.md">CONTRIBUTING.md</a> for Your Project:</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gh"># Contribution Guidelines</span>
+
+Thank you for interest in contributing to this research!
+
+<span class="gu">## Who Can Contribute?</span>
+We welcome contributions from:
+<span class="k">-</span><span class="w"> </span>Lab members
+<span class="k">-</span><span class="w"> </span>Collaborating researchers
+<span class="k">-</span><span class="w"> </span>External researchers
+<span class="k">-</span><span class="w"> </span>Anyone with relevant expertise
+
+<span class="gu">## How to Contribute</span>
+
+<span class="gu">### For Internal Lab Members</span>
+<span class="k">1.</span> Discuss ideas with PI
+<span class="k">2.</span> Document your work
+<span class="k">3.</span> Use version control
+<span class="k">4.</span> Write clear code/protocols
+<span class="k">5.</span> Share code on GitHub
+<span class="k">6.</span> Propose authorship discussions early
+
+<span class="gu">### For External Collaborators</span>
+<span class="k">1.</span> Contact project lead
+<span class="k">2.</span> Establish collaboration agreement
+<span class="k">3.</span> Define contribution scope
+<span class="k">4.</span> Clarify authorship expectations
+<span class="k">5.</span> Work via shared repositories
+
+<span class="gu">### For Data Contributors</span>
+<span class="k">1.</span> Ensure data quality
+<span class="k">2.</span> Document methods
+<span class="k">3.</span> Provide metadata
+<span class="k">4.</span> Agree on sharing timeline
+<span class="k">5.</span> Approve figures/publications using data
+
+<span class="gu">### For Code Contributors</span>
+<span class="k">1.</span> Fork repository
+<span class="k">2.</span> Make feature branch
+<span class="k">3.</span> Write tests
+<span class="k">4.</span> Document changes
+<span class="k">5.</span> Submit pull request
+<span class="k">6.</span> Respond to review
+
+<span class="gu">## Authorship Criteria</span>
+We follow ICMJE criteria. Contributors meeting all criteria are offered authorship:
+<span class="k">1.</span> Substantial contributions
+<span class="k">2.</span> Manuscript drafting/revision
+<span class="k">3.</span> Final approval
+<span class="k">4.</span> Accountability
+
+<span class="gu">## Contribution Agreement</span>
+All contributors agree to:
+<span class="k">-</span><span class="w"> </span>Follow our Code of Conduct
+<span class="k">-</span><span class="w"> </span>Disclose conflicts of interest
+<span class="k">-</span><span class="w"> </span>Contribute to reproducibility
+<span class="k">-</span><span class="w"> </span>Share work openly
+<span class="k">-</span><span class="w"> </span>Respect intellectual property
+
+<span class="gu">## Acknowledgment</span>
+Contributors not meeting authorship criteria will be acknowledged for:
+<span class="k">-</span><span class="w"> </span>Providing feedback
+<span class="k">-</span><span class="w"> </span>Facility/equipment use
+<span class="k">-</span><span class="w"> </span>Technical assistance
+<span class="k">-</span><span class="w"> </span>Statistical review
+<span class="k">-</span><span class="w"> </span>Specimen preparation
+
+<span class="gu">## Conflict Resolution</span>
+If contribution/authorship disputes arise:
+<span class="k">1.</span> Discuss with immediate supervisor
+<span class="k">2.</span> Refer to ICMJE guidelines
+<span class="k">3.</span> Contact ombudsperson if needed
+<span class="k">4.</span> Engage mediator if necessary
+
+<span class="gu">## Questions?</span>
+Contact: research@example.edu
+</pre></div>
+</div>
+</section>
+<section id="ensuring-reproducible-manuscript-preparation">
+<h3>3.6 Ensuring Reproducible Manuscript Preparation<a class="headerlink" href="#ensuring-reproducible-manuscript-preparation" title="Permalink to this heading">#</a></h3>
+<p><strong>Creating Reproducible Manuscripts:</strong></p>
+<p><strong>Dynamic Documents:</strong></p>
+<p>Instead of separate code, results, figures, write integrated documents:</p>
+<p><strong>R Markdown:</strong></p>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="o">---</span>
+<span class="n">title</span><span class="o">:</span><span class="w"> </span><span class="s">&quot;Forest Biodiversity and Climate Change&quot;</span>
+<span class="n">author</span><span class="o">:</span><span class="w"> </span><span class="s">&quot;Smith et al.&quot;</span>
+<span class="n">date</span><span class="o">:</span><span class="w"> </span><span class="s">&quot;`r Sys.Date()`&quot;</span>
+<span class="n">output</span><span class="o">:</span><span class="w"> </span><span class="n">pdf_document</span>
+<span class="o">---</span>
+
+<span class="c1">## Methods</span>
+
+<span class="n">``</span>`<span class="p">{</span><span class="n">r</span><span class="w"> </span><span class="n">setup</span><span class="p">,</span><span class="w"> </span><span class="n">include</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">}</span>
+<span class="n">knitr</span><span class="o">::</span><span class="n">opts_chunk</span><span class="o">$</span><span class="nf">set</span><span class="p">(</span><span class="n">echo</span><span class="o">=</span><span class="kc">FALSE</span><span class="p">)</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
+<span class="n">data</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">read_csv</span><span class="p">(</span><span class="s">&quot;data.csv&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>We analyzed <code class="docutils literal notranslate"><span class="pre">r</span> <span class="pre">nrow(data)</span></code> observations from <code class="docutils literal notranslate"><span class="pre">r</span> <span class="pre">n_distinct(data$site)</span></code> sites.</p>
+</section>
+</section>
+<section id="id6">
+<h2>Results<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h2>
+<div class="highlight-{r notranslate"><div class="highlight"><pre><span></span>model &lt;- lm(richness ~ temperature, data=data)
+</pre></div>
+</div>
+<p>Temperature had a significant effect (β = <code class="docutils literal notranslate"><span class="pre">r</span> <span class="pre">coef(model)[2]</span></code>, p &lt; 0.001).</p>
+<div class="highlight-{r notranslate"><div class="highlight"><pre><span></span>plot(richness ~ temperature, data=data)
+abline(model)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+**Jupyter Notebooks:**
+```python
+# Forest Biodiversity Analysis
+
+import pandas as pd
+import numpy as np
+from scipy import stats
+
+# Load data
+data = pd.read_csv(&#39;data.csv&#39;)
+
+print(f&quot;Dataset has {len(data)} observations from {data[&#39;site&#39;].nunique()} sites&quot;)
+
+# Statistical analysis
+slope, intercept, r_value, p_value, se = stats.linregress(
+    data[&#39;temperature&#39;], 
+    data[&#39;richness&#39;]
+)
+
+print(f&quot;Temperature effect: β = {slope:.3f}, p = {p_value:.4f}&quot;)
+</pre></div>
+</div>
+<p><strong>Benefits:</strong></p>
+<ul class="simple">
+<li><p>Code runs to generate figures</p></li>
+<li><p>Numbers update automatically</p></li>
+<li><p>Errors visible immediately</p></li>
+<li><p>Transparent methods</p></li>
+<li><p>Reproducible output</p></li>
+</ul>
+<p><strong>Manuscript Checklist for Open Results:</strong></p>
+<ul class="simple">
+<li><p>✅ Methods section detailed enough to replicate</p></li>
+<li><p>✅ All data available with open license</p></li>
+<li><p>✅ Analysis code available and runs successfully</p></li>
+<li><p>✅ Random seeds specified for stochastic procedures</p></li>
+<li><p>✅ Software versions documented</p></li>
+<li><p>✅ Assumptions and limitations discussed</p></li>
+<li><p>✅ Sensitivity analyses included</p></li>
+<li><p>✅ Conflicts of interest disclosed</p></li>
+<li><p>✅ Funding sources stated</p></li>
+<li><p>✅ Author contributions clearly specified</p></li>
+<li><p>✅ Data availability statement included</p></li>
+<li><p>✅ Code availability statement included</p></li>
+<li><p>✅ Preregistration mentioned (if applicable)</p></li>
+<li><p>✅ DOIs provided for data/code</p></li>
+</ul>
+<section id="id7">
+<h3>Summary<a class="headerlink" href="#id7" title="Permalink to this heading">#</a></h3>
+<p>Making open results requires:</p>
+<ol class="arabic simple">
+<li><p><strong>Computational Reproducibility:</strong> Code, data, methods all available</p></li>
+<li><p><strong>Transparent Collaboration:</strong> Clear roles and contribution documentation</p></li>
+<li><p><strong>Equitable Recognition:</strong> Proper authorship and acknowledgment</p></li>
+<li><p><strong>Complete Documentation:</strong> Enough detail for others to replicate</p></li>
+<li><p><strong>Accessible Sharing:</strong> Publishing code, data, and results openly</p></li>
+</ol>
+<p>By following these practices, you produce research that is verifiable, trustworthy, and maximally useful to the scientific community.</p>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 3</p>
+<p>Complete at least two of the following activities to practice making open results:</p>
+<p><strong>Activity 3.1: Create Contributor Guidelines</strong>
+Develop a <a class="reference external" href="http://CONTRIBUTING.md">CONTRIBUTING.md</a> file for a research project (real or hypothetical):</p>
+<ul class="simple">
+<li><p>Define what constitutes a contribution</p></li>
+<li><p>Outline how people can get involved</p></li>
+<li><p>Clearly specify authorship criteria using ICMJE guidelines</p></li>
+<li><p>Include acknowledgment categories for non-author contributors</p></li>
+<li><p>Create a conflict-of-interest disclosure form</p></li>
+<li><p>Add your contact information and next steps</p></li>
+</ul>
+<p>Share with colleagues and incorporate their feedback.</p>
+<p><strong>Activity 3.2: Document Your Code for Reproducibility</strong>
+Take a piece of your analysis code (or create a simple example):</p>
+<ul class="simple">
+<li><p>Add comprehensive comments explaining each step</p></li>
+<li><p>Create a README file with:</p>
+<ul>
+<li><p>Overview of what the code does</p></li>
+<li><p>Software and package requirements with versions</p></li>
+<li><p>Instructions for running the code</p></li>
+<li><p>Expected inputs and outputs</p></li>
+<li><p>Known limitations</p></li>
+</ul>
+</li>
+<li><p>Create a requirements.txt or environment file</p></li>
+<li><p>Test that someone unfamiliar with your work could run the code successfully</p></li>
+</ul>
+<p><strong>Activity 3.3: Write a Data Availability Statement</strong>
+For a dataset you’re working with (real or hypothetical), write a complete data availability statement that includes:</p>
+<ul class="simple">
+<li><p>Where the data is/will be stored</p></li>
+<li><p>How it can be accessed</p></li>
+<li><p>Any restrictions on access (and why)</p></li>
+<li><p>License information</p></li>
+<li><p>How to cite the data</p></li>
+<li><p>Version information</p></li>
+<li><p>DOI or persistent identifier</p></li>
+</ul>
+<p>Include this statement in a manuscript or research plan.</p>
+<p><strong>Activity 3.4: Define Authorship for Your Project</strong>
+For a current or planned research project:</p>
+<ul class="simple">
+<li><p>List all team members and their anticipated contributions</p></li>
+<li><p>Apply the ICMJE criteria to determine who should be authors</p></li>
+<li><p>Assign specific CRediT roles to each team member</p></li>
+<li><p>Create an authorship agreement document that team members can sign</p></li>
+<li><p>Plan how you will discuss authorship throughout the project (e.g., at regular meetings)</p></li>
+</ul>
+<p><strong>Activity 3.5: Conduct a Reproducibility Audit</strong>
+For your own research project:</p>
+<ul class="simple">
+<li><p>Create a checklist of reproducibility elements (data, code, documentation, etc.)</p></li>
+<li><p>Assess which elements are currently available</p></li>
+<li><p>Identify what’s missing</p></li>
+<li><p>Make an action plan to fill gaps before publication</p></li>
+<li><p>Estimate the time needed for each action</p></li>
+<li><p>Commit to completing at least one item this month</p></li>
+</ul>
+</div>
+</section>
+<section id="lesson-4-sharing-open-results">
+<h3>Lesson 4: Sharing Open Results<a class="headerlink" href="#lesson-4-sharing-open-results" title="Permalink to this heading">#</a></h3>
+<section id="id8">
+<h4>Overview<a class="headerlink" href="#id8" title="Permalink to this heading">#</a></h4>
+<p>In this lesson we will place emphasis on publishing manuscripts as open access. You will learn what subtleties to consider when determining what journal to publish in, including how to make sense of a journal’s policies on self-archiving. Finally, we discuss some commonly held concerns about sharing open access publications, and how to overcome them. Ultimately, we want to ensure that you have confidence in your decision to publish as open access.</p>
+</section>
+<section id="open-access-publishing-models">
+<h4>4.1 Open Access Publishing Models<a class="headerlink" href="#open-access-publishing-models" title="Permalink to this heading">#</a></h4>
+<p><strong>What Is Open Access?</strong></p>
+<p>Open access (OA) means research is freely available online for anyone to read, download, and reuse without payment or subscription barriers.</p>
+<p><strong>Why Open Access Matters:</strong></p>
+<ul class="simple">
+<li><p><strong>Maximizes Impact:</strong> More readers = more citations</p></li>
+<li><p><strong>Public Benefit:</strong> Taxpayers can access funded research</p></li>
+<li><p><strong>Global Equity:</strong> Researchers in low-income countries access research</p></li>
+<li><p><strong>Speed:</strong> Findings available immediately, not after embargoes</p></li>
+<li><p><strong>Discoverability:</strong> Higher visibility in search engines and repositories</p></li>
+<li><p><strong>Compliance:</strong> Many funders now require OA</p></li>
+</ul>
+<p><strong>Open Access Models:</strong></p>
+<p><strong>1. Gold Open Access (Publisher OA)</strong></p>
+<p><strong>Advantages:</strong></p>
+<ul class="simple">
+<li><p>Published immediately open</p></li>
+<li><p>Professionally formatted and copyedited</p></li>
+<li><p>Appears in journal with full prestige</p></li>
+<li><p>Citable with journal name</p></li>
+<li><p>Clear version of record</p></li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul class="simple">
+<li><p>Author Pays model: <span class="math notranslate nohighlight">\(1,000-\)</span>5,000+ per article</p></li>
+<li><p>Impacts of excessive fees on authors without funding</p></li>
+<li><p>Not all journals offer</p></li>
+</ul>
+<p><strong>Examples:</strong> PLOS, Frontiers, eLife, Nature Communications</p>
+<p><strong>2. Green Open Access (Repository OA)</strong></p>
+<p><strong>Advantages:</strong></p>
+<ul class="simple">
+<li><p>Free to author and reader</p></li>
+<li><p>Can self-archive peer-reviewed articles</p></li>
+<li><p>Publicly available regardless of subscription</p></li>
+<li><p>No fees required</p></li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul class="simple">
+<li><p>Embargo periods (6-24 months before can post)</p></li>
+<li><p>Often only postprint available, not final PDF</p></li>
+<li><p>Requires author initiative to archive</p></li>
+<li><p>Visibility lower than gold OA</p></li>
+</ul>
+<p><strong>How it works:</strong></p>
+<ol class="arabic simple">
+<li><p>Publish in traditional journal (author or institution pays)</p></li>
+<li><p>After embargo period, deposit copy in:</p>
+<ul class="simple">
+<li><p>Institutional repository</p></li>
+<li><p>Discipline-specific repository (PubMed Central, ArXiv, etc.)</p></li>
+<li><p>Preprint servers</p></li>
+<li><p>Personal website (if rights allow)</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>3. Hybrid Open Access</strong></p>
+<p><strong>Concept:</strong>
+Journal still has subscription model, but individual articles can be OA for a fee</p>
+<p><strong>Advantages:</strong></p>
+<ul class="simple">
+<li><p>OA available immediately</p></li>
+<li><p>Author can choose per article</p></li>
+<li><p>Subscriber access included</p></li>
+<li><p>Less expensive than full gold OA</p></li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul class="simple">
+<li><p>Still requires author fees</p></li>
+<li><p>Double-dipping criticism (subscribers + author fees)</p></li>
+<li><p>Confusing licensing status</p></li>
+</ul>
+<p><strong>Examples:</strong> Wiley journals, Springer, Elsevier</p>
+<p><strong>4. Preprint Model</strong></p>
+<p><strong>Concept:</strong>
+Share work before, during, or without peer review</p>
+<p><strong>Advantages:</strong></p>
+<ul class="simple">
+<li><p>Immediate sharing</p></li>
+<li><p>Establishes precedence</p></li>
+<li><p>Rapid feedback</p></li>
+<li><p>Can eventually be published</p></li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul class="simple">
+<li><p>Not peer-reviewed (initially)</p></li>
+<li><p>Some journals don’t accept preprinted work</p></li>
+<li><p>Needs clear labeling</p></li>
+</ul>
+<p><strong>Examples:</strong> ArXiv, bioRxiv, medRxiv, OSF Preprints</p>
+<p><strong>5. Diamond (Platinum) Open Access</strong></p>
+<p><strong>Concept:</strong>
+Free for authors and readers, supported by institutions/funding</p>
+<p><strong>Advantages:</strong></p>
+<ul class="simple">
+<li><p>No author fees</p></li>
+<li><p>No reader fees</p></li>
+<li><p>True open access</p></li>
+<li><p>Sustainable funding model</p></li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul class="simple">
+<li><p>Fewer journals available</p></li>
+<li><p>May have lower impact factors</p></li>
+<li><p>Limited resources for support</p></li>
+</ul>
+<p><strong>Examples:</strong> European journals often diamond OA, some society journals</p>
+</section>
+<section id="evaluating-and-selecting-journals">
+<h4>4.2 Evaluating and Selecting Journals<a class="headerlink" href="#evaluating-and-selecting-journals" title="Permalink to this heading">#</a></h4>
+<p><strong>Factors to Consider Beyond Impact Factor:</strong></p>
+<p><strong>1. Open Access Status</strong></p>
+<p><strong>Check:</strong></p>
+<ul class="simple">
+<li><p>Is it fully OA, hybrid, or subscription-only?</p></li>
+<li><p>Author pay or free?</p></li>
+<li><p>What licenses are used?</p></li>
+<li><p>Green OA policies (can you self-archive)?</p></li>
+</ul>
+<p><strong>Resources:</strong></p>
+<ul class="simple">
+<li><p><strong>Directory of Open Access Journals (DOAJ):</strong> <a class="reference external" href="http://doaj.org">doaj.org</a></p></li>
+<li><p><strong>Journal Checker Tool:</strong> <a class="reference external" href="http://journalcheckertool.org">journalcheckertool.org</a></p></li>
+<li><p><strong>Open Access Button:</strong> <a class="reference external" href="http://openaccessbutton.org">openaccessbutton.org</a></p></li>
+<li><p><strong>Sherpa/RoMEO:</strong> <a class="reference external" href="http://sherpa.ac.uk/romeo">sherpa.ac.uk/romeo</a> (self-archiving policies)</p></li>
+</ul>
+<p><strong>2. Audience and Scope</strong></p>
+<ul class="simple">
+<li><p>Does journal publish in my field?</p></li>
+<li><p>Who are typical readers?</p></li>
+<li><p>Is this the right venue for my work?</p></li>
+<li><p>Will it reach intended audience?</p></li>
+</ul>
+<p><strong>3. Review Process</strong></p>
+<ul class="simple">
+<li><p>Traditional or open peer review?</p></li>
+<li><p>How long is review typically (months?)?</p></li>
+<li><p>Single or multiple reviewers?</p></li>
+<li><p>What is desk rejection rate?</p></li>
+<li><p>Are conflicts of interest managed?</p></li>
+</ul>
+<p><strong>4. Journal Quality Indicators</strong></p>
+<p><strong>✅ Good Signs:</strong></p>
+<ul class="simple">
+<li><p>Publishes open science (open data statements required)</p></li>
+<li><p>Rapid publication timeline</p></li>
+<li><p>Transparent editorial practices</p></li>
+<li><p>Disclosures and corrections published</p></li>
+<li><p>Engaged editorial board</p></li>
+</ul>
+<p><strong>⚠️ Warning Signs:</strong></p>
+<ul class="simple">
+<li><p>Excessive impact factor claims</p></li>
+<li><p>No clear review process</p></li>
+<li><p>Limited editorial transparency</p></li>
+<li><p>Predatory publishing indicators</p></li>
+<li><p>No conflict of interest policies</p></li>
+</ul>
+<p><strong>5. Predatory Journal Detection</strong></p>
+<p><strong>Warning Signs:</strong></p>
+<ul class="simple">
+<li><p>❌ Unsolicited submissions requests</p></li>
+<li><p>❌ No clear peer review</p></li>
+<li><p>❌ Inflated impact metrics</p></li>
+<li><p>❌ Hidden fees</p></li>
+<li><p>❌ Generic scope (publishes everything)</p></li>
+<li><p>❌ No plagiarism checking</p></li>
+<li><p>❌ Email with many misspellings</p></li>
+<li><p>❌ Named editors who deny involvement</p></li>
+</ul>
+<p><strong>Resources:</strong></p>
+<ul class="simple">
+<li><p><strong>Predatory Journal Check:</strong> <a class="reference external" href="http://predatoryjournals.com">predatoryjournals.com</a> (use with caution)</p></li>
+<li><p><strong>DOAJ Directory:</strong> if listed, more likely legitimate</p></li>
+<li><p><strong>Ask librarian:</strong> institutional librarians can help evaluate</p></li>
+</ul>
+<p><strong>6. Practical Considerations</strong></p>
+<p><strong>Cost:</strong></p>
+<ul class="simple">
+<li><p>Can your institution/grant cover author fees?</p></li>
+<li><p>Are there waivers for low-income countries?</p></li>
+<li><p>Is there a green OA option (free)?</p></li>
+</ul>
+<p><strong>Timeline:</strong></p>
+<ul class="simple">
+<li><p>How long is the review process?</p></li>
+<li><p>When do you need results published?</p></li>
+<li><p>Is preprint an option?</p></li>
+</ul>
+<p><strong>Impact:</strong></p>
+<ul class="simple">
+<li><p>Who reads this journal?</p></li>
+<li><p>How many citations do similar papers get?</p></li>
+<li><p>Will this advance my career?</p></li>
+</ul>
+</section>
+<section id="open-access-policies-and-self-archiving">
+<h4>4.3 Open Access Policies and Self-Archiving<a class="headerlink" href="#open-access-policies-and-self-archiving" title="Permalink to this heading">#</a></h4>
+<p><strong>Understanding Self-Archiving Rights:</strong></p>
+<p><strong>What Is Self-Archiving?</strong></p>
+<p>Posting a copy of your published paper in a public repository, after the publisher’s embargo period</p>
+<p><strong>When Can You Archive?</strong></p>
+<p><strong>Immediately (No Embargo):</strong></p>
+<ul class="simple">
+<li><p>✅ Your preprints (always)</p></li>
+<li><p>✅ Gold OA journals (upon publication)</p></li>
+<li><p>✅ Green OA journals that allow (check Sherpa/RoMEO)</p></li>
+</ul>
+<p><strong>After Embargo Period:</strong></p>
+<ul class="simple">
+<li><p>Most subscription journals allow 6-24 months after publication</p></li>
+<li><p>Check journal policy specifically</p></li>
+</ul>
+<p><strong>Never (Rights Retained by Publisher):</strong></p>
+<ul class="simple">
+<li><p>❌ Some closed-access journals forbid</p></li>
+<li><p>❌ Always check before archiving</p></li>
+</ul>
+<p><strong>Where to Archive:</strong></p>
+<p><strong>1. Institutional Repository</strong></p>
+<ul class="simple">
+<li><p>University website</p></li>
+<li><p>Often free</p></li>
+<li><p>Visible to institution</p></li>
+<li><p>May be harvested to broader archives</p></li>
+</ul>
+<p><strong>2. Discipline-Specific Repository</strong></p>
+<ul class="simple">
+<li><p>PubMed Central (biomedical)</p></li>
+<li><p>ArXiv (physics, math, CS)</p></li>
+<li><p>PsyArXiv (psychology)</p></li>
+<li><p>Zenodo (multidisciplinary)</p></li>
+</ul>
+<p><strong>3. Preprint Servers</strong></p>
+<ul class="simple">
+<li><p>bioRxiv, medRxiv, etc.</p></li>
+<li><p>Can post any time (before, during, after peer review)</p></li>
+</ul>
+<p><strong>4. Personal/Lab Website</strong></p>
+<ul class="simple">
+<li><p>Some journals allow</p></li>
+<li><p>Check publisher policy first</p></li>
+<li><p>Less discoverable than repositories</p></li>
+</ul>
+<p><strong>Finding Your Journal’s Policy:</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Sherpa/RoMEO:</strong> <a class="reference external" href="http://sherpa.ac.uk/romeo">sherpa.ac.uk/romeo</a></p>
+<ul class="simple">
+<li><p>Search journal name</p></li>
+<li><p>Shows archiving permissions</p></li>
+<li><p>Lists allowed versions (preprint, postprint, PDF)</p></li>
+</ul>
+</li>
+<li><p><strong>Journal Website:</strong></p>
+<ul class="simple">
+<li><p>Look for author rights/copyright policy</p></li>
+<li><p>Check FAQ section</p></li>
+<li><p>Contact <a class="reference external" href="mailto:copyright&#37;&#52;&#48;journalname&#46;com">copyright<span>&#64;</span>journalname<span>&#46;</span>com</a></p></li>
+</ul>
+</li>
+<li><p><strong>Ask Your Librarian:</strong></p>
+<ul class="simple">
+<li><p>They know journal policies</p></li>
+<li><p>Can help understand restrictions</p></li>
+</ul>
+</li>
+</ol>
+<p><strong>Example Policy:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Publisher</span><span class="p">:</span> <span class="n">Wiley</span>
+<span class="n">Journal</span><span class="p">:</span> <span class="n">Journal</span> <span class="n">of</span> <span class="n">Ecology</span>
+
+<span class="n">Archiving</span> <span class="n">Policy</span> <span class="p">(</span><span class="n">Sherpa</span><span class="o">/</span><span class="n">RoMEO</span><span class="p">):</span> <span class="n">GREEN</span>
+<span class="o">-</span> <span class="n">Can</span> <span class="n">archive</span> <span class="n">preprint</span><span class="p">:</span> <span class="n">Yes</span>
+<span class="o">-</span> <span class="n">Embargo</span><span class="p">:</span> <span class="mi">12</span> <span class="n">months</span>
+<span class="o">-</span> <span class="n">Can</span> <span class="n">archive</span> <span class="n">postprint</span><span class="p">:</span> <span class="n">Yes</span> <span class="p">(</span><span class="n">accepted</span> <span class="n">manuscript</span><span class="p">)</span>
+<span class="o">-</span> <span class="n">Embargo</span><span class="p">:</span> <span class="mi">12</span> <span class="n">months</span>
+<span class="o">-</span> <span class="n">Can</span> <span class="n">archive</span> <span class="n">publisher</span><span class="s1">&#39;s PDF: No</span>
+
+<span class="n">Meaning</span><span class="p">:</span> <span class="n">Can</span> <span class="n">post</span> <span class="n">your</span> <span class="n">preprint</span> <span class="n">immediately</span> <span class="ow">and</span> <span class="n">accepted</span> <span class="n">manuscript</span> 
+<span class="n">after</span> <span class="mi">12</span> <span class="n">months</span><span class="p">,</span> <span class="n">but</span> <span class="ow">not</span> <span class="n">final</span> <span class="n">publisher</span><span class="s1">&#39;s PDF.</span>
+</pre></div>
+</div>
+</section>
+<section id="concerns-about-open-access-and-rebuttals">
+<h4>4.4 Concerns About Open Access and Rebuttals<a class="headerlink" href="#concerns-about-open-access-and-rebuttals" title="Permalink to this heading">#</a></h4>
+<p><strong>“Publishing OA hurts my reputation”</strong> is largely a myth. Evidence overwhelmingly shows that open access papers receive more citations, the top journals increasingly offer open access options, major funding agencies now mandate open access, and open access is no longer perceived as a lower-quality publication model. The key insight is that quality depends on the journal’s rigor and peer review processes, not its access model—many prestigious journals including eLife, PLOS, and Nature Communications are open access, proving that open access is compatible with scientific excellence.</p>
+<p><strong>“OA journals are too expensive”</strong> reflects a real concern, but many solutions exist to make open access affordable. Researchers can use green open access, which is free; publish in diamond open access journals that charge no fees; request fee waivers from publishers (which are commonly granted); use their institution’s open access fund; negotiate fees with publishers; or publish preprints first as an immediate open access option. The cost barrier, while real in some cases, is not as insurmountable as it once seemed.</p>
+<p><strong>“OA journals have lower impact and quality”</strong> is contradicted by clear evidence. PLOS ONE is highly cited, eLife publishes prestigious research, Nature Communications has high impact factors, and journal impact depends on editorial rigor and peer review quality, not access model. The reality is that quality varies both within open access journals and within closed access journals—a journal’s access model is independent of its scientific quality. Evaluating journals should focus on their editorial processes and reputation, not whether they charge subscription fees.</p>
+<p><strong>“Preprints are not citable”</strong> is increasingly untrue. ArXiv citations have long been respected in physics and mathematics, BioRxiv citations are growing rapidly, many journals now explicitly allow preprint citations, and preprints receive Digital Object Identifiers (DOIs) that make them permanently citable. The best practice is to cite preprints when appropriate while noting “preprint” in the citation, making the publication status clear to readers.</p>
+<p><strong>“Sharing before publication risks being scooped”</strong> is a concern with minimal actual risk when proper dating mechanisms are in place. Preprints establish a timestamped record of your work, preventing others from claiming priority; they clearly establish precedence in the research community; they build community awareness of your work; and increasingly, journals welcome and encourage preprints. The best practice is to post a preprint or submit your paper quickly to establish priority, which actually strengthens your position rather than weakens it.</p>
+<p><strong>“Who will curate and preserve OA publications?”</strong> addresses legitimate concerns about long-term access, but multiple robust systems already ensure preservation. CLOCKSS and LOCKSS provide global digital preservation through distributed archives; Portico is a specialized journal preservation service; the Internet Archive maintains the Wayback Machine; institutional repositories preserve content locally; and discipline-specific repositories (like ArXiv and PubMed Central) ensure that research remains accessible even if a publisher fails. These complementary preservation services mean that open access publications are actually more permanently accessible than closed access publications, which can disappear if a publisher goes out of business or decides to remove content.</p>
+</section>
+<section id="open-access-best-practices">
+<h4>4.5 Open Access Best Practices<a class="headerlink" href="#open-access-best-practices" title="Permalink to this heading">#</a></h4>
+<p><strong>Strategy for OA Publication:</strong></p>
+<p><strong>Immediate OA:</strong></p>
+<p>If you have funding:</p>
+<ol class="arabic simple">
+<li><p>Publish in gold OA journal</p></li>
+<li><p>Use hybrid option in subscription journal</p></li>
+<li><p>Share immediately on preprint server</p></li>
+</ol>
+<p><strong>Delayed OA:</strong></p>
+<p>If no funding:</p>
+<ol class="arabic simple">
+<li><p>Publish in subscription journal</p></li>
+<li><p>Post preprint on bioRxiv/ArXiv immediately</p></li>
+<li><p>Self-archive accepted manuscript in institutional repository after embargo</p></li>
+<li><p>Share on personal/lab website</p></li>
+</ol>
+<p><strong>Combination Strategy:</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gh"># Publication Timeline Strategy</span>
+
+<span class="gs">**Day 0:**</span> Submit paper
+<span class="k">-</span><span class="w"> </span>Make preprint available (bioRxiv)
+<span class="k">-</span><span class="w"> </span>Share on lab website
+
+<span class="gs">**Month 3:**</span> Under review
+<span class="k">-</span><span class="w"> </span>Announce manuscript on social media
+<span class="k">-</span><span class="w"> </span>Discuss with colleagues
+<span class="k">-</span><span class="w"> </span>Get feedback
+
+<span class="gs">**Month 6:**</span> Accepted
+<span class="k">-</span><span class="w"> </span>Ensure all data/code publicly available
+<span class="k">-</span><span class="w"> </span>Include data availability statement
+<span class="k">-</span><span class="w"> </span>Coordinate with journal
+
+<span class="gs">**Month 7:**</span> Published
+<span class="k">-</span><span class="w"> </span>If subscription journal:
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Post accepted manuscript in institutional repository (after embargo)
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Share on personal website
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Alert everyone to preprint version
+<span class="k">-</span><span class="w"> </span>If OA journal:
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Celebrate open publication
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Share widely
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Track downloads/citations
+
+<span class="gs">**Months 8-12:**</span> Post-publication
+<span class="k">-</span><span class="w"> </span>Respond to comments
+<span class="k">-</span><span class="w"> </span>Share additional analyses
+<span class="k">-</span><span class="w"> </span>Support replication efforts
+</pre></div>
+</div>
+<p><strong>Making Your Work Discoverable:</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Ensure Full Accessibility:</strong></p>
+<ul class="simple">
+<li><p>Post PDFs where possible</p></li>
+<li><p>Use common formats</p></li>
+<li><p>Avoid paywalls</p></li>
+</ul>
+</li>
+<li><p><strong>Include Rich Metadata:</strong></p>
+<ul class="simple">
+<li><p>Full abstract</p></li>
+<li><p>Keywords</p></li>
+<li><p>Author names (multiple formats)</p></li>
+<li><p>Funding information</p></li>
+<li><p>DOI</p></li>
+</ul>
+</li>
+<li><p><strong>Make It Findable:</strong></p>
+<ul class="simple">
+<li><p>Register with Google Scholar</p></li>
+<li><p>Share on ResearchGate, <a class="reference external" href="http://Academia.edu">Academia.edu</a></p></li>
+<li><p>Announce on social media</p></li>
+<li><p>Link from institutional pages</p></li>
+<li><p>Include in CV</p></li>
+</ul>
+</li>
+<li><p><strong>Support Reuse:</strong></p>
+<ul class="simple">
+<li><p>Use explicit license (CC BY, CC0)</p></li>
+<li><p>Encourage sharing</p></li>
+<li><p>Enable machine reading</p></li>
+<li><p>Support data reuse</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="id9">
+<h4>Summary<a class="headerlink" href="#id9" title="Permalink to this heading">#</a></h4>
+<p>Sharing open results via open access publications ensures:</p>
+<ol class="arabic simple">
+<li><p><strong>Immediate Access:</strong> No paywalls limiting readership</p></li>
+<li><p><strong>Maximum Impact:</strong> Higher citations and visibility</p></li>
+<li><p><strong>Equitable Access:</strong> Researchers worldwide can read</p></li>
+<li><p><strong>Compliance:</strong> Meeting funder requirements</p></li>
+<li><p><strong>Career Benefit:</strong> Open work has more impact</p></li>
+</ol>
+<p>Multiple pathways to OA exist; choose the best option for your situation.</p>
+</section>
+</section>
+<section id="lesson-5-from-theory-to-practice">
+<h3>Lesson 5: From Theory to Practice<a class="headerlink" href="#lesson-5-from-theory-to-practice" title="Permalink to this heading">#</a></h3>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 4</p>
+<p>Complete at least two of the following activities to practice sharing open results:</p>
+<p><strong>Activity 4.1: Evaluate Journals for Open Access Options</strong>
+For your field, identify 5-10 journals where you might publish:</p>
+<ul class="simple">
+<li><p>Check each journal’s open access options using DOAJ, Journal Checker Tool, or Sherpa/RoMEO</p></li>
+<li><p>Create a comparison table showing:</p>
+<ul>
+<li><p>Journal name and field</p></li>
+<li><p>Open access options (gold, hybrid, green)</p></li>
+<li><p>Author fees (if applicable)</p></li>
+<li><p>Self-archiving policies and embargo periods</p></li>
+<li><p>Quality indicators (peer review process, impact metrics, editorial transparency)</p></li>
+</ul>
+</li>
+<li><p>Identify your top 3 choices and explain your reasoning</p></li>
+<li><p>Calculate the cost of publishing gold OA in each and explore fee waiver options</p></li>
+</ul>
+<p><strong>Activity 4.2: Create a Publication Strategy Timeline</strong>
+For a current or planned research project, develop a detailed publication strategy:</p>
+<ul class="simple">
+<li><p>Identify target journals (primary and alternatives)</p></li>
+<li><p>Estimate timeline for each stage (data collection, analysis, writing, submission, review, publication)</p></li>
+<li><p>Decide on preprint strategy (when and where to post)</p></li>
+<li><p>Plan data and code release (concurrent with publication? After embargo?)</p></li>
+<li><p>Outline your communication strategy (press release, social media, blog, etc.)</p></li>
+<li><p>Include contingencies for rejection and revision</p></li>
+</ul>
+<p><strong>Activity 4.3: Self-Archive a Paper</strong>
+If you have a published paper, practice self-archiving it:</p>
+<ul class="simple">
+<li><p>Check the journal’s policy using Sherpa/RoMEO</p></li>
+<li><p>If allowed, deposit a copy in:</p>
+<ul>
+<li><p>Your institutional repository</p></li>
+<li><p>A discipline-specific repository (PubMed Central, ArXiv, etc.)</p></li>
+<li><p>Zenodo or similar service</p></li>
+</ul>
+</li>
+<li><p>Add proper metadata and DOIs</p></li>
+<li><p>Verify that the paper is now accessible through multiple channels</p></li>
+<li><p>Reflect on how increasing access changes visibility of your work</p></li>
+</ul>
+<p><strong>Activity 4.4: Write an Open Access Justification</strong>
+Prepare an argument for your advisor or institution about why publishing open access matters for your research:</p>
+<ul class="simple">
+<li><p>Gather evidence on OA citation impact</p></li>
+<li><p>Calculate the long-term costs vs. benefits of OA vs. subscription publishing</p></li>
+<li><p>Address specific concerns in your field about OA</p></li>
+<li><p>Propose how to fund OA publications (institutional support, grants, etc.)</p></li>
+<li><p>Write a 500-word position paper you could share with decision-makers</p></li>
+</ul>
+<p><strong>Activity 4.5: Design a Communication Strategy for Your Results</strong>
+Develop a comprehensive communication plan for sharing your results:</p>
+<ul class="simple">
+<li><p>Who is your audience? (scientists, policymakers, public, practitioners, etc.)</p></li>
+<li><p>What are the key messages for each audience?</p></li>
+<li><p>What formats will you use? (manuscript, preprint, blog, video, infographic, social media, press release)</p></li>
+<li><p>What timeline works for each format?</p></li>
+<li><p>How will you measure success/impact?</p></li>
+<li><p>Create mockups or draft text for at least 3 different formats</p></li>
+</ul>
+</div>
+</section>
+<section id="id10">
+<h3>Lesson 5: From Theory to Practice<a class="headerlink" href="#id10" title="Permalink to this heading">#</a></h3>
+<section id="id11">
+<h4>Overview<a class="headerlink" href="#id11" title="Permalink to this heading">#</a></h4>
+<p>In this lesson, we tie the concepts from previous lessons together with some specific guidance for writing the Sharing Results section of an Open Science and Data Management Plans (OSDMP). We will also reflect on how our society and technology constantly evolve, as does the way we do and share science. A new technology with the potential to radically alter the way we do and share science is artificial intelligence (AI), particularly when it comes to large language models. These AI tools are already changing how we interact with written text. In this lesson, we discuss some of the ways that AI is and will affect how we do and share our science.</p>
+</section>
+<section id="writing-the-sharing-results-section-of-an-osdmp">
+<h4>5.1 Writing the Sharing Results Section of an OSDMP<a class="headerlink" href="#writing-the-sharing-results-section-of-an-osdmp" title="Permalink to this heading">#</a></h4>
+<p><strong>What Is an OSDMP?</strong></p>
+<p>An Open Science and Data Management Plan (OSDMP) integrates:</p>
+<ul class="simple">
+<li><p>Data management planning</p></li>
+<li><p>Software/code planning</p></li>
+<li><p>Results sharing planning
+Into one cohesive document</p></li>
+</ul>
+<p><strong>Why Write a Sharing Results Section?</strong></p>
+<ul class="simple">
+<li><p><strong>Funder Requirement:</strong> Most now require SMD guidance compliance</p></li>
+<li><p><strong>Planning Tool:</strong> Forces thinking through publication strategy</p></li>
+<li><p><strong>Communication:</strong> Aligns team on expectations</p></li>
+<li><p><strong>Documentation:</strong> Records decisions and rationale</p></li>
+<li><p><strong>Accountability:</strong> Demonstrates commitment to open science</p></li>
+</ul>
+</section>
+<section id="components-of-results-sharing-section">
+<h4>5.1.1 Components of Results Sharing Section<a class="headerlink" href="#components-of-results-sharing-section" title="Permalink to this heading">#</a></h4>
+<p><strong>1. Publication Strategy</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gu">## Publication Strategy</span>
+
+<span class="gu">### Target Journals</span>
+<span class="k">-</span><span class="w"> </span>Primary: Nature Climate Change, Global Change Biology
+<span class="k">-</span><span class="w"> </span>Alternative: Journal of Applied Ecology, Ecology Letters
+<span class="k">-</span><span class="w"> </span>Preprint: bioRxiv for rapid dissemination
+
+<span class="gu">### Publication Timeline</span>
+<span class="k">-</span><span class="w"> </span>Data collection + analysis: Months 1-24
+<span class="k">-</span><span class="w"> </span>Manuscript writing: Months 18-24
+<span class="k">-</span><span class="w"> </span>Submission: Month 24
+<span class="k">-</span><span class="w"> </span>Publication expected: Month 30
+
+<span class="gu">### Open Access Strategy</span>
+<span class="k">-</span><span class="w"> </span>Primary: Gold OA (Nature Communications if accepted)
+<span class="k">-</span><span class="w"> </span>Backup: Green OA to institutional repository after embargo
+<span class="k">-</span><span class="w"> </span>Preprint: Immediate posting to bioRxiv
+<span class="k">-</span><span class="w"> </span>License: CC BY 4.0 for all publicly shared versions
+
+<span class="gu">### Rationale</span>
+Nature Climate Change has highest impact in our field and offers OA 
+option. Alternative journals ensure publication even if rejected. 
+BioRxiv provides rapid community access to findings.
+</pre></div>
+</div>
+<p><strong>2. Manuscript and Supplementary Materials Plan</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gu">## Manuscript Preparation</span>
+
+<span class="gu">### Main Manuscript</span>
+<span class="k">-</span><span class="w"> </span>Title: &quot;Forest Biodiversity Shifts Under Climate Change (1980-2023)&quot;
+<span class="k">-</span><span class="w"> </span>Target length: 40-50 pages including figures
+<span class="k">-</span><span class="w"> </span>Main text: Methods, results, discussion (~30 pages)
+<span class="k">-</span><span class="w"> </span>Figures: 6 main figures, each carefully designed
+<span class="k">-</span><span class="w"> </span>Tables: 3 main summary tables
+
+<span class="gu">### Supplementary Materials</span>
+Supplementary Data:
+<span class="k">1.</span> Detailed site information (100 forest sites)
+<span class="k">2.</span> Species list with taxonomy validation
+<span class="k">3.</span> Temperature and precipitation data
+<span class="k">4.</span> Statistical model specifications
+<span class="k">5.</span> Sensitivity analysis results
+<span class="k">6.</span> Additional figures (15 supplementary figures)
+
+Supplementary Methods:
+<span class="k">1.</span> Detailed field sampling protocols (5 pages)
+<span class="k">2.</span> Species identification procedures (3 pages)
+<span class="k">3.</span> Statistical methodology (10 pages)
+<span class="k">4.</span> Data quality assessment (5 pages)
+
+Supplementary Code:
+<span class="k">1.</span> Data cleaning script (R)
+<span class="k">2.</span> Statistical analysis script (R)
+<span class="k">3.</span> Figure generation script (R)
+<span class="k">4.</span> README with instructions
+</pre></div>
+</div>
+<p><strong>3. Data Availability and Accessibility</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gu">## Data Sharing Plan</span>
+
+<span class="gu">### Dataset Description</span>
+<span class="k">-</span><span class="w"> </span>Raw species observations: 500,000 records from 100 sites
+<span class="k">-</span><span class="w"> </span>Temperature data: Daily from 1980-2023
+<span class="k">-</span><span class="w"> </span>Processed dataset: Analysis-ready format
+
+<span class="gu">### Timeline</span>
+<span class="k">-</span><span class="w"> </span>Raw data: Shared upon publication (to preserve priority)
+<span class="k">-</span><span class="w"> </span>Processed data: Published concurrently with manuscript
+<span class="k">-</span><span class="w"> </span>Derived data: Available immediately
+
+<span class="gu">### Repository Selection</span>
+<span class="k">-</span><span class="w"> </span>Primary: Dryad (for data with manuscript)
+<span class="k">-</span><span class="w"> </span>Secondary: Zenodo (long-term archival)
+<span class="k">-</span><span class="w"> </span>Institutional: University data repository
+
+<span class="gu">### Format and Documentation</span>
+<span class="k">-</span><span class="w"> </span>Format: CSV for tables, NetCDF for spatial/temporal data
+<span class="k">-</span><span class="w"> </span>Metadata: Comprehensive README files
+<span class="k">-</span><span class="w"> </span>Codebook: Complete variable dictionary
+<span class="k">-</span><span class="w"> </span>Quality info: Data quality flags documented
+<span class="k">-</span><span class="w"> </span>Licenses: CC0 (public domain) to maximize reuse
+
+<span class="gu">### Access Control</span>
+<span class="k">-</span><span class="w"> </span>All data publicly available (no restrictions)
+<span class="k">-</span><span class="w"> </span>No registration or approval required
+<span class="k">-</span><span class="w"> </span>DOIs assigned for citation
+</pre></div>
+</div>
+<p><strong>4. Code and Analysis Sharing</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gu">## Code and Analysis Sharing</span>
+
+<span class="gu">### Analysis Code</span>
+<span class="k">-</span><span class="w"> </span>Location: GitHub (github.com/example/forest-analysis)
+<span class="k">-</span><span class="w"> </span>Language: R (with accompanying Python scripts)
+<span class="k">-</span><span class="w"> </span>License: MIT License
+<span class="k">-</span><span class="w"> </span>Accessibility: Public, no registration needed
+
+<span class="gu">### Code Availability</span>
+<span class="k">-</span><span class="w"> </span>Concurrent with publication
+<span class="k">-</span><span class="w"> </span>Version control (Git) from beginning of analysis
+<span class="k">-</span><span class="w"> </span>Release: Tagged version matching submitted manuscript
+<span class="k">-</span><span class="w"> </span>DOI: Obtain via Zenodo GitHub integration
+
+<span class="gu">### Code Documentation</span>
+<span class="k">-</span><span class="w"> </span>README: Quick start guide
+<span class="k">-</span><span class="w"> </span>Comments: In-code explanation of key steps
+<span class="k">-</span><span class="w"> </span>Examples: Sample runs with test data
+<span class="k">-</span><span class="w"> </span>Requirements: Package list with versions
+
+<span class="gu">### Reproducibility</span>
+<span class="k">-</span><span class="w"> </span>Fully reproducible from raw data to figures
+<span class="k">-</span><span class="w"> </span>Docker container provided for exact environment
+<span class="k">-</span><span class="w"> </span>Test data included for verification
+<span class="k">-</span><span class="w"> </span>Random seed specified for stochastic procedures
+</pre></div>
+</div>
+<p><strong>5. Communication and Outreach</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gu">## Results Communication</span>
+
+<span class="gu">### Preprint Strategy</span>
+<span class="k">-</span><span class="w"> </span>Post to bioRxiv at journal submission
+<span class="k">-</span><span class="w"> </span>Include statement: &quot;This is a preprint and not yet peer-reviewed&quot;
+<span class="k">-</span><span class="w"> </span>Announce via social media
+<span class="k">-</span><span class="w"> </span>Share with relevant mailing lists
+
+<span class="gu">### Manuscript Discussion</span>
+<span class="k">-</span><span class="w"> </span>Open online platform for feedback
+<span class="k">-</span><span class="w"> </span>Respond to questions and critiques
+<span class="k">-</span><span class="w"> </span>Engage with broader community
+<span class="k">-</span><span class="w"> </span>Support replication efforts
+
+<span class="gu">### Broader Dissemination</span>
+<span class="k">-</span><span class="w"> </span>Press release through university
+<span class="k">-</span><span class="w"> </span>Blog post explaining key findings
+<span class="k">-</span><span class="w"> </span>Tweet thread summarizing main results
+<span class="k">-</span><span class="w"> </span>Conference presentations (3-4 meetings)
+<span class="k">-</span><span class="w"> </span>Public seminar/webinar
+
+<span class="gu">### Engagement with Stakeholders</span>
+<span class="k">-</span><span class="w"> </span>Forest managers: Direct discussion of implications
+<span class="k">-</span><span class="w"> </span>Policy makers: Brief for environmental policy
+<span class="k">-</span><span class="w"> </span>Public: Accessible summary for general audience
+<span class="k">-</span><span class="w"> </span>Colleagues: Detailed presentation and discussion
+</pre></div>
+</div>
+<p><strong>6. Authorship and Contributions</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gu">## Authorship and Contributions</span>
+
+<span class="gu">### Authorship Criteria</span>
+We follow ICMJE criteria. Authorship includes anyone who:
+<span class="k">1.</span> Makes substantial contributions to conception/design or 
+   data acquisition/analysis
+<span class="k">2.</span> Drafts or critically revises for intellectual content
+<span class="k">3.</span> Approves final version
+<span class="k">4.</span> Is accountable for the work
+
+<span class="gu">### Anticipated Authors</span>
+Primary authors:
+<span class="k">-</span><span class="w"> </span>Dr. Jane Smith (PI): Conception, design, funding, writing
+<span class="k">-</span><span class="w"> </span>Alice Johnson (Postdoc): Design, analysis, writing
+<span class="k">-</span><span class="w"> </span>Bob Brown (Grad student): Data collection, analysis, writing
+
+Contributor roles (CRediT):
+<span class="k">-</span><span class="w"> </span>Conceptualization: JS, AJ
+<span class="k">-</span><span class="w"> </span>Methodology: JS, AJ
+<span class="k">-</span><span class="w"> </span>Data curation: BB, CD
+<span class="k">-</span><span class="w"> </span>Analysis: AJ, BB
+<span class="k">-</span><span class="w"> </span>Writing: JS, AJ, BB
+<span class="k">-</span><span class="w"> </span>Funding: JS
+
+<span class="gu">### Acknowledgment</span>
+Contributors not meeting authorship criteria will be acknowledged for:
+<span class="k">-</span><span class="w"> </span>Statistical consultation
+<span class="k">-</span><span class="w"> </span>Facility access
+<span class="k">-</span><span class="w"> </span>Research assistance
+<span class="k">-</span><span class="w"> </span>Manuscript feedback
+</pre></div>
+</div>
+</section>
+<section id="impact-of-artificial-intelligence-on-open-science">
+<h4>5.2 Impact of Artificial Intelligence on Open Science<a class="headerlink" href="#impact-of-artificial-intelligence-on-open-science" title="Permalink to this heading">#</a></h4>
+<p><strong>The AI Revolution in Science:</strong></p>
+<p>Artificial Intelligence, particularly large language models (LLMs), is transforming how science is conducted and communicated.</p>
+</section>
+<section id="how-ai-is-changing-scientific-research">
+<h4>5.2.1 How AI Is Changing Scientific Research<a class="headerlink" href="#how-ai-is-changing-scientific-research" title="Permalink to this heading">#</a></h4>
+<p><strong>Literature Analysis and Synthesis:</strong> AI tools like ChatGPT and Claude can rapidly summarize papers, allowing researchers to conduct scoping reviews much faster than before, identify literature gaps, and extract themes and patterns across many studies. This capability has significant implications for open science: comprehensive literature reviews are now possible at unprecedented scale, creating greater demand for machine-readable abstracts and highlighting the value of open access papers for AI processing. The best practice is to verify AI-generated summaries against the original papers, disclose AI tool use in your methods section, use AI for synthesis and initial interpretation rather than as your final source, and always cite the original papers rather than relying on AI summaries alone.</p>
+<p><strong>Data Analysis and Visualization:</strong> AI can generate analysis code from plain language descriptions, create figures and visualizations, suggest appropriate statistical approaches, and identify patterns in large datasets. For example, describing your data to AI and requesting visualization code can instantly produce working R or Python code for exploratory analysis. This accelerates exploratory analyses and speeds up prototyping, but creates risks of inappropriate statistical methods if not carefully verified. The best practice is to verify all generated code before running it, genuinely understand the methods being suggested, include generated code in your analysis repository for transparency, disclose which AI tools were used, and always check whether results pass reasonableness tests before trusting them.</p>
+<p><strong>Manuscript Writing and Editing:</strong> AI can improve grammar and style, help outline and organize manuscripts, generate abstracts, enhance clarity of explanations, and translate content between languages. For instance, AI can transform vague descriptions of methods into precise, accurate statements that clearly convey what was done. While AI-assisted writing improves quality and speeds manuscript preparation, there are risks of losing the author’s unique voice, introducing subtle accuracy issues, and creating confusion about authorship. The best practice is to use AI for polishing and refinement rather than generation of novel content, maintain scientific accuracy throughout, disclose substantial AI use, verify all AI-assisted content personally, and understand your target journal’s guidelines regarding AI use.</p>
+<p><strong>Hypothesis Generation and Research Design:</strong> AI can suggest novel research questions by identifying gaps in the literature, help design experiments by proposing methodologies, and anticipate potential results. This opens exciting possibilities for novel research directions, but researchers must verify that AI suggestions aren’t duplicating existing work and ensure that suggested methods are appropriate for your research questions. The best practice is to use AI suggestions as inspiration rather than final truth, verify novelty through thorough literature review, consult with expert colleagues, and document where AI-assisted ideation contributed to your research design.</p>
+</section>
+<section id="risks-and-concerns-with-ai-in-research">
+<h4>5.2.2 Risks and Concerns with AI in Research<a class="headerlink" href="#risks-and-concerns-with-ai-in-research" title="Permalink to this heading">#</a></h4>
+<p><strong>Accuracy and Hallucinations:</strong> A fundamental concern with large language models is that they generate plausible-sounding but false information—a phenomenon called “hallucination.” AI tools commonly cite non-existent papers, describe methods differently than they were actually described, and even “invent” statistical results that sound credible but are entirely fabricated. This is why verification is critical: you must cross-check all citations, confirm facts against original sources, and never treat AI as an authority on critical information. The mitigation strategy is to use AI as an assistant that you actively verify rather than trusting its output automatically.</p>
+<p><strong>Authorship and Credit:</strong> Current guidance across most scientific journals is clear: AI cannot be listed as an author, but you must disclose all AI tool use, humans remain responsible for all content, and you should clearly declare the extent of AI assistance. For example, a disclosure might state: “ChatGPT was used to improve grammar and clarity of the final draft” or “Claude assisted with literature synthesis.” This transparency ensures that readers understand the role of AI and maintains human accountability for the scientific integrity of the work.</p>
+<p><strong>Bias in AI Models:</strong> AI systems are trained on existing data, which means they inherit and reproduce the biases present in their training data. This manifests in several ways: overrepresentation of English-language papers means non-English research is underutilized; overrepresentation of certain researchers and institutions skews whose work AI considers authoritative; biased summaries of controversial topics reflect historical biases in the literature; and AI may reinforce preferred methodologies that dominate the training data. The mitigation strategy is to be aware of these limitations, actively seek diverse perspectives beyond what AI recommends, fact-check summary statements, and supplement AI-assisted reviews with manual literature review to catch biases AI might miss.</p>
+<p><strong>Intellectual Property and Licensing:</strong> There is significant uncertainty about intellectual property rights when AI systems use copyrighted material. AI systems are often trained on all available papers including paywalled and proprietary content, raising questions about copyright compliance and fair use versus commercial use. The best practice is to use AI tools from reputable providers who can explain their data sources, carefully read and understand their licensing terms, verify their copyright compliance, and when possible favor using AI trained on open science data that raises fewer legal concerns.</p>
+<p><strong>Reproducibility and Transparency:</strong> AI-generated content presents unique reproducibility challenges. Different prompts to the same AI tool yield different outputs, results are non-deterministic (meaning you can’t guarantee the exact same output if you run it again), it’s often difficult to replicate the exact AI output a colleague obtained, and updating to newer versions of AI tools produces different results. These issues challenge the scientific principle of reproducibility. The mitigation strategy is to carefully document the exact prompts you used, include AI-generated content in supplementary materials, record the specific AI version and date you used it, and when possible, verify reproducibility independently without relying on AI to produce identical output again.</p>
+</section>
+<section id="opportunities-for-ai-in-open-science">
+<h4>5.2.3 Opportunities for AI in Open Science<a class="headerlink" href="#opportunities-for-ai-in-open-science" title="Permalink to this heading">#</a></h4>
+<p>AI already demonstrates concrete benefits for open science across multiple dimensions. Literature synthesis using AI tools is accelerating discovery by identifying patterns and connections across large datasets that would take months for humans to review manually. AI assists with accessibility by translating papers across languages and simplifying complex explanations, making research available to broader audiences including researchers in low-resource settings and non-native speakers. Code generation tools are enhancing reproducibility by automatically drafting analysis code, verifying statistical implementations, and checking methodology consistency—catching common errors that might otherwise survive peer review. These tools are actively lowering barriers to publication and providing statistical guidance to researchers who lack formal training in advanced methods. Collectively, these applications demonstrate that AI integration into open science workflows increases research velocity, broadens accessibility, improves quality, and supports equity by making advanced research capabilities available to researchers regardless of their resources or background.</p>
+</section>
+<section id="guidelines-for-responsible-ai-use-in-research">
+<h4>5.2.4 Guidelines for Responsible AI Use in Research<a class="headerlink" href="#guidelines-for-responsible-ai-use-in-research" title="Permalink to this heading">#</a></h4>
+<p><strong>General Principles:</strong></p>
+<ol class="arabic simple">
+<li><p><strong>Transparency</strong></p>
+<ul class="simple">
+<li><p>Disclose all AI tool use</p></li>
+<li><p>Document methods and extent of use</p></li>
+<li><p>Be honest about limitations</p></li>
+</ul>
+</li>
+<li><p><strong>Verification</strong></p>
+<ul class="simple">
+<li><p>Don’t trust AI output blindly</p></li>
+<li><p>Verify facts and methods</p></li>
+<li><p>Check citations</p></li>
+<li><p>Test code</p></li>
+</ul>
+</li>
+<li><p><strong>Accuracy</strong></p>
+<ul class="simple">
+<li><p>Ensure scientific accuracy</p></li>
+<li><p>Maintain rigorous standards</p></li>
+<li><p>Don’t compromise quality</p></li>
+</ul>
+</li>
+<li><p><strong>Accountability</strong></p>
+<ul class="simple">
+<li><p>Researchers remain responsible</p></li>
+<li><p>Can’t blame AI for errors</p></li>
+<li><p>Must understand all content</p></li>
+</ul>
+</li>
+<li><p><strong>Equity</strong></p>
+<ul class="simple">
+<li><p>Consider access disparities</p></li>
+<li><p>Ensure AI doesn’t widen gaps</p></li>
+<li><p>Support inclusive practices</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="implementation-roadmap-for-open-results">
+<h4>5.3 Implementation Roadmap for Open Results<a class="headerlink" href="#implementation-roadmap-for-open-results" title="Permalink to this heading">#</a></h4>
+<p><strong>For Your Next Research Project:</strong></p>
+<p><strong>Before Starting (Month -1):</strong></p>
+<ul class="simple">
+<li><p>Develop OSDMP with results sharing section</p></li>
+<li><p>Define publication targets</p></li>
+<li><p>Establish team communication norms</p></li>
+<li><p>Create contributor guidelines</p></li>
+<li><p>Plan preregistration (if applicable)</p></li>
+</ul>
+<p><strong>During Research (Months 1-24):</strong></p>
+<ul class="simple">
+<li><p>Document everything thoroughly</p></li>
+<li><p>Use version control for code</p></li>
+<li><p>Regular progress communication</p></li>
+<li><p>Share drafts with team</p></li>
+<li><p>Plan supplementary materials</p></li>
+</ul>
+<p><strong>Before Submission (Month 24):</strong></p>
+<ul class="simple">
+<li><p>Finalize data and code</p></li>
+<li><p>Write full reproducibility documentation</p></li>
+<li><p>Create supplementary materials</p></li>
+<li><p>Prepare data availability statement</p></li>
+<li><p>Select target journal</p></li>
+</ul>
+<p><strong>At Submission (Month 24):</strong></p>
+<ul class="simple">
+<li><p>Post preprint if possible</p></li>
+<li><p>Ensure data/code ready for sharing</p></li>
+<li><p>Obtain DOIs for manuscripts/data</p></li>
+<li><p>Include data availability statement</p></li>
+<li><p>Announce submission to team</p></li>
+</ul>
+<p><strong>Upon Acceptance (Month 30):</strong></p>
+<ul class="simple">
+<li><p>Publish data and code</p></li>
+<li><p>Share in repositories</p></li>
+<li><p>Announce publication widely</p></li>
+<li><p>Prepare for questions/feedback</p></li>
+<li><p>Update OSF/GitHub</p></li>
+</ul>
+<p><strong>Post-Publication (Ongoing):</strong></p>
+<ul class="simple">
+<li><p>Respond to questions</p></li>
+<li><p>Share supplementary analyses</p></li>
+<li><p>Support replication efforts</p></li>
+<li><p>Track citations</p></li>
+<li><p>Maintain repositories</p></li>
+</ul>
+</section>
+<section id="practical-examples">
+<h4>5.4 Practical Examples<a class="headerlink" href="#practical-examples" title="Permalink to this heading">#</a></h4>
+<p><strong>Complete OSDMP Results Section Example:</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gh"># Open Science and Data Management Plan: Forest Biodiversity Study</span>
+
+<span class="gu">## Results Sharing Plan</span>
+
+<span class="gu">### Publication Strategy</span>
+<span class="gs">**Target Journals:**</span> (in order of preference)
+<span class="k">1.</span> Nature Climate Change (OA option available)
+<span class="k">2.</span> Global Change Biology (Green OA policy)
+<span class="k">3.</span> Journal of Applied Ecology
+
+<span class="gs">**Preprint:**</span> bioRxiv at submission
+
+<span class="gs">**Timeline:**</span>
+<span class="k">-</span><span class="w"> </span>Data analysis completion: Month 20
+<span class="k">-</span><span class="w"> </span>Draft manuscript: Month 22
+<span class="k">-</span><span class="w"> </span>Team review: Month 23
+<span class="k">-</span><span class="w"> </span>Submission: Month 24
+<span class="k">-</span><span class="w"> </span>Expected publication: Month 30
+
+<span class="gu">### Manuscript Content</span>
+
+<span class="gs">**Main Manuscript:**</span>
+<span class="k">-</span><span class="w"> </span>Title: &quot;Divergent responses of forest biodiversity to climate change across latitudes, 1980-2023&quot;
+<span class="k">-</span><span class="w"> </span>Length: 40-50 pages
+<span class="k">-</span><span class="w"> </span>6 main figures
+<span class="k">-</span><span class="w"> </span>3 summary tables
+
+<span class="gs">**Supplementary Materials:**</span>
+<span class="k">-</span><span class="w"> </span>Extended methods (15 pages)
+<span class="k">-</span><span class="w"> </span>Additional figures (20 figures)
+<span class="k">-</span><span class="w"> </span>Sensitivity analyses
+<span class="k">-</span><span class="w"> </span>Species list with taxonomy
+
+<span class="gu">### Data Sharing</span>
+
+<span class="gs">**Datasets:**</span>
+<span class="k">1.</span> Raw observations (500,000 records)
+<span class="k">2.</span> Temperature and precipitation time series
+<span class="k">3.</span> Processed analysis dataset
+<span class="k">4.</span> Site metadata
+
+<span class="gs">**Repositories:**</span>
+<span class="k">-</span><span class="w"> </span>Primary: Dryad (linked with manuscript)
+<span class="k">-</span><span class="w"> </span>Secondary: Zenodo (long-term archival)
+<span class="k">-</span><span class="w"> </span>Institutional: University data repository
+
+<span class="gs">**Timeline:**</span> Concurrent with publication
+
+<span class="gs">**Format:**</span> CSV and NetCDF
+
+<span class="gs">**License:**</span> CC0 (public domain)
+
+<span class="gs">**DOI:**</span> Will be assigned by repository
+
+<span class="gu">### Code and Analysis</span>
+
+<span class="gs">**Repository:**</span> GitHub (github.com/smith/forest-biodiversity)
+
+<span class="gs">**Contents:**</span>
+<span class="k">-</span><span class="w"> </span>All analysis code (R and Python)
+<span class="k">-</span><span class="w"> </span>Data processing scripts
+<span class="k">-</span><span class="w"> </span>Figure generation code
+<span class="k">-</span><span class="w"> </span>Test data
+<span class="k">-</span><span class="w"> </span>Dockerfile for reproducibility
+
+<span class="gs">**License:**</span> MIT
+
+<span class="gs">**Documentation:**</span>
+<span class="k">-</span><span class="w"> </span>README with quick start
+<span class="k">-</span><span class="w"> </span>Inline code comments
+<span class="k">-</span><span class="w"> </span>Requirements file with package versions
+<span class="k">-</span><span class="w"> </span>Example analysis notebook
+
+<span class="gs">**Availability:**</span> Concurrent with publication
+
+<span class="gs">**DOI:**</span> Will be obtained via Zenodo integration
+
+<span class="gu">### Authorship and Contributions</span>
+
+<span class="gs">**Anticipated Authors:**</span>
+<span class="k">-</span><span class="w"> </span>Smith, J. (PI) - Conception, design, funding, analysis, writing
+<span class="k">-</span><span class="w"> </span>Johnson, A. (Postdoc) - Design, analysis, writing
+<span class="k">-</span><span class="w"> </span>Brown, B. (Graduate Student) - Data collection, analysis, writing
+<span class="k">-</span><span class="w"> </span>Davis, C. (Research Technician) - Acknowledgment for field assistance
+
+<span class="gs">**Authorship Criteria:**</span> ICMJE standards
+
+<span class="gs">**Contributions**</span> (CRediT):
+<span class="k">-</span><span class="w"> </span>Conceptualization: SJ, JA
+<span class="k">-</span><span class="w"> </span>Methodology: SJ, JA
+<span class="k">-</span><span class="w"> </span>Software: JA
+<span class="k">-</span><span class="w"> </span>Validation: JA, BB
+<span class="k">-</span><span class="w"> </span>Formal analysis: JA, BB
+<span class="k">-</span><span class="w"> </span>Investigation: SJ, JA, BB
+<span class="k">-</span><span class="w"> </span>Resources: SJ
+<span class="k">-</span><span class="w"> </span>Data curation: BB
+<span class="k">-</span><span class="w"> </span>Writing - original draft: SJ
+<span class="k">-</span><span class="w"> </span>Writing - review &amp; editing: SJ, JA, BB
+<span class="k">-</span><span class="w"> </span>Visualization: JA, BB
+<span class="k">-</span><span class="w"> </span>Supervision: SJ
+<span class="k">-</span><span class="w"> </span>Project administration: SJ
+<span class="k">-</span><span class="w"> </span>Funding acquisition: SJ
+
+<span class="gu">### Communication and Outreach</span>
+
+<span class="gs">**Preprint Strategy:**</span>
+<span class="k">-</span><span class="w"> </span>Post to bioRxiv with at-submission note
+<span class="k">-</span><span class="w"> </span>Share via Twitter and lab website
+<span class="k">-</span><span class="w"> </span>Announce via relevant mailing lists
+
+<span class="gs">**Post-Publication Communication:**</span>
+<span class="k">-</span><span class="w"> </span>Press release through university
+<span class="k">-</span><span class="w"> </span>Blog post explaining findings
+<span class="k">-</span><span class="w"> </span>Conference presentations (3-4 meetings)
+<span class="k">-</span><span class="w"> </span>Public webinar
+<span class="k">-</span><span class="w"> </span>Update to policy makers
+
+<span class="gu">### Data Management</span>
+
+<span class="gs">**Storage During Project:**</span>
+<span class="k">-</span><span class="w"> </span>Primary: Lab server with daily backup
+<span class="k">-</span><span class="w"> </span>Secondary: University secure storage
+<span class="k">-</span><span class="w"> </span>Cloud: Regularly synced to Box/Dropbox
+
+<span class="gs">**Data Quality Assurance:**</span>
+<span class="k">-</span><span class="w"> </span>Automated validation checks
+<span class="k">-</span><span class="w"> </span>Manual verification of 10% of data
+<span class="k">-</span><span class="w"> </span>Cross-checking with source datasets
+<span class="k">-</span><span class="w"> </span>Quality flags documented
+
+<span class="gs">**Access Control:**</span>
+<span class="k">-</span><span class="w"> </span>During research: Restricted to team
+<span class="k">-</span><span class="w"> </span>Public: Upon manuscript publication
+<span class="k">-</span><span class="w"> </span>No authentication required for published data
+
+<span class="gu">### Sustainability and Long-term Preservation</span>
+
+<span class="gs">**Maintenance Responsibility:**</span>
+<span class="k">-</span><span class="w"> </span>Years 1-3: PI and postdoc
+<span class="k">-</span><span class="w"> </span>Years 3+: Zenodo and institutional repository
+
+<span class="gs">**Archival:**</span>
+<span class="k">-</span><span class="w"> </span>Data archived on Zenodo and university repository
+<span class="k">-</span><span class="w"> </span>Code archived on Zenodo via GitHub integration
+<span class="k">-</span><span class="w"> </span>Published version maintained on journal website
+
+<span class="gs">**Retention Period:**</span>
+<span class="k">-</span><span class="w"> </span>Minimum 7 years (per funder requirement)
+<span class="k">-</span><span class="w"> </span>Expected: Indefinite (via repositories)
+
+<span class="gu">### Compliance and Ethics</span>
+
+<span class="gs">**Funder Requirements:**</span>
+<span class="k">-</span><span class="w"> </span>NSF SMD Data Management and Sharing Plan: Compliant
+<span class="k">-</span><span class="w"> </span>Open science: Plans for immediate dissemination
+<span class="k">-</span><span class="w"> </span>Data preservation: 7-year minimum
+
+<span class="gs">**Ethical Considerations:**</span>
+<span class="k">-</span><span class="w"> </span>No human subjects or sensitive data
+<span class="k">-</span><span class="w"> </span>No export control concerns
+<span class="k">-</span><span class="w"> </span>No conflicts of interest
+
+<span class="gu">### Budget</span>
+
+<span class="gs">**Data Management and Sharing Costs:**</span>
+<span class="k">-</span><span class="w"> </span>Repository fees: $0 (Zenodo free, Dryad covered by library)
+<span class="k">-</span><span class="w"> </span>Data curator time: Included in project
+<span class="k">-</span><span class="w"> </span>Total: No additional cost
+</pre></div>
+</div>
+</section>
+<section id="id12">
+<h4>Summary<a class="headerlink" href="#id12" title="Permalink to this heading">#</a></h4>
+<p>From theory to practice requires:</p>
+<ol class="arabic simple">
+<li><p><strong>Planning:</strong> Clear OSDMP section on results sharing</p></li>
+<li><p><strong>Awareness:</strong> Understanding AI’s role in modern research</p></li>
+<li><p><strong>Implementation:</strong> Following best practices for open results</p></li>
+<li><p><strong>Adaptation:</strong> Adjusting to evolving technologies</p></li>
+<li><p><strong>Commitment:</strong> Sustained effort to advance open science</p></li>
+</ol>
+<p>By putting these principles into practice, you contribute to a more transparent, reproducible, and impactful scientific enterprise that serves both the research community and society at large.</p>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 5</p>
+<p>Complete at least one of the following activities to integrate open results into your research practice:</p>
+<p><strong>Activity 5.1: Write Your Sharing Results OSDMP Section</strong>
+Following the template and guidance in section 5.1, write the Sharing Results section of an Open Science and Data Management Plan for a current or planned research project:</p>
+<ul class="simple">
+<li><p>Publication strategy (target journals, timeline, open access approach)</p></li>
+<li><p>Manuscript and supplementary materials plan</p></li>
+<li><p>Data availability and accessibility plan</p></li>
+<li><p>Code and analysis sharing plan</p></li>
+<li><p>Communication and outreach strategy</p></li>
+<li><p>Authorship and contribution framework</p></li>
+</ul>
+<p>Have your advisor or colleague review it and provide feedback.</p>
+<p><strong>Activity 5.2: Develop a Lab Open Science Policy</strong>
+Create a policy document for your research group that outlines standards for open results:</p>
+<ul class="simple">
+<li><p>Expectations for data sharing</p></li>
+<li><p>Code documentation and sharing requirements</p></li>
+<li><p>Default licenses for data and software</p></li>
+<li><p>Preprint practices</p></li>
+<li><p>Authorship decision-making process</p></li>
+<li><p>Collaboration agreements</p></li>
+<li><p>Timeline for sharing results (concurrent with publication vs. embargo)</p></li>
+</ul>
+<p>Present this to your lab and discuss how to implement it.</p>
+<p><strong>Activity 5.3: Evaluate AI Tools for Your Research</strong>
+Research how AI tools (ChatGPT, Claude, specialized scientific AI) could be used ethically in your research:</p>
+<ul class="simple">
+<li><p>Literature synthesis and analysis</p></li>
+<li><p>Code writing and debugging</p></li>
+<li><p>Figure generation and interpretation</p></li>
+<li><p>Manuscript writing and editing</p></li>
+<li><p>Data analysis and visualization</p></li>
+</ul>
+<p>Write a reflection (300-500 words) on:</p>
+<ul class="simple">
+<li><p>Which applications are most relevant to your work</p></li>
+<li><p>Potential benefits and risks</p></li>
+<li><p>Ethical considerations</p></li>
+<li><p>How you would disclose AI use in publications</p></li>
+<li><p>Your guidelines for responsible AI use in research</p></li>
+</ul>
+<p><strong>Activity 5.4: Create a Continuous Open Science Improvement Plan</strong>
+Develop a personal or lab action plan for advancing open science practices:</p>
+<ul class="simple">
+<li><p>Audit current practices against open results principles</p></li>
+<li><p>Identify top 3 priorities for improvement</p></li>
+<li><p>Create SMART goals for the next 6-12 months</p></li>
+<li><p>Identify resources and support needed</p></li>
+<li><p>Establish checkpoints for evaluation and adjustment</p></li>
+<li><p>Plan how to track progress and celebrate successes</p></li>
+</ul>
+<p>Share your plan with colleagues or mentors and ask for accountability.</p>
+<p><strong>Activity 5.5: Design an Open Science Training Program</strong>
+Create a brief training or workshop for your research community on open results:</p>
+<ul class="simple">
+<li><p>Who is your audience?</p></li>
+<li><p>What are the learning objectives?</p></li>
+<li><p>What topics will you cover? (Choose 3-5 from this module)</p></li>
+<li><p>What activities will you include?</p></li>
+<li><p>How will you assess learning?</p></li>
+<li><p>Create an outline or agenda for your training session</p></li>
+</ul>
+<p>Consider actually delivering it to your lab, department, or research group.</p>
+</div>
+</section>
+</section>
+</section>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="additional-resources">
+<h2>Additional Resources<a class="headerlink" href="#additional-resources" title="Permalink to this heading">#</a></h2>
+<p>In addition to the TOPS module training, the community resources below are excellent information sources about open science.</p>
+<ul class="simple">
+<li><p>Geoscience Paper of the Future from <a class="reference external" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015EA000136">https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015EA000136</a></p></li>
+<li><p>Symposium report, October 2015. Reproducibility and reliability of biomedical research: improving research practice [<a class="reference external" href="https://acmedsci.ac.uk/viewFile/56314e40aac61.pdf">PDF</a>].</p></li>
+<li><p>TOPS Guidelines, <a class="reference external" href="https://www.cos.io/initiatives/top-guidelines">https://www.cos.io/initiatives/top-guidelines</a></p></li>
+<li><p>The <a class="reference external" href="http://www.budapestopenaccessinitiative.org/read">Budapest Open Access</a> Agreement</p></li>
+<li><p>Open Science Framework, <a class="reference external" href="https://osf.io/">https://osf.io/</a></p></li>
+<li><p>“Researcher Degrees of Freedom” (<a class="reference external" href="https://doi.org/10/gc5sjn">Wicherts et al., 2016</a>).</p></li>
+<li><p>Björk (2017). Growth of hybrid open access, 2009–2016. PeerJ 5:e3878 <a class="reference external" href="https://doi.org/10.7717/peerj.3878">doi.org/10.7717/peerj.3878</a></p></li>
+<li><p>Piwowar H, Priem J, Larivière V, Alperin JP, Matthias L, Norlander B, Farley A, West J, Haustein S. (2018) The state of OA: a large-scale analysis of the prevalence and impact of Open Access articles. PeerJ 6:e4375 <a class="reference external" href="https://doi.org/10.7717/peerj.4375">https://doi.org/10.7717/peerj.4375</a></p></li>
+</ul>
+<hr class="footnotes docutils" />
+<aside class="footnote brackets" id="id13" role="note">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. <em>Nature</em>, 533(7604), 452-454. <a class="reference external" href="https://doi.org/10.1038/533452a">https://doi.org/10.1038/533452a</a></p>
+</aside>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./docs/Open-Science-101/modules"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="open_software_module.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Module 3 - Open Software</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="open_science_tools_module.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Module 5 - Open Science Tools</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-1-introduction-to-open-results">Lesson 1: Introduction to Open Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-open-results">1.1 What Are Open Results?</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#the-reproducibility-crisis-and-open-science">1.2 The Reproducibility Crisis and Open Science</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#case-study-open-results-in-action">1.3 Case Study: Open Results in Action</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-results-across-the-research-lifecycle">1.4 Open Results Across the Research Lifecycle</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-results-principles">1.5 Open Results Principles</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-2-using-open-results">Lesson 2: Using Open Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Overview</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#discovering-open-results">2.1 Discovering Open Results</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Lesson 2: Using Open Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#assessing-open-results-quality">2.2 Assessing Open Results Quality</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#reusing-open-results">2.3 Reusing Open Results</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#citing-open-results">2.4 Citing Open Results</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#providing-feedback-and-contributing">2.5 Providing Feedback and Contributing</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#collaboration-vs-citation">2.6 Collaboration vs. Citation</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-3-making-open-results">Lesson 3: Making Open Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Overview</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#computational-reproducibility">3.1 Computational Reproducibility</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#repository-structure">Repository Structure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#methods">Methods</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#results">Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#citation">Citation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collaboration-and-contribution-framework">3.2 Collaboration and Contribution Framework</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#contributor-roles-and-responsibilities">3.3 Contributor Roles and Responsibilities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#authorship-and-contribution-guidelines">3.4 Authorship and Contribution Guidelines</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-contributor-guidelines">3.5 Creating Contributor Guidelines</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ensuring-reproducible-manuscript-preparation">3.6 Ensuring Reproducible Manuscript Preparation</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Summary</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-4-sharing-open-results">Lesson 4: Sharing Open Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Overview</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-access-publishing-models">4.1 Open Access Publishing Models</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluating-and-selecting-journals">4.2 Evaluating and Selecting Journals</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-access-policies-and-self-archiving">4.3 Open Access Policies and Self-Archiving</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#concerns-about-open-access-and-rebuttals">4.4 Concerns About Open Access and Rebuttals</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#open-access-best-practices">4.5 Open Access Best Practices</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-5-from-theory-to-practice">Lesson 5: From Theory to Practice</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Lesson 5: From Theory to Practice</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Overview</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#writing-the-sharing-results-section-of-an-osdmp">5.1 Writing the Sharing Results Section of an OSDMP</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#components-of-results-sharing-section">5.1.1 Components of Results Sharing Section</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#impact-of-artificial-intelligence-on-open-science">5.2 Impact of Artificial Intelligence on Open Science</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#how-ai-is-changing-scientific-research">5.2.1 How AI Is Changing Scientific Research</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#risks-and-concerns-with-ai-in-research">5.2.2 Risks and Concerns with AI in Research</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities-for-ai-in-open-science">5.2.3 Opportunities for AI in Open Science</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#guidelines-for-responsible-ai-use-in-research">5.2.4 Guidelines for Responsible AI Use in Research</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#implementation-roadmap-for-open-results">5.3 Implementation Roadmap for Open Results</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-examples">5.4 Practical Examples</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Summary</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-resources">Additional Resources</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By NASA TOPS/VERSO
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

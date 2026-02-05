@@ -1,0 +1,680 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Contributing to Our GitHub &#8212; Open Science 101</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'CONTRIBUTING';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="TOPS Code of Conduct" href="CODE_OF_CONDUCT.html" />
+    <link rel="prev" title="Bibliography" href="docs/Open-Science-101/modules/bibliography.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="README.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/open_science_101_logo.png" class="logo__image only-light" alt="Open Science 101 - Home"/>
+    <script>document.write(`<img src="_static/open_science_101_logo.png" class="logo__image only-dark" alt="Open Science 101 - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="README.html">
+                    Open Science 101 Course
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="docs/Open-Science-101/modules/open_science_ethos_module.html">Module 1 - Open Science Ethos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docs/Open-Science-101/modules/open_data_module.html">Module 2 - Open Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docs/Open-Science-101/modules/open_software_module.html">Module 3 - Open Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docs/Open-Science-101/modules/open_results_module.html">Module 4 - Open Results</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docs/Open-Science-101/modules/open_science_tools_module.html">Module 5 - Open Science Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="docs/Open-Science-101/modules/bibliography.html">Bibliography &amp; Resources</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CODE_OF_CONDUCT.html">Code of Conduct</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/CONTRIBUTING.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Contributing to Our GitHub</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#we-want-your-help">We Want Your Help!</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code-of-conduct">Code of Conduct</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ways-to-contribute-to-the-github">Ways to Contribute to the GitHub</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#new-to-github-start-here">New to GitHub? Start here!</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#making-a-change">Making a Change</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#development-model">Development Model</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#labels-issues-pull-requests-and-discussions">Labels (Issues, Pull Requests, and Discussions)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-categories-discussions-only">Discussion Categories (Discussions Only)</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="contributing-to-our-github">
+<h1>Contributing to Our GitHub<a class="headerlink" href="#contributing-to-our-github" title="Permalink to this heading">#</a></h1>
+<p>This page is your one-stop shop for uncovering the many resources for open science that are on the GitHub! Read on to learn more about how to use our GitHub, how to engage with us, and identify resources to help you, your research team, and your organization get started with open science.</p>
+<p><a class="github reference external" href="https://github.com/VERSO-UVM/Open-Science-101">VERSO-UVM/Open-Science-101</a></p>
+<p>Before contributing, please read our <a class="reference internal" href="LICENSE.html"><span class="doc std std-doc">License</span></a> and our <a class="reference internal" href="CODE_OF_CONDUCT.html"><span class="doc std std-doc">Code of Conduct</span></a>. A summary of the code of conduct is also below.</p>
+<section id="we-want-your-help">
+<h2>We Want Your Help!<a class="headerlink" href="#we-want-your-help" title="Permalink to this heading">#</a></h2>
+<p>No, really, we do! Please come and participate in our community and help us transform to open science together!</p>
+<p>Depending on your level of interaction with us, visitors to the site can be described as:</p>
+<ul class="simple">
+<li><p>A <strong>community member</strong>: anyone in the open science community who visits the site, utilizes online tools, or attends an open science event event.</p></li>
+<li><p>A <strong>participant</strong>: anyone who posts a comment or poses a question in the <em>GitHub Discussion Space</em>, reports a site bug or requests a new resource in <em>GitHub Issues</em>, or attends an event and utilizes any virtual chat features during that event.</p></li>
+<li><p>A <strong>contributor</strong>: anyone who forks this GitHub repository and submits pull requests to make additions or changes to the posted content.</p></li>
+</ul>
+<p>Everyone reading this page is a community member, and we hope everyone will post comments and join discussions as a participant. Contributors are welcome, particularly to help find and point to other open science resources.</p>
+<p>All community members must abide by the code of conduct when engaging with us, either online or in-person.</p>
+</section>
+<section id="code-of-conduct">
+<h2>Code of Conduct<a class="headerlink" href="#code-of-conduct" title="Permalink to this heading">#</a></h2>
+<p>The code of conduct can be found <a class="reference internal" href="CODE_OF_CONDUCT.html"><span class="doc std std-doc">here</span></a>. Responses to code of conduct violations on this GitHub are based on the level of impact, which is tied to where the violation took place–either a comment, discussion post, or in a pull request (PR) to the repository. Code of conduct violations for the GitHub will be addressed in the following manner:</p>
+<ul class="simple">
+<li><p>First code of conduct violation</p>
+<ul>
+<li><p><strong>Participant:</strong> Comment removed + contacted by moderator</p></li>
+<li><p><strong>Contributor</strong>:  PR not accepted and removed from GitHub + contacted by moderator</p></li>
+</ul>
+</li>
+<li><p>Second code of conduct violation</p>
+<ul>
+<li><p><strong>Participant:</strong> Comment removed + contacted by moderator + ban for 90 days from space where offense occurred</p></li>
+<li><p><strong>Contributor:</strong> PR not accepted and removed from GitHub + contacted by moderator + banned from PRs for 90 days</p></li>
+</ul>
+</li>
+<li><p>Third code of conduct violation</p>
+<ul>
+<li><p><strong>Participant</strong>: Comment removed + contacted by  moderator + permanent ban from all spaces</p></li>
+<li><p><strong>Contributor</strong>: PR not accepted and removed from GitHub + contacted by moderator + permanent ban from GitHub and other TOPS digital communication</p></li>
+</ul>
+</li>
+<li><p>Commit of Malicious Code</p>
+<ul>
+<li><p>Immediate and permanent ban from all spaces</p></li>
+</ul>
+</li>
+<li><p>Threat of violence against an individual or group</p>
+<ul>
+<li><p>Immediate and permanent ban from all spaces</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="ways-to-contribute-to-the-github">
+<h2>Ways to Contribute to the GitHub<a class="headerlink" href="#ways-to-contribute-to-the-github" title="Permalink to this heading">#</a></h2>
+<p>There are three, major ways to contribute to the  GitHub.</p>
+<ul class="simple">
+<li><p><strong>Ask a question, provide an answer, share your thoughts and contribute to brainstorming through <a class="reference external" href="https://github.com/VERSO-UVM/Open-Science-101/discussions">Discussions</a>.</strong> The GitHub discussion area is intended for general Q&amp;A, asking for community stories and experiences, and beginning conversations on new or existing open science topics.</p>
+<ul>
+<li><p>To learn more about GitHub Discussions check out their <a class="reference external" href="https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/about-discussions">documentation</a></p></li>
+</ul>
+</li>
+<li><p><strong>Suggest a change, addition, or deletion to what is already on the GitHub using <a class="reference external" href="https://github.com/VERSO-UVM/Open-Science-101/issues">Issues</a>.</strong> Issues can be about any plans, timelines, and content.</p>
+<ul>
+<li><p>Before submitting a new <a class="reference external" href="https://github.com/VERSO-UVM/Open-Science-101/issues">issue</a>, check to make sure <a class="reference external" href="https://github.com/VERSO-UVM/Open-Science-101/issues?q=is%3Aopen+is%3Aissue">a similar issue isn’t already open</a>. If one is, contribute to that issue thread with your feedback.</p>
+<ul>
+<li><p>When submitting a bug report, please try to provide as much detail as possible, i.e. a screenshot or <a class="reference external" href="https://gist.github.com/">gist</a> that demonstrates the problem, the technology you are using, and any relevant links.</p></li>
+<li><p>Issues labeled :sparkles:<a class="reference external" href="https://github.com/VERSO-UVM/Open-Science-101/labels/help%20wanted"><code class="docutils literal notranslate"><span class="pre">help</span> <span class="pre">wanted</span></code></a>:sparkles: make it easy for you to find ways you can contribute today.</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>Become a contributor!</strong> <a class="reference external" href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">Fork</a> the repository and <a class="reference external" href="https://docs.github.com/en/get-started/quickstart/contributing-to-projects#making-and-pushing-changes">make commits</a> to add resources and additional materials. Here are some ways you can contribute:</p>
+<ul>
+<li><p>by reporting bugs</p></li>
+<li><p>by suggesting new features</p></li>
+<li><p>by translating content to a new language</p></li>
+<li><p>by writing or editing documentation</p></li>
+<li><p>by writing specifications</p></li>
+<li><p>by writing code and documentation (<strong>no pull request is too small</strong>: fix typos, add code comments, clean up inconsistent whitespace)</p></li>
+<li><p>by reviewing <a class="reference external" href="https://github.com/VERSO-UVM/Open-Science-101/pulls">pull requests</a>.</p></li>
+<li><p>by closing <a class="reference external" href="https://github.com/VERSO-UVM/Open-Science-101/issues">issues</a></p></li>
+</ul>
+</li>
+</ul>
+<p>In the spirit of open source software, everyone is encouraged to help improve this project!</p>
+</section>
+<section id="new-to-github-start-here">
+<h2>New to GitHub? Start here!<a class="headerlink" href="#new-to-github-start-here" title="Permalink to this heading">#</a></h2>
+<p>You can <a class="reference external" href="https://github.com/">sign up for GitHub here</a>!</p>
+<p>For a more in-depth start, we suggest <em><a class="reference external" href="https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6">Getting Started with Git and GitHub: The Complete Beginner’s Guide</a></em> and <em><a class="reference external" href="https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/">The Beginners Guide to Git and GitHub</a></em>. We’ve summarized some of the most important points below.</p>
+<section id="making-a-change">
+<h3>Making a Change<a class="headerlink" href="#making-a-change" title="Permalink to this heading">#</a></h3>
+<p><em>This section is attributed to <a class="reference external" href="https://github.com/numfocus/getting-started-with-open-source/blob/master/CONTRIBUTING.md">NumFOCUS</a> and <a class="reference external" href="https://github.com/adriennefriend/imposter-syndrome-disclaimer">Adrienne Friend</a>.</em></p>
+<p>Once you’ve identified something you’d like to help with you’re ready to make a change to the project repository!</p>
+<ol class="arabic">
+<li><p>First, describe what you’re planning to do as a comment to the issue, (and this might mean making a new issue).</p>
+<p><a class="reference external" href="https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/">This blog</a> is a nice explanation of why putting this work in up front is so useful to everyone involved.</p>
+</li>
+<li><p>Fork this repository to your profile.</p>
+<p>You can now do whatever you want with this copy of the project. You won’t mess up anyone else’s work so you’re super safe.</p>
+<p>Make sure to <a class="reference external" href="https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser">keep your fork up to date</a> with the master repository.</p>
+</li>
+<li><p>Make the changes you’ve discussed.</p>
+<p>Try to keep the changes focused rather than changing lots of things at once. If you feel tempted to branch out then please <em>literally</em> branch out: create separate branches for different updates to make the next step much easier!</p>
+</li>
+<li><p>Submit a pull request.</p>
+<p>A member of the executive team will review your changes, have a bit of discussion and hopefully merge them in!</p>
+<p>N.B. you don’t have to be ready to merge to make a pull request! We encourage you to submit a pull request as early as you want to. They help us to keep track of progress and help you to get earlier feedback.</p>
+</li>
+</ol>
+</section>
+</section>
+<section id="development-model">
+<h2>Development Model<a class="headerlink" href="#development-model" title="Permalink to this heading">#</a></h2>
+<p>For accepting new contributions, TOPS uses the <a class="reference external" href="https://guides.github.com/activities/forking/">forking workflow</a>. As the first step of your contribution, you’ll want to fork this repository, make a local clone of it, add your contribution, and then create a pull request back to the TOPS repository.</p>
+<p>All documentation should be written using Markdown and Github Markdown-supported HTML.</p>
+<section id="labels-issues-pull-requests-and-discussions">
+<h3>Labels (Issues, Pull Requests, and Discussions)<a class="headerlink" href="#labels-issues-pull-requests-and-discussions" title="Permalink to this heading">#</a></h3>
+<p><strong>Descriptive Labels - Gives more context as to the type of feedback being provided</strong></p>
+<ul class="simple">
+<li><p>OS101 Curriculum: General Suggestions</p>
+<ul>
+<li><p>General feedback for the curriculum without needing to point to a specific part of the curriculum.</p></li>
+</ul>
+</li>
+<li><p>OS101 Curriculum: Content Suggestions</p>
+<ul>
+<li><p>Suggestions for text found in the open science 101 curriculum. Use Lesson and Module labels.</p></li>
+</ul>
+</li>
+<li><p>OS101 Curriculum: Graphic Suggestions</p>
+<ul>
+<li><p>Suggestions for graphics found in the open science 101 curriculum.  Use Lesson and Module Labels.</p></li>
+</ul>
+</li>
+<li><p>OS101 Curriculum: Knowledge Checks</p>
+<ul>
+<li><p>If feedback is with relation to a knowledge check, this label is useful for this.</p></li>
+</ul>
+</li>
+<li><p>OS101 Curriculum: Bug Report</p>
+<ul>
+<li><p>Bug reports that are specific to <a class="reference external" href="http://openscience101.org">openscience101.org</a>.</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Status Labels - Used to indicate whether changes still need to be implemented on either GitHub or <a class="reference external" href="http://openscience101.org">openscience101.org</a></strong></p>
+<ul class="simple">
+<li><p>OS101 Status: Curriculum</p>
+<ul>
+<li><p><a class="reference external" href="http://Openscience101.org">Openscience101.org</a> still needs changes implemented.</p></li>
+</ul>
+</li>
+<li><p>OS101 Status: GitHub</p>
+<ul>
+<li><p>GitHub still needs changes implemented.</p></li>
+</ul>
+</li>
+<li><p>OS101 Status: No Change Needed</p>
+<ul>
+<li><p>Changes are not needed on either GitHub or <a class="reference external" href="http://Openscience101.org">Openscience101.org</a>.</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Module Labels - Used to point to specific module content</strong></p>
+<ul class="simple">
+<li><p>Module: 1</p></li>
+<li><p>Module: 2</p></li>
+<li><p>Module: 3</p></li>
+<li><p>Module: 4</p></li>
+<li><p>Module: 5</p></li>
+</ul>
+<p><strong>Lesson Labels - Used to point to specific lesson content</strong></p>
+<ul class="simple">
+<li><p>Lesson: 1</p></li>
+<li><p>Lesson: 2</p></li>
+<li><p>Lesson: 3</p></li>
+<li><p>Lesson: 4</p></li>
+<li><p>Lesson: 5</p></li>
+</ul>
+</section>
+<section id="discussion-categories-discussions-only">
+<h3>Discussion Categories (Discussions Only)<a class="headerlink" href="#discussion-categories-discussions-only" title="Permalink to this heading">#</a></h3>
+<p><strong>OS101 Curriculum</strong></p>
+<ul class="simple">
+<li><p>OS101 General: General questions, feedback, and comments for the OS101 curriculum.</p></li>
+<li><p>OS101 Concepts: Talk about concepts taught in OS101, theory, applications in your research, potential for OS101 concepts to help solve difficult problems, and much more.</p></li>
+<li><p>Why OS101?: If you are curious about taking the curriculum but not quite sure if it is right for your career path, we encourage you to voice questions/concerns you may have.</p></li>
+<li><p>OS101 Workshops: Engage in discussions with fellow researchers about a specific workshop session, or workshops in general.</p></li>
+<li><p>OS101 Success Stories: What kind of success has the OS101 curriculum enabled in your research?</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="docs/Open-Science-101/modules/bibliography.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Bibliography</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="CODE_OF_CONDUCT.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">TOPS Code of Conduct</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#we-want-your-help">We Want Your Help!</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#code-of-conduct">Code of Conduct</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ways-to-contribute-to-the-github">Ways to Contribute to the GitHub</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#new-to-github-start-here">New to GitHub? Start here!</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#making-a-change">Making a Change</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#development-model">Development Model</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#labels-issues-pull-requests-and-discussions">Labels (Issues, Pull Requests, and Discussions)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-categories-discussions-only">Discussion Categories (Discussions Only)</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By NASA TOPS/VERSO
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

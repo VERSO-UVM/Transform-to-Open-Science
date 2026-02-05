@@ -1,0 +1,1307 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Open Science 101 Curriculum Guidance &#8212; Open Science 101</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/Open-Science-101/course_guidance';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../README.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/open_science_101_logo.png" class="logo__image only-light" alt="Open Science 101 - Home"/>
+    <script>document.write(`<img src="../../_static/open_science_101_logo.png" class="logo__image only-dark" alt="Open Science 101 - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../README.html">
+                    Open Science 101 Course
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="modules/open_science_ethos_module.html">Module 1 - Open Science Ethos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules/open_data_module.html">Module 2 - Open Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules/open_software_module.html">Module 3 - Open Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules/open_results_module.html">Module 4 - Open Results</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules/open_science_tools_module.html">Module 5 - Open Science Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules/bibliography.html">Bibliography &amp; Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../CONTRIBUTING.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../CODE_OF_CONDUCT.html">Code of Conduct</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/docs/Open-Science-101/course_guidance.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Open Science 101 Curriculum Guidance</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Open Science 101 Curriculum Guidance</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#online-course-blueprint">Online Course Blueprint</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#live-course-blueprint">Live Course Blueprint</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-in-person-suggestions">Additional In-Person Suggestions</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-virtual-session-suggestions">Additional Virtual Session Suggestions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#contributors">Contributors</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#os101-tops-curriculum-development-2022">OS101 TOPS Curriculum Development 2022</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethos-of-open-science">Ethos of Open Science</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-data">Open Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-software">Open Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-science-tools-and-resources">Open Science Tools and Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-results">Open Results</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#champions-curriculum-development-2023">Champions Curriculum Development 2023</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Ethos of Open Science</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-tools-and-resources">Open Tools and Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Open Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-code">Open Code</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Open Results</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#os101-content-revision-2023">OS101 Content Revision 2023</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Ethos of Open Science</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Open Tools and Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Open Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Open Code</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Open Results</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editors">Editors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#original-artwork-and-graphics">Original Artwork and Graphics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reviewers">Reviewers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tops-community-panel">TOPS Community Panel</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tops-os101-curriculum-development-management-at-nasa-s-ames-research-center">TOPS OS101 Curriculum Development Management at NASA’s Ames Research Center</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tops-project-management-office-at-nasas-marshall-space-flight-center">TOPS Project Management Office at NASA’s Marshall Space Flight Center</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tops-team-at-nasa-headquarters">TOPS Team at NASA Headquarters</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#to-contribute">To Contribute</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-feedback-is-needed">Your Feedback is Needed!</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#we-specifically-are-in-need-of-your-feedback-on">We specifically are in need of your feedback on:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-note-from-the-team-about-working-openly"><strong>A note from the team about working openly…</strong></a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#open-science-curriculum-structure">Open Science Curriculum Structure</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Ethos of Open Science</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#open-tools-resources">Open Tools &amp; Resources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Open Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Open Code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Open Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#detailed-outline">Detailed Outline</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-1-ethos-of-open-science">Module 1: Ethos of Open Science</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#module-1-learning-objectives">Module 1 Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-2-open-tools-and-resources">Module 2: Open Tools and Resources</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#module-2-learning-objectives">Module 2 Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-3-open-data">Module 3: Open Data</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#module-3-learning-objectives">Module 3 Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-4-open-code">Module 4: Open Code</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#module-4-learning-objectives">Module 4 Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-5-open-results">Module 5: Open Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#module-5-learning-objectives">Module 5 Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#june-2022-to-3-june-2022-tops-curriculum-pre-sprint-summary-report">1 June 2022 to 3 June 2022: TOPS Curriculum, Pre-Sprint Summary Report</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wednesday-june-1">Wednesday, June 1</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#thursday-june-2">Thursday, June 2</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#friday-june-3">Friday, June 3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#workshop-listing-requirements">Workshop Listing Requirements</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-requirements">General Requirements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#virtual-workshop-requirements">Virtual Workshop Requirements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-person-workshop-requirements">In-Person Workshop Requirements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-a-workshop-to-the-tops-website-yourself">Adding a Workshop to the TOPS Website Yourself</a></li>
+</ul>
+</li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="open-science-101-curriculum-guidance">
+<h1>Open Science 101 Curriculum Guidance<a class="headerlink" href="#open-science-101-curriculum-guidance" title="Permalink to this heading">#</a></h1>
+<p>In order for the Open Science courses to be successful, there will need to be variations between the live courses–either in-person or virtual–and online courses. The rest of this document lays out suggested guidelines for course instructors and creators to achieve this balance.</p>
+<section id="online-course-blueprint">
+<h2>Online Course Blueprint<a class="headerlink" href="#online-course-blueprint" title="Permalink to this heading">#</a></h2>
+<p>The online course, designed in Massive Online Open Course (MOOC) style, is central to the TOPS open science curriculum. The instructors of this course are also its creators, so the following tips shall be grounded in pedagogy for good MOOC creation.</p>
+<p><strong>A central theme to keep in mind is that a MOOC is not simply a recording of an online class or a “talking head’ on a screen.</strong></p>
+<p>Successful MOOCs are emotionally engaging for the audience of learners, encouraging them to form a community with one another by deep, critical discussion on topics that they care about (<a class="reference external" href="https://www.mdpi.com/2071-1050/13/20/11169/pdf#:~:text=The%20analysis%20showed%20that%20engagement,significant%20effect%20on%20learner%20satisfaction.">Deng, R. 2021.</a>) MOOCs tend to have a high drop-out rate since completion by 100% of students is <em>not</em> the intended outcome of a MOOC; instead, many learners tend to look at what interests them and discard the rest, as if they were auditing a course in college rather than taking it for credit. Others will not complete a MOOC if they discover the teaching style or course design doesn’t mesh well with their learning style (<a class="reference external" href="https://rd.springer.com/chapter/10.1057/978-1-349-85204-8_4">Waks, L. 2016</a>; <a class="reference external" href="https://pdfs.semanticscholar.org/44ac/5c97a52cf80ab5adb2ccb7d2706d73fe8139.pdf?_ga=2.145924209.494777282.1644525002-1904019117.1643304143&amp;_gac=1.217260578.1644525003.EAIaIQobChMIz7amg_319QIVi7jICh1YVg8HEAAYASAAEgKiN_D_BwE">Bartolome, A. Steffans, K. 2015</a>). Indeed, modern MOOC pedagogy argues that the most valuable part of MOOCs is the opportunity for creating a community around a particular topic (<a class="reference external" href="https://jolt.merlot.org/vol10no1/bali_0314.pdf">Bali, M. 2014</a>).</p>
+<p>As a central goal of NASA’s TOPS and Open Source Science Initiative (OSSI) programs to educate 20k scientists in open science principles over five years, the open science MOOC shall need to be engaging and rewarding. Some core principles to keep in mind to achieve this are the following, which are grounded in suggestions from <a class="reference external" href="https://www.researchgate.net/publication/298712549_Five_principles_for_MOOC_design_With_a_case_study/link/59f939df0f7e9b553ec0d330/download">Drake, J. O’Hara, M. Seeman, E. 2015</a> and <a class="reference external" href="https://jolt.merlot.org/vol10no1/bali_0314.pdf">Bali, M. 2014</a>.</p>
+<ul class="simple">
+<li><p><strong>Make the course meaningful</strong></p>
+<ul>
+<li><p>Clearly distinguish core concepts and tie examples back to reality  Motivate learners with tools and resources they can use in their own scientific studies. If possible, let them complete assignments using their own data-sets/examples. Design quizzes and other assessments to evaluate learning beyond “mere recall.”</p></li>
+</ul>
+</li>
+<li><p><strong>Make the course engaging</strong></p>
+<ul>
+<li><p>Avoid lecture videos, keep animations short and interspersed with prompts for discussion, concepts maps, pictures/visual aids, study guides and self-assessment quizzes. Use interactive tools such as Jamboard or Canva to encourage MOOC cohorts to engage with each other as they complete assignments. Use the TOPS <a class="reference external" href="https://github.com/nasa/Open-Science-101">GitHub community board</a>, slack, <a class="reference external" href="https://zenodo.org/communities/">Zenodo community spaces</a>, or other online forums to encourage interaction within and between cohorts. If possible, consider holding “office hours” with live instructors using video conferencing.</p></li>
+</ul>
+</li>
+<li><p><strong>Design the course to be measurable</strong></p>
+<ul>
+<li><p>Take advantage of OpenEdEx analytics tools to verify learners are engaging with the material as expected. Understand how assignments will be graded and certification/badges awarded at the end.</p></li>
+</ul>
+</li>
+<li><p><strong>Design the course to be accessible</strong></p>
+<ul>
+<li><p>Consider language, internet bandwidth and time constraints when designing assignments. A core theme of the course is open access, so verify that all resources can be downloaded without institution access to publications. Provide reading at various levels of academic rigor, to account for differences in education, scientific training, and professional role.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="live-course-blueprint">
+<h2>Live Course Blueprint<a class="headerlink" href="#live-course-blueprint" title="Permalink to this heading">#</a></h2>
+<p>There are two forms of live courses to consider: (1) In-person instruction at conferences, science team meetings and similar in which instructor and learners are in the same, physical space; and (2) Virtual instruction, hosted via video-conference tool in which instructors and learners are not in the same room, but the conversation is occurring live. The primary role of the instructor in these scenarios is to teach the content that was already collected for the MOOC. While some instructors may have been involved in the MOOC design, this is not necessarily the case, and instructors should take care to familiarize themselves with the MOOC content prior to planning their “class.”</p>
+<p>Some overarching tips to instructors for both scenarios are the following:</p>
+<ul class="simple">
+<li><p>Do <em>not</em> feel obligated to include all the content for the MOOC into the time allotted.</p>
+<ul>
+<li><p>A course designed for 2.5 hours online has 2.5 hours of content that has been trimmed and edited to meet time constraints. Natural presenting will likely be unable to stick to such a tight window. Prioritize what is important for the community in which you are presenting, and point learners to the online resources for the rest. Consult with the Transform to Open Science (TOPS) core team if more than a fourth of the content is being cut to ensure the learners are still meeting the basic requirements for the badge.</p></li>
+</ul>
+</li>
+<li><p><em>Do</em> encourage participation in small groups.</p>
+<ul>
+<li><p>Utilize breakout rooms in virtual settings, and arrange chairs when in-person to facilitate small discussion. Make sure to have people “report-out” to the main group.</p></li>
+<li><p>Utilize the TOPS Github and ‘chat’ in both settings for asynchronous and continuous discussion</p></li>
+</ul>
+</li>
+<li><p><em>Do</em> encourage learners who know the material to assist others</p>
+<ul>
+<li><p>Learners will likely be at different levels of proficiency with the technology described in this course. Encourage learners to volunteer what they know and ask those who are more familiar to assist the others. Provide alternative pathways for success to keep everyone engaged.</p></li>
+</ul>
+</li>
+</ul>
+<section id="additional-in-person-suggestions">
+<h3>Additional In-Person Suggestions<a class="headerlink" href="#additional-in-person-suggestions" title="Permalink to this heading">#</a></h3>
+<p>As each module is intended to be 3 hours long (2.5 hrs of content, two 15-min breaks), it is important that the “presentation” is interspersed with hands-on instruction and discussion. As such, it is suggested:</p>
+<ul class="simple">
+<li><p>Break up the “sage on a stage” by sharing videos developed for the MOOC, this also adds variety by allowing different “instructors” to take the stage</p></li>
+<li><p>Have learners pair up or work in groups when tackling the assignments, this may require re-arranging the room. Consider which assignments to include – some developed for the MOOC may require more time than is available in a typical classroom setting.</p></li>
+</ul>
+</section>
+<section id="additional-virtual-session-suggestions">
+<h3>Additional Virtual Session Suggestions<a class="headerlink" href="#additional-virtual-session-suggestions" title="Permalink to this heading">#</a></h3>
+<p>For virtual but live sessions, using technology designed for use in large, online settings will be key to its success. Some suggestions are:</p>
+<ul class="simple">
+<li><p>Prep break-out rooms and virtual whiteboards (e.g, Canva, Jamboard) for discussions. Have people add themselves to the virtual whiteboard as they join the session initially, to save some time in the middle</p></li>
+<li><p>Break up the “sage on a stage” by sharing animations or activities developed for the virtual course. Additionally, try to set up the virtual space so that the face of the instructor is centered on the screen along with any slides.</p></li>
+<li><p>Try to keep the “sage” bits short to keep interest. Have someone other than the main instructor monitor the chat in order to ask questions as they come up. Encourage participants to use the chat and raise hand feature.</p></li>
+<li><p>Use breakout rooms for discussion, and then have the smaller groups report out to the larger group. Have them fill a virtual white-board or a slide, to encourage deep thinking and provide a measurable mechanism for participation.</p></li>
+<li><p>Use interactive whiteboards or other learning tools in order to encourage participation <em>during</em> the presentation, not just after. This can help keep some styles of learners engaged.</p></li>
+<li><p>Use the <a class="reference external" href="https://github.com/nasa/Open-Science-101/discussions">TOPS Github community spaces</a> for continuing discussion past the event - this will allow for interaction among cohorts not just during a single session.</p></li>
+<li><p>If permitted, experiment with using other avenues for communication in addition/instead of just video calling e.g., Gather.Town</p></li>
+</ul>
+<p>Both the MOOC and the live courses ought to inspire learners to rigorize their own scientific research to include a wide breadth of open science principles. By creating courses that are likewise grounded in those principles, TOPS aims to inspire a true transformation to open science.</p>
+</section>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="contributors">
+<h1>Contributors<a class="headerlink" href="#contributors" title="Permalink to this heading">#</a></h1>
+<p>The OS101 content was developed by the hard work of many people around the globe. The teams that have contributed are listed below in alphabetical order in each section.  OS101 materials can be cited through the project’s Zenodo archive using DOI: 10.5281/zenodo.10161527.</p>
+<section id="os101-tops-curriculum-development-2022">
+<h2>OS101 TOPS Curriculum Development 2022<a class="headerlink" href="#os101-tops-curriculum-development-2022" title="Permalink to this heading">#</a></h2>
+<p>These Subject Matter Experts (SMEs) are a global representation of Open Science experts. They contributed significantly to the early content of OS101, and created the online book <a class="reference external" href="https://opensciency.github.io/sprint-content/">Opensciency - A core open science curriculum by and for the research community</a>, from which some of the OS101 content was adapted. Discover why these SMEs practice open science on the <a class="reference external" href="https://github.com/nasa/Open-Science-101/blob/main/docs/Area1_Engagement/Open-Science-Stories/SME_Why-I-Practice-Open-Science.md">Open Science Stories page</a>.</p>
+<section id="ethos-of-open-science">
+<h3>Ethos of Open Science<a class="headerlink" href="#ethos-of-open-science" title="Permalink to this heading">#</a></h3>
+<p>Yo Yehudi (Lead), Tomoko Bell, Ismael Kherroubi Garcia, Stephen Klusza, Mariana Meireles, Shamsuddeen Muhammad, Amber Osman, Miguel Silan</p>
+</section>
+<section id="open-data">
+<h3>Open Data<a class="headerlink" href="#open-data" title="Permalink to this heading">#</a></h3>
+<p>Sara El-Gebali (Lead), Jannatul Ferdush, Pauline Karega, Siobhan Mackenzie Hall, Andrea Medina-Smith, Esther Plomp, Yuhan Rao, Hugh Shanahan</p>
+</section>
+<section id="open-software">
+<h3>Open Software<a class="headerlink" href="#open-software" title="Permalink to this heading">#</a></h3>
+<p>James Powell (Lead), Cameron Riddell (Lead), Johanna Bayer, Taher Chegini, Sierra Brown, Yeo Keat Ee, Babatunde Onabajo, Ana Vaz</p>
+</section>
+<section id="open-science-tools-and-resources">
+<h3>Open Science Tools and Resources<a class="headerlink" href="#open-science-tools-and-resources" title="Permalink to this heading">#</a></h3>
+<p>Shilaan Alzahawi (Lead), Batool Almarzouq, Flavio Azevedo, Saranjeet Kaur Bhogal, Melissa Black, Elli Papadopoulou, Rebecca Ringuette, Tyson Swetnam</p>
+</section>
+<section id="open-results">
+<h3>Open Results<a class="headerlink" href="#open-results" title="Permalink to this heading">#</a></h3>
+<p>Natasha Batalha (Lead), Reina Camacho Toro, Elio Campitelli, Daniel Dunleavy, Anne Fouilloux, Michel Lacerda, Daniela Saderi, Malvika Sharan, Christopher Erdmann</p>
+</section>
+</section>
+<section id="champions-curriculum-development-2023">
+<h2>Champions Curriculum Development 2023<a class="headerlink" href="#champions-curriculum-development-2023" title="Permalink to this heading">#</a></h2>
+<p>TOPS Champions were selected as open science experts from across multiple NASA centers and across all NASA Science Divisions. The Champions help to promote TOPS and serve as an open science liaison for their centers. This team built off of previous OpenSciency content and made significant additions, edits, and/or updates to the ideas and written text in the corresponding module.</p>
+<section id="id1">
+<h3>Ethos of Open Science<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<p>Cassie Conley (Lead), Paul Bremner (Co-Lead), Paige E. Martin</p>
+</section>
+<section id="open-tools-and-resources">
+<h3>Open Tools and Resources<a class="headerlink" href="#open-tools-and-resources" title="Permalink to this heading">#</a></h3>
+<p>Katie Dejwakh (Lead), Michael Croteau (Co-Lead), Joshua Alwood, Richard Barry, Cedric David, Crystal Gummo, Lan Jian, Alicia Joseph, Avi Mandell, Teresa Miller</p>
+</section>
+<section id="id2">
+<h3>Open Data<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<p>Jessie Dotson  (Lead), Brian Knosp (Co-Lead), Nereida Rodriguez Alvarez, Josh Alwood, Gao Chen, Carolyn Jordan, Karen Yuen</p>
+</section>
+<section id="open-code">
+<h3>Open Code<a class="headerlink" href="#open-code" title="Permalink to this heading">#</a></h3>
+<p>Dan Whitt (Lead), Richard Barry (Co-Lead), Cassie Conley, Michael Croteau, Katie Dejwakh, Sara Edwards, Carolyn Jordan, Daniel Kaufman, Brian Knosp, Danny Mangosing, Kevin Sanchez, Leo Singer</p>
+</section>
+<section id="id3">
+<h3>Open Results<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<p>Natasha Batalha (Lead), Pam Marcum (Co-Lead), Michael Barker, Jennifer Burt, Maggie McAdam, Kristina Pistone</p>
+</section>
+</section>
+<section id="os101-content-revision-2023">
+<h2>OS101 Content Revision 2023<a class="headerlink" href="#os101-content-revision-2023" title="Permalink to this heading">#</a></h2>
+<p>This team built off of previous content and made significant additions, edits, and/or updates to the ideas and written text in the corresponding module. This team also took part in the creative direction of what content to include and how the content fits together within the module, and across modules.</p>
+<section id="id4">
+<h3>Ethos of Open Science<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<p>Paul Bremner, Chelle Gentemann, Paige Martin, Demitri Muna, Yo Yehudi</p>
+</section>
+<section id="id5">
+<h3>Open Tools and Resources<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
+<p>Paul Bremner, Chelle Gentemann, Malcolm Glover, Paige Martin, James Munroe, Holly Norton</p>
+</section>
+<section id="id6">
+<h3>Open Data<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h3>
+<p>Paul Bremner, Sara El-Gebali, Chelle Gentemann, Brian Knosp, Paige Martin, Demitri Muna</p>
+</section>
+<section id="id7">
+<h3>Open Code<a class="headerlink" href="#id7" title="Permalink to this heading">#</a></h3>
+<p>Richard Barry, Paul Bremner, Chelle Gentemann, Paige Martin, Demitri Muna, Daniel Whitt</p>
+</section>
+<section id="id8">
+<h3>Open Results<a class="headerlink" href="#id8" title="Permalink to this heading">#</a></h3>
+<p>Paul Bremner, Chelle Gentemann, Malcolm Glover, Paige Martin, Holly Norton, James Munroe, Malvika Sharan
+OS101 TOPS</p>
+</section>
+</section>
+<section id="editors">
+<h2>Editors<a class="headerlink" href="#editors" title="Permalink to this heading">#</a></h2>
+<p>Editors are those who have taken part in the creative direction and visioning of content across all modules, ensuring consistency and appropriate level of content throughout the curriculum.</p>
+<p>Katherine Blanchette, Paul Bremner, Steve Crawford, Chelle Gentemann, Diana Ly, Paige Martin, Aaron McKinnon</p>
+</section>
+<section id="original-artwork-and-graphics">
+<h2>Original Artwork and Graphics<a class="headerlink" href="#original-artwork-and-graphics" title="Permalink to this heading">#</a></h2>
+<p>Miki Huynh, Tanner Boeger</p>
+</section>
+<section id="reviewers">
+<h2>Reviewers<a class="headerlink" href="#reviewers" title="Permalink to this heading">#</a></h2>
+<p>Reviewers are those who have reviewed the curriculum content and provided meaningful feedback.</p>
+<p>Laura Acion, Laura Ascenzi, Mónica Alonso, Melissa Black, Julián Buede, James Colliander, Cassie Conley, Michael Croteau, Kylie Yui Dan, Katie Dejwakh, Emily Faber, Jesica Formoso, J.L. Galache, Shannon Gant, Chelle Gentemann, Monica Granados, Pen-Yuan Hsing, SherAaron Hurt, Ian Jian, Logan Kilpatrick, Sheikh Mahtab, Avi Mandell, Pamela Marcum, Brian Nosek, Paola Lefer, Patricia Loto, Paz Míguez, Nicolás Palopoli, Rachel E. Paseka, Romina Pendino, Iván Poggio, Fernando Perez, Junellie Gonzalez Quiles, Mariela Rajngewerc, Disha Sardana, Malvika Sharan, Leo Singer,Irene Vazano, Qiusheng Wu</p>
+</section>
+<section id="tops-community-panel">
+<h2>TOPS Community Panel<a class="headerlink" href="#tops-community-panel" title="Permalink to this heading">#</a></h2>
+<p>The TOPS Community Panel reviews and provides input on NASA’s strategy for transitioning to open-source science and has provided extensive input into OS101 from formulation through release.</p>
+<p>James Colliander, Monica Granados, Kelsey Hightower, Pen-Yuan Hsing, Logan Kilpatrick, Brian Nosek, Fernando Perez, Malvika Sharan, Gloria Washington, Qiusheng Wu, SherAaron Hurt, H. Justin Ballenger,</p>
+</section>
+<section id="tops-os101-curriculum-development-management-at-nasa-s-ames-research-center">
+<h2>TOPS OS101 Curriculum Development Management at NASA’s Ames Research Center<a class="headerlink" href="#tops-os101-curriculum-development-management-at-nasa-s-ames-research-center" title="Permalink to this heading">#</a></h2>
+<p>This team manages the curriculum content creation and the work to facilitate content dissemination, such as managing development of an OS101 online course. In addition, everyone on this team serves as copy editors across the entire curriculum.</p>
+<ul class="simple">
+<li><p>Diana Ly – Project Manager</p></li>
+<li><p>Katherine Blanchette – Deputy Project Manager</p></li>
+<li><p>Marcia Higgins - Project Support</p></li>
+<li><p>Porsche Parker – Project Support</p></li>
+</ul>
+<p>Former members:</p>
+<ul class="simple">
+<li><p>Vandhana Lal – Deputy Project Manager</p></li>
+<li><p>Natasha Batalha – Project Scientist</p></li>
+<li><p>Cassie Conley – Project Scientist</p></li>
+<li><p>Pamela Marcum – Project Scientist</p></li>
+<li><p>Caroline Dang – Project Support</p></li>
+<li><p>Sara Edwards – Project Support</p></li>
+<li><p>Kristina Pistone – Project Support</p></li>
+</ul>
+</section>
+<section id="tops-project-management-office-at-nasas-marshall-space-flight-center">
+<h2>TOPS Project Management Office at NASA’s Marshall Space Flight Center<a class="headerlink" href="#tops-project-management-office-at-nasas-marshall-space-flight-center" title="Permalink to this heading">#</a></h2>
+<p>This team manages the coordination, digital resources, and communication for the NASA Transform to Open Science initiative, including the overseeing of the entire TOPS project and curriculum development and implementation.</p>
+<ul class="simple">
+<li><p>Amanda Adams - Communications Lead</p></li>
+<li><p>Paul Bremner - Project Scientist</p></li>
+<li><p>Brian Ressler - Digital Content and GitHub Specialist</p></li>
+<li><p>Adam Farragut - Education and Outreach Specialist</p></li>
+<li><p>Jaclyn Stursma - Internal Communications Specialist</p></li>
+<li><p>Shannon Gant - PM, Consultant</p></li>
+<li><p>Myra Chandler - Budget Analyst</p></li>
+<li><p>Dave Meyer - Science Projects Branch, Branch Manager</p></li>
+<li><p>Genevieve Vigil - Deputy Project Scientist</p></li>
+<li><p>Kaitlyn Hedderman - TOPS Project Manager</p></li>
+</ul>
+<p>Former members:</p>
+<ul class="simple">
+<li><p>Kaylin Bugbee - Project Scientist</p></li>
+<li><p>Edward (Kyle) Westbrook - Project Coordinator</p></li>
+<li><p>Kimberly (Shawn) McEniry - Science and Technology Communications Strategist</p></li>
+</ul>
+</section>
+<section id="tops-team-at-nasa-headquarters">
+<h2>TOPS Team at NASA Headquarters<a class="headerlink" href="#tops-team-at-nasa-headquarters" title="Permalink to this heading">#</a></h2>
+<p>This team is responsible for the overall vision and scope of the TOPS initiative.  The team is part of the Office of the Chief Science Data Officer for the Science Mission Directorate.</p>
+<ul class="simple">
+<li><p>Kevin Murphy - Chief Science Data Officer</p></li>
+<li><p>Steve Crawford - Program Executive</p></li>
+<li><p>Chelle Gentemann - Program Scientist</p></li>
+<li><p>Paige Martin - Support Scientist</p></li>
+<li><p>Holly Norton - TOPS Liaison</p></li>
+<li><p>Malcolm Glover - Equity and Community Engagement Coordinator</p></li>
+<li><p>Kevin Ward</p></li>
+<li><p>Emily Cassidy</p></li>
+<li><p>Katie Baynes</p></li>
+</ul>
+<p>Former members:</p>
+<ul class="simple">
+<li><p>Cyndi Hall - TOPS Community Coordinator</p></li>
+<li><p>Yvonne Ivey-Parker - TOPS Equity Lead</p></li>
+<li><p>Isabella Martinez - TOPS Content Coordinator</p></li>
+<li><p>Yaitza Luna-Cruz - OCSDO Coordinator and TOPST Program Officer</p></li>
+</ul>
+<p>Some early material was developed under a NASA grant to the AGU #80NSSC22K0734 PI: Shelley Stall.</p>
+<p>The structure of use, make, share was inspired by the GoDAN MOOC. Parts of Module, Lesson 2 incorporate (with citation) the excellent checklists they provide: GODAN Action. (2019, December 20). GODAN Action Online Course on Open Data Management in Agriculture and Nutrition (Version v1.0). Zenodo. <a class="reference external" href="http://doi.org/10.5281/zenodo.3588148">http://doi.org/10.5281/zenodo.3588148</a></p>
+<p>NOTE: We have done our best to acknowledge all those who have contributed. Please notify us if you find an error so that we may correct it.</p>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="to-contribute">
+<h1>To Contribute<a class="headerlink" href="#to-contribute" title="Permalink to this heading">#</a></h1>
+<p>We are seeking your feedback on the <a class="reference external" href="https://github.com/learnopenscience/TOPS-Modules-Objectives-Outlines">draft objectives and outlines</a> for the five (5) Open Science 101 modules:</p>
+<ul class="simple">
+<li><p>Ethos of Open Science</p></li>
+<li><p>Open Data</p></li>
+<li><p>Open Software</p></li>
+<li><p>Open Results</p></li>
+<li><p>Open Tools and Resources</p></li>
+</ul>
+<section id="your-feedback-is-needed">
+<h2>Your Feedback is Needed!<a class="headerlink" href="#your-feedback-is-needed" title="Permalink to this heading">#</a></h2>
+<p>Open Science 101 module <a class="reference external" href="https://github.com/learnopenscience/TOPS-Modules-Objectives-Outlines">objective and outline</a> review period: <strong>Now through 4 August 2022</strong></p>
+<p>Open Science 101 module <strong>content</strong> review period (more information soon): <strong>5 August - 20 August</strong></p>
+<p>There are two ways to provide your feedback.</p>
+<ol class="arabic simple">
+<li><p>Submit a <a class="reference external" href="https://github.com/learnopenscience/TOPS-Modules-Objectives-Outlines/issues">GitHub Issue</a> using our “TOPS Issue template”</p>
+<ol class="arabic simple">
+<li><p>If you don’t have a GitHub account, you can create one <a class="reference external" href="https://github.com/signup?user_email=&amp;source=form-home-signup">here</a>.</p></li>
+<li><p>More information on submitting a GitHub Issue <a class="reference external" href="https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue">here</a>.</p></li>
+</ol>
+</li>
+<li><p><a class="reference external" href="https://docs.google.com/forms/d/e/1FAIpQLScPmtt6ehzIll8zNEk8aDbn0VDH2X6RNI8sET4QD6viVAdgPQ/viewform">Google Form</a></p></li>
+</ol>
+<p>We adhere to the <a class="reference external" href="https://www.agu.org/Plan-for-a-Meeting/AGUMeetings/Meetings-Resources/Meetings-code-of-conduct#:~:text=About%20the%20code%20of%20conduct%20American%20Geophysical%20Union,or%20event%2C%20whether%20in%20public%20or%20private%20facilities.">AGU Code of Conduct:</a>. As you consider your feedback please be respectful. To report a concern, please contact AGU Ethics, <a class="reference external" href="mailto:ethics&#37;&#52;&#48;agu&#46;org">ethics<span>&#64;</span>agu<span>&#46;</span>org</a>.</p>
+<section id="we-specifically-are-in-need-of-your-feedback-on">
+<h3>We specifically are in need of your feedback on:<a class="headerlink" href="#we-specifically-are-in-need-of-your-feedback-on" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p><strong>Missing concepts for Open Science beginners</strong></p></li>
+<li><p><strong>Incorrect concepts, or updated leading practices</strong></p></li>
+</ol>
+<p>Please be specific about the <strong>module/lesson/item (ex: Open Data/1/ii)</strong> and provide a recommended correction.</p>
+</section>
+</section>
+<section id="a-note-from-the-team-about-working-openly">
+<h2><strong>A note from the team about working openly…</strong><a class="headerlink" href="#a-note-from-the-team-about-working-openly" title="Permalink to this heading">#</a></h2>
+<p>We are inviting you to engage while the text is still in draft form.  You will see grammar and potentially spelling errors not normally encountered in a peer-review process.  Our copy editing step is later in August, so please focus on the content and not the fine tuning of the text. We truly appreciate your contributions at this stage.</p>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="open-science-curriculum-structure">
+<h1>Open Science Curriculum Structure<a class="headerlink" href="#open-science-curriculum-structure" title="Permalink to this heading">#</a></h1>
+<p>Open Science 101 is designed to introduce NASA-funded scientists or future NASA-funded scientists to the benefits and principles of open science such that they can upskill and continue collaborating with NASA science activities. The Open Science 101 curriculum will help participants gain an understanding of the open science ethos and workflow, show participants the tools needed to follow an open science process and thus actively participate in open science communities, and help to familiarize participants with the benefits of open science to their research and beyond.</p>
+<p>The following Open Science 101 structure will help reinforce these primary objectives.</p>
+<section id="id9">
+<h2>Ethos of Open Science<a class="headerlink" href="#id9" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Lesson 1: What is Open Science?</p></li>
+<li><p>Lesson 2: Why is Open Science Important?</p></li>
+<li><p>Lesson 3: How to Do Open Science</p></li>
+<li><p>Lesson 4: When Not to be Open</p></li>
+<li><p>Lesson 5: Planning for Open Science: From Theory to Practice</p></li>
+</ul>
+</section>
+<section id="open-tools-resources">
+<h2>Open Tools &amp; Resources<a class="headerlink" href="#open-tools-resources" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Lesson 1: Introduction to Open Science Tools</p></li>
+<li><p>Lesson 2: General Tools for Open Science</p></li>
+<li><p>Lesson 3: Tools for Open Data</p></li>
+<li><p>Lesson 4: Tools for Open Code</p></li>
+<li><p>Lesson 5: Tools for Open Results</p></li>
+</ul>
+</section>
+<section id="id10">
+<h2>Open Data<a class="headerlink" href="#id10" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Lesson 1: Introduction to Open Data</p></li>
+<li><p>Lesson 2: Using Open Data</p></li>
+<li><p>Lesson 3: Making Open Data</p></li>
+<li><p>Lesson 4: Sharing Open Data</p></li>
+<li><p>Lesson 5: From Theory to Practice</p></li>
+</ul>
+</section>
+<section id="id11">
+<h2>Open Code<a class="headerlink" href="#id11" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Lesson 1: Introduction to Open Code</p></li>
+<li><p>Lesson 2: Using Open Code</p></li>
+<li><p>Lesson 3: Making Code Open</p></li>
+<li><p>Lesson 4: Sharing Open Code</p></li>
+<li><p>Lesson 5: From Theory to Practice</p></li>
+</ul>
+</section>
+<section id="id12">
+<h2>Open Results<a class="headerlink" href="#id12" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Lesson 1: Introduction to Open Results</p></li>
+<li><p>Lesson 2: Using Open Results</p></li>
+<li><p>Lesson 3: Making Open Results</p></li>
+<li><p>Lesson 4: Sharing Open Results</p></li>
+<li><p>Lesson 5: From Theory to Practice</p></li>
+</ul>
+</section>
+<section id="detailed-outline">
+<h2>Detailed Outline<a class="headerlink" href="#detailed-outline" title="Permalink to this heading">#</a></h2>
+<p>The following outline combines the initial brainstorming and framing by the TOPS curriculum team, to provide interested community members with further details on the content of the completed Open Science 101 curriculum. The structure presented above is used in this outline.</p>
+</section>
+<section id="module-1-ethos-of-open-science">
+<h2>Module 1: Ethos of Open Science<a class="headerlink" href="#module-1-ethos-of-open-science" title="Permalink to this heading">#</a></h2>
+<p>Welcome to this introductory module on open science. Open Science is the principle and practice of making research products and processes available to all, while respecting diverse cultures, maintaining security and privacy, and fostering collaborations, reproducibility, and equity. In this module, you take a closer look at what open science is, the current landscape as well as the benefits and challenges. You then get a glimpse into the practice of open science, including a case study. To start your journey with open science, you are presented with actions that you can take starting today, such as exploring communities that you can engage with.</p>
+<p><strong>Key Terms:</strong> Open science, open data, open source, open access, interdisciplinary, equitable, citizen science or community service, open research, open scholarship, reproducibility and replicability, peer review, FAIR principles, metrics [in context of scientific merit], altmetrics, openness, transparency, rigor, and computational provenance</p>
+<section id="module-1-learning-objectives">
+<h3>Module 1 Learning Objectives<a class="headerlink" href="#module-1-learning-objectives" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Explain what open science is, why it’s a good thing to do, and list some of the benefits and challenges of open science adoption.</p></li>
+<li><p>Describe the practice of open science, including considerations when writing a management plan and the tasks in the “Use, Make, Share” framework.</p></li>
+<li><p>Evaluate available options when determining whether research products should or should not be open.</p></li>
+<li><p>List ways to connect with others who are part of the open science community.</p></li>
+</ul>
+<p>Lesson 1: What is Open Science?</p>
+<ul class="simple">
+<li><p>Explain the motivation to do open science and the goals of open science.</p></li>
+<li><p>Define open science.</p></li>
+<li><p>List different groups that practice open science.</p></li>
+</ul>
+<p>Lesson 2: Why is Open Science Important?</p>
+<ul class="simple">
+<li><p>Describe the ways in which open science benefits your career with attribution, reach, and more collaborations.</p></li>
+<li><p>Describe the ways in which open science can advance science.</p></li>
+<li><p>List the benefits society receives when open science principles are adopted.</p></li>
+</ul>
+<p>Lesson 3: How to Do Open Science</p>
+<ul class="simple">
+<li><p>List reasons information should not be shared due to security or privacy issues.</p></li>
+<li><p>Define what intellectual property is and recall the different ways it can be shared openly through licenses or the public domain.</p></li>
+<li><p>Recognize sharing policies and procedures of your department, organization, funding agency, and publication in order to make the most responsible science sharing decisions.</p></li>
+</ul>
+<p>Lesson 4: When Not to be Open</p>
+<ul class="simple">
+<li><p>Recognize your own fears and concerns for adopting open science, and list mitigation strategies for overcoming them.</p></li>
+<li><p>List common barriers to practicing open science that occur from misaligned incentives and mitigation strategies.</p></li>
+<li><p>List several social challenges that can arise when practicing open science and strategies for communicating effectively to overcome differences in perspective.</p></li>
+<li><p>List several institutional and infrastructure barriers to doing open science and mitigation strategies where available.</p></li>
+</ul>
+<p>Lesson 5: Planning for Open Science: From Theory to Practice</p>
+<ul class="simple">
+<li><p>List considerations to include in a planning for open science and define an open science and data management plan (OSDMP).</p></li>
+<li><p>Describe the different parts of the scientific workflow and how open science can be integrated into it.</p></li>
+<li><p>Differentiate real world examples of how a team can use open science.</p></li>
+<li><p>List four steps that anyone can take to be more open.</p></li>
+</ul>
+</section>
+</section>
+<section id="module-2-open-tools-and-resources">
+<h2>Module 2: Open Tools and Resources<a class="headerlink" href="#module-2-open-tools-and-resources" title="Permalink to this heading">#</a></h2>
+<p>This module is designed to help you get started on your journey to practicing open science. It offers an introductory view of the concepts and resources that are fundamental to open science. The bridge between the concepts and the practice of the concepts is something called the use, make, share framework. There are many methods and models that define how to get started with open science. The use, make, share framework was constructed to help you immediately assign purpose to the concepts and tools that are covered in this module as well as in the entire Open Science 101 curriculum. All of the information that you learn here will be addressed in more detail as you participate in other modules but can also be applied immediately after completing this module.</p>
+<p><strong>Key Terms:</strong> Virtual machine, metadata, data repository, computing environment, ORCiD, Persistent Identifiers (PIDS), and Digital Object Identifiers (DOIs)</p>
+<section id="module-2-learning-objectives">
+<h3>Module 2 Learning Objectives<a class="headerlink" href="#module-2-learning-objectives" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Define the foundational elements of open science, which includes research products, the “Use, Make, Share” framework, and the role of an Open Science and Data Management Plan.</p></li>
+<li><p>List and explain the purpose of resources used to discover and assess research products for reuse, including repositories, search portals, publications, documentation such as README files, metadata, and licensing.</p></li>
+<li><p>Develop a high-level strategy for making and sharing data that employs the FAIR principles, incorporates a data management plan, tracks data and authors with persistent identifiers and citations, and utilizes the appropriate data formats and tools for making data and sharing results.</p></li>
+<li><p>Describe the software lifecycle and design a high-level strategy for making and sharing software that considers the the use of a software management plan, the tools needed for development including source code, kernels, programming languages, third-party software and version control, and the tools and documentation used for publishing and curating open software.</p></li>
+<li><p>List the resources for sharing research products including preprints, open access publications, reference management systems, and resources to support reproducibility.</p></li>
+</ul>
+<p>Lesson 1: Introduction to the Practice of Open Science</p>
+<ul class="simple">
+<li><p>Define common types of research products including data, software, and results.</p></li>
+<li><p>List common ways to share data, code, and results while practicing open science.</p></li>
+</ul>
+<p>Lesson 2: General Tools for Open Science</p>
+<ul class="simple">
+<li><p>Recall the definition of open science tools.</p></li>
+<li><p>Describe what a persistent identifier is and state an example.</p></li>
+<li><p>List a few commonly used open science tools that support research.</p></li>
+<li><p>List the components of an Open Science and Data Management Plan and what they include.</p></li>
+</ul>
+<p>Lesson 3: Tools for Open Data</p>
+<ul class="simple">
+<li><p>Define the different types of scientific data.</p></li>
+<li><p>Define what the acronym FAIR means and explain how it supports the sharing of open data.</p></li>
+<li><p>Identify data management practices and tools to locate data in repositories.</p></li>
+<li><p>List and explain the purpose of the resources commonly used in making data including the data formats, inspecting data, and assessing ‘FAIR’-ness of data.</p></li>
+</ul>
+<p>Lesson 4: Tools for Open Code</p>
+<ul class="simple">
+<li><p>Explain the benefits of using tools for open code development.</p></li>
+<li><p>Define version control and understand how it supports collaboration in the development and management of code.</p></li>
+<li><p>List a few tools for editing software and some of their features.</p></li>
+<li><p>Distinguish between software repositories and software archives.</p></li>
+</ul>
+<p>Lesson 5: Tools for Open Results</p>
+<ul class="simple">
+<li><p>Describe some of the benefits of preprints and identify resources for open access journals.</p></li>
+<li><p>List commonly used tools that increase the reproducibility of a result.</p></li>
+<li><p>List applications for project management and reference management.</p></li>
+</ul>
+</section>
+</section>
+<section id="module-3-open-data">
+<h2>Module 3: Open Data<a class="headerlink" href="#module-3-open-data" title="Permalink to this heading">#</a></h2>
+<p>This module focuses on the practice and application of open science for data. It provides a ‘how to’ process for finding and assessing open data for use, for making open data and for sharing open data. The step-by-step flows are easy to follow and can be used as checklists after you complete the module. Some of the key topics discussed include: data management plans, the process for assessing data for reuse, creating a plan for making data including choosing open formats and adding documentation, and the considerations for sharing data and making your data citable.</p>
+<p><strong>Key Terms:</strong> Copyright, data, data license, CC-BY and CC0 license, data management plan, metadata, machine-readable persistent identifiers (PID), findable (data), accessible (data), interoperable (data), reusable (data), and dataflow</p>
+<section id="module-3-learning-objectives">
+<h3>Module 3 Learning Objectives<a class="headerlink" href="#module-3-learning-objectives" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Describe the meaning and purpose of open data, its benefits, and how FAIR principles are used.</p></li>
+<li><p>Recall methods to assess the reusability of data based on its documentation, and cite the data as instructed.</p></li>
+<li><p>Implement an open data management plan, select open data formats, add the needed documentation, including metadata, README files and version control, to make the data reusable and findable</p></li>
+<li><p>Evaluate whether your data should and can be shared.</p></li>
+<li><p>Recall practices to make data more accessible, including the registration of an affiliated DOI and the inclusion of citation instructions in documentation.</p></li>
+</ul>
+<p>Lesson 1: Introduction to Open Data</p>
+<ul class="simple">
+<li><p>Define the concept of open data.</p></li>
+<li><p>List a few benefits of and challenges to creating open access data.</p></li>
+<li><p>List a few benefits of implementing FAIR principles to the practice of open science.</p></li>
+<li><p>Describe how to plan for open data.</p></li>
+</ul>
+<p>Lesson 2: Using Open Data</p>
+<ul class="simple">
+<li><p>Select data sources and use search techniques to discover open data.</p></li>
+<li><p>Assess if a dataset incorporates open access elements that ensure easy reusability.</p></li>
+<li><p>Explain the importance of citing open data, and find and follow citation instructions.</p></li>
+</ul>
+<p>Lesson 3: Making Open Data</p>
+<ul class="simple">
+<li><p>Evaluate and select open data formats.</p></li>
+<li><p>Add documentation that enables other researchers to assess the relevance of the data. This includes metadata, README files, and version control.</p></li>
+<li><p>List two common open licenses used for datasets.</p></li>
+</ul>
+<p>Lesson 4: Sharing Open Data</p>
+<ul class="simple">
+<li><p>Recognize institutional variables, issues of security, and timing that affect your decision to share data.</p></li>
+<li><p>Recall the features, inherent responsibilities, funding considerations, and sponsor requirements that researchers should consider when selecting a repository to share data.</p></li>
+<li><p>Describe the tools and list some best practices that optimize the shareability of data.</p></li>
+</ul>
+<p>Lesson 5: From Theory to Practice</p>
+<ul class="simple">
+<li><p>Describe the steps toward writing a data management plan.</p></li>
+<li><p>List opportunities for involvement in the open data communities.</p></li>
+<li><p>Identify additional open science resources and list ways to continue training.</p></li>
+</ul>
+</section>
+</section>
+<section id="module-4-open-code">
+<h2>Module 4: Open Code<a class="headerlink" href="#module-4-open-code" title="Permalink to this heading">#</a></h2>
+<p>This module focuses on the practice and application of open code as part of the open science workflow. It provides a ‘how to’ process that follows the code development lifecycle and “Use, Make, Share” framework. Some of the key topics discussed include: benefits and limitations of open code, how to discover and assess code, considerations and methods for programming following open principles, and finally when and how to share your code.</p>
+<p><strong>Key Terms:</strong> Source code, software, software license, open-source license, open-source software, closed-source software, derivative work, version control, code repository vs. software repository, and long-term repository</p>
+<section id="module-4-learning-objectives">
+<h3>Module 4 Learning Objectives<a class="headerlink" href="#module-4-learning-objectives" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Explain what open-source software means, including the software development cycle, the benefits, some common limitations, and how they are addressed.</p></li>
+<li><p>Assess open-source software for reuse by evaluating provided documentation, including README files and licensing details, and then cite the software appropriately.</p></li>
+<li><p>Create an open-source software management plan that includes the strategy for selecting open software dependencies and open repositories such as GIT, and how open elements including metadata, README files and version control, will be included to make the software reusable and findable.</p></li>
+<li><p>Evaluate whether your open-source software can be shared and the best options for sharing to increase visibility.</p></li>
+<li><p>List the responsibilities a software developer has once the open-source software is shared including managing legal requirements and ensuring the software is maintained.</p></li>
+</ul>
+<p>Lesson 1: Introduction to Open Code</p>
+<ul class="simple">
+<li><p>Define open-source software and distinguish it from closed-source software.</p></li>
+<li><p>List common benefits and challenges to the production of open code and describe how researchers can respond to some of the challenges while maximizing openness when appropriate.</p></li>
+<li><p>Describe the function and purpose of a Software Management Plan, as its utility as a guidebook for everyone involved in a scientific project.</p></li>
+</ul>
+<p>Lesson 2: Using Open Code</p>
+<ul class="simple">
+<li><p>Describe the process of using open code and list some key elements of discovering code.</p></li>
+<li><p>Describe the four key considerations when assessing open software: functionality, interoperability, security, and licenses.</p></li>
+<li><p>List some common problems that arise when reusing Open Code and best practices to resolve them.</p></li>
+<li><p>Describe how, where, and under what circumstances one should acknowledge (cite) code.</p></li>
+</ul>
+<p>Lesson 3: Making Code Open</p>
+<ul class="simple">
+<li><p>Describe the key considerations when planning a new open software project.</p></li>
+<li><p>List three reasons for projects to use version control.</p></li>
+<li><p>Explain the purpose and recall general information typically included in a README file.</p></li>
+<li><p>Be able to select a license for your code and list the differences between permissive and protective open-source software licenses.</p></li>
+<li><p>Explain best practices in software development that support transparency, inclusion, and reproducibility.</p></li>
+</ul>
+<p>Lesson 4: Sharing Open Code</p>
+<ul class="simple">
+<li><p>Describe what it means to share code: for archiving or for code development.</p></li>
+<li><p>Evaluate whether you should share your code and list important security considerations.</p></li>
+<li><p>Describe best practices for when and where to share code.</p></li>
+<li><p>Recall commonly used practices to help others reuse your code.</p></li>
+<li><p>List the roles and responsibilities for sharing and maintaining shared code.</p></li>
+</ul>
+<p>Lesson 5: From Theory to Practice</p>
+<ul class="simple">
+<li><p>Recall the definition of a software management plan, potentially as part of an open science and data management plan, and where to find helpful resources.</p></li>
+<li><p>List ways to engage with and contribute to open software communities.</p></li>
+</ul>
+</section>
+</section>
+<section id="module-5-open-results">
+<h2>Module 5: Open Results<a class="headerlink" href="#module-5-open-results" title="Permalink to this heading">#</a></h2>
+<p>Welcome to Open Results! This module focuses on giving you the tools you need to kick-start a scientific collaboration by creating contributor guidelines that ensure ethical contributorship. It starts out with a use case of open science in action, then a review of how to discover and assess open results. Next, the focus is on how to publish results which includes a task checklist. The module wraps up with specific guidance for writing the sharing results section of the Open Science and Data Management Plans (OSDMP). We will also reflect on how our society and technology are constantly evolving in the way we do science.</p>
+<p><strong>Key Terms:</strong> Research objects, predatory publishing, preprint, preregistering, persistent identifiers, reproducibility crisis, DOI, and code of conduct</p>
+<section id="module-5-learning-objectives">
+<h3>Module 5 Learning Objectives<a class="headerlink" href="#module-5-learning-objectives" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Describe what constitutes an open result.</p></li>
+<li><p>Explain what the reproducibility crisis is and how open science can help combat it.</p></li>
+<li><p>Use a process to discover, assess and cite open results for reuse.</p></li>
+<li><p>List the responsibilities of the following participants that are creating open results: open results user, project leader, collaborator, contributor and author.</p></li>
+<li><p>List the tasks for creating reproducible results and the items to include in a manuscript to ensure reproducible results.</p></li>
+<li><p>Define a strategy for sharing your results including selecting publishers, interpreting journal policies and licenses, and determining when to share your data or software with your manuscript.</p></li>
+</ul>
+<p>Lesson 1: Introduction to Open Results</p>
+<ul class="simple">
+<li><p>Describe what constitutes open results and list the research objects that can be created throughout a research cycle.</p></li>
+<li><p>Describe how sharing open results can advance science and your career.</p></li>
+<li><p>Explain what the reproducibility crisis is and how open science can help combat it.</p></li>
+</ul>
+<p>Lesson 2: Using Open Results</p>
+<ul class="simple">
+<li><p>Identify a variety of open results sources including both published science research and non-traditional sources.</p></li>
+<li><p>Evaluate the reliability and quality of open results sources based on key characteristics.</p></li>
+<li><p>List the responsibilities of an open results user, including providing feedback to open results developers.</p></li>
+<li><p>List the ways to cite open results into your own research process.</p></li>
+</ul>
+<p>Lesson 3: Making Open Results</p>
+<ul class="simple">
+<li><p>Identify approaches to make different types of open results.</p></li>
+<li><p>Recognize the importance of collaboration in making results.</p></li>
+<li><p>Develop contribution guidelines to enable recognition of contributors who make results.</p></li>
+<li><p>Combine different open results to create scientific reports and reproducible outputs.</p></li>
+</ul>
+<p>Lesson 4: Sharing Open Results</p>
+<ul class="simple">
+<li><p>List ways that you can share open results to become a more collaborative, effective, scientist.</p></li>
+<li><p>List different types of open access publications and considerations when sharing like licenses.</p></li>
+<li><p>List some of the concerns around open access publishing, including responsibilities for authors, the threat of predatory publishers, and the fear of being wrong.</p></li>
+</ul>
+<p>Lesson 5: From Theory to Practice</p>
+<ul class="simple">
+<li><p>List what to include in an OSDMP for sharing results openly.</p></li>
+<li><p>List some concrete steps toward sharing results openly.</p></li>
+<li><p>Describe how emerging technology like AI is currently impacting how we use, make, and share our science.</p></li>
+</ul>
+</section>
+</section>
+<section id="june-2022-to-3-june-2022-tops-curriculum-pre-sprint-summary-report">
+<h2>1 June 2022 to 3 June 2022: TOPS Curriculum, Pre-Sprint Summary Report<a class="headerlink" href="#june-2022-to-3-june-2022-tops-curriculum-pre-sprint-summary-report" title="Permalink to this heading">#</a></h2>
+<p>Participants: Yo Yehudi (Ethos of Open), Sara El Gebali (Open Data), James Powell, Cameron Riddell (Open Software), Shilaan Alzahawi (Open Science Tools &amp; Resources), Natasha Batalha (Open Results), Chelle Gentemann, Yvonne Ivy, Brooks Hanson, Shelley Stall, Lauren Parr, Chris Erdmann, Laura Lyon, Lorena Barba, Miguel Amigot, Ashlynn Brown, Jacquelyn Eke (TOPS Team)</p>
+<p>The June 1 to June 3 pre-sprint meeting offered the first opportunity for the TOPS Curriculum Module Leads to meet each other and the TOPS Team. The TOPS Team presented background and logistical information while demonstrating the course technology and creation workflow. Leads were able to brainstorm and develop learning objectives and learner profiles to help guide the upcoming course development. The TOPS Team also walked through the anatomy of a lesson, reviewed draft sprint instructions, and discussed remaining logistics and questions.</p>
+<p>Next steps are centered on preparing for the 27 June - 1 July curriculum sprint.</p>
+<section id="wednesday-june-1">
+<h3>Wednesday, June 1<a class="headerlink" href="#wednesday-june-1" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p><span class="xref myst">Curriculum Module Leads</span>, TOPS Team Introductions</p></li>
+<li><p>Background on NASA OSSI, TOPS, and Open Science Curriculum</p></li>
+<li><p>Initial Logistics, Timeline, Roles, Engagement</p></li>
+<li><p>Course Technology, Creation Workflow Overview</p></li>
+<li><p>Discuss TOPS Community, Panel Feedback</p></li>
+</ul>
+</section>
+<section id="thursday-june-2">
+<h3>Thursday, June 2<a class="headerlink" href="#thursday-june-2" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Initial Scoping (Open Science Continuum Introduction)</p></li>
+<li><p>Learning Objectives Group Brainstorming Activity</p></li>
+<li><p>Learner Profiles Group Brainstorming Activity</p></li>
+</ul>
+</section>
+<section id="friday-june-3">
+<h3>Friday, June 3<a class="headerlink" href="#friday-june-3" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Review the Anatomy of a Lesson</p></li>
+<li><p>Draft Primer: Instructions for the Sprint</p></li>
+<li><p>Discuss Content Subject Matter Expert Selection</p></li>
+<li><p>Logistics and Open Discussion</p></li>
+</ul>
+<p>Slides:</p>
+<p>Gentemann, Chelle, Ivey, Yvonne, Stall, Shelley, Erdmann, Christopher, &amp; Lyon, Laura. (2022, June 3). Transform to Open Science (TOPS) Open Science Curriculum Pre-Sprint Meeting. Zenodo. <a class="reference external" href="https://doi.org/10.5281/zenodo.6617538">https://doi.org/10.5281/zenodo.6617538</a></p>
+</section>
+</section>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="workshop-listing-requirements">
+<h1>Workshop Listing Requirements<a class="headerlink" href="#workshop-listing-requirements" title="Permalink to this heading">#</a></h1>
+<p>TOPS offers the option to take Open Science 101 modules at workshops in both virtual and in-person formats.  This allows participants the benefit of getting trained through an instructor while taking availability into account. To facilitate signups, we have built a system through which instructors can list workshop and training dates on our website. Likewise, we encourage all instructors to request that their workshop details be listed <a class="reference external" href="https://nasa.github.io/Open-Science-101/take-os101/">on this page</a>.</p>
+<section id="general-requirements">
+<h2>General Requirements<a class="headerlink" href="#general-requirements" title="Permalink to this heading">#</a></h2>
+<p>These requirements apply to both in person and virtual instructor-led workshops that wish to be listed on the TOPS website.</p>
+<ul class="simple">
+<li><p>Your workshop must be free of charge.</p></li>
+<li><p>You must have funding from NASA (for example: TOPST).</p></li>
+<li><p>If you have not been provided with a registration page or registration information page, you are expected to create your own.</p></li>
+<li><p>You must clear your listing with TOPS by emailing <a class="reference external" href="mailto:hq-openscience&#37;&#52;&#48;nasa&#46;gov">hq-openscience<span>&#64;</span>nasa<span>&#46;</span>gov</a> even if you would prefer to list your workshop through the steps outlined in our <a class="reference external" href="https://github.com/nasa/Open-Science-101/tree/website#os101-workshops">website documentation</a>.</p></li>
+</ul>
+</section>
+<section id="virtual-workshop-requirements">
+<h2>Virtual Workshop Requirements<a class="headerlink" href="#virtual-workshop-requirements" title="Permalink to this heading">#</a></h2>
+<p>Below are the details that TOPS will ask for when you request your virtual workshop(s) be listed on our website:</p>
+<ul class="simple">
+<li><p>Date(s) of the workshop.</p></li>
+<li><p>The time(s) that the workshop will take place with the time zone.</p>
+<ul>
+<li><p>For example: 4:00 - 5:00 PM EST</p></li>
+</ul>
+</li>
+<li><p>The type of workshop.</p>
+<ul>
+<li><p>This should be a general description (a few words) that best describes the workshop, and other useful information such as your organization name or the name of the conference.  For example “TOPST Summer School - My Org Name” or “Conference Workshop - AAS” would be great event type examples.</p></li>
+</ul>
+</li>
+<li><p>The topic(s) of the workshop.</p>
+<ul>
+<li><p>This is usually an OS 101 module such as “OS101 Module 2”.</p></li>
+</ul>
+</li>
+<li><p>The instructor(s) and their affiliation.</p>
+<ul>
+<li><p>For example “John Doe, NASA”.</p></li>
+</ul>
+</li>
+<li><p>Whether your workshop is internal to NASA or JPL.</p>
+<ul>
+<li><p>Only contractors and employees will be able to attend these types of workshops.</p></li>
+</ul>
+</li>
+<li><p>Whether your workshop is using a registration form from an external service.</p></li>
+<li><p>A link to your registration page or information.</p></li>
+</ul>
+</section>
+<section id="in-person-workshop-requirements">
+<h2>In-Person Workshop Requirements<a class="headerlink" href="#in-person-workshop-requirements" title="Permalink to this heading">#</a></h2>
+<p>Below are the details that TOPS will ask for when you request your in-person workshop(s) be listed on our website.  All the details for virtual workshops apply to in-person workshops. The only exception is that a location is required for in-person workshops:</p>
+<ul class="simple">
+<li><p>The location of the workshop.</p>
+<ul>
+<li><p>This includes the city name and the venue name.  An example of this is “Moscone Center, San Francisco, CA”.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="adding-a-workshop-to-the-tops-website-yourself">
+<h2>Adding a Workshop to the TOPS Website Yourself<a class="headerlink" href="#adding-a-workshop-to-the-tops-website-yourself" title="Permalink to this heading">#</a></h2>
+<p>Once your request is cleared with TOPS, you can allow us to take care of adding your workshop(s) to the website on your behalf. This will be communicated to our GitHub Lead.</p>
+<p>If you have experience with GitHub and creating Pull Requests, you can optionally choose to add the workshop(s) yourself, and the GitHub Lead will help you merge it in.  You can find instructions on how to do this <a class="reference external" href="https://github.com/nasa/Open-Science-101/tree/website#os101-workshops">here</a>.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./docs/Open-Science-101"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Open Science 101 Curriculum Guidance</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#online-course-blueprint">Online Course Blueprint</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#live-course-blueprint">Live Course Blueprint</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-in-person-suggestions">Additional In-Person Suggestions</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-virtual-session-suggestions">Additional Virtual Session Suggestions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#contributors">Contributors</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#os101-tops-curriculum-development-2022">OS101 TOPS Curriculum Development 2022</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethos-of-open-science">Ethos of Open Science</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-data">Open Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-software">Open Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-science-tools-and-resources">Open Science Tools and Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-results">Open Results</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#champions-curriculum-development-2023">Champions Curriculum Development 2023</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Ethos of Open Science</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-tools-and-resources">Open Tools and Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Open Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-code">Open Code</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Open Results</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#os101-content-revision-2023">OS101 Content Revision 2023</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Ethos of Open Science</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Open Tools and Resources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Open Data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Open Code</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Open Results</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#editors">Editors</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#original-artwork-and-graphics">Original Artwork and Graphics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reviewers">Reviewers</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tops-community-panel">TOPS Community Panel</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tops-os101-curriculum-development-management-at-nasa-s-ames-research-center">TOPS OS101 Curriculum Development Management at NASA’s Ames Research Center</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tops-project-management-office-at-nasas-marshall-space-flight-center">TOPS Project Management Office at NASA’s Marshall Space Flight Center</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tops-team-at-nasa-headquarters">TOPS Team at NASA Headquarters</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#to-contribute">To Contribute</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#your-feedback-is-needed">Your Feedback is Needed!</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#we-specifically-are-in-need-of-your-feedback-on">We specifically are in need of your feedback on:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-note-from-the-team-about-working-openly"><strong>A note from the team about working openly…</strong></a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#open-science-curriculum-structure">Open Science Curriculum Structure</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Ethos of Open Science</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#open-tools-resources">Open Tools &amp; Resources</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Open Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Open Code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Open Results</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#detailed-outline">Detailed Outline</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-1-ethos-of-open-science">Module 1: Ethos of Open Science</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#module-1-learning-objectives">Module 1 Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-2-open-tools-and-resources">Module 2: Open Tools and Resources</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#module-2-learning-objectives">Module 2 Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-3-open-data">Module 3: Open Data</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#module-3-learning-objectives">Module 3 Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-4-open-code">Module 4: Open Code</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#module-4-learning-objectives">Module 4 Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#module-5-open-results">Module 5: Open Results</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#module-5-learning-objectives">Module 5 Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#june-2022-to-3-june-2022-tops-curriculum-pre-sprint-summary-report">1 June 2022 to 3 June 2022: TOPS Curriculum, Pre-Sprint Summary Report</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wednesday-june-1">Wednesday, June 1</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#thursday-june-2">Thursday, June 2</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#friday-june-3">Friday, June 3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#workshop-listing-requirements">Workshop Listing Requirements</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-requirements">General Requirements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#virtual-workshop-requirements">Virtual Workshop Requirements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-person-workshop-requirements">In-Person Workshop Requirements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-a-workshop-to-the-tops-website-yourself">Adding a Workshop to the TOPS Website Yourself</a></li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By NASA TOPS/VERSO
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

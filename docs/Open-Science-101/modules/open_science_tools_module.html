@@ -1,0 +1,1860 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Module 5 - Open Science Tools &#8212; Open Science 101</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/clipboard.min.js"></script>
+    <script src="../../../_static/copybutton.js"></script>
+    <script src="../../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/Open-Science-101/modules/open_science_tools_module';</script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Bibliography" href="bibliography.html" />
+    <link rel="prev" title="Module 4 - Open Results" href="open_results_module.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../README.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../_static/open_science_101_logo.png" class="logo__image only-light" alt="Open Science 101 - Home"/>
+    <script>document.write(`<img src="../../../_static/open_science_101_logo.png" class="logo__image only-dark" alt="Open Science 101 - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../../README.html">
+                    Open Science 101 Course
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="open_science_ethos_module.html">Module 1 - Open Science Ethos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open_data_module.html">Module 2 - Open Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open_software_module.html">Module 3 - Open Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open_results_module.html">Module 4 - Open Results</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 5 - Open Science Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bibliography.html">Bibliography &amp; Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../CONTRIBUTING.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../CODE_OF_CONDUCT.html">Code of Conduct</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../../_sources/docs/Open-Science-101/modules/open_science_tools_module.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Module 5 - Open Science Tools</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-1-repositories-and-data-storage">Lesson 1: Repositories and Data Storage</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-repository">1.1 What is a Repository?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#repository-vs-archive-key-differences">1.2 Repository vs. Archive: Key Differences</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-repositories">1.3 Data Repositories</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discipline-specific-repositories">1.4 Discipline-Specific Repositories</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#software-repositories">1.5 Software Repositories</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#choosing-the-right-repository">1.6 Choosing the Right Repository</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-2-version-control-and-collaboration">Lesson 2: Version Control and Collaboration</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-version-control">2.1 What is Version Control?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-version-control-systems">2.2 Types of Version Control Systems</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#git-fundamentals">2.3 Git Fundamentals</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collaborative-workflows-on-github">2.4 Collaborative Workflows on GitHub</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#repository-best-practices">2.5 Repository Best Practices</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-3-getting-dois-and-orcids">Lesson 3: Getting DOIs and ORCIDs</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-your-doi">3.1 Getting Your DOI</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-your-orcid">3.2 Getting Your ORCID</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#other-persistent-identifiers">3.3 Other Persistent Identifiers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#citing-your-work">3.4 Citing Your Work</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#best-practices-for-identifiers">3.5 Best Practices for Identifiers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-4-open-science-software-ecosystems">Lesson 4: Open Science Software Ecosystems</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation-and-manuscript-tools">4.1 Documentation and Manuscript Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#computational-research-tools">4.2 Computational Research Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preprint-servers">4.3 Preprint Servers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#project-management-and-workflows">4.4 Project Management and Workflows</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-management-planning">4.5 Data Management Planning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#team-communication">4.6 Team Communication</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-5-building-your-open-science-toolkit">Lesson 5: Building Your Open Science Toolkit</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assessing-your-tool-needs">5.1 Assessing Your Tool Needs</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discipline-specific-tool-recommendations">5.2 Discipline-Specific Tool Recommendations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#building-your-toolkit-step-by-step">5.3 Building Your Toolkit: Step by Step</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#common-tool-combinations">5.4 Common Tool Combinations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-science-tool-communities">5.5 Open Science Tool Communities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting-common-tool-issues">5.6 Troubleshooting Common Tool Issues</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-open-science-toolkit-checklist">5.7 Your Open Science Toolkit Checklist</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#measuring-success">5.8 Measuring Success</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Summary</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="module-5-open-science-tools">
+<h1>Module 5 - Open Science Tools<a class="headerlink" href="#module-5-open-science-tools" title="Permalink to this heading">#</a></h1>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
+<p>Open science tools are digital resources and instruments that support research through data storage, code collaboration, persistent identification, documentation, and community engagement. These tools are essential for implementing open science practices, enabling reproducibility, and facilitating collaboration.</p>
+</section>
+<section id="learning-objectives">
+<h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h2>
+<p>After completing this module, you should be able to:</p>
+<ul class="simple">
+<li><p>Describe the purpose and types of repositories used in open science, including development repositories, data archives, and discipline-specific platforms.</p></li>
+<li><p>Explain version control systems and how they enable collaborative research through tracking changes and managing contributions.</p></li>
+<li><p>Understand persistent identifiers (DOIs, ORCIDs, ARKs) and how they enable citation, discoverability, and long-term access to research outputs.</p></li>
+<li><p>Evaluate open science tools and platforms to select appropriate ones for your research workflow and data management needs.</p></li>
+<li><p>Implement a comprehensive toolkit combining repositories, version control, persistent identifiers, and collaboration tools.</p></li>
+<li><p>Build sustainable practices for managing, sharing, and preserving research outputs using appropriate open science infrastructure.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="lesson-1-repositories-and-data-storage">
+<h2>Lesson 1: Repositories and Data Storage<a class="headerlink" href="#lesson-1-repositories-and-data-storage" title="Permalink to this heading">#</a></h2>
+<section id="overview">
+<h3>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h3>
+<p>In this lesson, you explore the different types of repositories used to store and preserve research data and software, understand the differences between development repositories and archives, and learn how to select appropriate platforms for your research outputs.</p>
+</section>
+<section id="what-is-a-repository">
+<h3>1.1 What is a Repository?<a class="headerlink" href="#what-is-a-repository" title="Permalink to this heading">#</a></h3>
+<p>A repository is a digital storage system that keeps research data, code, and documentation organized and accessible. It provides a stable home for your outputs, makes them discoverable through search and indexing, and preserves them for long-term use so others can return to the work years later. Repositories also support versioning, which means changes can be tracked over time and specific releases can be referenced when results are cited or reused.</p>
+<p>At its core, a repository delivers five essential services. It offers <strong>storage</strong> through secure and reliable hosting, <strong>access</strong> through public or restricted permissions, and <strong>preservation</strong> by maintaining files and migrating formats as needed. It also supplies <strong>metadata</strong> that describes what the content is and how to use it, and <strong>persistence</strong> by assigning identifiers such as DOIs so the work can always be found and cited.</p>
+</section>
+<section id="repository-vs-archive-key-differences">
+<h3>1.2 Repository vs. Archive: Key Differences<a class="headerlink" href="#repository-vs-archive-key-differences" title="Permalink to this heading">#</a></h3>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Development Repositories</p></th>
+<th class="head"><p>Archives (Data Preservation)</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Purpose:</strong> Active collaborative development</p></td>
+<td><p><strong>Purpose:</strong> Long-term preservation of final versions</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Version Control:</strong> Full Git/Mercurial/SVN integration</p></td>
+<td><p><strong>Version Control:</strong> Minimal (snapshot preservation)</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>History:</strong> Complete change tracking</p></td>
+<td><p><strong>History:</strong> Limited to deposited versions</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Branching:</strong> Experimental and parallel work</p></td>
+<td><p><strong>Immutability:</strong> Final versions cannot be changed</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Examples:</strong> GitHub, GitLab, Bitbucket</p></td>
+<td><p><strong>Examples:</strong> Zenodo, Figshare, Dataverse</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Use When:</strong> Actively writing code, multiple developers, rapid iterations</p></td>
+<td><p><strong>Use When:</strong> Publishing final datasets, archiving software releases, preservation required</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Best Practice:</strong> Use both together</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Active Development → GitHub/GitLab → Release → Zenodo/Archive
+     (versions)     (collaboration)      (final)  (preservation)
+</pre></div>
+</div>
+</section>
+<section id="data-repositories">
+<h3>1.3 Data Repositories<a class="headerlink" href="#data-repositories" title="Permalink to this heading">#</a></h3>
+<p><strong>General-Purpose Repositories:</strong></p>
+<p><strong>Zenodo</strong> (<a class="reference external" href="http://zenodo.org">zenodo.org</a>)</p>
+<ul class="simple">
+<li><p>Multidisciplinary storage</p></li>
+<li><p>Manages both data and software</p></li>
+<li><p>Free and unlimited</p></li>
+<li><p>Automatic DOI assignment</p></li>
+<li><p>50 GB per record limit</p></li>
+<li><p>EU funding requirement</p></li>
+<li><p>Use for: All research outputs with archival needs</p></li>
+</ul>
+<p><strong>Figshare</strong> (<a class="reference external" href="http://figshare.com">figshare.com</a>)</p>
+<ul class="simple">
+<li><p>Rich media support (images, presentations, videos)</p></li>
+<li><p>Individual file sharing and versioning</p></li>
+<li><p>20 GB free storage, unlimited public files</p></li>
+<li><p>Custom DOIs available</p></li>
+<li><p>Beautiful web interface</p></li>
+<li><p>Use for: Visual data, figures, supplementary materials</p></li>
+</ul>
+<p><strong>Open Science Framework (OSF)</strong> (<a class="reference external" href="https://osf.io/">https://osf.io/</a>)</p>
+<ul class="simple">
+<li><p>Project management integrated with storage</p></li>
+<li><p>Version control built-in</p></li>
+<li><p>Preregistration and reporting workflows</p></li>
+<li><p>Integration with many other tools</p></li>
+<li><p>Free hosting</p></li>
+<li><p>Use for: Coordinating research projects, preregistration</p></li>
+</ul>
+<p><strong>Dataverse</strong> (<a class="reference external" href="http://dataverse.org">dataverse.org</a>)</p>
+<ul class="simple">
+<li><p>Institutional deployment options</p></li>
+<li><p>Tabular data tools</p></li>
+<li><p>Citation standards built-in</p></li>
+<li><p>Harvard Dataverse example</p></li>
+<li><p>Good for: Institutional repositories, tabular datasets</p></li>
+</ul>
+</section>
+<section id="discipline-specific-repositories">
+<h3>1.4 Discipline-Specific Repositories<a class="headerlink" href="#discipline-specific-repositories" title="Permalink to this heading">#</a></h3>
+<p>Discipline-specific repositories matter because they use field-appropriate metadata standards, align with community practices, and provide discovery tools tailored to how your field searches for data. They also prioritize long-term preservation and help ensure that data sharing aligns with funder expectations and disciplinary norms, which strengthens reuse and recognition.</p>
+<p><strong>Biological Sciences:</strong></p>
+<ul class="simple">
+<li><p><strong>GenBank</strong> - DNA/protein sequences (NCBI) (<a class="reference external" href="https://www.ncbi.nlm.nih.gov/genbank/">https://www.ncbi.nlm.nih.gov/genbank/</a>)</p></li>
+<li><p><strong>Protein Data Bank</strong> - 3D protein structures (<a class="reference external" href="https://www.rcsb.org/">https://www.rcsb.org/</a>)</p></li>
+<li><p><strong>Dryad</strong> - Data associated with publications (<a class="reference external" href="https://datadryad.org/">https://datadryad.org/</a>)</p></li>
+</ul>
+<p><strong>Earth and Environmental Science:</strong></p>
+<ul class="simple">
+<li><p><strong>NOAA</strong> - Climate and oceanographic data (<a class="reference external" href="https://www.noaa.gov/">https://www.noaa.gov/</a>)</p></li>
+<li><p><strong>USGS</strong> - Geological data and maps (<a class="reference external" href="https://www.usgs.gov/">https://www.usgs.gov/</a>)</p></li>
+<li><p><strong>GeoNetwork</strong> - Geographic data discovery (<a class="reference external" href="https://geonetwork-opensource.org/">https://geonetwork-opensource.org/</a>)</p></li>
+</ul>
+<p><strong>Physics and Astronomy:</strong></p>
+<ul class="simple">
+<li><p><strong>arXiv</strong> - Preprints and papers (<a class="reference external" href="https://arxiv.org/">https://arxiv.org/</a>)</p></li>
+<li><p><strong>Zenodo</strong> - CERN’s repository (multidisciplinary) (<a class="reference external" href="https://zenodo.org/">https://zenodo.org/</a>)</p></li>
+</ul>
+<p><strong>Social Sciences:</strong></p>
+<ul class="simple">
+<li><p><strong>ICPSR</strong> - Social science research data (<a class="reference external" href="https://www.icpsr.umich.edu/">https://www.icpsr.umich.edu/</a>)</p></li>
+<li><p><strong>Harvard Dataverse</strong> - General-purpose institutional (<a class="reference external" href="https://dataverse.harvard.edu/">https://dataverse.harvard.edu/</a>)</p></li>
+</ul>
+</section>
+<section id="software-repositories">
+<h3>1.5 Software Repositories<a class="headerlink" href="#software-repositories" title="Permalink to this heading">#</a></h3>
+<p>Software repositories provide the infrastructure for developing, sharing, and sustaining research code. They make collaboration practical by tracking changes, enabling review, and preserving project history so others can verify, reuse, and build on your work. Platforms like GitHub and GitLab are central to this ecosystem because they pair Git version control with collaboration features (issues, pull/merge requests, CI/CD, documentation hosting) that help research teams work transparently and reproducibly.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Feature</p></th>
+<th class="head"><p>GitHub</p></th>
+<th class="head"><p>GitLab</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Primary strength</strong></p></td>
+<td><p>Large open-source community and discovery</p></td>
+<td><p>Integrated DevOps and strong self-hosting options</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Hosting options</strong></p></td>
+<td><p>Cloud-hosted (<a class="reference external" href="http://GitHub.com">GitHub.com</a>), enterprise options</p></td>
+<td><p>Cloud-hosted (<a class="reference external" href="http://GitLab.com">GitLab.com</a>) and robust self-hosted</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Collaboration</strong></p></td>
+<td><p>Pull requests, issues, discussions</p></td>
+<td><p>Merge requests, issues, epics</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>CI/CD</strong></p></td>
+<td><p>GitHub Actions (marketplace-driven)</p></td>
+<td><p>Built-in CI/CD with runners</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Privacy controls</strong></p></td>
+<td><p>Private repos and org controls</p></td>
+<td><p>Stronger enterprise privacy and on-prem controls</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Best fit</strong></p></td>
+<td><p>Open-source visibility and broad community</p></td>
+<td><p>Institutions needing self-hosting or integrated pipelines</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Package Registries:</strong></p>
+<p>Package registries are centralized catalogs that host, index, and distribute reusable software packages. They make it easy for researchers to share code with consistent versioning, dependencies, and documentation, and they allow others to install and update packages reliably using standard tools (for example, <code class="docutils literal notranslate"><span class="pre">pip</span></code> for Python or <code class="docutils literal notranslate"><span class="pre">install.packages()</span></code> for R). In practice, registries act as the publication layer for research software, enabling discoverability, citation, and long-term reuse.</p>
+<p><strong>PyPI</strong> (<a class="reference external" href="http://pypi.org">pypi.org</a>) - Python</p>
+<ul class="simple">
+<li><p>500,000+ packages</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span></code> command standard</p></li>
+<li><p>Peer review through community</p></li>
+<li><p>Documentation hosting</p></li>
+</ul>
+<p><strong>CRAN</strong> (<a class="reference external" href="http://cran.r-project.org">cran.r-project.org</a>) - R</p>
+<ul class="simple">
+<li><p>20,000+ packages</p></li>
+<li><p>Automated testing</p></li>
+<li><p>Vignettes and documentation</p></li>
+<li><p>Strong quality standards</p></li>
+</ul>
+<p><strong>Zenodo and Software:</strong></p>
+<ul class="simple">
+<li><p>Direct software upload</p></li>
+<li><p>Automatic DOI for released versions</p></li>
+<li><p>GitHub-Zenodo integration (auto-archive releases)</p></li>
+<li><p>Preservation timeline: 20+ years</p></li>
+</ul>
+</section>
+<section id="choosing-the-right-repository">
+<h3>1.6 Choosing the Right Repository<a class="headerlink" href="#choosing-the-right-repository" title="Permalink to this heading">#</a></h3>
+<p><strong>Decision Matrix:</strong></p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Need</p></th>
+<th class="head"><p>Best Choice</p></th>
+<th class="head"><p>Rationale</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Active code development</p></td>
+<td><p>GitHub/GitLab</p></td>
+<td><p>Full version control</p></td>
+</tr>
+<tr class="row-odd"><td><p>Final dataset archival</p></td>
+<td><p>Zenodo/Figshare</p></td>
+<td><p>Long-term preservation</p></td>
+</tr>
+<tr class="row-even"><td><p>Discipline-specific data</p></td>
+<td><p>Domain repository</p></td>
+<td><p>Specialized standards</p></td>
+</tr>
+<tr class="row-odd"><td><p>Institutional requirement</p></td>
+<td><p>Institutional repo</p></td>
+<td><p>Policy compliance</p></td>
+</tr>
+<tr class="row-even"><td><p>Visual supplementary materials</p></td>
+<td><p>Figshare</p></td>
+<td><p>Rich media support</p></td>
+</tr>
+<tr class="row-odd"><td><p>Python package distribution</p></td>
+<td><p>PyPI</p></td>
+<td><p>Standard ecosystem</p></td>
+</tr>
+<tr class="row-even"><td><p>Project coordination</p></td>
+<td><p>Open Science Framework</p></td>
+<td><p>Workflow integration</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="summary">
+<h3>Summary<a class="headerlink" href="#summary" title="Permalink to this heading">#</a></h3>
+<p>Repositories are foundational tools for open science:</p>
+<ul class="simple">
+<li><p><strong>Development repositories</strong> (GitHub) support collaboration</p></li>
+<li><p><strong>Data repositories</strong> (Zenodo, Figshare) enable archival and discovery</p></li>
+<li><p><strong>Discipline-specific repositories</strong> follow community standards</p></li>
+<li><p><strong>Software registries</strong> (PyPI, CRAN) distribute packages</p></li>
+<li><p>Combine multiple repositories for maximum effectiveness</p></li>
+</ul>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 1</p>
+<p>Complete at least two of the following activities to apply repository concepts:</p>
+<p><strong>Activity 1.1: Repository Mapping</strong>
+Choose one of your current or planned projects and map where each output should live (code, raw data, cleaned data, figures, manuscript, preregistration). Identify the specific repository or platform for each output and explain why it fits.</p>
+<p><strong>Activity 1.2: Development vs. Archive Decision</strong>
+Select a research artifact (e.g., codebase, dataset). Decide what should stay in a development repository versus what should be archived, and draft a release plan that includes a version number and an archival repository with a DOI.</p>
+<p><strong>Activity 1.3: Data Repository Shortlist</strong>
+Create a shortlist of three repositories for your field and compare them on scope, storage limits, metadata requirements, and long-term preservation. Write 150-200 words explaining which one you would choose and why.</p>
+<p><strong>Activity 1.4: Repository Metadata Draft</strong>
+Draft a metadata record for a dataset you have or plan to produce. Include title, description, creators, keywords, license, and a short README outline.</p>
+</div>
+</section>
+</section>
+<section id="lesson-2-version-control-and-collaboration">
+<h2>Lesson 2: Version Control and Collaboration<a class="headerlink" href="#lesson-2-version-control-and-collaboration" title="Permalink to this heading">#</a></h2>
+<section id="id1">
+<h3>Overview<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<p>In this lesson, you learn about version control systems that track changes to code and documentation, understand different approaches to version control, explore platforms that facilitate collaboration, and practice implementing version control in your research workflow.</p>
+</section>
+<section id="what-is-version-control">
+<h3>2.1 What is Version Control?<a class="headerlink" href="#what-is-version-control" title="Permalink to this heading">#</a></h3>
+<p>Version control is a systematic way to track and manage changes to files such as code, documentation, and research outputs. Rather than relying on ad hoc file naming, it preserves a detailed history of edits so you can see who changed what, when, and why. This history also makes it easy to revert to earlier versions if something breaks or a result needs to be reproduced exactly.</p>
+<p>Beyond tracking changes, version control enables multiple people to work in parallel and later merge their contributions into a coherent whole. That collaborative workflow is what makes modern research software development scalable and reliable. For researchers, version control supports reproducibility by pinning analyses to specific versions of code, improves accountability with clear attribution, and provides a robust backup strategy through distributed copies. It also makes experimentation safer, since you can try new ideas without risking the integrity of your main workflow.</p>
+</section>
+<section id="types-of-version-control-systems">
+<h3>2.2 Types of Version Control Systems<a class="headerlink" href="#types-of-version-control-systems" title="Permalink to this heading">#</a></h3>
+<p><strong>Centralized Version Control</strong></p>
+<p><strong>How it works:</strong>
+Centralized version control relies on a single central server that holds the full version history. Developers check out files to work locally and then commit their changes back to that central server.</p>
+<p><strong>Examples:</strong> Subversion (SVN), Perforce, CVS</p>
+<p><strong>Advantages:</strong></p>
+<ul class="simple">
+<li><p>Simpler conceptual model</p></li>
+<li><p>Clear central authority</p></li>
+<li><p>Easier access control</p></li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul class="simple">
+<li><p>Server dependency (offline work limited)</p></li>
+<li><p>Network traffic for every operation</p></li>
+<li><p>Single point of failure</p></li>
+</ul>
+<p><strong>Distributed Version Control</strong></p>
+<p><strong>How it works:</strong>
+In a distributed model, every developer has a complete copy of the repository, including its history. Work can proceed locally, and changes are shared and merged between repositories when collaborators synchronize their work.</p>
+<p><strong>Examples:</strong> Git, Mercurial (Hg), Bazaar</p>
+<p><strong>Advantages:</strong></p>
+<ul class="simple">
+<li><p>Works offline (full history available)</p></li>
+<li><p>Redundancy (copies are backups)</p></li>
+<li><p>Parallel workflows easier</p></li>
+<li><p>Performance (local operations fast)</p></li>
+</ul>
+<p><strong>Disadvantages:</strong></p>
+<ul class="simple">
+<li><p>More complex learning curve</p></li>
+<li><p>Larger local storage (full history)</p></li>
+<li><p>More merge conflict scenarios</p></li>
+</ul>
+</section>
+<section id="git-fundamentals">
+<h3>2.3 Git Fundamentals<a class="headerlink" href="#git-fundamentals" title="Permalink to this heading">#</a></h3>
+<p><strong>Key Concepts:</strong></p>
+<p><strong>Commit:</strong> Snapshot of files at a point in time</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>✓ Each commit has:
+  - Unique ID (hash)
+  - Author and date
+  - Message describing changes
+  - Record of what changed
+</pre></div>
+</div>
+<p><strong>Branch:</strong> Independent development line</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>main branch:  ●---●---●---●
+                    |
+dev branch:         ●---●---●
+</pre></div>
+</div>
+<p><strong>Merge:</strong> Combining branches</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Before merge:       After merge:
+main: ●---●---●     main: ●---●---●---●
+          |              |       |
+dev:  ●---●---●         ●---●---●
+</pre></div>
+</div>
+<p><strong>Workflow Example (Researcher):</strong></p>
+<ol class="arabic simple">
+<li><p>Create analysis branch</p></li>
+<li><p>Make commits as you develop</p></li>
+<li><p>Test thoroughly on branch</p></li>
+<li><p>Create pull request for review</p></li>
+<li><p>Merge to main branch</p></li>
+<li><p>Main branch always has working code</p></li>
+</ol>
+</section>
+<section id="collaborative-workflows-on-github">
+<h3>2.4 Collaborative Workflows on GitHub<a class="headerlink" href="#collaborative-workflows-on-github" title="Permalink to this heading">#</a></h3>
+<p><strong>Pull Request Workflow (code review):</strong></p>
+<ol class="arabic simple">
+<li><p>Colleague creates branch: <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">-b</span> <span class="pre">new-feature</span></code></p></li>
+<li><p>Makes changes and pushes: <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">origin</span> <span class="pre">new-feature</span></code></p></li>
+<li><p>Opens Pull Request on GitHub (describes what changed and why)</p></li>
+<li><p>You review code: add comments, suggest changes</p></li>
+<li><p>Colleague updates based on feedback</p></li>
+<li><p>Once approved: merge to main</p></li>
+</ol>
+<p><strong>Why this matters for research:</strong></p>
+<ul class="simple">
+<li><p>Code review catches errors before they reach your paper</p></li>
+<li><p>Transparent record of who suggested what changes</p></li>
+<li><p>Prevents accidentally breaking the analysis</p></li>
+</ul>
+<p><strong>Issue Tracking (bug reports and features):</strong></p>
+<p>GitHub Issues organize project work:</p>
+<ul class="simple">
+<li><p>“Bug: outlier detection failing on dataset X” → someone claims it, fixes it</p></li>
+<li><p>“Feature: add visualization for results” → someone volunteers</p></li>
+<li><p>Link issues to pull requests: “closes #15” in PR description</p></li>
+</ul>
+<p><strong>Continuous Integration (automated testing):</strong></p>
+<p>GitHub Actions run tests automatically:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># When someone pushes code:</span>
+<span class="l l-Scalar l-Scalar-Plain">1. GitHub runs your analysis script</span>
+<span class="l l-Scalar l-Scalar-Plain">2. Checks for errors</span>
+<span class="l l-Scalar l-Scalar-Plain">3. Reports pass/fail</span>
+<span class="l l-Scalar l-Scalar-Plain">4. Prevents broken code from merging</span>
+</pre></div>
+</div>
+<p><strong>For institutions with privacy requirements:</strong> GitLab (self-hosted on your servers) or Gitea provide the same workflows with full data control.</p>
+</section>
+<section id="repository-best-practices">
+<h3>2.5 Repository Best Practices<a class="headerlink" href="#repository-best-practices" title="Permalink to this heading">#</a></h3>
+<p><strong>Organize your project:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>my-research/
+├── README.md              # Project overview and how to run it
+├── .gitignore             # Files to exclude (e.g., large data, secrets)
+├── LICENSE                # MIT, GPL, Apache 2.0, etc.
+├── data/                  # Raw data (read-only, with checksums)
+├── code/analysis.py       # Scripts for analysis
+├── results/               # Generated outputs (outputs only, not committed)
+├── manuscript/            # Paper drafts and LaTeX
+├── notebooks/             # Jupyter notebooks for exploration
+└── .github/workflows/     # GitHub Actions for automated tests
+</pre></div>
+</div>
+<p><strong>Write clear commits:</strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>✓<span class="w"> </span>Good:<span class="w"> </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Add outlier detection with z-score (resolves #42)&quot;</span>
+✗<span class="w"> </span>Bad:<span class="w">  </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;update&quot;</span>
+
+✓<span class="w"> </span>Good:<span class="w"> </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Fix data import error for missing values&quot;</span>
+✗<span class="w"> </span>Bad:<span class="w">  </span>git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;debug&quot;</span>
+</pre></div>
+</div>
+<p><strong>Collaborate safely:</strong></p>
+<ol class="arabic simple">
+<li><p>Never commit passwords, API keys, or large data files</p></li>
+<li><p>Use <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> to exclude: <code class="docutils literal notranslate"><span class="pre">*.csv</span></code>, <code class="docutils literal notranslate"><span class="pre">*.h5</span></code>, <code class="docutils literal notranslate"><span class="pre">.env</span></code></p></li>
+<li><p>Always create a branch for new features</p></li>
+<li><p>Require code review before merging</p></li>
+<li><p>Run tests automatically (GitHub Actions)</p></li>
+</ol>
+</section>
+<section id="id2">
+<h3>Summary<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<p>Version control is essential for open science:</p>
+<ul class="simple">
+<li><p><strong>Distributed systems</strong> (Git) enable offline work and redundancy</p></li>
+<li><p><strong>Platforms</strong> (GitHub, GitLab) add collaboration features</p></li>
+<li><p><strong>Best practices</strong> ensure code quality and reproducibility</p></li>
+<li><p><strong>Workflow discipline</strong> prevents conflicts and maintains clarity</p></li>
+<li><p><strong>Version control + repositories</strong> = complete research preservation</p></li>
+</ul>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 2</p>
+<p>Complete at least two of the following activities to practice version control:</p>
+<p><strong>Activity 2.1: Initialize a Research Repository</strong>
+Create a new Git repository for a small research project. Add a README, a license, and a basic folder structure (data, code, docs, results). Make at least three commits with clear messages.</p>
+<p><strong>Activity 2.2: Branch and Merge Practice</strong>
+Create a feature branch, make a change to a file, and merge it back into <code class="docutils literal notranslate"><span class="pre">main</span></code>. Write a short reflection on what you learned about branching and merging.</p>
+<p><strong>Activity 2.3: .gitignore Audit</strong>
+Create or update a <code class="docutils literal notranslate"><span class="pre">.gitignore</span></code> file for your project. Explain why each ignored category (raw data, secrets, build artifacts) should not be tracked in Git.</p>
+<p><strong>Activity 2.4: Collaboration Simulation</strong>
+Open an issue describing a small improvement, then create a pull/merge request that resolves it. Write a brief summary as if you were reviewing your own change.</p>
+</div>
+</section>
+</section>
+<section id="lesson-3-getting-dois-and-orcids">
+<h2>Lesson 3: Getting DOIs and ORCIDs<a class="headerlink" href="#lesson-3-getting-dois-and-orcids" title="Permalink to this heading">#</a></h2>
+<section id="id3">
+<h3>Overview<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<p>In this lesson, you learn how to obtain and use persistent identifiers (DOIs and ORCIDs) that make your research permanently discoverable and citable. You’ll get practical experience setting up your researcher profile and archiving research outputs with permanent identifiers.</p>
+</section>
+<section id="getting-your-doi">
+<h3>3.1 Getting Your DOI<a class="headerlink" href="#getting-your-doi" title="Permalink to this heading">#</a></h3>
+<p><strong>When you need a DOI:</strong></p>
+<ul class="simple">
+<li><p>Publishing a dataset on <strong>Zenodo</strong>, <strong>Figshare</strong>, or <strong>Dryad</strong></p></li>
+<li><p>Archiving code associated with a paper</p></li>
+<li><p>Publishing software as a package</p></li>
+<li><p>Sharing supplementary materials</p></li>
+</ul>
+<p><strong>Step-by-step for Zenodo (free, easy, recommended):</strong></p>
+<ol class="arabic simple">
+<li><p>Go to <a class="reference external" href="https://zenodo.org">zenodo.org</a></p></li>
+<li><p>Sign in with GitHub account</p></li>
+<li><p>Click “Upload” → “New Upload”</p></li>
+<li><p>Add files (data, code, manuscript)</p></li>
+<li><p>Fill metadata:</p>
+<ul class="simple">
+<li><p>Title: “Ocean temperature dataset, 2020-2024”</p></li>
+<li><p>Authors: Your name + ORCID</p></li>
+<li><p>Description: 1-2 sentences</p></li>
+<li><p>License: CC-BY-4.0 (or your choice)</p></li>
+</ul>
+</li>
+<li><p>Click “Publish” → <strong>DOI automatically created</strong></p></li>
+<li><p>Copy DOI: <code class="docutils literal notranslate"><span class="pre">10.5281/zenodo.1234567</span></code></p></li>
+</ol>
+<p><strong>Using your DOI:</strong></p>
+<ul class="simple">
+<li><p>Cite in paper: Add to data availability statement</p></li>
+<li><p>Share on GitHub: Add to README</p></li>
+<li><p>Link in author profile: Add to CV/ORCID</p></li>
+<li><p>Permanent reference: Share in presentations</p></li>
+</ul>
+<p><strong>Other repositories:</strong></p>
+<ul class="simple">
+<li><p><strong>Figshare</strong> (<a class="reference external" href="http://figshare.com">figshare.com</a>): Easy interface, good for figures and supplementary materials</p></li>
+<li><p><strong>Dryad</strong> (<a class="reference external" href="http://datadryad.org">datadryad.org</a>): Discipline-specific data, curated submissions</p></li>
+<li><p><strong>Dataverse</strong> (<a class="reference external" href="http://dataverse.org">dataverse.org</a>): University-hosted option</p></li>
+</ul>
+</section>
+<section id="getting-your-orcid">
+<h3>3.2 Getting Your ORCID<a class="headerlink" href="#getting-your-orcid" title="Permalink to this heading">#</a></h3>
+<p><strong>What ORCID does:</strong></p>
+<ul class="simple">
+<li><p>Creates a unique researcher ID (0000-XXXX-XXXX-XXXX)</p></li>
+<li><p>Links all your work across platforms (Zenodo, journals, funding agencies)</p></li>
+<li><p>Separates you from every other researcher with your name</p></li>
+<li><p>Used by NSF, NIH, EU, and major journals</p></li>
+</ul>
+<p><strong>Step-by-step to set up ORCID:</strong></p>
+<ol class="arabic simple">
+<li><p>Go to <a class="reference external" href="https://orcid.org">orcid.org</a></p></li>
+<li><p>Click “Register” (free)</p></li>
+<li><p>Fill basic info:</p>
+<ul class="simple">
+<li><p>Name</p></li>
+<li><p>Email</p></li>
+<li><p>Password</p></li>
+</ul>
+</li>
+<li><p>Verify email (check inbox)</p></li>
+<li><p>Add researcher information:</p>
+<ul class="simple">
+<li><p>Affiliations (current and past institutions)</p></li>
+<li><p>Funding: Search for grants you’ve received</p></li>
+<li><p>Works: Auto-import from CrossRef or manually add</p></li>
+</ul>
+</li>
+<li><p>Set privacy: Usually “Public” (or “Limited” if preferred)</p></li>
+<li><p>Copy your ORCID: <strong>0000-XXXX-XXXX-XXXX</strong></p></li>
+</ol>
+<p><strong>Where to use your ORCID:</strong></p>
+<ul class="simple">
+<li><p>Funding applications: NSF, NIH, EU all require ORCID now</p></li>
+<li><p>Journal submissions: Add to author metadata</p></li>
+<li><p>Your GitHub profile: Add to README</p></li>
+<li><p>Your email signature: <code class="docutils literal notranslate"><span class="pre">Jane</span> <span class="pre">Doe</span> <span class="pre">(ORCID:</span> <span class="pre">0000-0002-1825-0097)</span></code></p></li>
+<li><p>Zenodo: Link when uploading data</p></li>
+<li><p>LinkedIn/CV: Include in researcher profile</p></li>
+</ul>
+<p><strong>Linking repositories to ORCID:</strong></p>
+<ul class="simple">
+<li><p>Zenodo auto-imports publications if you authorize it</p></li>
+<li><p>Search for past publications to add</p></li>
+<li><p>ORCID continuously updates as you publish</p></li>
+<li><p>Automatic imports from CrossRef, DataCite</p></li>
+</ul>
+</section>
+<section id="other-persistent-identifiers">
+<h3>3.3 Other Persistent Identifiers<a class="headerlink" href="#other-persistent-identifiers" title="Permalink to this heading">#</a></h3>
+<p><strong>GitHub Release Versioning</strong> (for code):</p>
+<ul class="simple">
+<li><p>Create GitHub release with version tag: <code class="docutils literal notranslate"><span class="pre">v1.0.0</span></code>, <code class="docutils literal notranslate"><span class="pre">v2.1.0</span></code></p></li>
+<li><p>Connect to Zenodo (auto-creates DOI for each release)</p></li>
+<li><p>Stable snapshot for papers: “This analysis used our code v2.1.0 (doi: 10.5281/zenodo.1234567)”</p></li>
+</ul>
+<p><strong>ISBN/ISSN</strong> (for books/journals):</p>
+<ul class="simple">
+<li><p>ISBN: Books (13-digit, looks like ISBN: 978-3-16-148410-0)</p></li>
+<li><p>ISSN: Journal issues (8-digit, looks like ISSN: 0028-0836)</p></li>
+<li><p>Use when citing published books or journals</p></li>
+</ul>
+<p><strong>Repository-specific Identifiers:</strong></p>
+<ul class="simple">
+<li><p>Figshare: Auto-generate URL for each item</p></li>
+<li><p>Dryad: DataCite DOI (required for publications)</p></li>
+<li><p>Dataverse: DOI assigned by Dataverse instance</p></li>
+</ul>
+<p><strong>When to use DOI vs. GitHub URL:</strong></p>
+<ul class="simple">
+<li><p>Use GitHub URL: While code is under active development, linking to specific commits</p></li>
+<li><p>Use DOI: When publishing paper, submitting to journal, or archiving final version</p></li>
+<li><p>Both: Add DOI to GitHub README pointing to Zenodo</p></li>
+</ul>
+</section>
+<section id="citing-your-work">
+<h3>3.4 Citing Your Work<a class="headerlink" href="#citing-your-work" title="Permalink to this heading">#</a></h3>
+<p><strong>Copy-paste citations from repositories:</strong></p>
+<p>Zenodo, Figshare, and most journals provide citation formats. Example from Zenodo page:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Author</span><span class="p">,</span> <span class="n">A</span><span class="o">.</span> <span class="p">(</span><span class="mi">2024</span><span class="p">)</span><span class="o">.</span> <span class="n">Title</span> <span class="n">of</span> <span class="n">dataset</span> <span class="p">(</span><span class="n">Version</span> <span class="mf">1.0.0</span><span class="p">)</span> 
+<span class="p">[</span><span class="n">Data</span> <span class="nb">set</span><span class="p">]</span><span class="o">.</span> <span class="n">Zenodo</span><span class="o">.</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">doi</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="mf">10.5281</span><span class="o">/</span><span class="n">zenodo</span><span class="mf">.1234567</span>
+</pre></div>
+</div>
+<p><strong>Adding to your paper:</strong></p>
+<p>In manuscript text:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="s2">&quot;Data were processed using custom Python code (Doe, 2024, </span>
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">doi</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="mf">10.5281</span><span class="o">/</span><span class="n">zenodo</span><span class="mf">.5678901</span><span class="p">)</span> <span class="ow">and</span> <span class="n">statistical</span> 
+<span class="n">analysis</span> <span class="n">was</span> <span class="n">performed</span> <span class="n">using</span> <span class="n">R</span> <span class="n">version</span> <span class="mf">4.2.1</span> <span class="p">(</span><span class="n">R</span> <span class="n">Core</span> <span class="n">Team</span><span class="p">,</span> <span class="mi">2024</span><span class="p">)</span><span class="o">.</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
+<p>In references/bibliography:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Doe</span><span class="p">,</span> <span class="n">J</span><span class="o">.</span><span class="p">,</span> <span class="n">Smith</span><span class="p">,</span> <span class="n">A</span><span class="o">.</span><span class="p">,</span> <span class="o">&amp;</span> <span class="n">Jones</span><span class="p">,</span> <span class="n">B</span><span class="o">.</span> <span class="p">(</span><span class="mi">2024</span><span class="p">)</span><span class="o">.</span> <span class="n">Analysis</span> <span class="n">of</span> <span class="n">ocean</span> 
+<span class="n">temperature</span> <span class="n">anomalies</span><span class="o">.</span> <span class="n">Version</span> <span class="mf">2.1.0</span><span class="o">.</span> <span class="n">Zenodo</span><span class="o">.</span> 
+<span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">doi</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="mf">10.5281</span><span class="o">/</span><span class="n">zenodo</span><span class="mf">.1234567</span>
+
+<span class="n">R</span> <span class="n">Core</span> <span class="n">Team</span> <span class="p">(</span><span class="mi">2024</span><span class="p">)</span><span class="o">.</span> <span class="n">R</span><span class="p">:</span> <span class="n">A</span> <span class="n">language</span> <span class="ow">and</span> <span class="n">environment</span> <span class="k">for</span> 
+<span class="n">statistical</span> <span class="n">computing</span><span class="o">.</span> <span class="n">Version</span> <span class="mf">4.2.1</span><span class="o">.</span> <span class="n">Vienna</span><span class="p">,</span> <span class="n">Austria</span><span class="p">:</span> 
+<span class="n">R</span> <span class="n">Foundation</span> <span class="k">for</span> <span class="n">Statistical</span> <span class="n">Computing</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><strong>BibTeX format</strong> (for LaTeX users):</p>
+<ul class="simple">
+<li><p>Zenodo: Copy BibTeX from right-side menu</p></li>
+<li><p>Figshare: Export → BibTeX</p></li>
+<li><p>GitHub: Use GitHub BibTeX export tool</p></li>
+</ul>
+<p><strong>Citation managers:</strong></p>
+<ul class="simple">
+<li><p><strong>Zotero</strong> (<a class="reference external" href="http://zotero.org">zotero.org</a>): Free, open-source, captures DOI automatically</p></li>
+<li><p><strong>Mendeley</strong>: Free, syncs across devices</p></li>
+<li><p><strong>Overleaf</strong>: Built-in citation integration</p></li>
+</ul>
+</section>
+<section id="best-practices-for-identifiers">
+<h3>3.5 Best Practices for Identifiers<a class="headerlink" href="#best-practices-for-identifiers" title="Permalink to this heading">#</a></h3>
+<p><strong>When publishing a paper:</strong></p>
+<ol class="arabic simple">
+<li><p>Get DOI for all data/code before submission</p></li>
+<li><p>Add DOI to data availability statement</p></li>
+<li><p>Include ORCID in author metadata</p></li>
+<li><p>Reference versions in methods section</p></li>
+</ol>
+<p><strong>For long-term persistence:</strong></p>
+<ul class="simple">
+<li><p>Use Zenodo over personal websites (persistence guaranteed 20+ years)</p></li>
+<li><p>Use DataCite repositories (Zenodo, Figshare, Dryad) - more stable than GitHub</p></li>
+<li><p>Archive each version: v1.0 (first publication), v1.1 (bug fix), v2.0 (major update)</p></li>
+<li><p>Set metadata: license, creators, dates</p></li>
+</ul>
+<p><strong>Making your work discoverable:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>On Zenodo/Figshare:
+✓ Detailed title: &quot;Ocean surface temperature dataset, 2020-2024, 
+   North Atlantic&quot;
+✓ Keywords: &quot;temperature&quot;, &quot;oceanography&quot;, &quot;North Atlantic&quot;
+✓ License: CC-BY-4.0 (allows reuse with attribution)
+
+✗ Vague: &quot;Data&quot;
+✗ Generic title: &quot;Dataset&quot;
+</pre></div>
+</div>
+<p><strong>Connecting across platforms:</strong></p>
+<ul class="simple">
+<li><p>Link DOI → GitHub repo in description</p></li>
+<li><p>Link GitHub → Zenodo DOI in README</p></li>
+<li><p>Add ORCID → Links everything together</p></li>
+<li><p>Use consistent author names (first initial + last name)</p></li>
+</ul>
+<p><strong>Troubleshooting:</strong></p>
+<ul class="simple">
+<li><p>“DOI not working?” → Check prefix/suffix format (10.XXXX/xxxxx)</p></li>
+<li><p>“ORCID won’t sync publications?” → Authorize CrossRef integration</p></li>
+<li><p>“Can’t find old paper?” → Search Google Scholar, add manually to ORCID</p></li>
+</ul>
+<p><strong>For Software:</strong></p>
+<ul class="simple">
+<li><p>Create versioned releases and archive with Zenodo for DOIs</p></li>
+<li><p>Use semantic versioning (e.g., 1.0.0)</p></li>
+<li><p>Cite software per software citation principles</p></li>
+</ul>
+<p><strong>For Yourself:</strong></p>
+<ul class="simple">
+<li><p>Create and maintain an ORCID profile</p></li>
+<li><p>Set appropriate privacy levels</p></li>
+<li><p>Link all research outputs and use ORCID in submissions</p></li>
+</ul>
+<p><strong>In Publications:</strong></p>
+<ul class="simple">
+<li><p>Include data availability statements with DOIs</p></li>
+<li><p>Link to code repositories and software</p></li>
+<li><p>List contributor ORCIDs</p></li>
+<li><p>Use persistent links and cite supplementary materials</p></li>
+</ul>
+</section>
+<section id="id4">
+<h3>Summary<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<p>Persistent identifiers are essential research infrastructure:</p>
+<ul class="simple">
+<li><p><strong>DOIs</strong> ensure long-term access to research outputs</p></li>
+<li><p><strong>ORCIDs</strong> uniquely identify researchers and their contributions</p></li>
+<li><p><strong>Proper use</strong> enables discovery, citation tracking, and impact measurement</p></li>
+<li><p><strong>Best practices</strong> maximize discoverability and credit attribution</p></li>
+</ul>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 3</p>
+<p>Complete at least two of the following activities to practice using persistent identifiers:</p>
+<p><strong>Activity 3.1: ORCID Setup and Update</strong>
+Create or update your ORCID profile. Add at least one publication, dataset, or software entry and set appropriate visibility permissions.</p>
+<p><strong>Activity 3.2: DOI Planning</strong>
+Choose a research output and draft a plan to mint a DOI (which repository, what metadata you will provide, and how you will cite it).</p>
+<p><strong>Activity 3.3: Citation Practice</strong>
+Write citations for one dataset, one software package, and one paper using DOI-based formats. Note any differences in formatting across resource types.</p>
+<p><strong>Activity 3.4: Identifier Inventory</strong>
+List the identifiers used in your lab or project (DOIs, ORCIDs, grant numbers). Identify one gap and propose how to fill it.</p>
+</div>
+</section>
+</section>
+<section id="lesson-4-open-science-software-ecosystems">
+<h2>Lesson 4: Open Science Software Ecosystems<a class="headerlink" href="#lesson-4-open-science-software-ecosystems" title="Permalink to this heading">#</a></h2>
+<section id="id5">
+<h3>Overview<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
+<p>In this lesson, you explore the broader ecosystem of tools used in open science beyond version control and repositories. You learn about tools for documentation, collaboration, preprint sharing, project management, and data management planning. You understand how these tools integrate to support reproducible research.</p>
+</section>
+<section id="documentation-and-manuscript-tools">
+<h3>4.1 Documentation and Manuscript Tools<a class="headerlink" href="#documentation-and-manuscript-tools" title="Permalink to this heading">#</a></h3>
+<p><strong>Overleaf</strong> (<a class="reference external" href="https://www.overleaf.com/">https://www.overleaf.com/</a>) - Collaborative LaTeX Writing</p>
+<ul class="simple">
+<li><p><strong>Purpose:</strong> Cloud-based LaTeX editor for manuscripts</p></li>
+<li><p><strong>Features:</strong></p>
+<ul>
+<li><p>Real-time collaboration (like Google Docs)</p></li>
+<li><p>10,000+ templates (journal formats, theses)</p></li>
+<li><p>Integrated version history</p></li>
+<li><p>Bibliography management (BibTeX)</p></li>
+<li><p>Direct submission to journals</p></li>
+</ul>
+</li>
+<li><p><strong>Pricing:</strong> Free version limited, premium $12-30/month</p></li>
+<li><p><strong>Best for:</strong> Collaborative manuscript writing, complex formatting</p></li>
+<li><p><strong>Integration:</strong> Works with Git (optional)</p></li>
+</ul>
+<p><strong>Google Docs</strong> (<a class="reference external" href="https://docs.google.com/">https://docs.google.com/</a>) - Cloud Collaboration</p>
+<ul class="simple">
+<li><p><strong>Purpose:</strong> Simple collaborative writing</p></li>
+<li><p><strong>Advantages:</strong></p>
+<ul>
+<li><p>Extremely easy to use</p></li>
+<li><p>Simultaneous real-time editing</p></li>
+<li><p>Comment and suggestion modes</p></li>
+<li><p>Built-in version history</p></li>
+<li><p>Free (Google account required)</p></li>
+</ul>
+</li>
+<li><p><strong>Limitations:</strong> Not ideal for formatted manuscripts</p></li>
+<li><p><strong>Best for:</strong> Early drafts, quick collaboration, non-technical teams</p></li>
+</ul>
+<p><strong>Microsoft Word</strong> (<a class="reference external" href="https://www.microsoft.com/microsoft-365/word">https://www.microsoft.com/microsoft-365/word</a>) with <strong>OneDrive</strong> (<a class="reference external" href="https://onedrive.live.com/">https://onedrive.live.com/</a>)</p>
+<ul class="simple">
+<li><p><strong>Purpose:</strong> Familiar alternative to Google Docs</p></li>
+<li><p><strong>Features:</strong> Co-authoring, comments, track changes</p></li>
+<li><p><strong>Best for:</strong> Teams already in Microsoft ecosystem</p></li>
+</ul>
+<p><strong>Markdown + GitHub</strong> (<a class="github reference external" href="https://github.com/"></a>)</p>
+<ul class="simple">
+<li><p><strong>Purpose:</strong> Lightweight manuscript writing</p></li>
+<li><p><strong>Advantages:</strong> Version control, plain text, reviewable diffs</p></li>
+<li><p><strong>Tools:</strong> <a class="reference external" href="https://pandoc.org/">https://pandoc.org/</a>, <a class="reference external" href="https://jupyterbook.org/">https://jupyterbook.org/</a>, <a class="reference external" href="https://quarto.org/">https://quarto.org/</a></p></li>
+<li><p><strong>Best for:</strong> Technical manuscripts, reproducible research</p></li>
+</ul>
+</section>
+<section id="computational-research-tools">
+<h3>4.2 Computational Research Tools<a class="headerlink" href="#computational-research-tools" title="Permalink to this heading">#</a></h3>
+<p><strong>Jupyter Notebooks</strong> (<a class="reference external" href="https://jupyter.org/">https://jupyter.org/</a>)</p>
+<ul class="simple">
+<li><p><strong>What:</strong> Interactive documents mixing code, output, and narrative</p></li>
+<li><p><strong>Supported languages:</strong> Python, R, Julia, 100+ kernels</p></li>
+<li><p><strong>Advantages:</strong></p>
+<ul>
+<li><p>Explains analysis alongside code</p></li>
+<li><p>Reproducible from notebook</p></li>
+<li><p>Rich output (plots, tables, LaTeX)</p></li>
+<li><p>Educational and publication-ready</p></li>
+</ul>
+</li>
+<li><p><strong>Use cases:</strong></p>
+<ul>
+<li><p>Teaching and tutorials</p></li>
+<li><p>Data exploration</p></li>
+<li><p>Publication of analyses</p></li>
+</ul>
+</li>
+<li><p><strong>Archiving:</strong> Can be deposited in repositories with DOIs</p></li>
+</ul>
+<p><strong>Quarto</strong> (<a class="reference external" href="https://quarto.org/">https://quarto.org/</a>)</p>
+<ul class="simple">
+<li><p><strong>What:</strong> Scientific publishing system</p></li>
+<li><p><strong>Capabilities:</strong></p>
+<ul>
+<li><p>Mix code and prose (Python, R, Julia, Observable)</p></li>
+<li><p>Render to HTML, PDF, Word, presentations</p></li>
+<li><p>Cross-references, citations, figures</p></li>
+<li><p>Websites and books</p></li>
+</ul>
+</li>
+<li><p><strong>Advantages:</strong> More flexible than Jupyter</p></li>
+<li><p><strong>Best for:</strong> Complete research communication</p></li>
+</ul>
+<p><strong>R Markdown</strong> (<a class="reference external" href="https://rmarkdown.rstudio.com/">https://rmarkdown.rstudio.com/</a>)</p>
+<ul class="simple">
+<li><p><strong>What:</strong> R-specific document format</p></li>
+<li><p><strong>Creates:</strong> PDFs, HTML, Word documents</p></li>
+<li><p><strong>Advantages:</strong> Seamless R integration</p></li>
+<li><p><strong>Best for:</strong> R-focused research</p></li>
+</ul>
+<p><strong>Jupyter Book</strong> (<a class="reference external" href="https://jupyterbook.org/">https://jupyterbook.org/</a>)</p>
+<ul class="simple">
+<li><p><strong>What:</strong> Build publication-quality books from Jupyter Notebooks</p></li>
+<li><p><strong>Features:</strong></p>
+<ul>
+<li><p>Table of contents and navigation</p></li>
+<li><p>Cross-references</p></li>
+<li><p>Bibliography management</p></li>
+<li><p>Web hosting ready</p></li>
+</ul>
+</li>
+<li><p><strong>Best for:</strong> Textbooks, theses, comprehensive analyses</p></li>
+</ul>
+</section>
+<section id="preprint-servers">
+<h3>4.3 Preprint Servers<a class="headerlink" href="#preprint-servers" title="Permalink to this heading">#</a></h3>
+<p><strong>arXiv</strong> (<a class="reference external" href="https://arxiv.org/">https://arxiv.org/</a>) - Multidisciplinary Preprints</p>
+<ul class="simple">
+<li><p><strong>Coverage:</strong> Physics, astronomy, mathematics, computer science, quantitative biology</p></li>
+<li><p><strong>Volume:</strong> 500,000+ papers annually</p></li>
+<li><p><strong>Timeline:</strong> No peer review (moderation only)</p></li>
+<li><p><strong>Permanence:</strong> Permanent (no deletion)</p></li>
+<li><p><strong>Discovery:</strong> Heavily indexed by search engines</p></li>
+<li><p><strong>Best for:</strong> Physics-heavy research</p></li>
+</ul>
+<p><strong>bioRxiv</strong> (<a class="reference external" href="https://www.biorxiv.org/">https://www.biorxiv.org/</a>) - Biology Preprints</p>
+<ul class="simple">
+<li><p><strong>Coverage:</strong> All biology fields</p></li>
+<li><p><strong>Volume:</strong> 100,000+ papers annually</p></li>
+<li><p><strong>Timeline:</strong> Typically published to journal within 6 months</p></li>
+<li><p><strong>Features:</strong> Integrated with journal submission workflows</p></li>
+<li><p><strong>Best for:</strong> Biological sciences</p></li>
+</ul>
+<p><strong>medRxiv</strong> (<a class="reference external" href="https://www.medrxiv.org/">https://www.medrxiv.org/</a>) - Medicine and Health</p>
+<ul class="simple">
+<li><p><strong>Coverage:</strong> Medicine, health sciences</p></li>
+<li><p><strong>Rapid dissemination:</strong> Important for urgent health findings</p></li>
+<li><p><strong>COVID-19 rapid response:</strong> Enabled pre-publication sharing</p></li>
+<li><p><strong>Best for:</strong> Medical research</p></li>
+</ul>
+<p><strong>PsyArXiv</strong> (<a class="reference external" href="https://psyarxiv.com/">https://psyarxiv.com/</a>) - Psychology Preprints</p>
+<ul class="simple">
+<li><p><strong>Coverage:</strong> Psychology and related fields</p></li>
+<li><p><strong>Features:</strong> Integrated with Open Science Framework</p></li>
+<li><p><strong>Best for:</strong> Psychological sciences</p></li>
+</ul>
+<p><strong>OSF Preprints</strong> (<a class="reference external" href="https://osf.io/preprints/">https://osf.io/preprints/</a>) - Multidisciplinary</p>
+<ul class="simple">
+<li><p><strong>Coverage:</strong> All disciplines</p></li>
+<li><p><strong>Features:</strong> Integrated with project management</p></li>
+<li><p><strong>Best for:</strong> Researchers already using OSF</p></li>
+</ul>
+<p>Preprints speed dissemination from months to days, establish priority before formal publication, and invite community feedback that can strengthen the final manuscript. They also increase global visibility by making results discoverable early and, in many fields, help meet funder expectations for timely sharing.</p>
+</section>
+<section id="project-management-and-workflows">
+<h3>4.4 Project Management and Workflows<a class="headerlink" href="#project-management-and-workflows" title="Permalink to this heading">#</a></h3>
+<p><strong>Open Science Framework (OSF)</strong> (<a class="reference external" href="http://osf.io">osf.io</a>)</p>
+<ul class="simple">
+<li><p><strong>What:</strong> Integrated research project management platform</p></li>
+<li><p><strong>Features:</strong></p>
+<ul>
+<li><p>Project organization and file storage</p></li>
+<li><p>Preregistration (registered reports)</p></li>
+<li><p>Collaboration and team management</p></li>
+<li><p>Wiki documentation</p></li>
+<li><p>Integration with GitHub, Dropbox, Google Drive</p></li>
+<li><p>Preprint server</p></li>
+</ul>
+</li>
+<li><p><strong>Pricing:</strong> Free</p></li>
+<li><p><strong>Best for:</strong> Coordinating all project aspects, preregistration</p></li>
+</ul>
+<p><strong>GitHub Projects</strong> (<a class="github reference external" href="https://github.com/features/issues">features/issues</a>)</p>
+<ul class="simple">
+<li><p><strong>What:</strong> Project management integrated with repositories</p></li>
+<li><p><strong>Features:</strong></p>
+<ul>
+<li><p>Kanban boards (To Do, In Progress, Done)</p></li>
+<li><p>Issue tracking and milestones</p></li>
+<li><p>Automation (assign to issues, automatic closing)</p></li>
+<li><p>Limited but sufficient for research</p></li>
+</ul>
+</li>
+<li><p><strong>Pricing:</strong> Free (included with GitHub)</p></li>
+<li><p><strong>Best for:</strong> Code-heavy projects</p></li>
+</ul>
+<p><strong>Lab Notebooks</strong></p>
+<ul class="simple">
+<li><p><strong>Traditional:</strong> Physical notebooks (permanent record)</p></li>
+<li><p><strong>Digital:</strong></p>
+<ul>
+<li><p>Notion (<a class="reference external" href="https://www.notion.so/">https://www.notion.so/</a>), OneNote (<a class="reference external" href="https://www.microsoft.com/microsoft-365/onenote">https://www.microsoft.com/microsoft-365/onenote</a>) (note-taking)</p></li>
+<li><p>GitHub wikis (<a class="reference external" href="https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis">https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis</a>) (collaborative)</p></li>
+<li><p>OSF wiki (<a class="reference external" href="https://help.osf.io/article/393-wiki">https://help.osf.io/article/393-wiki</a>) (research-specific)</p></li>
+</ul>
+</li>
+<li><p><strong>Requirements:</strong></p>
+<ul>
+<li><p>Dated entries</p></li>
+<li><p>Experiments recorded</p></li>
+<li><p>Methods documented</p></li>
+<li><p>Results noted</p></li>
+<li><p>Accessible to team</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="data-management-planning">
+<h3>4.5 Data Management Planning<a class="headerlink" href="#data-management-planning" title="Permalink to this heading">#</a></h3>
+<p><strong>DMPTool</strong> (<a class="reference external" href="https://dmptool.org/">https://dmptool.org/</a>)</p>
+<ul class="simple">
+<li><p><strong>What:</strong> Data management plan (DMP) writing assistant</p></li>
+<li><p><strong>Features:</strong></p>
+<ul>
+<li><p>Templates for major funders (NSF, NIH, EU)</p></li>
+<li><p>Question prompts with guidance</p></li>
+<li><p>Institutional support integration</p></li>
+<li><p>Export to PDF or funder formats</p></li>
+</ul>
+</li>
+<li><p><strong>Pricing:</strong> Free</p></li>
+<li><p><strong>Best for:</strong> Grant proposals requiring DMPs</p></li>
+</ul>
+<p><strong>Data Stewardship Wizard</strong> (<a class="reference external" href="https://dsw.fairdata.eu/">https://dsw.fairdata.eu/</a>)</p>
+<ul class="simple">
+<li><p><strong>What:</strong> European alternative to DMPTool</p></li>
+<li><p><strong>Features:</strong></p>
+<ul>
+<li><p>Comprehensive question sets</p></li>
+<li><p>Output to multiple formats</p></li>
+<li><p>Integration with FAIR principles</p></li>
+</ul>
+</li>
+<li><p><strong>Pricing:</strong> Free</p></li>
+<li><p><strong>Best for:</strong> FAIR compliance</p></li>
+</ul>
+<p><strong>Funders Requiring DMPs:</strong></p>
+<ul class="simple">
+<li><p><strong>NSF:</strong> Required for all grants</p></li>
+<li><p><strong>NIH:</strong> Common for certain mechanisms</p></li>
+<li><p><strong>EU Horizon Europe:</strong> Required</p></li>
+<li><p><strong>NIH DMSP:</strong> New requirement (2023+)</p></li>
+<li><p><strong>Most foundations:</strong> Increasingly required</p></li>
+</ul>
+<p>A strong data management plan outlines the data types and collection methods, storage and backup strategies, and documentation standards for data quality. It also specifies access and sharing plans, long-term archival and preservation approaches, roles and responsibilities across the team, and the budget or resources required to carry out the plan.</p>
+</section>
+<section id="team-communication">
+<h3>4.6 Team Communication<a class="headerlink" href="#team-communication" title="Permalink to this heading">#</a></h3>
+<p>Effective team communication combines real-time chat for quick coordination, asynchronous channels for broader participation, and searchable archives that preserve decisions over time. Choosing tools that match team size, privacy needs, and institutional norms helps reduce miscommunication and keeps research work transparent and reproducible.</p>
+<p><strong>Slack</strong> - Team Messaging</p>
+<ul class="simple">
+<li><p><strong>Features:</strong> Real-time chat, channels, integrations</p></li>
+<li><p><strong>Research use:</strong> Lab communication, integration with tools</p></li>
+<li><p><strong>Pricing:</strong> Free with limitations, $10+/month paid</p></li>
+</ul>
+<p><strong>Discord</strong> - Community Communication</p>
+<ul class="simple">
+<li><p><strong>Features:</strong> Voice, video, text, community-focused</p></li>
+<li><p><strong>Research use:</strong> Open science communities, study groups</p></li>
+<li><p><strong>Pricing:</strong> Free</p></li>
+</ul>
+<p><strong>Mailing Lists</strong></p>
+<ul class="simple">
+<li><p><strong>Traditional:</strong> Email-based discussion</p></li>
+<li><p><strong>Tools:</strong> Google Groups, Listserv</p></li>
+<li><p><strong>Advantages:</strong> Accessible, persistent, searchable</p></li>
+</ul>
+</section>
+<section id="id6">
+<h3>Summary<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h3>
+<p>Comprehensive tool ecosystem supports open science:</p>
+<ul class="simple">
+<li><p><strong>Documentation tools</strong> enable collaborative manuscript writing</p></li>
+<li><p><strong>Computational tools</strong> make analyses reproducible and transparent</p></li>
+<li><p><strong>Preprint servers</strong> enable rapid dissemination</p></li>
+<li><p><strong>Project management</strong> coordinates research activities</p></li>
+<li><p><strong>Planning tools</strong> help meet funder requirements</p></li>
+<li><p><strong>Communication tools</strong> support team collaboration</p></li>
+</ul>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 4</p>
+<p>Complete at least two of the following activities to explore the open science software ecosystem:</p>
+<p><strong>Activity 4.1: Toolchain Blueprint</strong>
+Sketch a toolchain for a real project, from planning to publication. Include at least one tool for documentation, computation, preprints, project management, and data management planning.</p>
+<p><strong>Activity 4.2: Documentation Tool Trial</strong>
+Choose one documentation tool (Overleaf, Quarto, Jupyter Book, or Markdown + Git). Create a short sample document with a figure and a citation.</p>
+<p><strong>Activity 4.3: Preprint Decision Memo</strong>
+Write a 200-300 word memo on whether you would post a preprint for a current project, including benefits, risks, and timing.</p>
+<p><strong>Activity 4.4: DMP Mini-Plan</strong>
+Draft a one-page data management mini-plan using DMPTool or a similar template, focusing on storage, documentation, sharing, and preservation.</p>
+</div>
+</section>
+</section>
+<section id="lesson-5-building-your-open-science-toolkit">
+<h2>Lesson 5: Building Your Open Science Toolkit<a class="headerlink" href="#lesson-5-building-your-open-science-toolkit" title="Permalink to this heading">#</a></h2>
+<section id="id7">
+<h3>Overview<a class="headerlink" href="#id7" title="Permalink to this heading">#</a></h3>
+<p>In this final lesson, you integrate the tools learned throughout this module into a practical toolkit. You learn to select appropriate tools for your research, implement them systematically, and build sustainable practices. You also explore communities, resources, and next steps for deepening your tool expertise.</p>
+</section>
+<section id="assessing-your-tool-needs">
+<h3>5.1 Assessing Your Tool Needs<a class="headerlink" href="#assessing-your-tool-needs" title="Permalink to this heading">#</a></h3>
+<p>*<strong>Research Stage Analysis:</strong></p>
+<p><img alt="Research Stage Analysis: Tools and Workflow" src="../../../_images/research_stage_analysis.svg" /></p>
+</section>
+<section id="discipline-specific-tool-recommendations">
+<h3>5.2 Discipline-Specific Tool Recommendations<a class="headerlink" href="#discipline-specific-tool-recommendations" title="Permalink to this heading">#</a></h3>
+<p>Research communities have evolved distinct practices and standards shaped by disciplinary norms, funding requirements, publication cultures, and data types. While core open science principles apply across fields, the specific tools you choose should reflect your discipline’s expectations and your research workflow. This section outlines recommended toolchains for major disciplinary areas. Use these as starting points and adapt them based on your institution’s requirements, your collaborators’ expertise, and your specific research needs. Many tools work across disciplines, but disciplinary preferences and integrations can significantly improve adoption and sustainability.</p>
+<p><strong>Computational Sciences</strong> (Computer Science, Statistics, Physics)</p>
+<ul class="simple">
+<li><p><strong>Code:</strong> <strong>GitHub</strong> (<a class="github reference external" href="https://github.com/"></a>) (essential)</p></li>
+<li><p><strong>Notebooks:</strong> <strong>Jupyter</strong> (<a class="reference external" href="https://jupyter.org/">https://jupyter.org/</a>) or <strong>Quarto</strong> (<a class="reference external" href="https://quarto.org/">https://quarto.org/</a>)</p></li>
+<li><p><strong>Manuscripts:</strong> <strong>Overleaf</strong> (<a class="reference external" href="https://www.overleaf.com/">https://www.overleaf.com/</a>) or Markdown + <strong>Pandoc</strong> (<a class="reference external" href="https://pandoc.org/">https://pandoc.org/</a>)</p></li>
+<li><p><strong>Preprints:</strong> <strong>arXiv</strong> (<a class="reference external" href="https://arxiv.org/">https://arxiv.org/</a>)</p></li>
+<li><p><strong>Archival:</strong> <strong>Zenodo</strong> (<a class="reference external" href="https://zenodo.org/">https://zenodo.org/</a>)</p></li>
+<li><p><strong>Data:</strong> <strong>Zenodo</strong> (<a class="reference external" href="https://zenodo.org/">https://zenodo.org/</a>) or <strong>figshare</strong> (<a class="reference external" href="https://figshare.com/">https://figshare.com/</a>)</p></li>
+<li><p><strong>Project mgmt:</strong> <strong>GitHub Projects</strong> (<a class="github reference external" href="https://github.com/features/issues">features/issues</a>) or <strong>OSF</strong> (<a class="reference external" href="https://osf.io/">https://osf.io/</a>)</p></li>
+</ul>
+<p><strong>Biological Sciences</strong> (Biology, Medicine, Life Sciences)</p>
+<ul class="simple">
+<li><p><strong>Code:</strong> <strong>GitHub</strong> (<a class="github reference external" href="https://github.com/"></a>)</p></li>
+<li><p><strong>Manuscripts:</strong> <strong>Overleaf</strong> (<a class="reference external" href="https://www.overleaf.com/">https://www.overleaf.com/</a>) or <strong>Microsoft Word</strong> (<a class="reference external" href="https://www.microsoft.com/microsoft-365/word">https://www.microsoft.com/microsoft-365/word</a>)</p></li>
+<li><p><strong>Preprints:</strong> <strong>bioRxiv</strong> (<a class="reference external" href="https://www.biorxiv.org/">https://www.biorxiv.org/</a>) or <strong>medRxiv</strong> (<a class="reference external" href="https://www.medrxiv.org/">https://www.medrxiv.org/</a>)</p></li>
+<li><p><strong>Data:</strong> <strong>Zenodo</strong> (<a class="reference external" href="https://zenodo.org/">https://zenodo.org/</a>), <strong>Figshare</strong> (<a class="reference external" href="https://figshare.com/">https://figshare.com/</a>), <strong>Dryad</strong> (<a class="reference external" href="https://datadryad.org/">https://datadryad.org/</a>), or domain-specific repositories</p></li>
+<li><p><strong>Samples/sequences:</strong> <strong>GenBank</strong> (<a class="reference external" href="https://www.ncbi.nlm.nih.gov/genbank/">https://www.ncbi.nlm.nih.gov/genbank/</a>), <strong>PDB</strong> (<a class="reference external" href="https://www.rcsb.org/">https://www.rcsb.org/</a>)</p></li>
+<li><p><strong>Project mgmt:</strong> <strong>OSF</strong> (<a class="reference external" href="https://osf.io/">https://osf.io/</a>) (for workflows), <strong>GitHub</strong> (<a class="github reference external" href="https://github.com/"></a>)</p></li>
+</ul>
+<p><strong>Social Sciences</strong> (Psychology, Economics, Sociology)</p>
+<ul class="simple">
+<li><p><strong>Code:</strong> <strong>GitHub</strong> (<a class="github reference external" href="https://github.com/"></a>) or <strong>OSF</strong> (<a class="reference external" href="https://osf.io/">https://osf.io/</a>) repository</p></li>
+<li><p><strong>Preregistration:</strong> <strong>OSF</strong> (<a class="reference external" href="https://osf.io/">https://osf.io/</a>) (strongly recommended)</p></li>
+<li><p><strong>Data:</strong> <strong>OSF</strong> (<a class="reference external" href="https://osf.io/">https://osf.io/</a>), <strong>Zenodo</strong> (<a class="reference external" href="https://zenodo.org/">https://zenodo.org/</a>), <strong>Figshare</strong> (<a class="reference external" href="https://figshare.com/">https://figshare.com/</a>) (sensitivity)</p></li>
+<li><p><strong>Manuscripts:</strong> <strong>Google Docs</strong> (<a class="reference external" href="https://docs.google.com/">https://docs.google.com/</a>) or <strong>Overleaf</strong> (<a class="reference external" href="https://www.overleaf.com/">https://www.overleaf.com/</a>)</p></li>
+<li><p><strong>Project mgmt:</strong> <strong>Open Science Framework</strong> (<a class="reference external" href="https://osf.io/">https://osf.io/</a>)</p></li>
+</ul>
+<p><strong>Environmental Sciences</strong> (Ecology, Climate, Geology)</p>
+<ul class="simple">
+<li><p><strong>Data:</strong> Discipline-specific (<strong>NOAA</strong> (<a class="reference external" href="https://www.noaa.gov/">https://www.noaa.gov/</a>), <strong>USGS</strong> (<a class="reference external" href="https://www.usgs.gov/">https://www.usgs.gov/</a>)) or <strong>Zenodo</strong> (<a class="reference external" href="https://zenodo.org/">https://zenodo.org/</a>)</p></li>
+<li><p><strong>Code:</strong> <strong>GitHub</strong> (<a class="github reference external" href="https://github.com/"></a>)</p></li>
+<li><p><strong>Notebooks:</strong> <strong>Jupyter</strong> (<a class="reference external" href="https://jupyter.org/">https://jupyter.org/</a>) for analysis documentation</p></li>
+<li><p><strong>Preprints:</strong> <strong>EarthArXiv</strong> (<a class="reference external" href="https://eartharxiv.org/">https://eartharxiv.org/</a>)</p></li>
+<li><p><strong>Data access:</strong> Domain repositories essential</p></li>
+</ul>
+<p><strong>Humanities</strong> (History, Literature, Languages)</p>
+<ul class="simple">
+<li><p><strong>Repositories:</strong> Institutional repositories, digital humanities platforms</p></li>
+<li><p><strong>Manuscripts:</strong> <strong>Google Docs</strong> (<a class="reference external" href="https://docs.google.com/">https://docs.google.com/</a>), <strong>Markdown</strong> + <strong>GitHub</strong> (<a class="github reference external" href="https://github.com/"></a>)</p></li>
+<li><p><strong>Data:</strong> <strong>Zenodo</strong> (<a class="reference external" href="https://zenodo.org/">https://zenodo.org/</a>) for primary sources</p></li>
+<li><p><strong>Version control:</strong> <strong>Git</strong> + <strong>GitHub</strong> (<a class="github reference external" href="https://github.com/"></a>) for collaborative projects</p></li>
+<li><p><strong>Preprints:</strong> limited uptake (varies by discipline)</p></li>
+</ul>
+</section>
+<section id="building-your-toolkit-step-by-step">
+<h3>5.3 Building Your Toolkit: Step by Step<a class="headerlink" href="#building-your-toolkit-step-by-step" title="Permalink to this heading">#</a></h3>
+<p><strong>Month 1: Foundation</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Week 1:
+  ☐ Create GitHub account
+  ☐ Create ORCID profile
+  ☐ Set up local Git
+
+Week 2-3:
+  ☐ Create first repository
+  ☐ Initialize basic structure
+  ☐ Add README and license
+
+Week 4:
+  ☐ Learn Git basics (commits, branches)
+  ☐ Practice with small project
+</pre></div>
+</div>
+<p><strong>Month 2: Documentation</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Week 1-2:
+  ☐ Choose documentation approach (Jupyter/Markdown/Overleaf)
+  ☐ Start documenting current project
+  ☐ Create template for future projects
+
+Week 3-4:
+  ☐ Document data management practices
+  ☐ Create lab notebook system
+  ☐ Practice with code documentation
+</pre></div>
+</div>
+<p><strong>Month 3: Data and Code</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Week 1:
+  ☐ Audit current data management
+  ☐ Write basic DMP (even if not required)
+  ☐ Plan data archival strategy
+
+Week 2-3:
+  ☐ Organize code repository
+  ☐ Add tests or validation
+  ☐ Create documentation
+
+Week 4:
+  ☐ Publish to data repository
+  ☐ Obtain DOI
+  ☐ Update ORCID profile
+</pre></div>
+</div>
+<p><strong>Ongoing:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Monthly:
+  ☐ Review and update ORCID
+  ☐ Version control commits (regular pushes)
+  ☐ Data backups verified
+
+Quarterly:
+  ☐ Review tool choices
+  ☐ Update documentation
+  ☐ Join relevant communities
+
+Annually:
+  ☐ Archive completed projects
+  ☐ Review tool updates
+  ☐ Plan next year&#39;s open science goals
+</pre></div>
+</div>
+</section>
+<section id="common-tool-combinations">
+<h3>5.4 Common Tool Combinations<a class="headerlink" href="#common-tool-combinations" title="Permalink to this heading">#</a></h3>
+<p><strong>Minimal Setup</strong> (Easiest Entry Point)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Version</span> <span class="n">Control</span><span class="p">:</span>  <span class="n">GitHub</span>
+<span class="n">Data</span><span class="p">:</span>             <span class="n">Zenodo</span> <span class="p">(</span><span class="ow">or</span> <span class="n">Figshare</span><span class="p">)</span>
+<span class="n">Manuscripts</span><span class="p">:</span>      <span class="n">Google</span> <span class="n">Docs</span>
+<span class="n">Preprints</span><span class="p">:</span>        <span class="n">Disciplinary</span> <span class="n">server</span>
+<span class="n">Identification</span><span class="p">:</span>   <span class="n">ORCID</span>
+</pre></div>
+</div>
+<p><strong>Standard Setup</strong> (Balanced Approach)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Version</span> <span class="n">Control</span><span class="p">:</span>  <span class="n">GitHub</span>
+<span class="n">Project</span> <span class="n">Mgmt</span><span class="p">:</span>     <span class="n">GitHub</span> <span class="n">Projects</span> <span class="ow">or</span> <span class="n">OSF</span>
+<span class="n">Documentation</span><span class="p">:</span>    <span class="n">Jupyter</span> <span class="n">Notebooks</span> <span class="ow">or</span> <span class="n">Quarto</span>
+<span class="n">Data</span><span class="p">:</span>             <span class="n">GitHub</span> <span class="p">(</span><span class="n">code</span><span class="p">)</span> <span class="o">+</span> <span class="n">Zenodo</span> <span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">Manuscripts</span><span class="p">:</span>      <span class="n">Overleaf</span> <span class="ow">or</span> <span class="n">Google</span> <span class="n">Docs</span>
+<span class="n">Preprints</span><span class="p">:</span>        <span class="n">Disciplinary</span> <span class="n">server</span>
+<span class="n">Identification</span><span class="p">:</span>   <span class="n">DOI</span> <span class="p">(</span><span class="n">auto</span> <span class="kn">from</span><span class="w"> </span><span class="nn">Zenodo</span><span class="p">),</span> <span class="n">ORCID</span>
+</pre></div>
+</div>
+<p><strong>Comprehensive Setup</strong> (Maximum Integration)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Planning</span><span class="p">:</span>         <span class="n">OSF</span> <span class="o">+</span> <span class="n">DMPTool</span>
+<span class="n">Preregistration</span><span class="p">:</span>  <span class="n">OSF</span>
+<span class="n">Code</span><span class="o">/</span><span class="n">VCS</span><span class="p">:</span>         <span class="n">GitHub</span>
+<span class="n">Project</span> <span class="n">Mgmt</span><span class="p">:</span>     <span class="n">GitHub</span> <span class="n">Projects</span> <span class="o">+</span> <span class="n">OSF</span>
+<span class="n">Notebooks</span><span class="p">:</span>        <span class="n">Jupyter</span> <span class="o">+</span> <span class="n">GitHub</span>
+<span class="n">Data</span> <span class="n">Mgmt</span><span class="p">:</span>        <span class="n">GitHub</span> <span class="p">(</span><span class="n">code</span><span class="p">),</span> <span class="n">Zenodo</span> <span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">Lab</span> <span class="n">Notebook</span><span class="p">:</span>     <span class="n">OSF</span> <span class="n">wiki</span> <span class="ow">or</span> <span class="n">digital</span> <span class="n">notebook</span>
+<span class="n">Manuscripts</span><span class="p">:</span>      <span class="n">Overleaf</span>
+<span class="n">Preprints</span><span class="p">:</span>        <span class="n">Disciplinary</span> <span class="n">server</span>
+<span class="n">Identification</span><span class="p">:</span>   <span class="n">ORCID</span><span class="p">,</span> <span class="n">DOIs</span> <span class="p">(</span><span class="n">auto</span><span class="p">),</span> <span class="n">GitHub</span> <span class="n">DOI</span> <span class="n">archive</span>
+<span class="n">Collaboration</span><span class="p">:</span>    <span class="n">GitHub</span> <span class="n">issues</span><span class="p">,</span> <span class="n">Slack</span>
+</pre></div>
+</div>
+</section>
+<section id="open-science-tool-communities">
+<h3>5.5 Open Science Tool Communities<a class="headerlink" href="#open-science-tool-communities" title="Permalink to this heading">#</a></h3>
+<p>Learning open science tools is easier and more sustainable within communities of practice. These groups offer workshops, documentation, peer support, and shared resources that accelerate skill development and help you troubleshoot challenges. Communities also keep you informed about tool updates, emerging best practices, and new features. Whether you’re just starting or deepening your expertise, connecting with others using the same tools transforms your experience from isolated learning to collaborative growth. Below are major communities organized by focus area, along with ways to get involved.</p>
+<p><strong>Software Carpentry / The Carpentries</strong> (<a class="reference external" href="https://carpentries.org/">https://carpentries.org/</a>)</p>
+<ul class="simple">
+<li><p><strong>Focus:</strong> Teaching open science skills</p></li>
+<li><p><strong>Specialties:</strong> Git, data management, research software</p></li>
+<li><p><strong>Format:</strong> Free 2-day workshops</p></li>
+<li><p><strong>Website:</strong> <a class="reference external" href="https://carpentries.org/">https://carpentries.org/</a></p></li>
+<li><p><strong>How to join:</strong> Register for local workshop or teach</p></li>
+</ul>
+<p><strong>rOpenSci</strong> (<a class="reference external" href="https://ropensci.org/">https://ropensci.org/</a>) / <strong>PyOpenSci</strong> (<a class="reference external" href="https://www.pyopensci.org/">https://www.pyopensci.org/</a>)</p>
+<ul class="simple">
+<li><p><strong>Focus:</strong> Open source tools for research</p></li>
+<li><p><strong>Specialties:</strong> R/Python packages, code review</p></li>
+<li><p><strong>Activities:</strong> Collaborative development, peer review</p></li>
+<li><p><strong>Websites:</strong> <a class="reference external" href="https://ropensci.org/">https://ropensci.org/</a>, <a class="reference external" href="https://www.pyopensci.org/">https://www.pyopensci.org/</a></p></li>
+</ul>
+<p><strong>Research Software Engineering (RSE) Communities</strong></p>
+<ul class="simple">
+<li><p><strong>US-RSE:</strong> <a class="reference external" href="https://us-rse.org/">https://us-rse.org/</a></p></li>
+<li><p><strong>International-RSE:</strong> <a class="reference external" href="https://researchsoftware.org/">https://researchsoftware.org/</a></p></li>
+<li><p><strong>Focus:</strong> Professional development for research software</p></li>
+</ul>
+<p><strong>Repository-Specific Communities</strong></p>
+<ul class="simple">
+<li><p><strong>Zenodo:</strong> <a class="reference external" href="https://zenodo.org/communities/">https://zenodo.org/communities/</a> (Zenodo users community)</p></li>
+<li><p><strong>GitHub:</strong> <a class="reference external" href="https://github.community/">https://github.community/</a> (GitHub Community Forum)</p></li>
+<li><p><strong>OSF:</strong> <a class="reference external" href="https://osf.io/support/">https://osf.io/support/</a> (Open Science Framework community)</p></li>
+</ul>
+<p><strong>Tool-Specific Resources</strong></p>
+<ul class="simple">
+<li><p><strong>Git:</strong> <a class="reference external" href="https://git-scm.com/book/en/v2">https://git-scm.com/book/en/v2</a> (Pro Git book, free), <a class="reference external" href="https://www.atlassian.com/git/tutorials">https://www.atlassian.com/git/tutorials</a> (Atlassian tutorials)</p></li>
+<li><p><strong>Jupyter:</strong> <a class="reference external" href="https://jupyter.org/community">https://jupyter.org/community</a> (Jupyter community), <a class="reference external" href="https://jupyterhub.readthedocs.io/">https://jupyterhub.readthedocs.io/</a> (JupyterHub documentation)</p></li>
+<li><p><strong>Quarto:</strong> <a class="reference external" href="https://quarto.org/docs/resources/">https://quarto.org/docs/resources/</a> (Quarto documentation and forum)</p></li>
+</ul>
+</section>
+<section id="troubleshooting-common-tool-issues">
+<h3>5.6 Troubleshooting Common Tool Issues<a class="headerlink" href="#troubleshooting-common-tool-issues" title="Permalink to this heading">#</a></h3>
+<blockquote>
+<div><p><strong>Problem: “I’m using too many tools”</strong></p>
+<ul class="simple">
+<li><p>Solution: Consolidate where possible (e.g., GitHub for both code and project management)</p></li>
+<li><p>Reality: Most researchers use 3-5 core tools</p></li>
+<li><p>Approach: Start minimal, add tools as needed</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><p><strong>Problem: “My institution doesn’t support these tools”</strong></p>
+<ul class="simple">
+<li><p>Solution: Use cloud-based alternatives (GitHub, Zenodo, Google Docs)</p></li>
+<li><p>Advocate: Request institutional support or training</p></li>
+<li><p>Bridge: Use free options while advocating</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><p><strong>Problem: “My collaborators don’t know these tools”</strong></p>
+<ul class="simple">
+<li><p>Solution: Provide training or pair programming</p></li>
+<li><p>Resources: The Carpentries workshops</p></li>
+<li><p>Phased approach: Learn together incrementally</p></li>
+</ul>
+</div></blockquote>
+<blockquote>
+<div><p><strong>Problem: “These tools feel overwhelming”</strong></p>
+<ul class="simple">
+<li><p>Solution: Start with one tool well (usually Git)</p></li>
+<li><p>Timeframe: 3-6 months to become comfortable</p></li>
+<li><p>Support: Find local experts or mentors</p></li>
+<li><p>Reality: Tools improve workflow significantly after learning curve</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="your-open-science-toolkit-checklist">
+<h3>5.7 Your Open Science Toolkit Checklist<a class="headerlink" href="#your-open-science-toolkit-checklist" title="Permalink to this heading">#</a></h3>
+<p>Building an open science toolkit is a gradual process, not an all-at-once migration. The checklist below organizes tools by adoption stage and use case, helping you prioritize what to implement first and when to add additional capabilities. Start with the essential tools—these form the foundation and address the most common research needs. Then progress through highly recommended and project management tools as you grow comfortable with the basics. Remember that this is a personalized toolkit; you may not need every item, and you may add tools specific to your discipline or institution. Use this checklist as a planning guide rather than a rigid requirement, adapting it to your research context and goals.</p>
+<p><strong>Essential (Start Here):</strong></p>
+<ul class="simple">
+<li><p>☐ Version control (GitHub)</p></li>
+<li><p>☐ ORCID profile</p></li>
+<li><p>☐ Persistent identifiers (DOI from repository)</p></li>
+</ul>
+<p><strong>Highly Recommended (Month 2-3):</strong></p>
+<ul class="simple">
+<li><p>☐ Data repository (Zenodo or discipline-specific)</p></li>
+<li><p>☐ Preprint server</p></li>
+<li><p>☐ Collaborative writing tool (Overleaf or Google Docs)</p></li>
+<li><p>☐ Lab notebook system</p></li>
+</ul>
+<p><strong>Project Management (Ongoing):</strong></p>
+<ul class="simple">
+<li><p>☐ Issue tracking (GitHub Issues)</p></li>
+<li><p>☐ Project board (GitHub Projects or OSF)</p></li>
+<li><p>☐ Team communication (Slack/Discord or email)</p></li>
+</ul>
+<p><strong>Planning &amp; Compliance:</strong></p>
+<ul class="simple">
+<li><p>☐ Data management plan (DMPTool)</p></li>
+<li><p>☐ Preregistration (OSF) if applicable</p></li>
+<li><p>☐ Funder requirement documentation</p></li>
+</ul>
+<p><strong>Documentation &amp; Discovery:</strong></p>
+<ul class="simple">
+<li><p>☐ README files</p></li>
+<li><p>☐ Code documentation/comments</p></li>
+<li><p>☐ Data dictionaries</p></li>
+<li><p>☐ Method documentation</p></li>
+</ul>
+</section>
+<section id="measuring-success">
+<h3>5.8 Measuring Success<a class="headerlink" href="#measuring-success" title="Permalink to this heading">#</a></h3>
+<p>Measuring success with open science tools means tracking three interconnected dimensions: adoption, process, and impact.</p>
+<p><strong>Tool Adoption</strong> demonstrates whether your toolkit is becoming integrated into your workflow. Consistency—measured by regular commits, updates, and active use—shows that tools are becoming habitual rather than burdensome. Discoverability indicates that your work is being found; tracking how often your DOI is cited in publications reflects whether others are discovering and using your outputs. Collaboration metrics like pull requests and contributions reveal whether your open practices are attracting co-workers and peer engagement. Finally, citation metrics from services like Altmetric and your ORCID profile aggregate signals of your research’s reach and influence.</p>
+<p><strong>Process Improvements</strong> capture how tools change your day-to-day research work. You may find time savings through the reuse of well-documented code and existing workflows, reducing the need to rebuild analyses from scratch. Reproducibility becomes verifiable when others use your tools or data and independently confirm your results, validating your documentation and methods. Efficiency gains accumulate through automation—version control branches, CI/CD pipelines, and preregistration templates all reduce manual steps. Team alignment improves when tools create shared project spaces and searchable records, reducing miscommunication and duplicate effort.</p>
+<p><strong>Research Impact</strong> captures the ultimate benefit of open science tools: increased visibility, collaboration, and funding success. Citations to your work—tracked through DOI resolution and ORCID profiles—demonstrate recognition of your contributions. The reuse of your code and data by other researchers extends the value of your work beyond your own projects and supports the broader mission of open science. Visible, well-documented work creates collaboration opportunities as other researchers discover your expertise and approach you for partnerships. Finally, open science practices are increasingly valued by funders, who recognize that transparency, reproducibility, and broad dissemination advance science more effectively than closed practices.</p>
+</section>
+<section id="id8">
+<h3>Summary<a class="headerlink" href="#id8" title="Permalink to this heading">#</a></h3>
+<p>Building an open science toolkit involves:</p>
+<ul class="simple">
+<li><p><strong>Assessment:</strong> Understand your needs by research stage</p></li>
+<li><p><strong>Selection:</strong> Choose appropriate tools for your discipline</p></li>
+<li><p><strong>Integration:</strong> Combine tools into coherent workflow</p></li>
+<li><p><strong>Practice:</strong> Build skills gradually through consistent use</p></li>
+<li><p><strong>Community:</strong> Join communities for support and learning</p></li>
+<li><p><strong>Sustainability:</strong> Establish practices that persist long-term</p></li>
+<li><p><strong>Impact:</strong> Measure benefits through discovery, collaboration, and citations</p></li>
+</ul>
+<p><strong>Remember:</strong></p>
+<ul class="simple">
+<li><p>You don’t need every tool</p></li>
+<li><p>Start with essentials (Git, ORCID, DOI)</p></li>
+<li><p>Learn at your own pace</p></li>
+<li><p>Community support is available</p></li>
+<li><p>Tools enable better science</p></li>
+<li><p>Your toolkit will evolve</p></li>
+</ul>
+<p><strong>Your Next Steps:</strong></p>
+<ol class="arabic simple">
+<li><p>Choose one tool to learn this week (probably Git/GitHub)</p></li>
+<li><p>Complete one tutorial or workshop</p></li>
+<li><p>Apply it to your next project</p></li>
+<li><p>Join a relevant community</p></li>
+<li><p>Help others learn</p></li>
+</ol>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 5</p>
+<p>Complete at least one of the following activities to build your personal toolkit:</p>
+<p><strong>Activity 5.1: Toolkit Audit and Upgrade</strong>
+List the tools you currently use for planning, coding, documentation, sharing, and preservation. Identify two gaps and create a 30-day plan to fill them.</p>
+<p><strong>Activity 5.2: Sustainable Workflow Plan</strong>
+Create a workflow checklist you will reuse for every project (e.g., ORCID update, repository setup, README, data archiving, DOI minting). Share it with your team.</p>
+<p><strong>Activity 5.3: Community Engagement</strong>
+Join one community (The Carpentries, rOpenSci, RSE, or a discipline-specific group). Attend one meeting or complete one training and summarize what you learned.</p>
+<p><strong>Activity 5.4: Publish a Minimal Example</strong>
+Publish a small code or data artifact with documentation and a clear license. If possible, archive a release in Zenodo to obtain a DOI.</p>
+</div>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./docs/Open-Science-101/modules"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="open_results_module.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Module 4 - Open Results</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="bibliography.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Bibliography</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-1-repositories-and-data-storage">Lesson 1: Repositories and Data Storage</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-a-repository">1.1 What is a Repository?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#repository-vs-archive-key-differences">1.2 Repository vs. Archive: Key Differences</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-repositories">1.3 Data Repositories</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discipline-specific-repositories">1.4 Discipline-Specific Repositories</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#software-repositories">1.5 Software Repositories</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#choosing-the-right-repository">1.6 Choosing the Right Repository</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-2-version-control-and-collaboration">Lesson 2: Version Control and Collaboration</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-version-control">2.1 What is Version Control?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-version-control-systems">2.2 Types of Version Control Systems</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#git-fundamentals">2.3 Git Fundamentals</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#collaborative-workflows-on-github">2.4 Collaborative Workflows on GitHub</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#repository-best-practices">2.5 Repository Best Practices</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-3-getting-dois-and-orcids">Lesson 3: Getting DOIs and ORCIDs</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-your-doi">3.1 Getting Your DOI</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-your-orcid">3.2 Getting Your ORCID</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#other-persistent-identifiers">3.3 Other Persistent Identifiers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#citing-your-work">3.4 Citing Your Work</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#best-practices-for-identifiers">3.5 Best Practices for Identifiers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-4-open-science-software-ecosystems">Lesson 4: Open Science Software Ecosystems</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation-and-manuscript-tools">4.1 Documentation and Manuscript Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#computational-research-tools">4.2 Computational Research Tools</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preprint-servers">4.3 Preprint Servers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#project-management-and-workflows">4.4 Project Management and Workflows</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-management-planning">4.5 Data Management Planning</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#team-communication">4.6 Team Communication</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-5-building-your-open-science-toolkit">Lesson 5: Building Your Open Science Toolkit</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assessing-your-tool-needs">5.1 Assessing Your Tool Needs</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#discipline-specific-tool-recommendations">5.2 Discipline-Specific Tool Recommendations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#building-your-toolkit-step-by-step">5.3 Building Your Toolkit: Step by Step</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#common-tool-combinations">5.4 Common Tool Combinations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-science-tool-communities">5.5 Open Science Tool Communities</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#troubleshooting-common-tool-issues">5.6 Troubleshooting Common Tool Issues</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-open-science-toolkit-checklist">5.7 Your Open Science Toolkit Checklist</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#measuring-success">5.8 Measuring Success</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Summary</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By NASA TOPS/VERSO
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

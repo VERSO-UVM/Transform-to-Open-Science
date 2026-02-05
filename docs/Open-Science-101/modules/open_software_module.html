@@ -1,0 +1,2418 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Module 3 - Open Software &#8212; Open Science 101</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" href="../../../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/clipboard.min.js"></script>
+    <script src="../../../_static/copybutton.js"></script>
+    <script src="../../../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../../../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/Open-Science-101/modules/open_software_module';</script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Module 4 - Open Results" href="open_results_module.html" />
+    <link rel="prev" title="Module 2 - Open Data" href="open_data_module.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../README.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../_static/open_science_101_logo.png" class="logo__image only-light" alt="Open Science 101 - Home"/>
+    <script>document.write(`<img src="../../../_static/open_science_101_logo.png" class="logo__image only-dark" alt="Open Science 101 - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../../README.html">
+                    Open Science 101 Course
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="open_science_ethos_module.html">Module 1 - Open Science Ethos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open_data_module.html">Module 2 - Open Data</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Module 3 - Open Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open_results_module.html">Module 4 - Open Results</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open_science_tools_module.html">Module 5 - Open Science Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="bibliography.html">Bibliography &amp; Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../CONTRIBUTING.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../CODE_OF_CONDUCT.html">Code of Conduct</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../../_sources/docs/Open-Science-101/modules/open_software_module.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Module 3 - Open Software</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-1-understanding-research-software">Lesson 1: Understanding Research Software</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-research-software">1.1 What is Research Software?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#from-code-to-software-the-spectrum">1.2 From Code to Software: The Spectrum</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-research-software">1.3 Types of Research Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-software-development-lifecycle-for-research">1.4 The Software Development Lifecycle for Research</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#benefits-of-open-research-software">1.5 Benefits of Open Research Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#challenges-and-misconceptions">1.6 Challenges and Misconceptions</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#software-development-models">1.7 Software Development Models</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-2-assessing-and-using-open-software">Lesson 2: Assessing and Using Open Software</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#where-to-find-research-software">2.1 Where to Find Research Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#criteria-for-assessing-software-quality">2.2 Criteria for Assessing Software Quality</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#critical-questions-checklist">2.3 Critical Questions Checklist</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#testing-and-validating">2.4 Testing and Validating</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#red-flags-and-deal-breakers">2.5 Red Flags and Deal-Breakers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-3-writing-and-documenting-research-code">Lesson 3: Writing and Documenting Research Code</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#code-quality-principles">3.1 Code Quality Principles</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#code-style-and-readability">3.2 Code Style and Readability</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation-levels">3.3 Documentation Levels</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start">Quick Start</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation">Documentation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#complete-documentation-structure">3.4 Complete Documentation Structure</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#making-code-reproducible">3.5 Making Code Reproducible</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#code-testing">3.6 Code Testing</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#continuous-integration">3.7 Continuous Integration</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-4-licensing-and-sharing-software">Lesson 4: Licensing and Sharing Software</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#software-intellectual-property">4.1 Software Intellectual Property</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-source-licenses-explained">4.2 Open Source Licenses Explained</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#common-licenses-for-research">4.3 Common Licenses for Research</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#choosing-your-license">4.4 Choosing Your License</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#applying-a-license">4.5 Applying a License</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#license-compatibility">4.6 License Compatibility</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sharing-and-distributing-software">4.7 Sharing and Distributing Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#copyright-and-attribution">4.8 Copyright and Attribution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-5-building-sustainable-research-software">Lesson 5: Building Sustainable Research Software</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#from-script-to-sustainable-software">5.1 From Script to Sustainable Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#software-development-workflow">5.2 Software Development Workflow</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#maintenance-and-sustainability">5.3 Maintenance and Sustainability</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#growing-and-engaging-community">5.4 Growing and Engaging Community</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation-for-sustainability">5.5 Documentation for Sustainability</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-sustainable-research-software">5.6 Examples of Sustainable Research Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-software-development-plan">5.7 Your Software Development Plan</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#checklist-before-releasing-software">5.8 Checklist: Before Releasing Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#measuring-success">5.9 Measuring Success</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Summary</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="module-3-open-software">
+<h1>Module 3 - Open Software<a class="headerlink" href="#module-3-open-software" title="Permalink to this heading">#</a></h1>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h2>
+<p>Open software and code are critical components of open science research. This module explores the principles of open software development, assessment criteria, documentation standards, licensing frameworks, and practical implementation strategies for creating and maintaining research software.</p>
+</section>
+<section id="learning-objectives">
+<h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h2>
+<p>After completing this module, you should be able to:</p>
+<ul class="simple">
+<li><p>Define research software and understand its spectrum from scripts to professional packages, as well as the software development lifecycle specific to research contexts.</p></li>
+<li><p>Discover, evaluate, and assess open research software for functionality, usability, reliability, and performance before integrating it into your research.</p></li>
+<li><p>Write high-quality, well-documented, and maintainable research code following best practices for readability, style, documentation, and testing.</p></li>
+<li><p>Apply appropriate open source licenses to research software, prepare code for sharing, and understand how to make software discoverable and citable.</p></li>
+<li><p>Develop comprehensive strategies for creating and maintaining sustainable research software with community engagement and long-term preservation.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="lesson-1-understanding-research-software">
+<h2>Lesson 1: Understanding Research Software<a class="headerlink" href="#lesson-1-understanding-research-software" title="Permalink to this heading">#</a></h2>
+<section id="overview">
+<h3>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h3>
+<p>In this lesson, you explore what research software is, the different types of software used in science, the software development lifecycle, and the benefits of developing open software. You understand how research software differs from commercial software and why open practices are essential for reproducible science.</p>
+</section>
+<section id="what-is-research-software">
+<h3>1.1 What is Research Software?<a class="headerlink" href="#what-is-research-software" title="Permalink to this heading">#</a></h3>
+<p><strong>Definition:</strong> Research software is any code or software tool created to support research activities, including analysis, simulation, data processing, visualization, and instrument control.</p>
+<p><strong>Key Characteristics:</strong></p>
+<ul class="simple">
+<li><p><strong>Purpose-driven:</strong> Built to answer research questions</p></li>
+<li><p><strong>Evolving:</strong> Changes as research progresses</p></li>
+<li><p><strong>Unique:</strong> Often specialized for specific projects</p></li>
+<li><p><strong>Complex:</strong> May involve sophisticated algorithms</p></li>
+<li><p><strong>Critical:</strong> Results depend on software correctness</p></li>
+</ul>
+<p><strong>Scale of Research Software:</strong></p>
+<ul class="simple">
+<li><p><strong>Scripts:</strong> Single-file analyses (50-200 lines)</p></li>
+<li><p><strong>Tools:</strong> Multi-file projects (1,000-10,000 lines)</p></li>
+<li><p><strong>Packages:</strong> Distributable software (10,000+ lines)</p></li>
+<li><p><strong>Platforms:</strong> Large systems (100,000+ lines)</p></li>
+</ul>
+<p><strong>Examples Across Disciplines:</strong></p>
+<ul class="simple">
+<li><p><strong>Genomics:</strong> BLAST (sequence analysis), Samtools (BAM processing)</p></li>
+<li><p><strong>Physics:</strong> Geant4 (particle simulation), OpenFOAM (fluid dynamics)</p></li>
+<li><p><strong>Climate:</strong> GROMACS (molecular dynamics), WRF (weather research)</p></li>
+<li><p><strong>Astronomy:</strong> Astropy (data processing), Galsim (simulation)</p></li>
+<li><p><strong>Social Science:</strong> Stan (statistical inference), EggNOG (sequence annotation)</p></li>
+</ul>
+</section>
+<section id="from-code-to-software-the-spectrum">
+<h3>1.2 From Code to Software: The Spectrum<a class="headerlink" href="#from-code-to-software-the-spectrum" title="Permalink to this heading">#</a></h3>
+<p><strong>Research Script</strong> (Minimal)</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># One-off analysis for a specific dataset</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;experiment.csv&#39;</span><span class="p">)</span>
+<span class="n">results</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;valid&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="kc">True</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">results</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Characteristics:</strong> Quick, specific, minimal documentation
+<strong>Problem:</strong> Hard to reuse, hard to maintain</p>
+<p><strong>Research Tool</strong> (Moderate)</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Reusable but limited to specific domain/task</span>
+<span class="c1"># - Function definitions</span>
+<span class="c1"># - Some documentation</span>
+<span class="c1"># - Basic examples</span>
+<span class="c1"># - Single file or simple structure</span>
+</pre></div>
+</div>
+<p><strong>Characteristics:</strong> Better organized, documented, reusable
+<strong>Use:</strong> Specific analyses, specialized tasks</p>
+<p><strong>Research Package</strong> (Professional)</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Distributable, documented, tested</span>
+<span class="c1"># - Multiple files/modules</span>
+<span class="c1"># - Comprehensive documentation</span>
+<span class="c1"># - Test suite</span>
+<span class="c1"># - CI/CD pipeline</span>
+<span class="c1"># - Version management</span>
+<span class="c1"># - Package registration (PyPI/CRAN)</span>
+</pre></div>
+</div>
+<p><strong>Characteristics:</strong> Production-quality, maintained, discoverable
+<strong>Use:</strong> Widespread community use</p>
+</section>
+<section id="types-of-research-software">
+<h3>1.3 Types of Research Software<a class="headerlink" href="#types-of-research-software" title="Permalink to this heading">#</a></h3>
+<p><strong>General Purpose Programming Languages</strong></p>
+<ul class="simple">
+<li><p><strong><a class="reference external" href="https://www.python.org/">Python</a>:</strong> Most popular (data science, machine learning, general)</p></li>
+<li><p><strong><a class="reference external" href="https://www.r-project.org/">R</a>:</strong> Statistics and visualization</p></li>
+<li><p><strong><a class="reference external" href="https://julialang.org/">Julia</a>:</strong> Scientific computing and numerical analysis</p></li>
+<li><p><strong>C/C++:</strong> High-performance computing</p></li>
+<li><p><strong><a class="reference external" href="https://gcc.gnu.org/fortran/">Fortran</a>:</strong> Legacy scientific computing</p></li>
+<li><p><strong><a class="reference external" href="https://www.mathworks.com/products/matlab.html">MATLAB</a>:</strong> Engineering and signal processing</p></li>
+</ul>
+<p><strong>Domain-Specific Software:</strong></p>
+<p><strong>Molecular Dynamics:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.gromacs.org/">GROMACS</a>, <a class="reference external" href="https://ambermd.org/">AMBER</a>, <a class="reference external" href="https://www.lammps.org/">LAMMPS</a>, <a class="reference external" href="https://www.ks.uiuc.edu/Research/namd/">NAMD</a></p></li>
+</ul>
+<p><strong>Structural Biology:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pymol.org/">PYMOL</a>, <a class="reference external" href="https://www.ks.uiuc.edu/Research/vmd/">VMD</a>, <a class="reference external" href="https://www.cgl.ucsf.edu/chimera/">Chimera</a></p></li>
+</ul>
+<p><strong>Quantum Chemistry:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://gaussian.com/">GAUSSIAN</a>, <a class="reference external" href="https://www.factsci.com/orca">ORCA</a>, <a class="reference external" href="https://www.semi-empirical.com/">MOPAC</a></p></li>
+</ul>
+<p><strong>Climate/Weather:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.mmm.ucar.edu/models/wrf">WRF</a>, <a class="reference external" href="https://www.cesm.ucar.edu/">CESM</a>, <a class="reference external" href="https://www.gfdl.noaa.gov/">GFDL models</a></p></li>
+</ul>
+<p><strong>Astronomy/Astrophysics:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.astropy.org/">Astropy</a>, <a class="reference external" href="https://iraf.noaa.gov/">IRAF</a>, <a class="reference external" href="https://www.sdss.org/">SDSS software</a></p></li>
+</ul>
+<p><strong>Machine Learning:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.tensorflow.org/">TensorFlow</a>, <a class="reference external" href="https://pytorch.org/">PyTorch</a>, <a class="reference external" href="https://scikit-learn.org/">Scikit-learn</a></p></li>
+</ul>
+<p><strong>Genomics:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://blast.ncbi.nlm.nih.gov/">BLAST</a>, <a class="reference external" href="https://bowtie-bio.sourceforge.net/">Bowtie</a>, <a class="reference external" href="https://gatk.broadinstitute.org/">GATK</a>, <a class="reference external" href="http://samtools.sourceforge.net/">Samtools</a></p></li>
+</ul>
+</section>
+<section id="the-software-development-lifecycle-for-research">
+<h3>1.4 The Software Development Lifecycle for Research<a class="headerlink" href="#the-software-development-lifecycle-for-research" title="Permalink to this heading">#</a></h3>
+<a class="reference internal image-reference" href="../../../_images/sdlc_diagram.svg"><img alt="Software Development Lifecycle for Research" src="../../../_images/sdlc_diagram.svg" width="100%" /></a>
+</section>
+<section id="benefits-of-open-research-software">
+<h3>1.5 Benefits of Open Research Software<a class="headerlink" href="#benefits-of-open-research-software" title="Permalink to this heading">#</a></h3>
+<p>The benefits of open research software extend far beyond individual developers to transform entire fields and society. When you share your code openly, you unlock immediate personal advantages: research papers with open code receive 20-30% more citations, visible code attracts collaborators who build on your work, and you gain recognition as an open science leader. Beyond personal benefits, the research community gains tremendously—others can verify your results through reproducible code, avoiding the wasteful duplication of development efforts that plague closed-source approaches. As researchers build upon each other’s openly available code, community standards emerge naturally, sparks of innovation ignite from unexpected combinations of existing tools, and future researchers learn best practices through studying well-written, open implementations. Open source experience has also become increasingly valued in the job market, creating tangible career advantages.</p>
+<p>At a broader scale, open research software benefits all of science and society. Transparency enables scientific scrutiny and catches errors early through peer review and community feedback, while global access to research tools breaks down barriers created by proprietary software—ensuring that researchers in under-resourced regions can participate fully in advancing knowledge. The efficiency gains are enormous: rather than thousands of researchers independently solving identical problems, communities can collectively improve shared tools, multiplying research output across fields. Open software fundamentally democratizes research by making powerful computational tools available regardless of funding or institutional affiliation, accelerating discovery and enabling innovations that might never occur under proprietary lock-in. Ultimately, better tools created through open collaboration improve research quality across every scientific discipline, generating impact that benefits not just science but society as a whole through better solutions to critical problems.</p>
+</section>
+<section id="challenges-and-misconceptions">
+<h3>1.6 Challenges and Misconceptions<a class="headerlink" href="#challenges-and-misconceptions" title="Permalink to this heading">#</a></h3>
+<p><strong>“My code is too messy/incomplete to share”</strong></p>
+<ul class="simple">
+<li><p>Reality: Shared code is always improved</p></li>
+<li><p>Solution: Share at any stage, document limitations</p></li>
+<li><p>Truth: Perfectionism delays sharing and reduces impact</p></li>
+</ul>
+<p><strong>“I don’t have time to document”</strong></p>
+<ul class="simple">
+<li><p>Reality: Documentation saves time long-term (even for you)</p></li>
+<li><p>Solution: Document as you develop, not after</p></li>
+<li><p>Truth: Every project benefits from future documentation</p></li>
+</ul>
+<p><strong>“Others will scoop my ideas”</strong></p>
+<ul class="simple">
+<li><p>Reality: Publication date (preprint) establishes priority</p></li>
+<li><p>Solution: Open code + preprint = clear priority</p></li>
+<li><p>Truth: Collaborations often more valuable than competition</p></li>
+</ul>
+<p><strong>“My code is too specific”</strong></p>
+<ul class="simple">
+<li><p>Reality: Others have similar problems</p></li>
+<li><p>Solution: Share anyway, reusability improves with use</p></li>
+<li><p>Truth: Code often finds applications beyond original intent</p></li>
+</ul>
+<p><strong>“I don’t know how to license it”</strong></p>
+<ul class="simple">
+<li><p>Reality: Choose MIT (permissive) or GPL (copyleft)</p></li>
+<li><p>Solution: License matters less than being open</p></li>
+<li><p>Truth: Licensing framework prevents legal uncertainty</p></li>
+</ul>
+</section>
+<section id="software-development-models">
+<h3>1.7 Software Development Models<a class="headerlink" href="#software-development-models" title="Permalink to this heading">#</a></h3>
+<p><strong>Waterfall Model</strong> (Traditional)</p>
+<ul class="simple">
+<li><p>Plan → Design → Code → Test → Release</p></li>
+<li><p>Issues: Inflexible, long cycles</p></li>
+<li><p>When useful: Large projects with clear requirements</p></li>
+</ul>
+<p><strong>Agile Model</strong> (Modern)</p>
+<ul class="simple">
+<li><p>Iterative: Short cycles of plan-code-test-review</p></li>
+<li><p>Advantages: Flexible, responds to feedback</p></li>
+<li><p>Common in: Open source, rapidly evolving projects</p></li>
+</ul>
+<p><strong>Research Software Model</strong> (Hybrid)</p>
+<ul class="simple">
+<li><p>Start: Script/prototype with minimal process</p></li>
+<li><p>Middle: Add structure as reuse becomes clear</p></li>
+<li><p>Mature: Professional processes if community adoption</p></li>
+<li><p>Reality: Most research software evolves naturally</p></li>
+</ul>
+</section>
+<section id="summary">
+<h3>Summary<a class="headerlink" href="#summary" title="Permalink to this heading">#</a></h3>
+<p>Research software is essential infrastructure:</p>
+<ul class="simple">
+<li><p><strong>Spectrum:</strong> From scripts to professional packages</p></li>
+<li><p><strong>Diversity:</strong> Domain-specific and general-purpose tools</p></li>
+<li><p><strong>Lifecycle:</strong> Evolves from prototype to mature product</p></li>
+<li><p><strong>Benefits:</strong> Impact multiplies through openness</p></li>
+<li><p><strong>Challenges:</strong> Manageable with planning and community support</p></li>
+<li><p><strong>Future:</strong> Open software is becoming standard practice</p></li>
+</ul>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 1</p>
+<p>Complete at least two of the following activities to understand research software:</p>
+<p><strong>Activity 1.1: Software Spectrum Assessment</strong>
+Examine a research project you know (yours or published). Classify its software on the spectrum:</p>
+<ul class="simple">
+<li><p>Where does it fall: Script → Tool → Package → Platform?</p></li>
+<li><p>What is the current stage of the lifecycle: Prototype → Evolving → Mature?</p></li>
+<li><p>What would be required to move it to the next level?</p></li>
+<li><p>What benefits and costs would that entail?</p></li>
+</ul>
+<p>Write 200-300 words reflecting on this classification and what stage is appropriate for your project.</p>
+<p><strong>Activity 1.2: Explore Research Software in Your Field</strong>
+Research three significant research software projects in your discipline:</p>
+<ul class="simple">
+<li><p>What problem does each solve?</p></li>
+<li><p>What is the development status (active/maintained/archived)?</p></li>
+<li><p>How is it distributed (GitHub, package registry, standalone)?</p></li>
+<li><p>What is the user base/impact?</p></li>
+<li><p>What documentation exists?</p></li>
+</ul>
+<p>Create a table comparing these projects and identify best practices from the most successful one.</p>
+<p><strong>Activity 1.3: Understand Software Lifecycle</strong>
+Choose one open research software project. Document:</p>
+<ul class="simple">
+<li><p>Initial problem it solved</p></li>
+<li><p>How it has evolved over time</p></li>
+<li><p>Current features and capabilities</p></li>
+<li><p>Community involvement (if any)</p></li>
+<li><p>Future direction (if documented)</p></li>
+</ul>
+<p>Reflect on factors that contributed to its success or challenges.</p>
+<p><strong>Deliverable:</strong> Your choice of analysis from activities above (1-2 pages total).</p>
+</div>
+</section>
+</section>
+<section id="lesson-2-assessing-and-using-open-software">
+<h2>Lesson 2: Assessing and Using Open Software<a class="headerlink" href="#lesson-2-assessing-and-using-open-software" title="Permalink to this heading">#</a></h2>
+<section id="id1">
+<h3>Overview<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<p>In this lesson, you learn how to evaluate research software for quality and reliability, understand criteria for assessing software for your own use, discover how to find and evaluate open software, and practice critical assessment of research tools.</p>
+</section>
+<section id="where-to-find-research-software">
+<h3>2.1 Where to Find Research Software<a class="headerlink" href="#where-to-find-research-software" title="Permalink to this heading">#</a></h3>
+<p><strong>Software Discovery Sources:</strong></p>
+<p><strong>General Repositories:</strong></p>
+<ul class="simple">
+<li><p><strong><a class="reference external" href="https://github.com/">GitHub</a>:</strong> 100+ million repositories, search by language/topic</p></li>
+<li><p><strong><a class="reference external" href="https://about.gitlab.com/">GitLab</a>:</strong> Similar to GitHub, often with institutional options</p></li>
+<li><p><strong><a class="reference external" href="https://sourceforge.net/">SourceForge</a>:</strong> Historical, older projects</p></li>
+</ul>
+<p><strong>Package Repositories:</strong></p>
+<ul class="simple">
+<li><p><strong><a class="reference external" href="https://pypi.org/">PyPI</a></strong> (Python): 500,000+ packages, <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">search</span></code> or web search</p></li>
+<li><p><strong><a class="reference external" href="https://cran.r-project.org/">CRAN</a></strong> (R): 20,000+ packages with searchable interface</p></li>
+<li><p><strong><a class="reference external" href="https://www.bioconductor.org/">Bioconductor</a>:</strong> 2,000+ biology packages</p></li>
+<li><p><strong><a class="reference external" href="https://www.npmjs.com/">npm</a></strong> (JavaScript): 3 million+ packages</p></li>
+<li><p><strong><a class="reference external" href="https://mvnrepository.com/">Maven Central</a></strong> (Java): 500,000+ artifacts</p></li>
+</ul>
+<p><strong>Domain-Specific Registries:</strong></p>
+<ul class="simple">
+<li><p><strong><a class="reference external" href="https://bio.tools/">Bio.Tools</a>:</strong> 15,000+ bioinformatics tools with annotations</p></li>
+<li><p><strong><a class="reference external" href="https://conda-forge.org/">Conda-Forge</a>:</strong> 25,000+ scientific packages</p></li>
+<li><p><strong><a class="reference external" href="https://toolshed.g2.bx.psu.edu/">Galaxy Tools</a>:</strong> 10,000+ bioinformatics tools</p></li>
+<li><p><strong><a class="reference external" href="https://biohackathon.org/">Biohackathon Projects</a>:</strong> Collaborative research tools</p></li>
+</ul>
+<p><strong>Academic Databases:</strong></p>
+<ul class="simple">
+<li><p><strong><a class="reference external" href="https://scicrunch.org/">SciCrunch</a>:</strong> Research tools with detailed metadata</p></li>
+<li><p><strong><a class="reference external" href="https://www.omictools.com/">OMICtools</a>:</strong> Bioinformatics tool directory</p></li>
+<li><p><strong><a class="reference external" href="https://scholar.google.com/">Google Scholar</a>:</strong> Search for software papers</p></li>
+<li><p><strong>Journal supplements:</strong> Tools described in publications</p></li>
+</ul>
+<p><strong>Community Resources:</strong></p>
+<ul class="simple">
+<li><p><strong><a class="reference external" href="https://ropensci.org/">rOpenSci</a>/<a class="reference external" href="https://www.pyopensci.org/">PyOpenSci</a>:</strong> Curated, peer-reviewed packages</p></li>
+<li><p><strong><a class="reference external" href="https://carpentries.org/">Carpentries</a>:</strong> Training materials mentioning tools</p></li>
+<li><p><strong>Research communities:</strong> Reddit r/bioinformatics, etc.</p></li>
+<li><p><strong>Twitter/Mastodon:</strong> Follow developers in your field</p></li>
+</ul>
+</section>
+<section id="criteria-for-assessing-software-quality">
+<h3>2.2 Criteria for Assessing Software Quality<a class="headerlink" href="#criteria-for-assessing-software-quality" title="Permalink to this heading">#</a></h3>
+<p><strong>Functionality Assessment</strong></p>
+<p><strong>Does it solve your problem?</strong></p>
+<ul class="simple">
+<li><p>Read documentation (README, tutorial)</p></li>
+<li><p>Check if output matches your expected format</p></li>
+<li><p>Look for papers describing the tool</p></li>
+<li><p>Try on small test dataset first</p></li>
+</ul>
+<p><strong>Handling of edge cases:</strong></p>
+<ul class="simple">
+<li><p>Empty input</p></li>
+<li><p>Very large data</p></li>
+<li><p>Missing data/parameters</p></li>
+<li><p>Invalid input</p></li>
+<li><p>Look for error messages and documentation</p></li>
+</ul>
+<p><strong>Scientific validity:</strong></p>
+<ul class="simple">
+<li><p>Is the algorithm correctly implemented?</p></li>
+<li><p>Check for published validation studies</p></li>
+<li><p>Compare against known reference</p></li>
+<li><p>Verify on your data</p></li>
+</ul>
+<p><strong>Usability Assessment</strong></p>
+<p><strong>Documentation quality:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Good Documentation:
+✓ Clear README (one page overview)
+✓ Installation instructions
+✓ Quick start example
+✓ Complete API documentation
+✓ Troubleshooting guide
+✓ Examples with expected outputs
+
+Poor Documentation:
+✗ &quot;Just read the code&quot;
+✗ Outdated examples
+✗ Missing parameter descriptions
+✗ No error explanations
+</pre></div>
+</div>
+<p><strong>Ease of installation:</strong></p>
+<ul class="simple">
+<li><p>Automatic package managers (pip, conda) best</p></li>
+<li><p>Source compilation acceptable if documented</p></li>
+<li><p>Container (Docker) excellent alternative</p></li>
+<li><p>No documentation of dependencies: red flag</p></li>
+</ul>
+<p><strong>User interface:</strong></p>
+<ul class="simple">
+<li><p>Command-line tools: clear help/usage text</p></li>
+<li><p>GUI: intuitive navigation</p></li>
+<li><p>Python library: sensible function names and parameters</p></li>
+<li><p>R package: follows tidyverse conventions</p></li>
+</ul>
+<p><strong>Reliability Assessment</strong></p>
+<p><strong>Maintenance status:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>✓ Active (commits within last month)
+✓ Stable (no recent major changes)
+✓ Responsive (issues replied to within weeks)
+
+⚠ Dormant (last commit 6-12 months ago)
+⚠ Slow responses (issues unanswered for months)
+
+✗ Abandoned (no updates in years)
+✗ No issue tracking
+</pre></div>
+</div>
+<p><strong>Community indicators:</strong></p>
+<ul class="simple">
+<li><p>GitHub stars: 100+ indicates meaningful use</p></li>
+<li><p>Citation count: How many papers cite this tool?</p></li>
+<li><p>Forks: Are people building on it?</p></li>
+<li><p>Issue responses: Do developers engage?</p></li>
+<li><p>Contributor count: Single developer more risk</p></li>
+</ul>
+<p><strong>Testing and quality:</strong></p>
+<ul class="simple">
+<li><p>Unit tests present? Good sign</p></li>
+<li><p>Continuous integration (CI)? Shows quality care</p></li>
+<li><p>Code coverage reported? Standard in good projects</p></li>
+<li><p>Static analysis? Shows attention to quality</p></li>
+</ul>
+<p><strong>Bug tracking:</strong></p>
+<ul class="simple">
+<li><p>Open issues: Indicates active development</p></li>
+<li><p>Closed issues: Shows bugs get fixed</p></li>
+<li><p>Old unresolved issues: Concern if critical</p></li>
+</ul>
+<p><strong>Performance Assessment</strong></p>
+<p><strong>Computational requirements:</strong></p>
+<ul class="simple">
+<li><p>Memory: Check documentation or paper</p></li>
+<li><p>Runtime: Try on your data</p></li>
+<li><p>CPU cores: Can it parallelize?</p></li>
+<li><p>Disk space: Output file sizes?</p></li>
+</ul>
+<p><strong>Scalability:</strong></p>
+<ul class="simple">
+<li><p>Tested on your data size?</p></li>
+<li><p>Does performance degrade with size?</p></li>
+<li><p>Are there benchmarks published?</p></li>
+<li><p>Can you test on subset first?</p></li>
+</ul>
+<p><strong>Optimization:</strong></p>
+<ul class="simple">
+<li><p>Written in compiled language (C, Rust)? Fast</p></li>
+<li><p>Python/R with vectorization? Acceptable</p></li>
+<li><p>Interpreted without optimization? Slow</p></li>
+<li><p>Can you parallelize? Important for big data</p></li>
+</ul>
+</section>
+<section id="critical-questions-checklist">
+<h3>2.3 Critical Questions Checklist<a class="headerlink" href="#critical-questions-checklist" title="Permalink to this heading">#</a></h3>
+<p><strong>Before Adopting Software:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Functionality
+☐ Does it solve my exact problem?
+☐ Can I reproduce published results?
+☐ Are there known limitations I can live with?
+
+Usability
+☐ Is installation straightforward?
+☐ Is documentation clear and complete?
+☐ Are there working examples for my use case?
+☐ How long is the learning curve?
+
+Reliability
+☐ Is it actively maintained?
+☐ How responsive are developers to issues?
+☐ Are there tests and CI?
+☐ What&#39;s the track record (citations, longevity)?
+
+Performance
+☐ Will it run on my data/hardware?
+☐ What are memory/time requirements?
+☐ Have I tested on small data first?
+
+License and Attribution
+☐ Is there a clear license?
+☐ Can I use it for my purpose?
+☐ What&#39;s the citation requirement?
+
+Support
+☐ Active user community?
+☐ Issues get responses?
+☐ Forum or discussion list?
+☐ Could I adapt if unmaintained?
+</pre></div>
+</div>
+</section>
+<section id="testing-and-validating">
+<h3>2.4 Testing and Validating<a class="headerlink" href="#testing-and-validating" title="Permalink to this heading">#</a></h3>
+<p><strong>Before Using in Publication:</strong></p>
+<p><strong>Phase 1: Smoke Test (1 hour)</strong></p>
+<ul class="simple">
+<li><p>Install successfully</p></li>
+<li><p>Run simple example</p></li>
+<li><p>Get reasonable output</p></li>
+<li><p>Decision: Keep exploring or try alternative</p></li>
+</ul>
+<p><strong>Phase 2: Data Validation (1-2 days)</strong></p>
+<ul class="simple">
+<li><p>Run on small subset of your data</p></li>
+<li><p>Verify output format</p></li>
+<li><p>Check numerical ranges make sense</p></li>
+<li><p>Try known comparison (if available)</p></li>
+</ul>
+<p><strong>Phase 3: Deep Testing (1-2 weeks)</strong></p>
+<ul class="simple">
+<li><p>Full run on all data</p></li>
+<li><p>Sensitivity analysis (vary parameters)</p></li>
+<li><p>Compare against alternative tools</p></li>
+<li><p>Document methods and choices</p></li>
+</ul>
+<p><strong>Phase 4: Verification (ongoing)</strong></p>
+<ul class="simple">
+<li><p>Keep installation documented</p></li>
+<li><p>Note version used</p></li>
+<li><p>Save exact command used</p></li>
+<li><p>Document any modifications</p></li>
+<li><p>Plan for future reproduction</p></li>
+</ul>
+</section>
+<section id="red-flags-and-deal-breakers">
+<h3>2.5 Red Flags and Deal-Breakers<a class="headerlink" href="#red-flags-and-deal-breakers" title="Permalink to this heading">#</a></h3>
+<p><strong>Deal-Breaker Red Flags:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>✗ No license specified
+✗ No documentation at all
+✗ Last update more than 5+ years ago (for maintained software)
+✗ Cannot run your data
+✗ Results don&#39;t match published validation
+✗ Required closed-source component
+✗ Requires proprietary software
+</pre></div>
+</div>
+<p><strong>Caution Flags:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>⚠ Minimal documentation
+⚠ Single maintainer
+⚠ Few users or citations
+⚠ No tests visible
+⚠ Complex installation
+⚠ Very recent (unproven)
+⚠ Unclear or restrictive license
+</pre></div>
+</div>
+<p><strong>Manageable Concerns:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>○ Steep learning curve (spend time learning)
+○ Missing feature you need (fork/adapt or request)
+○ Slow on large data (parallelize or optimize)
+○ Needs old dependency (use container)
+</pre></div>
+</div>
+</section>
+<section id="id2">
+<h3>Summary<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<p>Assessing research software requires systematic evaluation:</p>
+<ul class="simple">
+<li><p><strong>Discovery:</strong> Use repositories and domain resources</p></li>
+<li><p><strong>Functionality:</strong> Verify it solves your problem</p></li>
+<li><p><strong>Usability:</strong> Good documentation and easy use</p></li>
+<li><p><strong>Reliability:</strong> Active maintenance and responsive developers</p></li>
+<li><p><strong>Performance:</strong> Can handle your data scale</p></li>
+<li><p><strong>Testing:</strong> Always validate before publication</p></li>
+<li><p><strong>Red flags:</strong> Know when to choose alternatives</p></li>
+</ul>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 2</p>
+<p>Complete at least two of the following activities to practice finding and evaluating open software:</p>
+<p><strong>Activity 2.1: Discover Research Software</strong>
+Search for software in your field using multiple discovery methods:</p>
+<ul class="simple">
+<li><p>Method 1: Search a package registry (PyPI, CRAN, npm)</p></li>
+<li><p>Method 2: Search GitHub by topic/language</p></li>
+<li><p>Method 3: Search domain-specific repositories or software lists</p></li>
+<li><p>Method 4: Ask colleagues or check papers for software recommendations</p></li>
+</ul>
+<p>For each software found, document:</p>
+<ul class="simple">
+<li><p>Name and description</p></li>
+<li><p>Discovery method used</p></li>
+<li><p>Primary use case</p></li>
+<li><p>Developer/maintainer information</p></li>
+</ul>
+<p>Write 150-200 words comparing the discovery experience across methods.</p>
+<p><strong>Activity 2.2: Complete Software Assessment Checklist</strong>
+Select one research software tool you found in Activity 2.1. Complete a comprehensive assessment:</p>
+<ul class="simple">
+<li><p><strong>Functionality:</strong> Does it solve your problem? How well?</p></li>
+<li><p><strong>Usability:</strong> Is it easy to install? Clear documentation? Working examples?</p></li>
+<li><p><strong>Reliability:</strong> Is it actively maintained? How responsive are developers?</p></li>
+<li><p><strong>Performance:</strong> Does it handle your data scale? Any benchmarks available?</p></li>
+<li><p><strong>Quality:</strong> Tests? CI/CD? Code coverage?</p></li>
+<li><p><strong>License:</strong> Clear and permissive?</p></li>
+<li><p><strong>Community:</strong> Active users? Support channels?</p></li>
+</ul>
+<p>Write 300-400 words summarizing your assessment and recommending use/alternative.</p>
+<p><strong>Activity 2.3: Test Software Before Using in Publication</strong>
+Set up and test a piece of research software:</p>
+<ul class="simple">
+<li><p>Install following documentation</p></li>
+<li><p>Run example/tutorial</p></li>
+<li><p>Test on your data (small subset first)</p></li>
+<li><p>Verify output makes sense</p></li>
+<li><p>Document installation issues (if any)</p></li>
+<li><p>Note version and dependencies used</p></li>
+</ul>
+<p>Write a brief testing report (150-200 words) describing what you verified and any concerns.</p>
+<p><strong>Deliverable:</strong> Your choice of output from activities above (1-2 pages total).</p>
+</div>
+</section>
+</section>
+<section id="lesson-3-writing-and-documenting-research-code">
+<h2>Lesson 3: Writing and Documenting Research Code<a class="headerlink" href="#lesson-3-writing-and-documenting-research-code" title="Permalink to this heading">#</a></h2>
+<section id="id3">
+<h3>Overview<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<p>In this lesson, you learn principles of writing good research code, comprehensive documentation practices, making code reproducible and maintainable, testing strategies, and code quality best practices. You practice documentation standards and learn how to make your code accessible to others and to your future self.</p>
+</section>
+<section id="code-quality-principles">
+<h3>3.1 Code Quality Principles<a class="headerlink" href="#code-quality-principles" title="Permalink to this heading">#</a></h3>
+<p><strong>FAIR Software Principles</strong> (Similar to FAIR Data)</p>
+<p><strong>Findable</strong></p>
+<ul class="simple">
+<li><p>Public repository (GitHub, GitLab)</p></li>
+<li><p>Discoverable (PyPI, CRAN registration)</p></li>
+<li><p>Named clearly</p></li>
+<li><p>Documented in README</p></li>
+</ul>
+<p><strong>Accessible</strong></p>
+<ul class="simple">
+<li><p>Open license</p></li>
+<li><p>No paywalls</p></li>
+<li><p>Easy installation</p></li>
+<li><p>Clear dependencies</p></li>
+</ul>
+<p><strong>Interoperable</strong></p>
+<ul class="simple">
+<li><p>Standard formats for input/output</p></li>
+<li><p>Follows conventions</p></li>
+<li><p>Integrates with other tools</p></li>
+<li><p>Uses standard libraries</p></li>
+</ul>
+<p><strong>Reusable</strong></p>
+<ul class="simple">
+<li><p>Clear documentation</p></li>
+<li><p>Tests included</p></li>
+<li><p>Modular design</p></li>
+<li><p>Permissive license</p></li>
+</ul>
+</section>
+<section id="code-style-and-readability">
+<h3>3.2 Code Style and Readability<a class="headerlink" href="#code-style-and-readability" title="Permalink to this heading">#</a></h3>
+<p><strong>Why Style Matters:</strong></p>
+<ul class="simple">
+<li><p>Code read 10x more than written</p></li>
+<li><p>Enables collaboration</p></li>
+<li><p>Reduces bugs</p></li>
+<li><p>Makes maintenance easier</p></li>
+</ul>
+<p><strong>Language-Specific Style Guides:</strong></p>
+<p><strong>Python:</strong> PEP 8 (Python Enhancement Proposal 8)</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Good: Clear names, proper spacing</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">calculate_mean_intensity</span><span class="p">(</span><span class="n">image_array</span><span class="p">,</span> <span class="n">threshold</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Calculate mean intensity above threshold.&quot;&quot;&quot;</span>
+    <span class="n">valid_pixels</span> <span class="o">=</span> <span class="n">image_array</span><span class="p">[</span><span class="n">image_array</span> <span class="o">&gt;</span> <span class="n">threshold</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">valid_pixels</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+
+<span class="c1"># Bad: Cryptic names, poor spacing</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">cm</span><span class="p">(</span><span class="n">i</span><span class="p">):</span>
+    <span class="n">v</span><span class="o">=</span><span class="n">i</span><span class="p">[</span><span class="n">i</span><span class="o">&gt;</span><span class="mi">0</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">v</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><strong>R:</strong> tidyverse style guide</p>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="c1"># Good: Snake_case, clear names</span>
+<span class="n">calculate_gene_expression</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="kr">function</span><span class="p">(</span><span class="n">reads</span><span class="p">,</span><span class="w"> </span><span class="n">min_count</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">10</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">expressed</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">reads</span><span class="p">[</span><span class="nf">rowSums</span><span class="p">(</span><span class="n">reads</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">min_count</span><span class="p">,</span><span class="w"> </span><span class="p">]</span>
+<span class="w">  </span><span class="kr">return</span><span class="p">(</span><span class="n">expressed</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="c1"># Bad: camelCase inconsistency</span>
+<span class="n">calculateGeneExpr</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="kr">function</span><span class="p">(</span><span class="n">r</span><span class="p">,</span><span class="w"> </span><span class="n">m</span><span class="o">=</span><span class="m">10</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">e</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">r</span><span class="p">[</span><span class="nf">rowSums</span><span class="p">(</span><span class="n">r</span><span class="p">)</span><span class="o">&gt;</span><span class="n">m</span><span class="p">,]</span>
+<span class="w">  </span><span class="kr">return</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p><strong>Automated Tools:</strong></p>
+<ul class="simple">
+<li><p><strong>Python:</strong> Black (formatter), Pylint (linter), Flake8</p></li>
+<li><p><strong>R:</strong> styler (formatter), lintr (linter)</p></li>
+<li><p><strong>JavaScript:</strong> Prettier (formatter), ESLint (linter)</p></li>
+<li><p><strong>Java:</strong> Checkstyle, IntelliJ formatter</p></li>
+</ul>
+<p><strong>Benefits of Consistent Style:</strong></p>
+<ul class="simple">
+<li><p>Easier code review</p></li>
+<li><p>Fewer style debates</p></li>
+<li><p>Automated checking (CI/CD)</p></li>
+<li><p>Professional appearance</p></li>
+</ul>
+</section>
+<section id="documentation-levels">
+<h3>3.3 Documentation Levels<a class="headerlink" href="#documentation-levels" title="Permalink to this heading">#</a></h3>
+<p><strong>Level 1: Code Comments</strong></p>
+<p><strong>Inline Comments</strong> - Explain “why” not “what”</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Bad: Explains what code does (obvious)</span>
+<span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>  <span class="c1"># Get length</span>
+
+<span class="c1"># Good: Explains why</span>
+<span class="c1"># Window size chosen empirically; affects memory ~5GB per 1000</span>
+<span class="n">window_size</span> <span class="o">=</span> <span class="mi">1000</span>
+</pre></div>
+</div>
+<p><strong>Function Docstrings</strong> - Interface documentation</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">align_sequences</span><span class="p">(</span><span class="n">seq1</span><span class="p">,</span> <span class="n">seq2</span><span class="p">,</span> <span class="n">gap_penalty</span><span class="o">=-</span><span class="mi">2</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Perform Needleman-Wunsch global sequence alignment.</span>
+<span class="sd">    </span>
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    seq1 : str</span>
+<span class="sd">        First DNA sequence</span>
+<span class="sd">    seq2 : str</span>
+<span class="sd">        Second DNA sequence</span>
+<span class="sd">    gap_penalty : int, optional</span>
+<span class="sd">        Cost of insertion/deletion (default: -2)</span>
+<span class="sd">    </span>
+<span class="sd">    Returns</span>
+<span class="sd">    -------</span>
+<span class="sd">    tuple</span>
+<span class="sd">        (alignment1, alignment2, score)</span>
+<span class="sd">    </span>
+<span class="sd">    Notes</span>
+<span class="sd">    -----</span>
+<span class="sd">    Uses BLOSUM62 matrix for scoring.</span>
+<span class="sd">    </span>
+<span class="sd">    References</span>
+<span class="sd">    ----------</span>
+<span class="sd">    Needleman SB, Wunsch CD (1970). General method applicable...</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+</pre></div>
+</div>
+<p><strong>Level 2: README Files</strong></p>
+<p><strong>Essential README Contents:</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gh"># Project Name</span>
+
+<span class="gu">## Description</span>
+One sentence explaining what it does.
+
+<span class="gu">## Installation</span>
+Quick installation instructions.
+
+<span class="gu">## Quick Start</span>
+Simplest possible example:
+</pre></div>
+</div>
+<p><strong>Example of good README:</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gh"># Genomic Alignment Tool</span>
+
+Fast sequence alignment for genomics research.
+
+<span class="gu">## Installation</span>
+```bash
+pip install genomic-align
+</pre></div>
+</div>
+</section>
+</section>
+<section id="quick-start">
+<h2>Quick Start<a class="headerlink" href="#quick-start" title="Permalink to this heading">#</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">genomic_align</span><span class="w"> </span><span class="kn">import</span> <span class="n">align</span>
+<span class="n">result</span> <span class="o">=</span> <span class="n">align</span><span class="p">(</span><span class="s1">&#39;ATCG&#39;</span><span class="p">,</span> <span class="s1">&#39;ATGG&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="o">.</span><span class="n">score</span><span class="p">)</span>  <span class="c1"># 3</span>
+</pre></div>
+</div>
+</section>
+<section id="documentation">
+<h2>Documentation<a class="headerlink" href="#documentation" title="Permalink to this heading">#</a></h2>
+<section id="complete-documentation-structure">
+<h3>3.4 Complete Documentation Structure<a class="headerlink" href="#complete-documentation-structure" title="Permalink to this heading">#</a></h3>
+<p><strong><a class="reference external" href="http://README.md">README.md</a></strong> (Home page)</p>
+<ul class="simple">
+<li><p>Title and brief description</p></li>
+<li><p>Installation instructions</p></li>
+<li><p>Quick start example</p></li>
+<li><p>Links to documentation</p></li>
+<li><p>Citation information</p></li>
+<li><p>License</p></li>
+</ul>
+<p><strong><a class="reference external" href="http://INSTALLATION.md">INSTALLATION.md</a></strong> (Detailed setup)</p>
+<ul class="simple">
+<li><p>System requirements (OS, Python version)</p></li>
+<li><p>Step-by-step instructions</p></li>
+<li><p>Troubleshooting common issues</p></li>
+<li><p>Verification steps</p></li>
+</ul>
+<p><strong>GETTING_STARTED.md</strong> (Tutorials)</p>
+<ul class="simple">
+<li><p>Basic example</p></li>
+<li><p>Common use cases</p></li>
+<li><p>Screenshots or output</p></li>
+<li><p>Links to advanced docs</p></li>
+</ul>
+<p><strong>API_DOCUMENTATION.md or hosted docs</strong></p>
+<ul class="simple">
+<li><p>Function/class reference</p></li>
+<li><p>Parameter descriptions</p></li>
+<li><p>Return types and examples</p></li>
+<li><p>Common errors and solutions</p></li>
+</ul>
+<p><strong>EXAMPLES/</strong> (directory)</p>
+<ul class="simple">
+<li><p>Sample code files</p></li>
+<li><p>Expected output</p></li>
+<li><p>Real-world use cases</p></li>
+<li><p>Different problem sizes</p></li>
+</ul>
+<p><strong><a class="reference external" href="http://CONTRIBUTING.md">CONTRIBUTING.md</a></strong> (For collaborators)</p>
+<ul class="simple">
+<li><p>How to report bugs</p></li>
+<li><p>How to suggest features</p></li>
+<li><p>Development setup</p></li>
+<li><p>Code style guidelines</p></li>
+<li><p>Testing requirements</p></li>
+<li><p>Pull request process</p></li>
+</ul>
+<p><strong><a class="reference external" href="http://CHANGELOG.md">CHANGELOG.md</a></strong> (Version history)</p>
+<ul class="simple">
+<li><p>What changed in each version</p></li>
+<li><p>Breaking changes highlighted</p></li>
+<li><p>Migration guides</p></li>
+<li><p>Links to releases</p></li>
+</ul>
+</section>
+<section id="making-code-reproducible">
+<h3>3.5 Making Code Reproducible<a class="headerlink" href="#making-code-reproducible" title="Permalink to this heading">#</a></h3>
+<p><strong>Reproducibility Checklist:</strong></p>
+<p><strong>Data Input</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>☐ Document data format (CSV, HDF5, NetCDF, etc.)
+☐ Show example data structure
+☐ Document expected values/ranges
+☐ Handle missing values explicitly
+☐ Validate input data
+</pre></div>
+</div>
+<p><strong>Parameter Documentation</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>☐ List all parameters with defaults
+☐ Explain what each does
+☐ Document valid ranges
+☐ Show effect of parameter changes
+☐ Note computational impact
+</pre></div>
+</div>
+<p><strong>Output Documentation</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>☐ Document output format
+☐ Explain each output field
+☐ Show example output
+☐ Document expected ranges
+☐ Explain what to expect with your data
+</pre></div>
+</div>
+<p><strong>Environment Documentation</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>☐ List all dependencies with versions
+☐ Document OS requirements
+☐ Note hardware requirements (RAM, GPU)
+☐ Specify compiler versions if applicable
+☐ Provide environment file (environment.yml or requirements.txt)
+</pre></div>
+</div>
+<p><strong>Execution Documentation</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>☐ Exact command line to reproduce example
+☐ Expected runtime
+☐ Expected output/error messages
+☐ Machine specification (for benchmarking)
+</pre></div>
+</div>
+</section>
+<section id="code-testing">
+<h3>3.6 Code Testing<a class="headerlink" href="#code-testing" title="Permalink to this heading">#</a></h3>
+<p><strong>Types of Tests:</strong></p>
+<p><strong>Unit Tests</strong> - Test individual functions</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">pytest</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">calculate_gc_content</span><span class="p">(</span><span class="n">dna_sequence</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">dna_sequence</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s1">&#39;GC&#39;</span><span class="p">)</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">dna_sequence</span><span class="p">)</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">test_gc_content</span><span class="p">():</span>
+    <span class="k">assert</span> <span class="n">calculate_gc_content</span><span class="p">(</span><span class="s1">&#39;ATGC&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="mf">0.5</span>
+    <span class="k">assert</span> <span class="n">calculate_gc_content</span><span class="p">(</span><span class="s1">&#39;GGCC&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="mf">1.0</span>
+    <span class="k">assert</span> <span class="n">calculate_gc_content</span><span class="p">(</span><span class="s1">&#39;ATAT&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="mf">0.0</span>
+</pre></div>
+</div>
+<p><strong>Integration Tests</strong> - Test components together</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">test_alignment_pipeline</span><span class="p">():</span>
+    <span class="c1"># Read sequences</span>
+    <span class="n">seq1</span> <span class="o">=</span> <span class="n">read_fasta</span><span class="p">(</span><span class="s1">&#39;test1.fasta&#39;</span><span class="p">)</span>
+    <span class="c1"># Run alignment</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">align</span><span class="p">(</span><span class="n">seq1</span><span class="p">,</span> <span class="n">reference</span><span class="p">)</span>
+    <span class="c1"># Check output format</span>
+    <span class="k">assert</span> <span class="n">result</span><span class="o">.</span><span class="n">has_valid_format</span><span class="p">()</span>
+</pre></div>
+</div>
+<p><strong>Regression Tests</strong> - Ensure consistency</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">test_known_results</span><span class="p">():</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Verify against published benchmark.&quot;&quot;&quot;</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">analyze</span><span class="p">(</span><span class="n">published_data</span><span class="p">)</span>
+    <span class="n">expected_output</span> <span class="o">=</span> <span class="mf">42.5</span>
+    <span class="k">assert</span> <span class="nb">abs</span><span class="p">(</span><span class="n">result</span> <span class="o">-</span> <span class="n">expected_output</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mf">0.001</span>
+</pre></div>
+</div>
+<p><strong>How Much Testing?</strong></p>
+<ul class="simple">
+<li><p>Research code: 30-50% coverage (critical functions)</p></li>
+<li><p>Distributed packages: 70-80% coverage</p></li>
+<li><p>Tools: 80%+ coverage</p></li>
+</ul>
+</section>
+<section id="continuous-integration">
+<h3>3.7 Continuous Integration<a class="headerlink" href="#continuous-integration" title="Permalink to this heading">#</a></h3>
+<p><strong>GitHub Actions Example:</strong></p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Tests</span>
+<span class="nt">on</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">push</span><span class="p p-Indicator">,</span><span class="w"> </span><span class="nv">pull_request</span><span class="p p-Indicator">]</span>
+
+<span class="nt">jobs</span><span class="p">:</span>
+<span class="w">  </span><span class="nt">test</span><span class="p">:</span>
+<span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ubuntu-latest</span>
+<span class="w">    </span><span class="nt">steps</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/checkout@v2</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">actions/setup-python@v2</span>
+<span class="w">        </span><span class="nt">with</span><span class="p">:</span>
+<span class="w">          </span><span class="nt">python-version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">3.9</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pip install -r requirements.txt</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pytest</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">flake8</span>
+</pre></div>
+</div>
+<p><strong>Benefits:</strong></p>
+<ul class="simple">
+<li><p>Code automatically tested on each push</p></li>
+<li><p>Catch bugs before merging</p></li>
+<li><p>Ensure code quality</p></li>
+<li><p>Multiple Python/OS versions</p></li>
+</ul>
+</section>
+<section id="id4">
+<h3>Summary<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<p>Good code and documentation enable reuse:</p>
+<ul class="simple">
+<li><p><strong>Style:</strong> Consistent, readable code</p></li>
+<li><p><strong>Comments:</strong> Explain “why” not “what”</p></li>
+<li><p><strong>Docstrings:</strong> Document functions and classes</p></li>
+<li><p><strong>README:</strong> Clear overview and quick start</p></li>
+<li><p><strong>Complete docs:</strong> Installation, tutorials, API reference</p></li>
+<li><p><strong>Testing:</strong> Unit, integration, and regression tests</p></li>
+<li><p><strong>Automation:</strong> CI/CD checks quality</p></li>
+<li><p><strong>Reproducibility:</strong> Document data, parameters, outputs, environment</p></li>
+</ul>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 3</p>
+<p>Complete at least two of the following activities to practice writing quality research code:</p>
+<p><strong>Activity 3.1: Code Quality Assessment</strong>
+Select a piece of your research code (script, function, or small project). Assess it against quality standards:</p>
+<ul class="simple">
+<li><p><strong>Readability:</strong> Would a colleague understand this code?</p></li>
+<li><p><strong>Style:</strong> Does it follow language conventions (PEP 8, style guides)?</p></li>
+<li><p><strong>Comments:</strong> Are complex sections explained?</p></li>
+<li><p><strong>Functions:</strong> Is it well-organized into functions?</p></li>
+<li><p><strong>Testing:</strong> Are there tests?</p></li>
+<li><p><strong>Documentation:</strong> Is there a README? Function documentation?</p></li>
+<li><p><strong>Version control:</strong> Is it in Git with meaningful commits?</p></li>
+</ul>
+<p>Create an improvement plan addressing gaps. Implement at least 3 improvements.</p>
+<p><strong>Activity 3.2: Write Comprehensive Documentation</strong>
+For a research script or small project, create complete documentation:</p>
+<ul class="simple">
+<li><p><strong>README:</strong> Overview, quick start, installation</p></li>
+<li><p><strong>Docstrings:</strong> Document all functions with inputs/outputs</p></li>
+<li><p><strong>Comments:</strong> Explain non-obvious logic</p></li>
+<li><p><strong>Examples:</strong> Usage examples showing typical workflows</p></li>
+<li><p><strong>Troubleshooting:</strong> Common issues and solutions</p></li>
+<li><p><strong>Contributing:</strong> How others can contribute (if applicable)</p></li>
+</ul>
+<p>Make documentation clear enough that someone could use your code without asking.</p>
+<p><strong>Activity 3.3: Create Tests for Your Code</strong>
+Write tests for a research function or script:</p>
+<ul class="simple">
+<li><p><strong>Unit tests:</strong> Test individual functions</p></li>
+<li><p><strong>Integration tests:</strong> Test functions working together</p></li>
+<li><p><strong>Known data tests:</strong> Test against data with known outputs</p></li>
+<li><p><strong>Edge cases:</strong> Test boundary conditions</p></li>
+</ul>
+<p>Aim for at least 5 tests covering main functionality. Document what each test verifies.</p>
+<p><strong>Deliverable:</strong> Your choice of output from activities above (2-3 pages total).</p>
+</div>
+</section>
+</section>
+<section id="lesson-4-licensing-and-sharing-software">
+<h2>Lesson 4: Licensing and Sharing Software<a class="headerlink" href="#lesson-4-licensing-and-sharing-software" title="Permalink to this heading">#</a></h2>
+<section id="id5">
+<h3>Overview<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
+<p>In this lesson, you understand intellectual property rights for software, explore open source licenses, learn to choose appropriate licenses, practice licensing your software, and understand the implications for sharing and reuse.</p>
+</section>
+<section id="software-intellectual-property">
+<h3>4.1 Software Intellectual Property<a class="headerlink" href="#software-intellectual-property" title="Permalink to this heading">#</a></h3>
+<p><strong>What is Protected?</strong></p>
+<p><strong>Copyright (Automatic):</strong> Copyright applies to original code automatically the moment you write it, protecting your written work without any registration required. However, copyright does NOT automatically imply permission for others to use your code—the default is “all rights reserved,” meaning others cannot legally copy, modify, or redistribute your work without explicit permission. This is why licensing matters: without a license, your code is locked down by default, even if you intended it to be open.</p>
+<p><strong>Patents (Registered):</strong> Patents protect novel algorithms or methods but require formal registration and are expensive and time-consuming to obtain and defend. Patents are less common in academic research than copyright, but they can significantly restrict reuse if someone has patented a key algorithmic approach your code implements. This is why some researchers worry about using or creating certain types of software—hidden patents can create legal liability.</p>
+<p><strong>Trade Secrets (Confidential):</strong> Trade secrets protect proprietary information through secrecy and confidentiality agreements, requiring organizations to take active steps to keep information confidential. Trade secrets are fundamentally incompatible with open source, since sharing code publicly destroys the secrecy that protects the trade secret status. This protection mechanism only works in closed, proprietary environments.</p>
+<p><strong>Licenses (Explicit Permission):</strong> Licenses solve the copyright problem by explicitly granting specific permissions—telling others what they CAN do with your code. Licenses define conditions for use and can range from very permissive (allowing almost any use) to highly restrictive (limiting use to specific purposes). Licenses are absolutely essential for open source, as they transform code from “locked down by default” into “open with clear rules.” Without a license, there is no legal framework for sharing; with a license, sharing becomes both possible and predictable.</p>
+</section>
+<section id="open-source-licenses-explained">
+<h3>4.2 Open Source Licenses Explained<a class="headerlink" href="#open-source-licenses-explained" title="Permalink to this heading">#</a></h3>
+<p><strong>The Permission Problem:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Without License:
+You create code → It&#39;s copyrighted by you → 
+Others cannot:
+  ✗ Copy it
+  ✗ Modify it
+  ✗ Share it
+  ✗ Use it
+
+With License:
+You create code → Apply license → 
+Others can (as permitted):
+  ✓ Use it
+  ✓ Copy it
+  ✓ Modify it
+  ✓ Redistribute it
+(As long as they follow license terms)
+</pre></div>
+</div>
+<p><strong>Categories of Open Licenses:</strong></p>
+<p><strong>Permissive Licenses</strong> (Very open)</p>
+<ul class="simple">
+<li><p>Allow almost any use</p></li>
+<li><p>Minimal restrictions</p></li>
+<li><p>Popular in research</p></li>
+<li><p>Examples: MIT, Apache, BSD</p></li>
+</ul>
+<p><strong>Copyleft Licenses</strong> (Share-alike)</p>
+<ul class="simple">
+<li><p>Require modified versions be open too</p></li>
+<li><p>Ensure freedom propagates</p></li>
+<li><p>Stronger copyleft: Stronger requirement</p></li>
+<li><p>Examples: GPL, AGPL</p></li>
+</ul>
+<p><strong>Proprietary Licenses</strong> (Closed)</p>
+<ul class="simple">
+<li><p>Restrict use to specific purposes</p></li>
+<li><p>Not open source</p></li>
+<li><p>Common in commercial software</p></li>
+</ul>
+</section>
+<section id="common-licenses-for-research">
+<h3>4.3 Common Licenses for Research<a class="headerlink" href="#common-licenses-for-research" title="Permalink to this heading">#</a></h3>
+<p><strong>MIT License</strong> (Simplest, Most Popular)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Key Points:
+✓ Very permissive
+✓ Short and simple (3 paragraphs)
+✓ Allows commercial use
+✓ Allows modifications
+✓ Only requires: Credit, copy license
+✗ Provides no warranty
+✗ Author not liable
+
+Best for: Most research software
+
+Famous MIT-licensed software:
+- Rails, Node.js, jQuery, React
+- Most scientific Python packages
+</pre></div>
+</div>
+<p><strong>Apache License 2.0</strong> (Permissive with Patent Protection)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Key Points:
+✓ Permissive like MIT
+✓ Explicit patent grant
+✓ Slightly longer (more detailed)
+✓ Allows commercial use
+✗ Longer to understand
+✗ More restrictive than MIT (slightly)
+
+Best for: Tools where patent issues possible
+Who uses: Google, Apache Foundation
+</pre></div>
+</div>
+<p><strong>GPL v3</strong> (Copyleft - Strong)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Key Points:
+✓ Ensures freedom propagates
+✓ Derivatives must be GPL
+✓ Widespread in Linux world
+✗ More restrictive
+✗ Can complicate commercial use
+✗ Longer and complex
+
+Best for: When you want freedom guaranteed
+Who uses: Linux, GNU tools, much bioinformatics
+</pre></div>
+</div>
+<p><strong>LGPL</strong> (Lesser GPL - Weak Copyleft)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Key Points:
+✓ Copyleft for library itself
+✓ Allows proprietary linking
+✓ Middle ground between MIT and GPL
+
+Best for: Libraries used in closed-source projects
+Who uses: Some Qt libraries, some research packages
+</pre></div>
+</div>
+<p><strong>CC0</strong> (Public Domain)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Key Points:
+✓ Waive all rights (public domain)
+✓ No requirements at all
+✓ Great for data (less for code)
+✗ Unusual for software
+
+Best for: Data, datasets, materials
+</pre></div>
+</div>
+</section>
+<section id="choosing-your-license">
+<h3>4.4 Choosing Your License<a class="headerlink" href="#choosing-your-license" title="Permalink to this heading">#</a></h3>
+<p><strong>Decision Tree:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>1. Do you want to allow commercial use?
+   NO → Not open source (proprietary)
+   YES → Continue
+
+2. Do you want modifications to stay open?
+   NO → MIT, Apache, or BSD
+   YES → Continue
+
+3. How strong do you want copyleft?
+   Weak → LGPL
+   Strong → GPL v3
+</pre></div>
+</div>
+<p><strong>Practical Recommendations:</strong></p>
+<p><strong>For Most Research Software:</strong>
+→ <strong>MIT License</strong></p>
+<ul class="simple">
+<li><p>Simplest, most liberal</p></li>
+<li><p>Widely understood</p></li>
+<li><p>No patent issues</p></li>
+<li><p>Most popular in Python/R</p></li>
+</ul>
+<p><strong>If Worried About Patents:</strong>
+→ <strong>Apache 2.0</strong></p>
+<ul class="simple">
+<li><p>Explicit patent protection</p></li>
+<li><p>Still permissive</p></li>
+<li><p>More formal</p></li>
+</ul>
+<p><strong>If You Want Freedom Guaranteed:</strong>
+→ <strong>GPL v3</strong></p>
+<ul class="simple">
+<li><p>Ensures derivatives open</p></li>
+<li><p>Philosophical choice</p></li>
+<li><p>Less popular in research</p></li>
+</ul>
+<p><strong>For Data (Not Code):</strong>
+→ <strong>CC BY</strong> or <strong>CC0</strong></p>
+<ul class="simple">
+<li><p>Designed for data</p></li>
+<li><p>Not software licenses</p></li>
+<li><p>Clear data sharing terms</p></li>
+</ul>
+</section>
+<section id="applying-a-license">
+<h3>4.5 Applying a License<a class="headerlink" href="#applying-a-license" title="Permalink to this heading">#</a></h3>
+<p><strong>Step 1: Choose License</strong></p>
+<ul class="simple">
+<li><p>Visit <a class="reference external" href="http://choosealicense.com">choosealicense.com</a> or <a class="reference external" href="http://creativecommons.org">creativecommons.org</a></p></li>
+<li><p>Select license</p></li>
+<li><p>Copy full license text</p></li>
+</ul>
+<p><strong>Step 2: Create LICENSE File</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Your project/
+├── LICENSE.txt         ← Full license text
+├── README.md
+└── src/
+    └── main.py
+</pre></div>
+</div>
+<p><strong>Step 3: Add Header to Source Files</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Copyright (C) 2024 Your Name</span>
+<span class="c1">#</span>
+<span class="c1"># This program is free software: you can redistribute it and/or modify</span>
+<span class="c1"># it under the terms of the MIT License.</span>
+<span class="c1">#</span>
+<span class="c1"># This program is distributed in the hope that it will be useful,</span>
+<span class="c1"># but WITHOUT ANY WARRANTY...</span>
+</pre></div>
+</div>
+<p><strong>Step 4: Document in README</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gu">## License</span>
+
+This project is licensed under the MIT License - see LICENSE.txt
+
+<span class="gu">## Citation</span>
+
+If you use this software, please cite:
+Author, A., Year. Software name. https://doi.org/...
+</pre></div>
+</div>
+<p><strong>Step 5: Add to Package Metadata</strong></p>
+<p>Python (<a class="reference external" href="http://setup.py">setup.py</a>):</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">setup</span><span class="p">(</span>
+    <span class="n">name</span><span class="o">=</span><span class="s1">&#39;mypackage&#39;</span><span class="p">,</span>
+    <span class="n">license</span><span class="o">=</span><span class="s1">&#39;MIT&#39;</span><span class="p">,</span>
+    <span class="o">...</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>R (DESCRIPTION):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">License</span><span class="p">:</span> <span class="n">MIT</span> <span class="o">+</span> <span class="n">file</span> <span class="n">LICENSE</span>
+</pre></div>
+</div>
+</section>
+<section id="license-compatibility">
+<h3>4.6 License Compatibility<a class="headerlink" href="#license-compatibility" title="Permalink to this heading">#</a></h3>
+<p><strong>Mixing Licenses (Complex):</strong></p>
+<p><strong>Compatible Combinations:</strong></p>
+<ul class="simple">
+<li><p>MIT code + MIT code = MIT ✓</p></li>
+<li><p>Apache + Apache = Apache ✓</p></li>
+<li><p>MIT + Apache = Apache (more restrictive) ✓</p></li>
+<li><p>GPL + GPL = GPL ✓</p></li>
+</ul>
+<p><strong>Problematic Combinations:</strong></p>
+<ul class="simple">
+<li><p>GPL + Proprietary = NOT ALLOWED ✗</p></li>
+<li><p>AGPL + MIT = AGPL (stronger applies) ⚠</p></li>
+<li><p>GPL v2 + GPL v3 = Complex ⚠</p></li>
+</ul>
+<p><strong>When Using Others’ Code:</strong></p>
+<ol class="arabic simple">
+<li><p>Check their license</p></li>
+<li><p>Ensure compatibility with yours</p></li>
+<li><p>Include LICENSE file from dependency</p></li>
+<li><p>Document original authors</p></li>
+<li><p>Note modifications</p></li>
+</ol>
+</section>
+<section id="sharing-and-distributing-software">
+<h3>4.7 Sharing and Distributing Software<a class="headerlink" href="#sharing-and-distributing-software" title="Permalink to this heading">#</a></h3>
+<p><strong>Where to Share Your Code:</strong></p>
+<p><strong>Source Code Hosting:</strong></p>
+<ul class="simple">
+<li><p><strong>GitHub:</strong> Most popular, free, large community</p></li>
+<li><p><strong>GitLab:</strong> Alternative, good institutional support</p></li>
+<li><p><strong>Bitbucket:</strong> Good for private repos, less used</p></li>
+</ul>
+<p><strong>Package Registries:</strong></p>
+<ul class="simple">
+<li><p><strong>PyPI:</strong> Python packages (pip install)</p></li>
+<li><p><strong>CRAN:</strong> R packages (install.packages())</p></li>
+<li><p><strong>npm:</strong> JavaScript packages</p></li>
+<li><p><strong>Maven Central:</strong> Java packages</p></li>
+<li><p><strong>Conda-Forge:</strong> Conda packages (cross-language)</p></li>
+</ul>
+<p><strong>Research Software Registries:</strong></p>
+<ul class="simple">
+<li><p><strong>Zenodo:</strong> Archive with DOI (recommended)</p></li>
+<li><p><strong>Figshare:</strong> Data and code archival</p></li>
+<li><p><strong>F1000Research:</strong> Software publication</p></li>
+<li><p><strong>Journal supplements:</strong> Often required by publishers</p></li>
+</ul>
+<p><strong>Best Practice Workflow:</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">1.</span> <span class="n">Develop</span> <span class="n">on</span> <span class="n">GitHub</span> <span class="p">(</span><span class="n">collaborative</span><span class="p">)</span>
+<span class="mf">2.</span> <span class="n">Release</span> <span class="n">on</span> <span class="n">GitHub</span> <span class="p">(</span><span class="n">tag</span> <span class="n">versions</span><span class="p">)</span>
+<span class="mf">3.</span> <span class="n">Register</span> <span class="n">on</span> <span class="n">PyPI</span><span class="o">/</span><span class="n">CRAN</span> <span class="p">(</span><span class="n">distribution</span><span class="p">)</span>
+<span class="mf">4.</span> <span class="n">Archive</span> <span class="ow">in</span> <span class="n">Zenodo</span> <span class="p">(</span><span class="n">long</span><span class="o">-</span><span class="n">term</span> <span class="o">+</span> <span class="n">DOI</span><span class="p">)</span>
+<span class="mf">5.</span> <span class="n">Publish</span> <span class="n">paper</span> <span class="p">(</span><span class="n">describe</span> <span class="ow">and</span> <span class="n">cite</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="copyright-and-attribution">
+<h3>4.8 Copyright and Attribution<a class="headerlink" href="#copyright-and-attribution" title="Permalink to this heading">#</a></h3>
+<p><strong>Ensuring Credit:</strong></p>
+<p><strong>CITATION.cff File</strong> (Standard format)</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># CITATION.cff format</span>
+<span class="nt">cff-version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1.2.0</span>
+<span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;My</span><span class="nv"> </span><span class="s">Software</span><span class="nv"> </span><span class="s">Title&quot;</span>
+<span class="nt">authors</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">family-names</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Smith</span>
+<span class="w">    </span><span class="nt">given-names</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">John</span>
+<span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1.0.0</span>
+<span class="nt">date-released</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">2024-01-15</span>
+<span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://github.com/...&quot;</span>
+<span class="nt">license</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">MIT</span>
+</pre></div>
+</div>
+<p><strong>Requesting Citation:</strong></p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gu">## Citation</span>
+
+If you use this software in your research, please cite:
+
+Smith, J., &amp; Jones, B. (2024). Software name (v1.0). 
+Zenodo. https://doi.org/10.5281/zenodo.1234567
+</pre></div>
+</div>
+<p><strong>BibTeX Format:</strong></p>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@software</span><span class="p">{</span><span class="nl">smith2024software</span><span class="p">,</span>
+<span class="w">  </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Software Name}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Smith, John and Jones, Bob}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">year</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{2024}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">url</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{https://zenodo.org/...}</span><span class="p">,</span>
+<span class="w">  </span><span class="na">doi</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{10.5281/zenodo.1234567}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</section>
+<section id="id6">
+<h3>Summary<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h3>
+<p>Licensing and sharing enable sustainable research software:</p>
+<ul class="simple">
+<li><p><strong>License:</strong> Permission framework for reuse</p></li>
+<li><p><strong>Choose MIT:</strong> Usually best for research</p></li>
+<li><p><strong>Apply properly:</strong> License file + headers + metadata</p></li>
+<li><p><strong>Check compatibility:</strong> If using others’ code</p></li>
+<li><p><strong>Share widely:</strong> GitHub → PyPI/CRAN → Zenodo → Paper</p></li>
+<li><p><strong>Enable citation:</strong> Clear contribution recognition</p></li>
+<li><p><strong>Ensure sustainability:</strong> Will others maintain it?</p></li>
+</ul>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 4</p>
+<p>Complete at least two of the following activities to practice licensing and sharing software:</p>
+<p><strong>Activity 4.1: License Selection and Application</strong>
+For a research software project (real or hypothetical):</p>
+<ul class="simple">
+<li><p>Determine which license best fits your goals (MIT, Apache 2.0, GPL, other)</p></li>
+<li><p>Justify your choice considering:</p>
+<ul>
+<li><p>Do you want commercial use allowed?</p></li>
+<li><p>Do you want derivative works to remain open?</p></li>
+<li><p>How important is patent protection?</p></li>
+<li><p>What licenses do your dependencies use?</p></li>
+</ul>
+</li>
+</ul>
+<p>Apply the license to code:</p>
+<ul class="simple">
+<li><p>Add LICENSE file to repository</p></li>
+<li><p>Add license header to source files</p></li>
+<li><p>Document license in README</p></li>
+<li><p>Add license field to package metadata</p></li>
+</ul>
+<p>Document your choices and implementation.</p>
+<p><strong>Activity 4.2: Prepare Software for Sharing</strong>
+Take one of your research software projects and prepare it for sharing:</p>
+<ul class="simple">
+<li><p><strong>Repository:</strong> Create or update GitHub repository</p></li>
+<li><p><strong>Documentation:</strong> Complete README, contributing guide, examples</p></li>
+<li><p><strong>License:</strong> Apply open license (Activity 4.1)</p></li>
+<li><p><strong>Tests:</strong> Add test suite with CI/CD</p></li>
+<li><p><strong>Metadata:</strong> Complete <a class="reference external" href="http://setup.py/pyproject.toml/pubspec.yaml">setup.py/pyproject.toml/pubspec.yaml</a> (or equivalent)</p></li>
+<li><p><strong>Citation:</strong> Add CITATION.cff or suggest citation in README</p></li>
+<li><p><strong>Archive:</strong> Create release and submit to Zenodo for DOI</p></li>
+</ul>
+<p>Document the sharing workflow from GitHub to Zenodo.</p>
+<p><strong>Activity 4.3: Create Software Sharing Strategy</strong>
+Design a comprehensive sharing strategy for a research software project:</p>
+<ul class="simple">
+<li><p><strong>Initial development:</strong> Where will you host code? (GitHub, GitLab, other)</p></li>
+<li><p><strong>Package distribution:</strong> Will you publish to PyPI/CRAN/other registry?</p></li>
+<li><p><strong>Archival:</strong> Where/how will you archive for long-term preservation?</p></li>
+<li><p><strong>Documentation:</strong> How will you maintain documentation?</p></li>
+<li><p><strong>Community:</strong> How will you engage with users?</p></li>
+<li><p><strong>Maintenance:</strong> Realistic timeline for maintenance?</p></li>
+<li><p><strong>Citation:</strong> How will users cite your software?</p></li>
+</ul>
+<p>Write a 1-2 page sharing strategy document.</p>
+<p><strong>Deliverable:</strong> Your choice of output from activities above (2-3 pages total).</p>
+</div>
+</section>
+</section>
+<section id="lesson-5-building-sustainable-research-software">
+<h2>Lesson 5: Building Sustainable Research Software<a class="headerlink" href="#lesson-5-building-sustainable-research-software" title="Permalink to this heading">#</a></h2>
+<section id="id7">
+<h3>Overview<a class="headerlink" href="#id7" title="Permalink to this heading">#</a></h3>
+<p>In this final lesson, you bring together all the elements of good research software development: planning, coding, documenting, testing, and sharing. You develop a strategy for sustainable software development, learn from successful examples, understand long-term maintenance, and create your software development plan.</p>
+</section>
+<section id="from-script-to-sustainable-software">
+<h3>5.1 From Script to Sustainable Software<a class="headerlink" href="#from-script-to-sustainable-software" title="Permalink to this heading">#</a></h3>
+<p><strong>Evolution Path:</strong></p>
+<p><strong>Stage 1: Quick Script (Week 1)</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># quick_analysis.py</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="s1">&#39;data.csv&#39;</span><span class="p">)</span>
+<span class="n">result</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Characteristics:</strong> Fast, specific, disposable
+<strong>Next step:</strong> If useful, evolve to Stage 2</p>
+<p><strong>Stage 2: Reusable Tool (Week 2-4)</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># analysis_tool.py - Can be imported</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+
+<span class="k">def</span><span class="w"> </span><span class="nf">analyze</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Load data and compute mean.&quot;&quot;&quot;</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">result</span> <span class="o">=</span> <span class="n">analyze</span><span class="p">(</span><span class="s1">&#39;data.csv&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Improvements:</strong> Function, docstring, modularity
+<strong>Next step:</strong> If widely useful, evolve to Stage 3</p>
+<p><strong>Stage 3: Documented Package (Month 2)</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>project/
+├── README.md
+├── LICENSE.txt
+├── setup.py
+├── requirements.txt
+├── analysis/
+│   ├── __init__.py
+│   └── tools.py
+├── tests/
+│   └── test_tools.py
+└── examples/
+    └── example.py
+</pre></div>
+</div>
+<p><strong>Improvements:</strong> Package structure, tests, docs
+<strong>Next step:</strong> Register on PyPI</p>
+<p><strong>Stage 4: Professional Package (Month 3-6)</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">+</span> <span class="n">GitHub</span> <span class="n">repository</span>
+<span class="o">+</span> <span class="n">Continuous</span> <span class="n">Integration</span>
+<span class="o">+</span> <span class="n">Full</span> <span class="n">documentation</span>
+<span class="o">+</span> <span class="n">Multiple</span> <span class="n">versions</span>
+<span class="o">+</span> <span class="n">Active</span> <span class="n">maintenance</span>
+<span class="o">+</span> <span class="n">Community</span> <span class="n">support</span>
+</pre></div>
+</div>
+<p><strong>Improvements:</strong> Professional practices
+<strong>Result:</strong> Sustainable, widely-used tool</p>
+</section>
+<section id="software-development-workflow">
+<h3>5.2 Software Development Workflow<a class="headerlink" href="#software-development-workflow" title="Permalink to this heading">#</a></h3>
+<p><strong>Minimal Viable Development</strong> (Research Scripts)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">1.</span> <span class="n">Code</span> <span class="n">implementation</span>
+<span class="mf">2.</span> <span class="n">Manual</span> <span class="n">testing</span>
+<span class="mf">3.</span> <span class="n">Share</span> <span class="p">(</span><span class="n">maybe</span><span class="p">)</span>
+<span class="mf">4.</span> <span class="n">Iterate</span> <span class="n">based</span> <span class="n">on</span> <span class="n">feedback</span>
+</pre></div>
+</div>
+<p><strong>Standard Development</strong> (Research Tools)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">1.</span> <span class="n">Design</span> <span class="p">(</span><span class="n">how</span> <span class="n">to</span> <span class="n">structure</span><span class="p">)</span>
+<span class="mf">2.</span> <span class="n">Implementation</span> <span class="p">(</span><span class="n">write</span> <span class="n">code</span><span class="p">)</span>
+<span class="mf">3.</span> <span class="n">Testing</span> <span class="p">(</span><span class="n">unit</span> <span class="o">+</span> <span class="n">manual</span><span class="p">)</span>
+<span class="mf">4.</span> <span class="n">Documentation</span> <span class="p">(</span><span class="n">README</span> <span class="o">+</span> <span class="n">docstrings</span><span class="p">)</span>
+<span class="mf">5.</span> <span class="n">Version</span> <span class="n">control</span> <span class="p">(</span><span class="n">Git</span> <span class="n">commits</span><span class="p">)</span>
+<span class="mf">6.</span> <span class="n">Sharing</span> <span class="p">(</span><span class="n">GitHub</span><span class="p">,</span> <span class="n">maybe</span> <span class="n">PyPI</span><span class="p">)</span>
+<span class="mf">7.</span> <span class="n">Maintenance</span> <span class="p">(</span><span class="n">respond</span> <span class="n">to</span> <span class="n">issues</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><strong>Professional Development</strong> (Packages)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mf">1.</span> <span class="n">Requirements</span> <span class="n">specification</span>
+<span class="mf">2.</span> <span class="n">Architecture</span> <span class="n">design</span>
+<span class="mf">3.</span> <span class="n">Implementation</span> <span class="k">with</span> <span class="n">TDD</span>
+<span class="mf">4.</span> <span class="n">Comprehensive</span> <span class="n">testing</span>
+<span class="mf">5.</span> <span class="n">Code</span> <span class="n">review</span> <span class="p">(</span><span class="n">pull</span> <span class="n">requests</span><span class="p">)</span>
+<span class="mf">6.</span> <span class="n">Complete</span> <span class="n">documentation</span>
+<span class="mf">7.</span> <span class="n">Version</span> <span class="n">control</span> <span class="k">with</span> <span class="n">branching</span>
+<span class="mf">8.</span> <span class="n">CI</span><span class="o">/</span><span class="n">CD</span> <span class="n">pipeline</span>
+<span class="mf">9.</span> <span class="n">Release</span> <span class="n">management</span>
+<span class="mf">10.</span> <span class="n">Continuous</span> <span class="n">maintenance</span>
+</pre></div>
+</div>
+</section>
+<section id="maintenance-and-sustainability">
+<h3>5.3 Maintenance and Sustainability<a class="headerlink" href="#maintenance-and-sustainability" title="Permalink to this heading">#</a></h3>
+<p><strong>Common Failure Patterns:</strong></p>
+<p><strong>Abandoned After Publication</strong></p>
+<ul class="simple">
+<li><p>Develop, publish, abandon</p></li>
+<li><p>No maintenance, bugs accumulate</p></li>
+<li><p>Dependencies break</p></li>
+<li><p>Result: Unusable after 2 years</p></li>
+</ul>
+<p><strong>Sustainable Alternative:</strong></p>
+<ul class="simple">
+<li><p>Small regular maintenance time</p></li>
+<li><p>Quick bug fixes</p></li>
+<li><p>Dependency updates quarterly</p></li>
+<li><p>Community engagement</p></li>
+<li><p>Long-term usefulness</p></li>
+</ul>
+<p><strong>Maintenance Time Estimates:</strong></p>
+<p><strong>Small research project</strong> (&lt; 1000 lines)</p>
+<ul class="simple">
+<li><p>Initial development: 2-4 weeks</p></li>
+<li><p>Maintenance: 1-2 hours/month</p></li>
+<li><p>Commitment: 2-3 years minimum</p></li>
+</ul>
+<p><strong>Medium-sized tool</strong> (1,000-10,000 lines)</p>
+<ul class="simple">
+<li><p>Initial development: 2-3 months</p></li>
+<li><p>Maintenance: 5-10 hours/month</p></li>
+<li><p>Commitment: 5+ years</p></li>
+</ul>
+<p><strong>Large package</strong> (10,000+ lines)</p>
+<ul class="simple">
+<li><p>Initial development: 6-12 months</p></li>
+<li><p>Maintenance: 20+ hours/month</p></li>
+<li><p>Commitment: Ongoing (consider team)</p></li>
+</ul>
+<p><strong>Sustainability Strategies:</strong></p>
+<p><strong>Individual Maintenance</strong></p>
+<ul class="simple">
+<li><p>Feasible for small projects</p></li>
+<li><p>Works 2-5 years</p></li>
+<li><p>Requires passion and interest</p></li>
+<li><p>Risk: Burnout if unpaid</p></li>
+</ul>
+<p><strong>Team Maintenance</strong></p>
+<ul class="simple">
+<li><p>Distributes load</p></li>
+<li><p>Sustainable longer</p></li>
+<li><p>Requires organization</p></li>
+<li><p>Risk: Coordination complexity</p></li>
+</ul>
+<p><strong>Grant Funding</strong></p>
+<ul class="simple">
+<li><p>Sustainable indefinitely</p></li>
+<li><p>Requires grant success</p></li>
+<li><p>Good for large projects</p></li>
+<li><p>Example: rOpenSci, NumFOCUS</p></li>
+</ul>
+<p><strong>Institutional Support</strong></p>
+<ul class="simple">
+<li><p>University computing center</p></li>
+<li><p>Research institute support</p></li>
+<li><p>Most sustainable</p></li>
+<li><p>Growing trend</p></li>
+</ul>
+<p><strong>Community Support</strong></p>
+<ul class="simple">
+<li><p>Crowdfunding (Patreon, GitHub Sponsors)</p></li>
+<li><p>Community contributions</p></li>
+<li><p>Donations and sponsorship</p></li>
+<li><p>Works for popular projects</p></li>
+</ul>
+</section>
+<section id="growing-and-engaging-community">
+<h3>5.4 Growing and Engaging Community<a class="headerlink" href="#growing-and-engaging-community" title="Permalink to this heading">#</a></h3>
+<p><strong>Starting Small (Just You)</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>✓ Publish on GitHub
+✓ Share in relevant communities
+✓ Write blog post about tool
+✓ Cite your own software in papers
+</pre></div>
+</div>
+<p><strong>Building Community (Early Users)</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>✓ Respond quickly to issues
+✓ Add features users request
+✓ Recognize contributors
+✓ Build contributor guide
+✓ Create discussion forum/Slack
+✓ Hold quarterly community calls
+</pre></div>
+</div>
+<p><strong>Mature Project (Many Users)</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>✓ Governance structure
+✓ Code review process
+✓ Release schedule
+✓ Roadmap (transparent)
+✓ Code of conduct
+✓ Multiple maintainers
+✓ Annual conference/workshop
+</pre></div>
+</div>
+</section>
+<section id="documentation-for-sustainability">
+<h3>5.5 Documentation for Sustainability<a class="headerlink" href="#documentation-for-sustainability" title="Permalink to this heading">#</a></h3>
+<p><strong>Critical Documentation:</strong></p>
+<p><strong>For Users:</strong></p>
+<ul class="simple">
+<li><p>README (quick start)</p></li>
+<li><p>Installation guide</p></li>
+<li><p>Tutorials</p></li>
+<li><p>API reference</p></li>
+</ul>
+<p><strong>For Contributors:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://CONTRIBUTING.md">CONTRIBUTING.md</a></p></li>
+<li><p>Development setup</p></li>
+<li><p>Architecture overview</p></li>
+<li><p>Code style guide</p></li>
+<li><p>Testing procedures</p></li>
+</ul>
+<p><strong>For Maintainers:</strong></p>
+<ul class="simple">
+<li><p>Release process</p></li>
+<li><p>Deployment procedures</p></li>
+<li><p>Known issues and workarounds</p></li>
+<li><p>Future roadmap</p></li>
+<li><p>Maintenance timeline</p></li>
+</ul>
+<p><strong>Documentation Tools:</strong></p>
+<ul class="simple">
+<li><p><strong>Sphinx (Python):</strong> Industry standard</p></li>
+<li><p><strong>Roxygen (R):</strong> Auto-generate from comments</p></li>
+<li><p><strong>MkDocs:</strong> Simple website docs</p></li>
+<li><p><strong>GitHub Pages:</strong> Free documentation hosting</p></li>
+<li><p><strong>ReadTheDocs:</strong> Automated documentation with versioning</p></li>
+</ul>
+</section>
+<section id="examples-of-sustainable-research-software">
+<h3>5.6 Examples of Sustainable Research Software<a class="headerlink" href="#examples-of-sustainable-research-software" title="Permalink to this heading">#</a></h3>
+<p><strong>Small, Sustainable Project: R’s <a class="reference external" href="https://ggplot2.tidyverse.org/">ggplot2</a></strong></p>
+<ul class="simple">
+<li><p>Created: 2007</p></li>
+<li><p>Lines: ~15,000</p></li>
+<li><p>Users: Millions</p></li>
+<li><p>Maintenance: Hadley Wickham (<a class="reference external" href="https://www.rstudio.com/">RStudio</a> support)</p></li>
+<li><p>Key: Simple, solves one problem well</p></li>
+</ul>
+<p><strong>Medium, Sustainable: <a class="reference external" href="https://www.bioconductor.org/">Bioconductor</a></strong></p>
+<ul class="simple">
+<li><p>Created: 2002</p></li>
+<li><p>Projects: 2,000+ packages</p></li>
+<li><p>Users: Tens of thousands</p></li>
+<li><p>Maintenance: Organized project</p></li>
+<li><p>Key: Community structure, annual conference</p></li>
+</ul>
+<p><strong>Large, Sustainable: <a class="reference external" href="https://numpy.org/">NumPy</a>/<a class="reference external" href="https://scipy.org/">SciPy</a></strong></p>
+<ul class="simple">
+<li><p>Created: 2000s</p></li>
+<li><p>Lines: 100,000+</p></li>
+<li><p>Users: Millions</p></li>
+<li><p>Maintenance: <a class="reference external" href="https://numfocus.org/">NumFOCUS</a> funding, multiple maintainers</p></li>
+<li><p>Key: Funding, governance, institutional support</p></li>
+</ul>
+<p><strong>Success Factors Across Projects:</strong></p>
+<ol class="arabic simple">
+<li><p>Solve a real problem well</p></li>
+<li><p>Clear documentation</p></li>
+<li><p>Respond to users</p></li>
+<li><p>Sustainable commitment</p></li>
+<li><p>Organized governance</p></li>
+<li><p>Multiple maintainers</p></li>
+<li><p>Institutional/funder support</p></li>
+</ol>
+</section>
+<section id="your-software-development-plan">
+<h3>5.7 Your Software Development Plan<a class="headerlink" href="#your-software-development-plan" title="Permalink to this heading">#</a></h3>
+<p><strong>Plan Template:</strong></p>
+<p><strong>Project Description:</strong></p>
+<ul class="simple">
+<li><p>What problem does it solve?</p></li>
+<li><p>Who are users?</p></li>
+<li><p>Why open source?</p></li>
+</ul>
+<p><strong>Development Scope:</strong></p>
+<ul class="simple">
+<li><p>Initial scope (MVP - minimum viable product)</p></li>
+<li><p>Future vision (long-term goals)</p></li>
+<li><p>Success metrics</p></li>
+</ul>
+<p><strong>Development Timeline:</strong></p>
+<ul class="simple">
+<li><p>Month 1-2: Core functionality</p></li>
+<li><p>Month 2-3: Documentation and tests</p></li>
+<li><p>Month 3+: Share and gather feedback</p></li>
+<li><p>Year 1+: Maintenance plan</p></li>
+</ul>
+<p><strong>Maintenance Commitment:</strong></p>
+<ul class="simple">
+<li><p>Who will maintain?</p></li>
+<li><p>How much time per month?</p></li>
+<li><p>For how long?</p></li>
+<li><p>What if you can’t continue?</p></li>
+</ul>
+<p><strong>Resources Needed:</strong></p>
+<ul class="simple">
+<li><p>Computing infrastructure (GitHub, server)</p></li>
+<li><p>Documentation platform (ReadTheDocs, GitHub Pages)</p></li>
+<li><p>CI/CD (GitHub Actions, Travis CI)</p></li>
+<li><p>Communication (Slack, Discord, email list)</p></li>
+</ul>
+<p><strong>Community Engagement:</strong></p>
+<ul class="simple">
+<li><p>How will users contribute?</p></li>
+<li><p>Code review process?</p></li>
+<li><p>Release schedule?</p></li>
+<li><p>Conference/workshop plans?</p></li>
+</ul>
+<p><strong>Sustainability Strategy:</strong></p>
+<ul class="simple">
+<li><p>Individual maintenance or team?</p></li>
+<li><p>Grant funding plans?</p></li>
+<li><p>Institutional support?</p></li>
+<li><p>Contingency if you leave?</p></li>
+</ul>
+</section>
+<section id="checklist-before-releasing-software">
+<h3>5.8 Checklist: Before Releasing Software<a class="headerlink" href="#checklist-before-releasing-software" title="Permalink to this heading">#</a></h3>
+<p><strong>Code Quality:</strong></p>
+<ul class="simple">
+<li><p>☐ Code follows style guidelines</p></li>
+<li><p>☐ Clear function/variable names</p></li>
+<li><p>☐ No debug code or prints left</p></li>
+<li><p>☐ Handles errors gracefully</p></li>
+<li><p>☐ Performance acceptable</p></li>
+</ul>
+<p><strong>Testing:</strong></p>
+<ul class="simple">
+<li><p>☐ Unit tests written (70%+ coverage)</p></li>
+<li><p>☐ All tests pass</p></li>
+<li><p>☐ Integration tests pass</p></li>
+<li><p>☐ Tested on different systems</p></li>
+<li><p>☐ Edge cases tested</p></li>
+</ul>
+<p><strong>Documentation:</strong></p>
+<ul class="simple">
+<li><p>☐ README clear and complete</p></li>
+<li><p>☐ Installation instructions work</p></li>
+<li><p>☐ Quick start example works</p></li>
+<li><p>☐ Full API documentation complete</p></li>
+<li><p>☐ Code comments explain logic</p></li>
+<li><p>☐ Examples/tutorials included</p></li>
+</ul>
+<p><strong>Reproducibility:</strong></p>
+<ul class="simple">
+<li><p>☐ Requirements.txt/environment.yml</p></li>
+<li><p>☐ Version numbers documented</p></li>
+<li><p>☐ OS dependencies listed</p></li>
+<li><p>☐ Hardware requirements clear</p></li>
+<li><p>☐ Reproducible example provided</p></li>
+</ul>
+<p><strong>Licensing:</strong></p>
+<ul class="simple">
+<li><p>☐ LICENSE.txt file included</p></li>
+<li><p>☐ Headers in source files</p></li>
+<li><p>☐ License in metadata (<a class="reference external" href="http://setup.py">setup.py</a>, etc.)</p></li>
+<li><p>☐ Compatible with dependencies</p></li>
+</ul>
+<p><strong>Version Control:</strong></p>
+<ul class="simple">
+<li><p>☐ On GitHub/GitLab</p></li>
+<li><p>☐ Clean commit history</p></li>
+<li><p>☐ Tagged version release</p></li>
+<li><p>☐ <a class="reference external" href="http://CHANGELOG.md">CHANGELOG.md</a> updated</p></li>
+</ul>
+<p><strong>Distribution:</strong></p>
+<ul class="simple">
+<li><p>☐ Registered on PyPI/CRAN (if applicable)</p></li>
+<li><p>☐ Archived in Zenodo with DOI</p></li>
+<li><p>☐ CITATION.cff file created</p></li>
+<li><p>☐ Citation example in README</p></li>
+</ul>
+<p><strong>Community:</strong></p>
+<ul class="simple">
+<li><p>☐ <a class="reference external" href="http://CONTRIBUTING.md">CONTRIBUTING.md</a> written</p></li>
+<li><p>☐ Code of conduct established</p></li>
+<li><p>☐ Issue tracking enabled</p></li>
+<li><p>☐ Communication channels open</p></li>
+<li><p>☐ Maintenance plan documented</p></li>
+</ul>
+</section>
+<section id="measuring-success">
+<h3>5.9 Measuring Success<a class="headerlink" href="#measuring-success" title="Permalink to this heading">#</a></h3>
+<p><strong>Metrics:</strong></p>
+<p><strong>Usage Metrics:</strong></p>
+<ul class="simple">
+<li><p>GitHub stars/forks</p></li>
+<li><p>Downloads (PyPI, CRAN)</p></li>
+<li><p>Citations in papers</p></li>
+<li><p>Altmetric score</p></li>
+</ul>
+<p><strong>Community Metrics:</strong></p>
+<ul class="simple">
+<li><p>Contributors</p></li>
+<li><p>Issues/PRs per month</p></li>
+<li><p>Response time to issues</p></li>
+<li><p>Discord/Slack membership</p></li>
+</ul>
+<p><strong>Quality Metrics:</strong></p>
+<ul class="simple">
+<li><p>Test coverage</p></li>
+<li><p>Number of bugs reported</p></li>
+<li><p>Time to fix bugs</p></li>
+<li><p>Documentation completeness</p></li>
+</ul>
+<p><strong>Impact Metrics:</strong></p>
+<ul class="simple">
+<li><p>Citations in downstream projects</p></li>
+<li><p>Awards/recognition</p></li>
+<li><p>Funding obtained</p></li>
+<li><p>Institutional adoption</p></li>
+</ul>
+</section>
+<section id="id8">
+<h3>Summary<a class="headerlink" href="#id8" title="Permalink to this heading">#</a></h3>
+<p>Sustainable research software requires:</p>
+<ul class="simple">
+<li><p><strong>Planning:</strong> Clear vision and scope</p></li>
+<li><p><strong>Development:</strong> Quality code and testing</p></li>
+<li><p><strong>Documentation:</strong> Complete and maintained</p></li>
+<li><p><strong>Community:</strong> Engagement and contribution</p></li>
+<li><p><strong>Maintenance:</strong> Realistic commitment</p></li>
+<li><p><strong>Sustainability:</strong> Planning for long-term</p></li>
+<li><p><strong>Impact:</strong> Measurement and improvement</p></li>
+</ul>
+<div class="activity admonition">
+<p class="admonition-title">Activities for Lesson 5</p>
+<p>Complete at least one of the following activities to build sustainable software:</p>
+<p><strong>Activity 5.1: Create a Sustainable Software Plan</strong>
+Develop a comprehensive plan for a research software project (real or hypothetical):</p>
+<ul class="simple">
+<li><p><strong>Vision:</strong> What problem does it solve? What is the long-term vision?</p></li>
+<li><p><strong>Scope:</strong> What features are core? What is nice-to-have?</p></li>
+<li><p><strong>Development:</strong> How will you manage development? (Git workflow, version control)</p></li>
+<li><p><strong>Documentation:</strong> What will you document? Maintenance plan?</p></li>
+<li><p><strong>Testing:</strong> What quality standards? How will you test?</p></li>
+<li><p><strong>Community:</strong> How will you engage users? Contribution guidelines?</p></li>
+<li><p><strong>Maintenance:</strong> Realistic timeline? Who will maintain?</p></li>
+<li><p><strong>Funding:</strong> How will you sustain development? (personal time, funding, community)</p></li>
+<li><p><strong>Success metrics:</strong> How will you measure impact and usage?</p></li>
+</ul>
+<p>Aim for 2-3 pages covering these elements.</p>
+<p><strong>Activity 5.2: Develop Contribution Guidelines</strong>
+Create comprehensive contribution guidelines for a research software project:</p>
+<ul class="simple">
+<li><p><strong>Code of conduct:</strong> Expected behavior for contributors</p></li>
+<li><p><strong>Contributing guide:</strong> How to contribute (reporting issues, pull requests)</p></li>
+<li><p><strong>Development setup:</strong> How to set up development environment</p></li>
+<li><p><strong>Coding standards:</strong> Style guide, testing requirements</p></li>
+<li><p><strong>Commit messages:</strong> Standards for git commits</p></li>
+<li><p><strong>Pull request process:</strong> Steps for merging contributions</p></li>
+<li><p><strong>Recognition:</strong> How contributors will be credited</p></li>
+<li><p><strong>Support channels:</strong> Where to ask questions</p></li>
+</ul>
+<p>Write clear documentation that invites and guides contributions.</p>
+<p><strong>Activity 5.3: Design Long-Term Maintenance Strategy</strong>
+Create a sustainability and maintenance plan:</p>
+<ul class="simple">
+<li><p><strong>Short-term (1 year):</strong> Active development, feature additions</p></li>
+<li><p><strong>Medium-term (2-5 years):</strong> Maintenance mode, critical fixes</p></li>
+<li><p><strong>Long-term (5+ years):</strong> Archival, preservation, potential successor projects</p></li>
+<li><p><strong>Succession planning:</strong> What if you can’t maintain it?</p></li>
+<li><p><strong>Community support:</strong> How to grow volunteer maintainers?</p></li>
+<li><p><strong>Funding strategy:</strong> Potential sources for sustained funding</p></li>
+<li><p><strong>Documentation preservation:</strong> How will docs survive long-term?</p></li>
+</ul>
+<p>Write a 1-2 page strategy addressing these elements.</p>
+<p><strong>Deliverable:</strong> Your choice of output from activities above (2-3 pages total).</p>
+</div>
+<p><strong>Remember:</strong></p>
+<ul class="simple">
+<li><p>✓ Start small, grow gradually</p></li>
+<li><p>✓ Focus on solving real problems</p></li>
+<li><p>✓ Invest in documentation</p></li>
+<li><p>✓ Engage your community</p></li>
+<li><p>✓ Plan for maintenance</p></li>
+<li><p>✓ Don’t try to do everything</p></li>
+<li><p>✓ Ask for help</p></li>
+<li><p>✓ Your software can change science</p></li>
+</ul>
+<p><strong>Your Next Steps:</strong></p>
+<ol class="arabic simple">
+<li><p>Identify a problem to solve</p></li>
+<li><p>Start with a simple script</p></li>
+<li><p>Add tests and documentation</p></li>
+<li><p>Share on GitHub</p></li>
+<li><p>Gather feedback</p></li>
+<li><p>Iterate with community</p></li>
+<li><p>Plan for long-term maintenance</p></li>
+<li><p>Watch it grow</p></li>
+</ol>
+<p><strong>Welcome to the open software community. Let’s build better tools together.</strong></p>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./docs/Open-Science-101/modules"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="open_data_module.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Module 2 - Open Data</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="open_results_module.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Module 4 - Open Results</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-1-understanding-research-software">Lesson 1: Understanding Research Software</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-research-software">1.1 What is Research Software?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#from-code-to-software-the-spectrum">1.2 From Code to Software: The Spectrum</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#types-of-research-software">1.3 Types of Research Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-software-development-lifecycle-for-research">1.4 The Software Development Lifecycle for Research</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#benefits-of-open-research-software">1.5 Benefits of Open Research Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#challenges-and-misconceptions">1.6 Challenges and Misconceptions</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#software-development-models">1.7 Software Development Models</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-2-assessing-and-using-open-software">Lesson 2: Assessing and Using Open Software</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#where-to-find-research-software">2.1 Where to Find Research Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#criteria-for-assessing-software-quality">2.2 Criteria for Assessing Software Quality</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#critical-questions-checklist">2.3 Critical Questions Checklist</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#testing-and-validating">2.4 Testing and Validating</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#red-flags-and-deal-breakers">2.5 Red Flags and Deal-Breakers</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-3-writing-and-documenting-research-code">Lesson 3: Writing and Documenting Research Code</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#code-quality-principles">3.1 Code Quality Principles</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#code-style-and-readability">3.2 Code Style and Readability</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation-levels">3.3 Documentation Levels</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start">Quick Start</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation">Documentation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#complete-documentation-structure">3.4 Complete Documentation Structure</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#making-code-reproducible">3.5 Making Code Reproducible</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#code-testing">3.6 Code Testing</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#continuous-integration">3.7 Continuous Integration</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-4-licensing-and-sharing-software">Lesson 4: Licensing and Sharing Software</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#software-intellectual-property">4.1 Software Intellectual Property</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#open-source-licenses-explained">4.2 Open Source Licenses Explained</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#common-licenses-for-research">4.3 Common Licenses for Research</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#choosing-your-license">4.4 Choosing Your License</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#applying-a-license">4.5 Applying a License</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#license-compatibility">4.6 License Compatibility</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sharing-and-distributing-software">4.7 Sharing and Distributing Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#copyright-and-attribution">4.8 Copyright and Attribution</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Summary</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lesson-5-building-sustainable-research-software">Lesson 5: Building Sustainable Research Software</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Overview</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#from-script-to-sustainable-software">5.1 From Script to Sustainable Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#software-development-workflow">5.2 Software Development Workflow</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#maintenance-and-sustainability">5.3 Maintenance and Sustainability</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#growing-and-engaging-community">5.4 Growing and Engaging Community</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#documentation-for-sustainability">5.5 Documentation for Sustainability</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-sustainable-research-software">5.6 Examples of Sustainable Research Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#your-software-development-plan">5.7 Your Software Development Plan</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#checklist-before-releasing-software">5.8 Checklist: Before Releasing Software</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#measuring-success">5.9 Measuring Success</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Summary</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By NASA TOPS/VERSO
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
