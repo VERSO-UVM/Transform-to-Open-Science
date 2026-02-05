@@ -17,8 +17,6 @@ In this lesson, you take a closer look at what open science means, including the
 
 #### 1.1 Defining Open Science
 
-**What Is Open Science?**
-
 Open Science is the principle and practice of making the products and processes of research available to all members of an extended, diverse global community while respecting diverse cultures, maintaining security and privacy, fostering collaborations, enabling reproducibility, and advancing equity.
 
 **Key Characteristics:**
@@ -45,7 +43,7 @@ Open science practices directly address each of these challenges through concret
 
 **For Individual Researchers:**
 
-Adopting open science practices offers tangible professional advantages for researchers at all career stages. Studies consistently demonstrate that openly available research articles receive significantly more citations than paywalled equivalents, with some analyses showing citation advantages ranging from 3-10 times higher depending on the field. This increased visibility translates directly into enhanced professional reputation and career impact. Open practices also make your work more discoverable to potential collaborators across institutions and disciplines, facilitating networking and partnership opportunities that might not otherwise arise. Furthermore, by building on openly shared data, code, and methods from other researchers, you can accelerate your own research progress substantially, avoiding the need to recreate resources and learning from documented best practices.
+Adopting open science practices offers tangible professional advantages for researchers at all career stages. Studies consistently demonstrate that openly available research articles receive significantly more citations than paywalled equivalents, with some analyses showing citation advantages ranging from 3-10 times higher depending on the field ([Piwowar et al., 2018](bibliography.md)). This increased visibility translates directly into enhanced professional reputation and career impact. Open practices also make your work more discoverable to potential collaborators across institutions and disciplines, facilitating networking and partnership opportunities that might not otherwise arise. By building on openly shared data, code, and methods from other researchers, you can accelerate your own research progress substantially, avoiding the need to recreate resources and learning from documented best practices.
 
 - Increased citations (open work cited more frequently)
 - Higher career impact and visibility
@@ -54,7 +52,7 @@ Adopting open science practices offers tangible professional advantages for rese
 
 **For Scientific Communities:**
 
-The collective benefits of open science extend far beyond individual researchers to transform entire scientific communities and disciplines. When research outputs are openly available, communities can progress approximately 30% faster by building directly on existing work rather than duplicating efforts. The transparency inherent in open science enables better identification and correction of errors through broader community scrutiny, leading to higher overall research quality. This same transparency helps reduce the enormous research waste identified by Chalmers and Glasziou, as researchers can learn from both successes and failures documented in the literature. Perhaps most excitingly, open science facilitates cross-disciplinary innovation by making research accessible to scientists outside narrow specialty areas, enabling unexpected connections and breakthrough insights at disciplinary boundaries.
+The collective benefits of open science extend far beyond individual researchers to transform entire scientific communities and disciplines. When research outputs are openly available, communities can progress approximately 30% faster by building directly on existing work rather than duplicating efforts. The transparency inherent in open science enables better identification and correction of errors through broader community scrutiny, leading to higher overall research quality. This same transparency helps reduce the enormous research waste identified by [Chalmers and Glasziou (2009)](bibliography.md), as researchers can learn from both successes and failures documented in the literature. Perhaps most excitingly, open science facilitates cross-disciplinary innovation by making research accessible to scientists outside narrow specialty areas, enabling unexpected connections and breakthrough insights at disciplinary boundaries.
 
 - Faster discovery through avoided duplication
 - Quality improvement via scrutiny
@@ -75,29 +73,31 @@ The societal benefits of open science are profound and far-reaching, extending w
 
 Open science is a fundamental shift toward making research more accessible, transparent, collaborative, reproducible, and equitable for all.
 
-> #### Lesson 1 Activity: Map Open Science to Your Research
-> 
-> **Objective:** Identify how open science principles apply to your own research or a research project you're familiar with.
-> 
-> **Instructions:**
-> 
-> 1. **Select a research project:** Choose your current or recent research project, or one you know well.
-> 
-> 2. **Map to the USE-MAKE-SHARE framework:** For your selected project, identify:
->    - **USE:** What existing open research or data did you build upon? What additional open resources could have accelerated your work?
->    - **MAKE:** Which aspects of your methodology are currently transparent? What documentation could be improved?
->    - **SHARE:** How are you currently sharing your findings and data? What barriers prevent fuller sharing?
-> 
-> 3. **Assess against open science characteristics:** Rate your project on a scale of 1-5 for each characteristic:
->    - Accessible
->    - Transparent
->    - Collaborative
->    - Inclusive
->    - Accountable
-> 
-> 4. **Reflect:** Write 2-3 sentences about which open science principle resonates most with your research goals, and which presents the greatest challenge.
-> 
-> **Deliverable:** A brief written reflection (150-200 words) on your research project's alignment with open science principles.
+:::{admonition} Lesson 1 Activity: Map Open Science to Your Research
+:class: activity
+
+**Objective:** Identify how open science principles apply to your own research or a research project you're familiar with.
+
+**Instructions:**
+
+1. **Select a research project:** Choose your current or recent research project, or one you know well.
+
+2. **Map to the USE-MAKE-SHARE framework:** For your selected project, identify:
+	- **USE:** What existing open research or data did you build upon? What additional open resources could have accelerated your work?
+	- **MAKE:** Which aspects of your methodology are currently transparent? What documentation could be improved?
+	- **SHARE:** How are you currently sharing your findings and data? What barriers prevent fuller sharing?
+
+3. **Assess against open science characteristics:** Rate your project on a scale of 1-5 for each characteristic:
+	- Accessible
+	- Transparent
+	- Collaborative
+	- Inclusive
+	- Accountable
+
+4. **Reflect:** Write 2-3 sentences about which open science principle resonates most with your research goals, and which presents the greatest challenge.
+
+**Deliverable:** A brief written reflection (150-200 words) on your research project's alignment with open science principles.
+:::
 
 ### Lesson 2: Why is Open Science Important?
 
@@ -137,29 +137,7 @@ Perhaps the most tangible day-to-day benefit of open science is the acceleration
 
 While individual career benefits provide strong personal motivation for adopting open science, the collective impact on scientific communities and society at large is even more profound. Open science fundamentally transforms how knowledge is created, validated, and applied to solve real-world problems. By removing barriers to access and enabling transparent collaboration, open science accelerates the pace of discovery, improves research quality, and ensures that scientific advances benefit all of humanity rather than only those with institutional access to paywalled resources.
 
-**Scientific Community Benefits:**
-
-Research communities that embrace open science practices demonstrate measurably faster progress than those relying on traditional closed models. Studies estimate that open science fields advance approximately 30% faster because researchers can build directly on existing work without duplicating efforts or waiting months for publication ([Woelfle et al., 2011](bibliography.md)). The transparency inherent in open practices enables broader community scrutiny, leading to better identification and correction of errors before they become embedded in the literature. When data and methods are openly available, other researchers can verify reproducibility, test robustness across different contexts, and identify limitations that might not be apparent to the original authors. This collaborative error-correction mechanism substantially improves overall research quality. Furthermore, openly documented best practices and lessons learned—including negative results and failed approaches—help the entire community avoid repeating mistakes and adopt proven methodologies. Perhaps most exciting is how open science facilitates unexpected cross-disciplinary innovation by making specialized research accessible to scientists from other fields who might recognize novel applications or connections.
-
-- Approximately 30% faster progress in open science fields
-- Better identification and correction of errors through scrutiny
-- Reproducibility verification and validation
-- Best practices and lessons learned widely disseminated
-- Cross-disciplinary innovation and unexpected discoveries
-
-**Societal Benefits:**
-
-The benefits of open science extend far beyond academia to transform how society addresses major challenges. When research evidence is openly accessible, policymakers can make better-informed decisions based on comprehensive evidence rather than relying on limited summaries or industry-funded studies. Open science also enables meaningful public engagement with research, helping citizens understand how scientific knowledge is created and fostering trust in evidence-based recommendations—particularly crucial during public health emergencies or environmental crises. The economic impact is substantial: estimates suggest that open access to publicly funded research generates hundreds of billions of dollars in economic value by enabling innovation, reducing barriers for entrepreneurs and small businesses, and avoiding duplicate expenditures ([European Commission, 2019](bibliography.md)). The COVID-19 pandemic provided a dramatic real-world demonstration of open science's power: unprecedented global collaboration, immediate preprint sharing, and open data enabled vaccine development in under one year rather than the typical 10-15 year timeline. Finally, open access ensures equitable global participation in science by removing paywalls that would otherwise exclude researchers, students, and practitioners in low- and middle-income countries from accessing cutting-edge knowledge.
-
-- Evidence-based policy making with comprehensive access to research
-- Rapid coordinated response to health and environmental emergencies
-- Meaningful public engagement and trust in science
-- Equitable global access removing economic barriers
-- Hundreds of billions in economic value through enabled innovation
-
 #### 2.3 Common Barriers and Solutions
-
-**Fear-Based Barriers:**
 
 **Fear of Being "Scooped"**
 
@@ -175,11 +153,9 @@ Some researchers hesitate to share work openly because they fear public criticis
 
 **Lack of Time**
 
-Researchers often cite lack of time as a barrier to adopting open practices. While there is an initial learning curve—typically adding 15-20% effort to your first open science project—this investment pays dividends quickly. After 2-3 projects, most researchers report time savings as they build on openly available resources and reuse their own documentation infrastructure. The key is integrating open practices into your workflow from the start rather than treating them as an afterthought.
+Researchers often cite lack of time as a barrier to adopting open practices. While there is an initial learning curve—typically adding 15-20% effort to your first open science project—this investment pays dividends quickly. After 2-3 projects, most researchers report time savings as they build on openly available resources and reuse their own documentation infrastructure ([Woelfle, Olliaro, & Todd, 2011](bibliography.md)). The key is integrating open practices into your workflow from the start rather than treating them as an afterthought.
 
 **Solution:** Document as you go rather than retroactively, use templates and automation tools to reduce repetitive work, and recognize that short-term investment yields long-term efficiency gains.
-
-**Institutional Barriers:**
 
 **Limited Support**
 
@@ -199,8 +175,6 @@ Article processing charges (APCs) for open access publication can range from $1,
 
 **Solution:** Use green open access by self-archiving in repositories after embargo periods, publish in diamond or platinum OA journals that charge no fees, request fee waivers from publishers (often available but underutilized), or leverage institutional or funder support for publication costs.
 
-#### 2.4 Systemic Challenges
-
 **Publication System Issues**
 
 Academic culture has long equated research quality with publication in high-impact journals, many of which are not open access. This prestige journal culture creates tension with open science values—researchers face pressure to publish in selective journals that traditionally operate behind paywalls rather than in open access venues. The journal impact factor has been used as a proxy for research quality in hiring, promotion, and funding decisions, even though this metric has been widely criticized as inappropriate for evaluating individual researchers or papers.
@@ -217,26 +191,28 @@ The academic incentive structure prioritizes publishing quickly and frequently o
 
 Open science offers substantial benefits for careers and society while most barriers can be overcome through planning, community support, and creative solutions.
 
-> #### Lesson 2 Activity: Personal Benefits and Barriers Assessment
-> 
-> **Objective:** Identify how open science benefits and barriers specifically apply to your research context and career stage.
-> 
-> **Instructions:**
-> 
-> 1. **Create two columns** on paper or digitally:
->    - **Column A: Benefits** - List the open science benefits most relevant to your career goals
->    - **Column B: Barriers** - List the specific barriers you anticipate encountering
-> 
-> 2. **Prioritize your benefits:** Rank your top 3 benefits by how impactful they could be for your career.
-> 
-> 3. **Analyze your barriers:** For your top 3 barriers, identify:
->    - Is this barrier personal, social/cultural, or institutional/infrastructure-based?
->    - What resources or support could help overcome this barrier?
->    - Who might you ask for help?
-> 
-> 4. **Create action items:** For each of your top 3 barriers, write one concrete action you could take in the next 3 months to reduce that barrier.
-> 
-> **Deliverable:** A completed benefits/barriers assessment (1-2 pages) with prioritized barriers and concrete action items.
+:::{admonition} Lesson 2 Activity: Personal Benefits and Barriers Assessment
+:class: activity
+
+**Objective:** Identify how open science benefits and barriers specifically apply to your research context and career stage.
+
+**Instructions:**
+
+1. **Create two columns** on paper or digitally:
+	- **Column A: Benefits** - List the open science benefits most relevant to your career goals
+	- **Column B: Barriers** - List the specific barriers you anticipate encountering
+
+2. **Prioritize your benefits:** Rank your top 3 benefits by how impactful they could be for your career.
+
+3. **Analyze your barriers:** For your top 3 barriers, identify:
+	- Is this barrier personal, social/cultural, or institutional/infrastructure-based?
+	- What resources or support could help overcome this barrier?
+	- Who might you ask for help?
+
+4. **Create action items:** For each of your top 3 barriers, write one concrete action you could take in the next 3 months to reduce that barrier.
+
+**Deliverable:** A completed benefits/barriers assessment (1-2 pages) with prioritized barriers and concrete action items.
+:::
 
 ### Lesson 3: How to Do Open Science
 
@@ -361,36 +337,38 @@ Doing open science responsibly means:
 4. Being transparent about any restrictions
 5. Balancing openness with necessary safeguards
 
-> #### Lesson 3 Activity: Create a Data Sharing Plan for Your Research
-> 
-> **Objective:** Develop a practical plan for responsibly sharing research data while protecting privacy and respecting constraints.
-> 
-> **Instructions:**
-> 
-> 1. **Select a research dataset:** Choose a dataset from your research (real or hypothetical).
-> 
-> 2. **Privacy and sensitivity assessment:** Identify:
->    - What types of data are sensitive? (health, location, identifiable information, etc.)
->    - Does your data contain personally identifiable information (PII)?
->    - Would de-identification compromise the research value?
->    - What consent did research subjects provide for data sharing?
-> 
-> 3. **License selection:** Based on your dataset type:
->    - Which open license best fits your goals? (CC0, CC BY, CC BY-SA, other)
->    - Why did you choose this license?
-> 
-> 4. **Constraint navigation:** Identify:
->    - Does your funder require data sharing? What are their specific requirements?
->    - Does your institution have policies affecting data sharing rights?
->    - Are there publisher restrictions on depositing preprints or postprints?
-> 
-> 5. **Create a data sharing plan** that addresses:
->    - What data will be shared? What will remain restricted and why?
->    - How and where will data be shared?
->    - What timeline for sharing? (immediate, embargo period, graduated release)
->    - What license will be used?
-> 
-> **Deliverable:** A 1-2 page data sharing plan for your selected dataset.
+:::{admonition} Lesson 3 Activity: Create a Data Sharing Plan for Your Research
+:class: activity
+
+**Objective:** Develop a practical plan for responsibly sharing research data while protecting privacy and respecting constraints.
+
+**Instructions:**
+
+1. **Select a research dataset:** Choose a dataset from your research (real or hypothetical).
+
+2. **Privacy and sensitivity assessment:** Identify:
+	- What types of data are sensitive? (health, location, identifiable information, etc.)
+	- Does your data contain personally identifiable information (PII)?
+	- Would de-identification compromise the research value?
+	- What consent did research subjects provide for data sharing?
+
+3. **License selection:** Based on your dataset type:
+	- Which open license best fits your goals? (CC0, CC BY, CC BY-SA, other)
+	- Why did you choose this license?
+
+4. **Constraint navigation:** Identify:
+	- Does your funder require data sharing? What are their specific requirements?
+	- Does your institution have policies affecting data sharing rights?
+	- Are there publisher restrictions on depositing preprints or postprints?
+
+5. **Create a data sharing plan** that addresses:
+	- What data will be shared? What will remain restricted and why?
+	- How and where will data be shared?
+	- What timeline for sharing? (immediate, embargo period, graduated release)
+	- What license will be used?
+
+**Deliverable:** A 1-2 page data sharing plan for your selected dataset.
+:::
 
 ### Lesson 4: When Not to Be Open
 
@@ -487,33 +465,35 @@ Barriers are real but manageable:
 - Systemic barriers: Advocate for change, support alternatives
 - Legitimate restrictions: Balance with transparency through graduated openness
 
-> #### Lesson 4 Activity: Develop Strategies to Overcome Your Barriers
-> 
-> **Objective:** Create specific, actionable strategies to address the barriers you identified in Lesson 2.
-> 
-> **Instructions:**
-> 
-> 1. **Revisit your top 3 barriers** from the Lesson 2 activity.
-> 
-> 2. **For each barrier, develop a strategy:**
->    - **Acknowledge the reality:** Why is this genuinely a barrier in your context?
->    - **Find the solution:** Which solution from this lesson best addresses your situation?
->    - **Identify support:** What resources, people, or communities could help?
->    - **Create a small step:** What is one small action you could take this month?
-> 
-> 3. **Address legitimate restrictions (if applicable):**
->    - If your research involves sensitive data, privacy concerns, IP issues, safety concerns, or cultural knowledge, create a graduated openness plan showing:
->      - What you will share immediately
->      - What you will share after embargo
->      - What requires restricted access and why
->      - Your timeline for opening each level
-> 
-> 4. **Build your support network:**
->    - Identify 2-3 specific people (mentors, colleagues, librarians) you could ask for support
->    - Identify 1-2 communities relevant to your discipline or methods
->    - List 1-2 free tools or resources you could use
-> 
-> **Deliverable:** A barrier reduction strategy document (1-2 pages) showing your specific approach to overcoming your top 3 barriers, including support network and free resources.
+:::{admonition} Lesson 4 Activity: Develop Strategies to Overcome Your Barriers
+:class: activity
+
+**Objective:** Create specific, actionable strategies to address the barriers you identified in Lesson 2.
+
+**Instructions:**
+
+1. **Revisit your top 3 barriers** from the Lesson 2 activity.
+
+2. **For each barrier, develop a strategy:**
+	- **Acknowledge the reality:** Why is this genuinely a barrier in your context?
+	- **Find the solution:** Which solution from this lesson best addresses your situation?
+	- **Identify support:** What resources, people, or communities could help?
+	- **Create a small step:** What is one small action you could take this month?
+
+3. **Address legitimate restrictions (if applicable):**
+	- If your research involves sensitive data, privacy concerns, IP issues, safety concerns, or cultural knowledge, create a graduated openness plan showing:
+	  - What you will share immediately
+	  - What you will share after embargo
+	  - What requires restricted access and why
+	  - Your timeline for opening each level
+
+4. **Build your support network:**
+	- Identify 2-3 specific people (mentors, colleagues, librarians) you could ask for support
+	- Identify 1-2 communities relevant to your discipline or methods
+	- List 1-2 free tools or resources you could use
+
+**Deliverable:** A barrier reduction strategy document (1-2 pages) showing your specific approach to overcoming your top 3 barriers, including support network and free resources.
+:::
 
 ### Lesson 5: Planning for Open Science - From Theory to Practice
 
@@ -546,21 +526,21 @@ This module is nearly over, but there's so much more information available about
 
 **Why Join Communities:**
 
-No researcher adopts open science in isolation—engaging with open science communities provides essential support, resources, and connections that make the journey both easier and more rewarding. Communities offer structured learning opportunities and skill development through workshops, webinars, and mentorship programs that can accelerate your mastery of new tools and practices. Perhaps equally important is the support and encouragement you'll find from others who understand the challenges you're facing and can offer practical advice based on their own experiences. These communities facilitate networking and collaboration, connecting you with potential research partners, co-authors, and colleagues across institutions and disciplines who share your commitment to openness. Members actively share resources—from code templates and documentation examples to lists of open access journals and data repositories—saving everyone time and effort. Finally, communities provide collective advocacy for systemic change, amplifying individual voices to influence institutional policies, funder requirements, and cultural norms in ways that individual researchers cannot achieve alone.
+No researcher adopts open science in isolation—engaging with open science communities provides essential support, resources, and connections that make the journey both easier and more rewarding. Communities offer structured learning opportunities and skill development through workshops, webinars, and mentorship programs that can accelerate your mastery of new tools and practices. Perhaps equally important is the support and encouragement you'll find from others who understand the challenges you're facing and can offer practical advice based on their own experiences. These communities facilitate networking and collaboration, connecting you with potential research partners, co-authors, and colleagues across institutions and disciplines who share your commitment to openness. Members actively share resources—from code templates and documentation examples to lists of open access journals and data repositories—saving everyone time and effort. Communities provide collective advocacy for systemic change, amplifying individual voices to influence institutional policies, funder requirements, and cultural norms in ways that individual researchers cannot achieve alone.
 
 **Discipline-Specific Communities:**
-- **rOpenSci** (R, environmental science) - ropensci.org
-- **PyOpenSci** (Python) - pyopensci.org
-- **OpenPlant** (Plant science)
+- **[rOpenSci](https://ropensci.org)** (R, environmental science)
+- **[PyOpenSci](https://pyopensci.org)** (Python)
+- **[OpenPlant](https://openplant.org)** (Plant science)
 - **Domain-specific societies** (most now have open science initiatives)
 
 **Methodological Communities:**
-- **The Carpentries** (Data/coding skills) - carpentries.org - 180+ instructors globally
-- **Center for Open Science** (Infrastructure, preregistration) - cos.io
+- **[The Carpentries](https://carpentries.org)** (Data/coding skills) - 180+ instructors globally
+- **[Center for Open Science](https://cos.io)** (Infrastructure, preregistration)
 
 **General Communities:**
-- **FORCE11** (Scholarly communication) - force11.org
-- **Open Knowledge Foundation** - okfn.org
+- **[FORCE11](https://force11.org)** (Scholarly communication)
+- **[Open Knowledge Foundation](https://okfn.org)**
 
 **Getting Involved:**
 1. Find relevant communities (by discipline, methodology, location)
@@ -579,20 +559,20 @@ No researcher adopts open science in isolation—engaging with open science comm
 
 **Free Online Training:**
 - "Open Science 101" (NASA TOPS) - This course!
-- The Carpentries workshops
-- FOSTER Plus Learning Portal
+- [The Carpentries](https://carpentries.org) workshops
+- [FOSTER Plus Learning Portal](https://learning.foster.org)
 - YouTube tutorials (Git, Jupyter, etc.)
 
 **Tools:**
-- **Code:** GitHub (free), Zenodo (archival with DOI)
-- **Data:** Zenodo, Figshare, Dryad, Open Science Framework
-- **Project management:** Open Science Framework
-- **Preprints:** bioRxiv, arXiv, medRxiv, PsyArXiv
+- **Code:** [GitHub](https://github.com), [Zenodo](https://zenodo.org) (archival with DOI)
+- **Data:** [Zenodo](https://zenodo.org), [Figshare](https://figshare.com), [Dryad](https://datadryad.org), [Open Science Framework](https://osf.io)
+- **Project management:** [Open Science Framework](https://osf.io)
+- **Preprints:** [bioRxiv](https://biorxiv.org), [arXiv](https://arxiv.org), [medRxiv](https://medrxiv.org), [PsyArXiv](https://psyarxiv.com)
 
 **Directories and Databases:**
-- **DOAJ** (doaj.org) - 20,000+ open access journals
-- **Sherpa/RoMEO** - Journal copyright/archiving policies
-- **OpenDOAR** - Open access repositories
+- **[DOAJ](https://doaj.org)** - 20,000+ open access journals
+- **[Sherpa/RoMEO](https://sherpa.ac.uk/romeo)** - Journal copyright/archiving policies
+- **[OpenDOAR](https://opendoar.org)** - Open access repositories
 
 **Organizations:**
 - FORCE11, Open Knowledge Foundation, Center for Open Science
@@ -648,61 +628,51 @@ Finally, institutional support for open science is expanding worldwide. Universi
 
 While these systemic changes are encouraging, they are not inevitable or automatic—they depend on individual researchers like you choosing to adopt open science practices and advocate for change. Your decision to adopt practices now, even in small ways, contributes to the cultural shift toward openness. Support your colleagues in their open science journeys through mentorship, collaboration, and patient example rather than criticism. Advocate for change in your own institutional context by proposing policies, requesting resources, and highlighting successes. Build equitable research culture by ensuring that open science practices are inclusive and accessible to researchers at all career stages and from all backgrounds. Finally, recognize that you are shaping the future of research through your daily choices—each dataset shared, each code repository created, each methodology documented openly contributes to the irreversible transition toward open science as the standard model for research excellence.
 
-#### 5.7 Final Reflection
-
-**Reflect on Your Learning:**
-1. What surprised you about open science?
-2. What excites you most?
-3. What concerns you?
-4. Where will you start?
-5. What support do you need?
-6. How can you contribute?
-7. What's your one next action?
-
 **Remember:**
-- ✅ You don't have to do everything at once
-- ✅ Every open practice matters
-- ✅ Community support is available
-- ✅ You're part of a global movement
-- ✅ Your contributions matter
+- You don't have to do everything at once
+- Every open practice matters
+- Community support is available
+- You're part of a global movement
+- Your contributions matter
 
-**Welcome to the open science community. Let's build the future of research together.**
 
-> #### Lesson 5 Activity: Create Your Personal Open Science Implementation Plan
-> 
-> **Objective:** Develop a concrete, actionable 12-month plan for adopting open science practices in your research.
-> 
-> **Instructions:**
-> 
-> 1. **Assessment (Complete Lesson 5.1 steps 1-4):**
->    - What are you already doing well that aligns with open science?
->    - What are realistic opportunities to improve?
->    - What constraints or barriers exist in your context?
->    - Set specific goals for the next 12 months
-> 
-> 2. **Choose your quarterly focus areas:**
->    - **Quarter 1:** What foundational skill or tool will you learn? (e.g., Git basics, documentation practices)
->    - **Quarter 2:** What publication or sharing practice will you adopt? (e.g., preprints, choosing licenses)
->    - **Quarter 3:** What infrastructure will you set up? (e.g., code repository, data management)
->    - **Quarter 4:** What community engagement or advocacy will you undertake?
-> 
-> 3. **Build your support network:**
->    - Identify at least one mentor or supportive colleague
->    - Choose one community to engage with (from Lesson 5.2)
->    - List 2-3 resources you'll use for learning
-> 
-> 4. **Define success metrics:**
->    - By end of Q1: What will you have accomplished?
->    - By end of Q2: What will you have accomplished?
->    - By end of Q3: What will you have accomplished?
->    - By end of Q4: What will you have accomplished?
-> 
-> 5. **Identify sustainability practices:**
->    - Monthly: What will you do to maintain your open science practices?
->    - Quarterly: What will you review and update?
->    - Annually: How will you reflect on progress and adjust goals?
-> 
-> **Deliverable:** A completed personal implementation plan (2-3 pages) with quarterly goals, specific actions, support network, and success metrics. This plan should be specific enough to guide your actions for the next year.
+:::{admonition} Lesson 5 Activity: Create Your Personal Open Science Implementation Plan
+:class: activity
+
+**Objective:** Develop a concrete, actionable 12-month plan for adopting open science practices in your research.
+
+**Instructions:**
+
+1. **Assessment (Complete Lesson 5.1 steps 1-4):**
+	- What are you already doing well that aligns with open science?
+	- What are realistic opportunities to improve?
+	- What constraints or barriers exist in your context?
+	- Set specific goals for the next 12 months
+
+2. **Choose your quarterly focus areas:**
+	- **Quarter 1:** What foundational skill or tool will you learn? (e.g., Git basics, documentation practices)
+	- **Quarter 2:** What publication or sharing practice will you adopt? (e.g., preprints, choosing licenses)
+	- **Quarter 3:** What infrastructure will you set up? (e.g., code repository, data management)
+	- **Quarter 4:** What community engagement or advocacy will you undertake?
+
+3. **Build your support network:**
+	- Identify at least one mentor or supportive colleague
+	- Choose one community to engage with (from Lesson 5.2)
+	- List 2-3 resources you'll use for learning
+
+4. **Define success metrics:**
+	- By end of Q1: What will you have accomplished?
+	- By end of Q2: What will you have accomplished?
+	- By end of Q3: What will you have accomplished?
+	- By end of Q4: What will you have accomplished?
+
+5. **Identify sustainability practices:**
+	- Monthly: What will you do to maintain your open science practices?
+	- Quarterly: What will you review and update?
+	- Annually: How will you reflect on progress and adjust goals?
+
+**Deliverable:** A completed personal implementation plan (2-3 pages) with quarterly goals, specific actions, support network, and success metrics. This plan should be specific enough to guide your actions for the next year.
+:::
 
 #### Module Completion Reflection
 

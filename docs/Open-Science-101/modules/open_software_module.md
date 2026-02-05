@@ -246,40 +246,42 @@ Research software is essential infrastructure:
 - **Challenges:** Manageable with planning and community support
 - **Future:** Open software is becoming standard practice
 
-> #### Activities for Lesson 1
->
-> Complete at least two of the following activities to understand research software:
->
-> **Activity 1.1: Software Spectrum Assessment**
-> Examine a research project you know (yours or published). Classify its software on the spectrum:
-> - Where does it fall: Script → Tool → Package → Platform?
-> - What is the current stage of the lifecycle: Prototype → Evolving → Mature?
-> - What would be required to move it to the next level?
-> - What benefits and costs would that entail?
->
-> Write 200-300 words reflecting on this classification and what stage is appropriate for your project.
->
-> **Activity 1.2: Explore Research Software in Your Field**
-> Research three significant research software projects in your discipline:
-> - What problem does each solve?
-> - What is the development status (active/maintained/archived)?
-> - How is it distributed (GitHub, package registry, standalone)?
-> - What is the user base/impact?
-> - What documentation exists?
->
-> Create a table comparing these projects and identify best practices from the most successful one.
->
-> **Activity 1.3: Understand Software Lifecycle**
-> Choose one open research software project. Document:
-> - Initial problem it solved
-> - How it has evolved over time
-> - Current features and capabilities
-> - Community involvement (if any)
-> - Future direction (if documented)
->
-> Reflect on factors that contributed to its success or challenges.
->
-> **Deliverable:** Your choice of analysis from activities above (1-2 pages total).
+:::{admonition} Activities for Lesson 1
+:class: activity
+
+Complete at least two of the following activities to understand research software:
+
+**Activity 1.1: Software Spectrum Assessment**
+Examine a research project you know (yours or published). Classify its software on the spectrum:
+- Where does it fall: Script → Tool → Package → Platform?
+- What is the current stage of the lifecycle: Prototype → Evolving → Mature?
+- What would be required to move it to the next level?
+- What benefits and costs would that entail?
+
+Write 200-300 words reflecting on this classification and what stage is appropriate for your project.
+
+**Activity 1.2: Explore Research Software in Your Field**
+Research three significant research software projects in your discipline:
+- What problem does each solve?
+- What is the development status (active/maintained/archived)?
+- How is it distributed (GitHub, package registry, standalone)?
+- What is the user base/impact?
+- What documentation exists?
+
+Create a table comparing these projects and identify best practices from the most successful one.
+
+**Activity 1.3: Understand Software Lifecycle**
+Choose one open research software project. Document:
+- Initial problem it solved
+- How it has evolved over time
+- Current features and capabilities
+- Community involvement (if any)
+- Future direction (if documented)
+
+Reflect on factors that contributed to its success or challenges.
+
+**Deliverable:** Your choice of analysis from activities above (1-2 pages total).
+:::
 
 ## Lesson 2: Assessing and Using Open Software
 
@@ -538,49 +540,51 @@ Assessing research software requires systematic evaluation:
 - **Testing:** Always validate before publication
 - **Red flags:** Know when to choose alternatives
 
-> #### Activities for Lesson 2
->
-> Complete at least two of the following activities to practice finding and evaluating open software:
->
-> **Activity 2.1: Discover Research Software**
-> Search for software in your field using multiple discovery methods:
-> - Method 1: Search a package registry (PyPI, CRAN, npm)
-> - Method 2: Search GitHub by topic/language
-> - Method 3: Search domain-specific repositories or software lists
-> - Method 4: Ask colleagues or check papers for software recommendations
->
-> For each software found, document:
-> - Name and description
-> - Discovery method used
-> - Primary use case
-> - Developer/maintainer information
->
-> Write 150-200 words comparing the discovery experience across methods.
->
-> **Activity 2.2: Complete Software Assessment Checklist**
-> Select one research software tool you found in Activity 2.1. Complete a comprehensive assessment:
-> - **Functionality:** Does it solve your problem? How well?
-> - **Usability:** Is it easy to install? Clear documentation? Working examples?
-> - **Reliability:** Is it actively maintained? How responsive are developers?
-> - **Performance:** Does it handle your data scale? Any benchmarks available?
-> - **Quality:** Tests? CI/CD? Code coverage?
-> - **License:** Clear and permissive?
-> - **Community:** Active users? Support channels?
->
-> Write 300-400 words summarizing your assessment and recommending use/alternative.
->
-> **Activity 2.3: Test Software Before Using in Publication**
-> Set up and test a piece of research software:
-> - Install following documentation
-> - Run example/tutorial
-> - Test on your data (small subset first)
-> - Verify output makes sense
-> - Document installation issues (if any)
-> - Note version and dependencies used
->
-> Write a brief testing report (150-200 words) describing what you verified and any concerns.
->
-> **Deliverable:** Your choice of output from activities above (1-2 pages total).
+:::{admonition} Activities for Lesson 2
+:class: activity
+
+Complete at least two of the following activities to practice finding and evaluating open software:
+
+**Activity 2.1: Discover Research Software**
+Search for software in your field using multiple discovery methods:
+- Method 1: Search a package registry (PyPI, CRAN, npm)
+- Method 2: Search GitHub by topic/language
+- Method 3: Search domain-specific repositories or software lists
+- Method 4: Ask colleagues or check papers for software recommendations
+
+For each software found, document:
+- Name and description
+- Discovery method used
+- Primary use case
+- Developer/maintainer information
+
+Write 150-200 words comparing the discovery experience across methods.
+
+**Activity 2.2: Complete Software Assessment Checklist**
+Select one research software tool you found in Activity 2.1. Complete a comprehensive assessment:
+- **Functionality:** Does it solve your problem? How well?
+- **Usability:** Is it easy to install? Clear documentation? Working examples?
+- **Reliability:** Is it actively maintained? How responsive are developers?
+- **Performance:** Does it handle your data scale? Any benchmarks available?
+- **Quality:** Tests? CI/CD? Code coverage?
+- **License:** Clear and permissive?
+- **Community:** Active users? Support channels?
+
+Write 300-400 words summarizing your assessment and recommending use/alternative.
+
+**Activity 2.3: Test Software Before Using in Publication**
+Set up and test a piece of research software:
+- Install following documentation
+- Run example/tutorial
+- Test on your data (small subset first)
+- Verify output makes sense
+- Document installation issues (if any)
+- Note version and dependencies used
+
+Write a brief testing report (150-200 words) describing what you verified and any concerns.
+
+**Deliverable:** Your choice of output from activities above (1-2 pages total).
+:::
 
 ## Lesson 3: Writing and Documenting Research Code
 
@@ -924,43 +928,45 @@ Good code and documentation enable reuse:
 - **Automation:** CI/CD checks quality
 - **Reproducibility:** Document data, parameters, outputs, environment
 
-> #### Activities for Lesson 3
->
-> Complete at least two of the following activities to practice writing quality research code:
->
-> **Activity 3.1: Code Quality Assessment**
-> Select a piece of your research code (script, function, or small project). Assess it against quality standards:
-> - **Readability:** Would a colleague understand this code?
-> - **Style:** Does it follow language conventions (PEP 8, style guides)?
-> - **Comments:** Are complex sections explained?
-> - **Functions:** Is it well-organized into functions?
-> - **Testing:** Are there tests?
-> - **Documentation:** Is there a README? Function documentation?
-> - **Version control:** Is it in Git with meaningful commits?
->
-> Create an improvement plan addressing gaps. Implement at least 3 improvements.
->
-> **Activity 3.2: Write Comprehensive Documentation**
-> For a research script or small project, create complete documentation:
-> - **README:** Overview, quick start, installation
-> - **Docstrings:** Document all functions with inputs/outputs
-> - **Comments:** Explain non-obvious logic
-> - **Examples:** Usage examples showing typical workflows
-> - **Troubleshooting:** Common issues and solutions
-> - **Contributing:** How others can contribute (if applicable)
->
-> Make documentation clear enough that someone could use your code without asking.
->
-> **Activity 3.3: Create Tests for Your Code**
-> Write tests for a research function or script:
-> - **Unit tests:** Test individual functions
-> - **Integration tests:** Test functions working together
-> - **Known data tests:** Test against data with known outputs
-> - **Edge cases:** Test boundary conditions
->
-> Aim for at least 5 tests covering main functionality. Document what each test verifies.
->
-> **Deliverable:** Your choice of output from activities above (2-3 pages total).
+:::{admonition} Activities for Lesson 3
+:class: activity
+
+Complete at least two of the following activities to practice writing quality research code:
+
+**Activity 3.1: Code Quality Assessment**
+Select a piece of your research code (script, function, or small project). Assess it against quality standards:
+- **Readability:** Would a colleague understand this code?
+- **Style:** Does it follow language conventions (PEP 8, style guides)?
+- **Comments:** Are complex sections explained?
+- **Functions:** Is it well-organized into functions?
+- **Testing:** Are there tests?
+- **Documentation:** Is there a README? Function documentation?
+- **Version control:** Is it in Git with meaningful commits?
+
+Create an improvement plan addressing gaps. Implement at least 3 improvements.
+
+**Activity 3.2: Write Comprehensive Documentation**
+For a research script or small project, create complete documentation:
+- **README:** Overview, quick start, installation
+- **Docstrings:** Document all functions with inputs/outputs
+- **Comments:** Explain non-obvious logic
+- **Examples:** Usage examples showing typical workflows
+- **Troubleshooting:** Common issues and solutions
+- **Contributing:** How others can contribute (if applicable)
+
+Make documentation clear enough that someone could use your code without asking.
+
+**Activity 3.3: Create Tests for Your Code**
+Write tests for a research function or script:
+- **Unit tests:** Test individual functions
+- **Integration tests:** Test functions working together
+- **Known data tests:** Test against data with known outputs
+- **Edge cases:** Test boundary conditions
+
+Aim for at least 5 tests covering main functionality. Document what each test verifies.
+
+**Deliverable:** Your choice of output from activities above (2-3 pages total).
+:::
 
 ## Lesson 4: Licensing and Sharing Software
 
@@ -1308,52 +1314,54 @@ Licensing and sharing enable sustainable research software:
 - **Enable citation:** Clear contribution recognition
 - **Ensure sustainability:** Will others maintain it?
 
-> #### Activities for Lesson 4
->
-> Complete at least two of the following activities to practice licensing and sharing software:
->
-> **Activity 4.1: License Selection and Application**
-> For a research software project (real or hypothetical):
-> - Determine which license best fits your goals (MIT, Apache 2.0, GPL, other)
-> - Justify your choice considering:
->   - Do you want commercial use allowed?
->   - Do you want derivative works to remain open?
->   - How important is patent protection?
->   - What licenses do your dependencies use?
->
-> Apply the license to code:
-> - Add LICENSE file to repository
-> - Add license header to source files
-> - Document license in README
-> - Add license field to package metadata
->
-> Document your choices and implementation.
->
-> **Activity 4.2: Prepare Software for Sharing**
-> Take one of your research software projects and prepare it for sharing:
-> - **Repository:** Create or update GitHub repository
-> - **Documentation:** Complete README, contributing guide, examples
-> - **License:** Apply open license (Activity 4.1)
-> - **Tests:** Add test suite with CI/CD
-> - **Metadata:** Complete setup.py/pyproject.toml/pubspec.yaml (or equivalent)
-> - **Citation:** Add CITATION.cff or suggest citation in README
-> - **Archive:** Create release and submit to Zenodo for DOI
->
-> Document the sharing workflow from GitHub to Zenodo.
->
-> **Activity 4.3: Create Software Sharing Strategy**
-> Design a comprehensive sharing strategy for a research software project:
-> - **Initial development:** Where will you host code? (GitHub, GitLab, other)
-> - **Package distribution:** Will you publish to PyPI/CRAN/other registry?
-> - **Archival:** Where/how will you archive for long-term preservation?
-> - **Documentation:** How will you maintain documentation?
-> - **Community:** How will you engage with users?
-> - **Maintenance:** Realistic timeline for maintenance?
-> - **Citation:** How will users cite your software?
->
-> Write a 1-2 page sharing strategy document.
->
-> **Deliverable:** Your choice of output from activities above (2-3 pages total).
+:::{admonition} Activities for Lesson 4
+:class: activity
+
+Complete at least two of the following activities to practice licensing and sharing software:
+
+**Activity 4.1: License Selection and Application**
+For a research software project (real or hypothetical):
+- Determine which license best fits your goals (MIT, Apache 2.0, GPL, other)
+- Justify your choice considering:
+  - Do you want commercial use allowed?
+  - Do you want derivative works to remain open?
+  - How important is patent protection?
+  - What licenses do your dependencies use?
+
+Apply the license to code:
+- Add LICENSE file to repository
+- Add license header to source files
+- Document license in README
+- Add license field to package metadata
+
+Document your choices and implementation.
+
+**Activity 4.2: Prepare Software for Sharing**
+Take one of your research software projects and prepare it for sharing:
+- **Repository:** Create or update GitHub repository
+- **Documentation:** Complete README, contributing guide, examples
+- **License:** Apply open license (Activity 4.1)
+- **Tests:** Add test suite with CI/CD
+- **Metadata:** Complete setup.py/pyproject.toml/pubspec.yaml (or equivalent)
+- **Citation:** Add CITATION.cff or suggest citation in README
+- **Archive:** Create release and submit to Zenodo for DOI
+
+Document the sharing workflow from GitHub to Zenodo.
+
+**Activity 4.3: Create Software Sharing Strategy**
+Design a comprehensive sharing strategy for a research software project:
+- **Initial development:** Where will you host code? (GitHub, GitLab, other)
+- **Package distribution:** Will you publish to PyPI/CRAN/other registry?
+- **Archival:** Where/how will you archive for long-term preservation?
+- **Documentation:** How will you maintain documentation?
+- **Community:** How will you engage with users?
+- **Maintenance:** Realistic timeline for maintenance?
+- **Citation:** How will users cite your software?
+
+Write a 1-2 page sharing strategy document.
+
+**Deliverable:** Your choice of output from activities above (2-3 pages total).
+:::
 
 ## Lesson 5: Building Sustainable Research Software
 
@@ -1756,50 +1764,52 @@ Sustainable research software requires:
 - **Sustainability:** Planning for long-term
 - **Impact:** Measurement and improvement
 
-> #### Activities for Lesson 5
->
-> Complete at least one of the following activities to build sustainable software:
->
-> **Activity 5.1: Create a Sustainable Software Plan**
-> Develop a comprehensive plan for a research software project (real or hypothetical):
-> - **Vision:** What problem does it solve? What is the long-term vision?
-> - **Scope:** What features are core? What is nice-to-have?
-> - **Development:** How will you manage development? (Git workflow, version control)
-> - **Documentation:** What will you document? Maintenance plan?
-> - **Testing:** What quality standards? How will you test?
-> - **Community:** How will you engage users? Contribution guidelines?
-> - **Maintenance:** Realistic timeline? Who will maintain?
-> - **Funding:** How will you sustain development? (personal time, funding, community)
-> - **Success metrics:** How will you measure impact and usage?
->
-> Aim for 2-3 pages covering these elements.
->
-> **Activity 5.2: Develop Contribution Guidelines**
-> Create comprehensive contribution guidelines for a research software project:
-> - **Code of conduct:** Expected behavior for contributors
-> - **Contributing guide:** How to contribute (reporting issues, pull requests)
-> - **Development setup:** How to set up development environment
-> - **Coding standards:** Style guide, testing requirements
-> - **Commit messages:** Standards for git commits
-> - **Pull request process:** Steps for merging contributions
-> - **Recognition:** How contributors will be credited
-> - **Support channels:** Where to ask questions
->
-> Write clear documentation that invites and guides contributions.
->
-> **Activity 5.3: Design Long-Term Maintenance Strategy**
-> Create a sustainability and maintenance plan:
-> - **Short-term (1 year):** Active development, feature additions
-> - **Medium-term (2-5 years):** Maintenance mode, critical fixes
-> - **Long-term (5+ years):** Archival, preservation, potential successor projects
-> - **Succession planning:** What if you can't maintain it?
-> - **Community support:** How to grow volunteer maintainers?
-> - **Funding strategy:** Potential sources for sustained funding
-> - **Documentation preservation:** How will docs survive long-term?
->
-> Write a 1-2 page strategy addressing these elements.
->
-> **Deliverable:** Your choice of output from activities above (2-3 pages total).
+:::{admonition} Activities for Lesson 5
+:class: activity
+
+Complete at least one of the following activities to build sustainable software:
+
+**Activity 5.1: Create a Sustainable Software Plan**
+Develop a comprehensive plan for a research software project (real or hypothetical):
+- **Vision:** What problem does it solve? What is the long-term vision?
+- **Scope:** What features are core? What is nice-to-have?
+- **Development:** How will you manage development? (Git workflow, version control)
+- **Documentation:** What will you document? Maintenance plan?
+- **Testing:** What quality standards? How will you test?
+- **Community:** How will you engage users? Contribution guidelines?
+- **Maintenance:** Realistic timeline? Who will maintain?
+- **Funding:** How will you sustain development? (personal time, funding, community)
+- **Success metrics:** How will you measure impact and usage?
+
+Aim for 2-3 pages covering these elements.
+
+**Activity 5.2: Develop Contribution Guidelines**
+Create comprehensive contribution guidelines for a research software project:
+- **Code of conduct:** Expected behavior for contributors
+- **Contributing guide:** How to contribute (reporting issues, pull requests)
+- **Development setup:** How to set up development environment
+- **Coding standards:** Style guide, testing requirements
+- **Commit messages:** Standards for git commits
+- **Pull request process:** Steps for merging contributions
+- **Recognition:** How contributors will be credited
+- **Support channels:** Where to ask questions
+
+Write clear documentation that invites and guides contributions.
+
+**Activity 5.3: Design Long-Term Maintenance Strategy**
+Create a sustainability and maintenance plan:
+- **Short-term (1 year):** Active development, feature additions
+- **Medium-term (2-5 years):** Maintenance mode, critical fixes
+- **Long-term (5+ years):** Archival, preservation, potential successor projects
+- **Succession planning:** What if you can't maintain it?
+- **Community support:** How to grow volunteer maintainers?
+- **Funding strategy:** Potential sources for sustained funding
+- **Documentation preservation:** How will docs survive long-term?
+
+Write a 1-2 page strategy addressing these elements.
+
+**Deliverable:** Your choice of output from activities above (2-3 pages total).
+:::
 
 **Remember:**
 - ✓ Start small, grow gradually

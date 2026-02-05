@@ -433,38 +433,40 @@ Open data is fundamental to modern research because it:
 
 By understanding FAIR principles, metadata importance, and the "Use, Make, Share" framework, researchers can effectively navigate the open data landscape and contribute to a more transparent, collaborative scientific enterprise.
 
-> #### Activities for Lesson 1
->
-> Complete at least two of the following activities to apply FAIR principles and the Use-Make-Share framework:
->
-> **Activity 1.1: Evaluate Data Using FAIR Criteria**
-> Select a published open dataset in your field. Assess it using the FAIR criteria:
-> - **Findable:** Is there a DOI? Is it discoverable through repositories?
-> - **Accessible:** Can you easily download or access the data? Are there clear access instructions?
-> - **Interoperable:** Is the format standard for your field? Can you import it into common tools?
-> - **Reusable:** Is there sufficient metadata? Is the license clear? Would you know how to cite it?
->
-> Write 200-300 words reflecting on which FAIR criterion was best met and which needs improvement.
->
-> **Activity 1.2: Map the Use-Make-Share Framework**
-> Choose a research project you know well (yours or a published study). For each phase, identify:
-> - **USE:** What existing open datasets did this project build upon? What publicly available data sources were accessed?
-> - **MAKE:** What new data did the researchers create? How was it documented?
-> - **SHARE:** How were the results and data shared? Where can others access them?
->
-> Create a visual diagram or written summary showing how Use-Make-Share applied to this project.
->
-> **Activity 1.3: Explore a Disciplinary Data Repository**
-> Visit a major repository in your field (e.g., NCBI, Zenodo, discipline-specific repository). Explore:
-> - What types of data are stored?
-> - How is data organized and searchable?
-> - What metadata standards are used?
-> - How many datasets are available?
-> - What policies govern sharing?
->
-> Write 150-200 words describing what you learned and how you might use this repository.
->
-> **Deliverable:** Your choice of analysis from activities above (1-2 pages total).
+:::{admonition} Activities for Lesson 1
+:class: activity
+
+Complete at least two of the following activities to apply FAIR principles and the Use-Make-Share framework:
+
+**Activity 1.1: Evaluate Data Using FAIR Criteria**
+Select a published open dataset in your field. Assess it using the FAIR criteria:
+- **Findable:** Is there a DOI? Is it discoverable through repositories?
+- **Accessible:** Can you easily download or access the data? Are there clear access instructions?
+- **Interoperable:** Is the format standard for your field? Can you import it into common tools?
+- **Reusable:** Is there sufficient metadata? Is the license clear? Would you know how to cite it?
+
+Write 200-300 words reflecting on which FAIR criterion was best met and which needs improvement.
+
+**Activity 1.2: Map the Use-Make-Share Framework**
+Choose a research project you know well (yours or a published study). For each phase, identify:
+- **USE:** What existing open datasets did this project build upon? What publicly available data sources were accessed?
+- **MAKE:** What new data did the researchers create? How was it documented?
+- **SHARE:** How were the results and data shared? Where can others access them?
+
+Create a visual diagram or written summary showing how Use-Make-Share applied to this project.
+
+**Activity 1.3: Explore a Disciplinary Data Repository**
+Visit a major repository in your field (e.g., NCBI, Zenodo, discipline-specific repository). Explore:
+- What types of data are stored?
+- How is data organized and searchable?
+- What metadata standards are used?
+- How many datasets are available?
+- What policies govern sharing?
+
+Write 150-200 words describing what you learned and how you might use this repository.
+
+**Deliverable:** Your choice of analysis from activities above (1-2 pages total).
+:::
 
 ### Lesson 2: Using Open Data
 
@@ -964,42 +966,44 @@ Effectively using open data requires:
 
 By developing these skills, you maximize the value of open data and contribute to reproducible, trustworthy science.
 
-> #### Activities for Lesson 2
->
-> Complete at least two of the following activities to practice finding, assessing, and citing open data:
->
-> **Activity 2.1: Conduct a Data Discovery Search**
-> Search for an open dataset relevant to your research interests using at least two different approaches:
-> - Method 1: Search a general repository (Zenodo, Figshare, or data.gov)
-> - Method 2: Search a discipline-specific repository
->
-> For each dataset found, document:
-> - Title and creators
-> - Brief description
-> - How you discovered it
-> - Why it might be useful for your work
->
-> Write a brief summary (150-200 words) comparing the search experience across repositories.
->
-> **Activity 2.2: Assess Data Quality and Suitability**
-> Select one open dataset you found in Activity 2.1 (or choose a different dataset). Complete the assessment checklist:
-> - Is the purpose and methodology clear?
-> - Is the time period and geographic coverage appropriate for your use?
-> - Is completeness/missing data documented?
-> - Is quality described and acceptable?
-> - Can you understand all variables and units?
-> - Is the license permissive for your intended use?
->
-> Write 200-300 words explaining whether this dataset would be suitable for your research and any limitations you identified.
->
-> **Activity 2.3: Practice Data Citation**
-> Find a published dataset with a DOI. Locate the recommended citation format (usually on the repository page or in documentation). Create citations in at least two formats:
-> - APA format
-> - BibTeX format
->
-> Document the citation and reflect on why proper data citation matters for reproducibility.
->
-> **Deliverable:** Your choice of output from activities above (1-2 pages total).
+:::{admonition} Activities for Lesson 2
+:class: activity
+
+Complete at least two of the following activities to practice finding, assessing, and citing open data:
+
+**Activity 2.1: Conduct a Data Discovery Search**
+Search for an open dataset relevant to your research interests using at least two different approaches:
+- Method 1: Search a general repository (Zenodo, Figshare, or data.gov)
+- Method 2: Search a discipline-specific repository
+
+For each dataset found, document:
+- Title and creators
+- Brief description
+- How you discovered it
+- Why it might be useful for your work
+
+Write a brief summary (150-200 words) comparing the search experience across repositories.
+
+**Activity 2.2: Assess Data Quality and Suitability**
+Select one open dataset you found in Activity 2.1 (or choose a different dataset). Complete the assessment checklist:
+- Is the purpose and methodology clear?
+- Is the time period and geographic coverage appropriate for your use?
+- Is completeness/missing data documented?
+- Is quality described and acceptable?
+- Can you understand all variables and units?
+- Is the license permissive for your intended use?
+
+Write 200-300 words explaining whether this dataset would be suitable for your research and any limitations you identified.
+
+**Activity 2.3: Practice Data Citation**
+Find a published dataset with a DOI. Locate the recommended citation format (usually on the repository page or in documentation). Create citations in at least two formats:
+- APA format
+- BibTeX format
+
+Document the citation and reflect on why proper data citation matters for reproducibility.
+
+**Deliverable:** Your choice of output from activities above (1-2 pages total).
+:::
 
 ### Lesson 3: Making Open Data
 
@@ -1736,38 +1740,40 @@ Making open data requires:
 
 By following these practices, you ensure your data is reusable, discoverable, and valuable to the research community for years to come.
 
-> #### Activities for Lesson 3
->
-> Complete at least two of the following activities to practice preparing data for sharing:
->
-> **Activity 3.1: Create a Data Management Plan (DMP) Section**
-> Write the data management section of a DMP for a real or hypothetical research project. Include:
-> - Description of data to be created (type, volume, time period)
-> - Data and file standards/formats you will use and why
-> - Approaches to data and metadata documentation
-> - Policies for data and metadata access and sharing
-> - Plan for archiving and preservation
->
-> Follow the template from a major funder (NSF, NIH, or NSF.gov/bfa/dias/policy/dmp.jsp). Aim for 500-750 words.
->
-> **Activity 3.2: Design Metadata and README Documentation**
-> Select a real or hypothetical dataset. Create comprehensive documentation:
-> - **Metadata record:** Title, creators, description, keywords, discipline, temporal/geographic coverage, license
-> - **README file:** Overview of dataset, variable definitions, methodology, data quality, usage notes, citation format
-> - **Data dictionary:** Table listing each variable/column with units, data type, and description
->
-> Ensure documentation is clear enough that someone unfamiliar with your project could use the data.
->
-> **Activity 3.3: Choose Appropriate Licenses and Formats**
-> For a dataset you work with (or a hypothetical one), document:
-> - Your choice of open license (CC0, CC BY, CC BY-SA) and justification
-> - File format selection—what formats will you use and why?
-> - How formats ensure interoperability and long-term accessibility
-> - Any format conversions needed for different use cases
->
-> Write a brief summary (150-200 words) explaining these choices.
->
-> **Deliverable:** Your choice of output from activities above (2-3 pages total).
+:::{admonition} Activities for Lesson 3
+:class: activity
+
+Complete at least two of the following activities to practice preparing data for sharing:
+
+**Activity 3.1: Create a Data Management Plan (DMP) Section**
+Write the data management section of a DMP for a real or hypothetical research project. Include:
+- Description of data to be created (type, volume, time period)
+- Data and file standards/formats you will use and why
+- Approaches to data and metadata documentation
+- Policies for data and metadata access and sharing
+- Plan for archiving and preservation
+
+Follow the template from a major funder (NSF, NIH, or NSF.gov/bfa/dias/policy/dmp.jsp). Aim for 500-750 words.
+
+**Activity 3.2: Design Metadata and README Documentation**
+Select a real or hypothetical dataset. Create comprehensive documentation:
+- **Metadata record:** Title, creators, description, keywords, discipline, temporal/geographic coverage, license
+- **README file:** Overview of dataset, variable definitions, methodology, data quality, usage notes, citation format
+- **Data dictionary:** Table listing each variable/column with units, data type, and description
+
+Ensure documentation is clear enough that someone unfamiliar with your project could use the data.
+
+**Activity 3.3: Choose Appropriate Licenses and Formats**
+For a dataset you work with (or a hypothetical one), document:
+- Your choice of open license (CC0, CC BY, CC BY-SA) and justification
+- File format selection—what formats will you use and why?
+- How formats ensure interoperability and long-term accessibility
+- Any format conversions needed for different use cases
+
+Write a brief summary (150-200 words) explaining these choices.
+
+**Deliverable:** Your choice of output from activities above (2-3 pages total).
+:::
 
 ### Lesson 4: Sharing Open Data
 
@@ -2350,46 +2356,48 @@ Successfully sharing data requires:
 
 Well-shared data maximizes research impact and enables discoveries by enabling others to reuse, validate, and build upon your work.
 
-> #### Activities for Lesson 4
->
-> Complete at least two of the following activities to practice sharing data:
->
-> **Activity 4.1: Evaluate Data Shareability**
-> For a dataset you work with (or hypothetical), create a shareability assessment:
-> - Is this sensitive data (health, location, personal)?
-> - What is the consent/IRB status for sharing?
-> - Are there intellectual property or patent considerations?
-> - Are there security or safety concerns?
-> - Could de-identification maintain research utility?
->
-> Develop a sharing plan addressing:
-> - What data components can be openly shared?
-> - What components require restricted access?
-> - What timeline for releasing each component?
-> - How will restricted access be managed?
->
-> Write a 300-400 word assessment and plan.
->
-> **Activity 4.2: Select Repositories and Create Submission Plan**
-> For your dataset, identify 2-3 appropriate repositories. For each, document:
-> - Repository name and discipline/scope
-> - Storage capacity and requirements
-> - Metadata standards used
-> - DOI/persistent identifier support
-> - Long-term preservation commitment
-> - Associated costs (if any)
->
-> Create a table comparing repositories and explain which you would choose and why.
->
-> **Activity 4.3: Plan Data Lifecycle and Maintenance**
-> Create a timeline and plan for your shared dataset:
-> - **Short-term (first year):** Maintenance, error corrections, documentation updates
-> - **Medium-term (2-5 years):** Version updates, additional analyses, derived datasets
-> - **Long-term (5+ years):** Archival strategy, format preservation, access maintenance
->
-> Identify who will maintain the dataset, how long it will be actively maintained, and archival plans.
->
-> **Deliverable:** Your choice of output from activities above (2-3 pages total).
+:::{admonition} Activities for Lesson 4
+:class: activity
+
+Complete at least two of the following activities to practice sharing data:
+
+**Activity 4.1: Evaluate Data Shareability**
+For a dataset you work with (or hypothetical), create a shareability assessment:
+- Is this sensitive data (health, location, personal)?
+- What is the consent/IRB status for sharing?
+- Are there intellectual property or patent considerations?
+- Are there security or safety concerns?
+- Could de-identification maintain research utility?
+
+Develop a sharing plan addressing:
+- What data components can be openly shared?
+- What components require restricted access?
+- What timeline for releasing each component?
+- How will restricted access be managed?
+
+Write a 300-400 word assessment and plan.
+
+**Activity 4.2: Select Repositories and Create Submission Plan**
+For your dataset, identify 2-3 appropriate repositories. For each, document:
+- Repository name and discipline/scope
+- Storage capacity and requirements
+- Metadata standards used
+- DOI/persistent identifier support
+- Long-term preservation commitment
+- Associated costs (if any)
+
+Create a table comparing repositories and explain which you would choose and why.
+
+**Activity 4.3: Plan Data Lifecycle and Maintenance**
+Create a timeline and plan for your shared dataset:
+- **Short-term (first year):** Maintenance, error corrections, documentation updates
+- **Medium-term (2-5 years):** Version updates, additional analyses, derived datasets
+- **Long-term (5+ years):** Archival strategy, format preservation, access maintenance
+
+Identify who will maintain the dataset, how long it will be actively maintained, and archival plans.
+
+**Deliverable:** Your choice of output from activities above (2-3 pages total).
+:::
 
 ### Lesson 5: From Theory to Practice
 
@@ -2948,43 +2956,45 @@ Open data is not just about compliance with funder requirements—it's about adv
 
 Remember: You don't need to do everything at once. Start small, learn as you go, and build sustainable practices that work for your research. The open data community is welcoming and supportive—don't hesitate to ask for help or share your experiences with others.
 
-> #### Activities for Lesson 5
->
-> Complete at least one of the following activities to implement open data practices:
->
-> **Activity 5.1: Write a Complete Data Management Plan**
-> Using insights from previous activities, write a comprehensive DMP for a real or planned research project. Include:
-> - Executive summary
-> - Data description (types, volume, time period, geographic scope)
-> - FAIR principles implementation strategy
-> - Data management practices (formats, documentation, version control)
-> - Repository and archival strategy
-> - Access and sharing policies (with justification)
-> - Budget and resources needed
-> - Timeline for key milestones
->
-> Aim for 1500-2000 words. Use a template from your funder or discipline.
->
-> **Activity 5.2: Connect with Open Data Communities**
-> Identify and engage with open data communities relevant to your field:
-> - Join a disciplinary data community or working group
-> - Attend (or watch recordings of) a webinar on open data in your field
-> - Follow an open data organization on social media or subscribe to their newsletter
-> - Contribute to a community discussion about open data challenges
->
-> Document what you learned and how it will inform your open data practice. Write 200-300 words reflecting on the value of community engagement.
->
-> **Activity 5.3: Create Your 12-Month Open Data Action Plan**
-> Develop a concrete implementation plan:
-> - **Month 1-2:** Assess current practices, identify gaps, choose first project
-> - **Month 3-5:** Implement foundational practices (DMPs, metadata documentation)
-> - **Month 6-8:** Prepare first dataset for sharing (licensing, format conversion)
-> - **Month 9-10:** Submit to repository and obtain DOI
-> - **Month 11-12:** Document lessons learned, identify improvements for next phase
->
-> Include specific actions, timelines, resources needed, and success metrics. Aim for 1-2 pages.
->
-> **Deliverable:** Your choice of output from activities above (2-3 pages total).
+:::{admonition} Activities for Lesson 5
+:class: activity
+
+Complete at least one of the following activities to implement open data practices:
+
+**Activity 5.1: Write a Complete Data Management Plan**
+Using insights from previous activities, write a comprehensive DMP for a real or planned research project. Include:
+- Executive summary
+- Data description (types, volume, time period, geographic scope)
+- FAIR principles implementation strategy
+- Data management practices (formats, documentation, version control)
+- Repository and archival strategy
+- Access and sharing policies (with justification)
+- Budget and resources needed
+- Timeline for key milestones
+
+Aim for 1500-2000 words. Use a template from your funder or discipline.
+
+**Activity 5.2: Connect with Open Data Communities**
+Identify and engage with open data communities relevant to your field:
+- Join a disciplinary data community or working group
+- Attend (or watch recordings of) a webinar on open data in your field
+- Follow an open data organization on social media or subscribe to their newsletter
+- Contribute to a community discussion about open data challenges
+
+Document what you learned and how it will inform your open data practice. Write 200-300 words reflecting on the value of community engagement.
+
+**Activity 5.3: Create Your 12-Month Open Data Action Plan**
+Develop a concrete implementation plan:
+- **Month 1-2:** Assess current practices, identify gaps, choose first project
+- **Month 3-5:** Implement foundational practices (DMPs, metadata documentation)
+- **Month 6-8:** Prepare first dataset for sharing (licensing, format conversion)
+- **Month 9-10:** Submit to repository and obtain DOI
+- **Month 11-12:** Document lessons learned, identify improvements for next phase
+
+Include specific actions, timelines, resources needed, and success metrics. Aim for 1-2 pages.
+
+**Deliverable:** Your choice of output from activities above (2-3 pages total).
+:::
 
 ## Additional Resources
 

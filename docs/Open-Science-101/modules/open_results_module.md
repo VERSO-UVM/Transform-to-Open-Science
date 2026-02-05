@@ -410,43 +410,46 @@ By the end of this lesson, you will be familiar with resources for open results 
 Better: "forest biodiversity climate change species richness"
 - Find prolific authors in your area
 - Follow their work
-> #### Activities for Lesson 1
-> 
-> Complete at least two of the following activities to solidify your understanding of open results concepts:
-> 
-> **Activity 1.1: Evaluate an Open Result**
-> Find a published open result in your field (paper with openly available data, code, or both). Using the assessment checklist from Lesson 2 (section 2.2), evaluate:
-> - How transparent are the methods?
-> - Are data and code truly accessible?
-> - Would you be able to replicate this work?
-> - What additional information would improve reproducibility?
-> 
-> Write 200-300 words reflecting on your assessment.
-> 
-> **Activity 1.2: Register a Study on OSF**
-> Visit the Open Science Framework (osf.io) and create an account if you don't have one. Register a study you're planning or currently conducting:
-> - Create a project
-> - Add project information and hypotheses
-> - Specify your analysis plan
-> - Set permissions for who can see different components
-> - Take a screenshot of your registered project and reflect on how this commitment to transparency might change your research practices
-> 
-> **Activity 1.3: Create an Open Results Checklist for Your Lab**
-> Develop a practical checklist that your research group could use to ensure open results. Include:
-> - What constitutes open results for your field
-> - Key decisions to make before starting data collection
-> - Specific tools and platforms you'll use
-> - Timeline for sharing results
-> - Roles and responsibilities
-> 
-> Share this draft with a colleague and get feedback.
-> 
-> **Activity 1.4: Explore the Reproducibility Crisis in Your Field**
-> Research one documented reproducibility failure in your discipline (e.g., a failed replication study, retracted paper, or contested findings). Write a 300-400 word analysis that includes:
-> - What was the original finding?
-> - Why did it fail to replicate?
-> - How could open results practices have prevented or mitigated this problem?
-> - What specific open science practices would have helped?
+
+:::{admonition} Activities for Lesson 1
+:class: activity
+
+Complete at least two of the following activities to solidify your understanding of open results concepts:
+
+**Activity 1.1: Evaluate an Open Result**
+Find a published open result in your field (paper with openly available data, code, or both). Using the assessment checklist from Lesson 2 (section 2.2), evaluate:
+- How transparent are the methods?
+- Are data and code truly accessible?
+- Would you be able to replicate this work?
+- What additional information would improve reproducibility?
+
+Write 200-300 words reflecting on your assessment.
+
+**Activity 1.2: Register a Study on OSF**
+Visit the Open Science Framework (osf.io) and create an account if you don't have one. Register a study you're planning or currently conducting:
+- Create a project
+- Add project information and hypotheses
+- Specify your analysis plan
+- Set permissions for who can see different components
+- Take a screenshot of your registered project and reflect on how this commitment to transparency might change your research practices
+
+**Activity 1.3: Create an Open Results Checklist for Your Lab**
+Develop a practical checklist that your research group could use to ensure open results. Include:
+- What constitutes open results for your field
+- Key decisions to make before starting data collection
+- Specific tools and platforms you'll use
+- Timeline for sharing results
+- Roles and responsibilities
+
+Share this draft with a colleague and get feedback.
+
+**Activity 1.4: Explore the Reproducibility Crisis in Your Field**
+Research one documented reproducibility failure in your discipline (e.g., a failed replication study, retracted paper, or contested findings). Write a 300-400 word analysis that includes:
+- What was the original finding?
+- Why did it fail to replicate?
+- How could open results practices have prevented or mitigated this problem?
+- What specific open science practices would have helped?
+:::
 
 ### Lesson 2: Using Open Results
 - Subscribe to their updates
@@ -787,49 +790,52 @@ Effectively using open results requires:
 By mastering these skills, you become an active participant in the open science ecosystem, building on others' work while advancing your own research.
 
 ### Lesson 3: Making Open Results
-> #### Activities for Lesson 2
-> 
-> Complete at least two of the following activities to practice using open results:
-> 
-> **Activity 2.1: Search and Evaluate Open Results**
-> Conduct a comprehensive search for open results relevant to your research question:
-> - Use at least 3 different discovery resources (preprint servers, open journals, repositories)
-> - Identify 5-10 potentially useful open results
-> - Assess each using the quality checklist from section 2.2
-> - Create a summary table showing source, accessibility, quality assessment, and reusability potential
-> - Write a reflection on which results are most useful and why
-> 
-> **Activity 2.2: Practice Citation of Open Results**
-> Take three open results from Activity 2.1 and practice citing them in different formats:
-> - Write a full citation for each in APA, Chicago, and Harvard styles
-> - Note any differences between citing published papers, preprints, and datasets
-> - Create a brief annotated bibliography (50 words per entry) explaining how you would use each result
-> - Reflect on how proper citation strengthens your own credibility and supports open science
-> 
-> **Activity 2.3: Plan a Collaboration**
-> Identify a researcher whose open results are directly relevant to your work. Draft a professional email proposing collaboration that includes:
-> - Specific reference to their published work
-> - Concrete ideas for how your work could complement theirs
-> - Specific, time-bound next steps
-> - Clear indication of the value to both parties
-> 
-> Don't send it yet, but have a colleague review it for tone and clarity. Reflect on what made it effective.
-> 
-> **Activity 2.4: Provide Feedback to an Open Results Provider**
-> Identify a published dataset or software tool that you use or are interested in. Provide constructive feedback by:
-> - Creating an issue on their GitHub repository or contacting the authors
-> - Pointing out something helpful you found about the resource
-> - Noting any unclear documentation or areas for improvement
-> - Suggesting enhancements in a constructive, appreciative tone
-> - Reflect on how this engagement contributes to improving open science
-> 
-> **Activity 2.5: Build on an Open Result**
-> Select one open result (preferably with publicly available data/code) and create something new from it:
-> - Conduct a secondary analysis using their data
-> - Adapt their code for a new dataset
-> - Create a visualization of their findings
-> - Test their analysis with different parameters
-> - Write up your work with proper attribution and share it openly (on GitHub, OSF, or preprint server)
+
+:::{admonition} Activities for Lesson 2
+:class: activity
+
+Complete at least two of the following activities to practice using open results:
+
+**Activity 2.1: Search and Evaluate Open Results**
+Conduct a comprehensive search for open results relevant to your research question:
+- Use at least 3 different discovery resources (preprint servers, open journals, repositories)
+- Identify 5-10 potentially useful open results
+- Assess each using the quality checklist from section 2.2
+- Create a summary table showing source, accessibility, quality assessment, and reusability potential
+- Write a reflection on which results are most useful and why
+
+**Activity 2.2: Practice Citation of Open Results**
+Take three open results from Activity 2.1 and practice citing them in different formats:
+- Write a full citation for each in APA, Chicago, and Harvard styles
+- Note any differences between citing published papers, preprints, and datasets
+- Create a brief annotated bibliography (50 words per entry) explaining how you would use each result
+- Reflect on how proper citation strengthens your own credibility and supports open science
+
+**Activity 2.3: Plan a Collaboration**
+Identify a researcher whose open results are directly relevant to your work. Draft a professional email proposing collaboration that includes:
+- Specific reference to their published work
+- Concrete ideas for how your work could complement theirs
+- Specific, time-bound next steps
+- Clear indication of the value to both parties
+
+Don't send it yet, but have a colleague review it for tone and clarity. Reflect on what made it effective.
+
+**Activity 2.4: Provide Feedback to an Open Results Provider**
+Identify a published dataset or software tool that you use or are interested in. Provide constructive feedback by:
+- Creating an issue on their GitHub repository or contacting the authors
+- Pointing out something helpful you found about the resource
+- Noting any unclear documentation or areas for improvement
+- Suggesting enhancements in a constructive, appreciative tone
+- Reflect on how this engagement contributes to improving open science
+
+**Activity 2.5: Build on an Open Result**
+Select one open result (preferably with publicly available data/code) and create something new from it:
+- Conduct a secondary analysis using their data
+- Adapt their code for a new dataset
+- Create a visualization of their findings
+- Test their analysis with different parameters
+- Write up your work with proper attribution and share it openly (on GitHub, OSF, or preprint server)
+:::
 
 ### Lesson 3: Making Open Results
 
@@ -1354,61 +1360,64 @@ Making open results requires:
 By following these practices, you produce research that is verifiable, trustworthy, and maximally useful to the scientific community.
 
 ### Lesson 4: Sharing Open Results
-> #### Activities for Lesson 3
-> 
-> Complete at least two of the following activities to practice making open results:
-> 
-> **Activity 3.1: Create Contributor Guidelines**
-> Develop a CONTRIBUTING.md file for a research project (real or hypothetical):
-> - Define what constitutes a contribution
-> - Outline how people can get involved
-> - Clearly specify authorship criteria using ICMJE guidelines
-> - Include acknowledgment categories for non-author contributors
-> - Create a conflict-of-interest disclosure form
-> - Add your contact information and next steps
-> 
-> Share with colleagues and incorporate their feedback.
-> 
-> **Activity 3.2: Document Your Code for Reproducibility**
-> Take a piece of your analysis code (or create a simple example):
-> - Add comprehensive comments explaining each step
-> - Create a README file with:
->    - Overview of what the code does
->    - Software and package requirements with versions
->    - Instructions for running the code
->    - Expected inputs and outputs
->    - Known limitations
-> - Create a requirements.txt or environment file
-> - Test that someone unfamiliar with your work could run the code successfully
-> 
-> **Activity 3.3: Write a Data Availability Statement**
-> For a dataset you're working with (real or hypothetical), write a complete data availability statement that includes:
-> - Where the data is/will be stored
-> - How it can be accessed
-> - Any restrictions on access (and why)
-> - License information
-> - How to cite the data
-> - Version information
-> - DOI or persistent identifier
-> 
-> Include this statement in a manuscript or research plan.
-> 
-> **Activity 3.4: Define Authorship for Your Project**
-> For a current or planned research project:
-> - List all team members and their anticipated contributions
-> - Apply the ICMJE criteria to determine who should be authors
-> - Assign specific CRediT roles to each team member
-> - Create an authorship agreement document that team members can sign
-> - Plan how you will discuss authorship throughout the project (e.g., at regular meetings)
-> 
-> **Activity 3.5: Conduct a Reproducibility Audit**
-> For your own research project:
-> - Create a checklist of reproducibility elements (data, code, documentation, etc.)
-> - Assess which elements are currently available
-> - Identify what's missing
-> - Make an action plan to fill gaps before publication
-> - Estimate the time needed for each action
+
+:::{admonition} Activities for Lesson 3
+:class: activity
+
+Complete at least two of the following activities to practice making open results:
+
+**Activity 3.1: Create Contributor Guidelines**
+Develop a CONTRIBUTING.md file for a research project (real or hypothetical):
+- Define what constitutes a contribution
+- Outline how people can get involved
+- Clearly specify authorship criteria using ICMJE guidelines
+- Include acknowledgment categories for non-author contributors
+- Create a conflict-of-interest disclosure form
+- Add your contact information and next steps
+
+Share with colleagues and incorporate their feedback.
+
+**Activity 3.2: Document Your Code for Reproducibility**
+Take a piece of your analysis code (or create a simple example):
+- Add comprehensive comments explaining each step
+- Create a README file with:
+   - Overview of what the code does
+   - Software and package requirements with versions
+   - Instructions for running the code
+   - Expected inputs and outputs
+   - Known limitations
+- Create a requirements.txt or environment file
+- Test that someone unfamiliar with your work could run the code successfully
+
+**Activity 3.3: Write a Data Availability Statement**
+For a dataset you're working with (real or hypothetical), write a complete data availability statement that includes:
+- Where the data is/will be stored
+- How it can be accessed
+- Any restrictions on access (and why)
+- License information
+- How to cite the data
+- Version information
+- DOI or persistent identifier
+
+Include this statement in a manuscript or research plan.
+
+**Activity 3.4: Define Authorship for Your Project**
+For a current or planned research project:
+- List all team members and their anticipated contributions
+- Apply the ICMJE criteria to determine who should be authors
+- Assign specific CRediT roles to each team member
+- Create an authorship agreement document that team members can sign
+- Plan how you will discuss authorship throughout the project (e.g., at regular meetings)
+
+**Activity 3.5: Conduct a Reproducibility Audit**
+For your own research project:
+- Create a checklist of reproducibility elements (data, code, documentation, etc.)
+- Assess which elements are currently available
+- Identify what's missing
+- Make an action plan to fill gaps before publication
+- Estimate the time needed for each action
 - Commit to completing at least one item this month
+:::
 
 ### Lesson 4: Sharing Open Results
 
@@ -1857,58 +1866,61 @@ Sharing open results via open access publications ensures:
 Multiple pathways to OA exist; choose the best option for your situation.
 
 ### Lesson 5: From Theory to Practice
-> #### Activities for Lesson 4
-> 
-> Complete at least two of the following activities to practice sharing open results:
-> 
-> **Activity 4.1: Evaluate Journals for Open Access Options**
-> For your field, identify 5-10 journals where you might publish:
-> - Check each journal's open access options using DOAJ, Journal Checker Tool, or Sherpa/RoMEO
-> - Create a comparison table showing:
->    - Journal name and field
->    - Open access options (gold, hybrid, green)
->    - Author fees (if applicable)
->    - Self-archiving policies and embargo periods
->    - Quality indicators (peer review process, impact metrics, editorial transparency)
-> - Identify your top 3 choices and explain your reasoning
-> - Calculate the cost of publishing gold OA in each and explore fee waiver options
-> 
-> **Activity 4.2: Create a Publication Strategy Timeline**
-> For a current or planned research project, develop a detailed publication strategy:
-> - Identify target journals (primary and alternatives)
-> - Estimate timeline for each stage (data collection, analysis, writing, submission, review, publication)
-> - Decide on preprint strategy (when and where to post)
-> - Plan data and code release (concurrent with publication? After embargo?)
-> - Outline your communication strategy (press release, social media, blog, etc.)
-> - Include contingencies for rejection and revision
-> 
-> **Activity 4.3: Self-Archive a Paper**
-> If you have a published paper, practice self-archiving it:
-> - Check the journal's policy using Sherpa/RoMEO
-> - If allowed, deposit a copy in:
->    - Your institutional repository
->    - A discipline-specific repository (PubMed Central, ArXiv, etc.)
->    - Zenodo or similar service
-> - Add proper metadata and DOIs
-> - Verify that the paper is now accessible through multiple channels
-> - Reflect on how increasing access changes visibility of your work
-> 
-> **Activity 4.4: Write an Open Access Justification**
-> Prepare an argument for your advisor or institution about why publishing open access matters for your research:
-> - Gather evidence on OA citation impact
-> - Calculate the long-term costs vs. benefits of OA vs. subscription publishing
-> - Address specific concerns in your field about OA
-> - Propose how to fund OA publications (institutional support, grants, etc.)
-> - Write a 500-word position paper you could share with decision-makers
-> 
-> **Activity 4.5: Design a Communication Strategy for Your Results**
-> Develop a comprehensive communication plan for sharing your results:
-> - Who is your audience? (scientists, policymakers, public, practitioners, etc.)
-> - What are the key messages for each audience?
-> - What formats will you use? (manuscript, preprint, blog, video, infographic, social media, press release)
-> - What timeline works for each format?
-> - How will you measure success/impact?
-> - Create mockups or draft text for at least 3 different formats
+
+:::{admonition} Activities for Lesson 4
+:class: activity
+
+Complete at least two of the following activities to practice sharing open results:
+
+**Activity 4.1: Evaluate Journals for Open Access Options**
+For your field, identify 5-10 journals where you might publish:
+- Check each journal's open access options using DOAJ, Journal Checker Tool, or Sherpa/RoMEO
+- Create a comparison table showing:
+   - Journal name and field
+   - Open access options (gold, hybrid, green)
+   - Author fees (if applicable)
+   - Self-archiving policies and embargo periods
+   - Quality indicators (peer review process, impact metrics, editorial transparency)
+- Identify your top 3 choices and explain your reasoning
+- Calculate the cost of publishing gold OA in each and explore fee waiver options
+
+**Activity 4.2: Create a Publication Strategy Timeline**
+For a current or planned research project, develop a detailed publication strategy:
+- Identify target journals (primary and alternatives)
+- Estimate timeline for each stage (data collection, analysis, writing, submission, review, publication)
+- Decide on preprint strategy (when and where to post)
+- Plan data and code release (concurrent with publication? After embargo?)
+- Outline your communication strategy (press release, social media, blog, etc.)
+- Include contingencies for rejection and revision
+
+**Activity 4.3: Self-Archive a Paper**
+If you have a published paper, practice self-archiving it:
+- Check the journal's policy using Sherpa/RoMEO
+- If allowed, deposit a copy in:
+   - Your institutional repository
+   - A discipline-specific repository (PubMed Central, ArXiv, etc.)
+   - Zenodo or similar service
+- Add proper metadata and DOIs
+- Verify that the paper is now accessible through multiple channels
+- Reflect on how increasing access changes visibility of your work
+
+**Activity 4.4: Write an Open Access Justification**
+Prepare an argument for your advisor or institution about why publishing open access matters for your research:
+- Gather evidence on OA citation impact
+- Calculate the long-term costs vs. benefits of OA vs. subscription publishing
+- Address specific concerns in your field about OA
+- Propose how to fund OA publications (institutional support, grants, etc.)
+- Write a 500-word position paper you could share with decision-makers
+
+**Activity 4.5: Design a Communication Strategy for Your Results**
+Develop a comprehensive communication plan for sharing your results:
+- Who is your audience? (scientists, policymakers, public, practitioners, etc.)
+- What are the key messages for each audience?
+- What formats will you use? (manuscript, preprint, blog, video, infographic, social media, press release)
+- What timeline works for each format?
+- How will you measure success/impact?
+- Create mockups or draft text for at least 3 different formats
+:::
 
 ### Lesson 5: From Theory to Practice
 
@@ -2642,69 +2654,72 @@ From theory to practice requires:
 By putting these principles into practice, you contribute to a more transparent, reproducible, and impactful scientific enterprise that serves both the research community and society at large.
 
 ## References
-> #### Activities for Lesson 5
-> 
-> Complete at least one of the following activities to integrate open results into your research practice:
-> 
-> **Activity 5.1: Write Your Sharing Results OSDMP Section**
-> Following the template and guidance in section 5.1, write the Sharing Results section of an Open Science and Data Management Plan for a current or planned research project:
-> - Publication strategy (target journals, timeline, open access approach)
-> - Manuscript and supplementary materials plan
-> - Data availability and accessibility plan
-> - Code and analysis sharing plan
-> - Communication and outreach strategy
-> - Authorship and contribution framework
-> 
-> Have your advisor or colleague review it and provide feedback.
-> 
-> **Activity 5.2: Develop a Lab Open Science Policy**
-> Create a policy document for your research group that outlines standards for open results:
-> - Expectations for data sharing
-> - Code documentation and sharing requirements
-> - Default licenses for data and software
-> - Preprint practices
-> - Authorship decision-making process
-> - Collaboration agreements
-> - Timeline for sharing results (concurrent with publication vs. embargo)
-> 
-> Present this to your lab and discuss how to implement it.
-> 
-> **Activity 5.3: Evaluate AI Tools for Your Research**
-> Research how AI tools (ChatGPT, Claude, specialized scientific AI) could be used ethically in your research:
-> - Literature synthesis and analysis
-> - Code writing and debugging
-> - Figure generation and interpretation
-> - Manuscript writing and editing
-> - Data analysis and visualization
-> 
-> Write a reflection (300-500 words) on:
-> - Which applications are most relevant to your work
-> - Potential benefits and risks
-> - Ethical considerations
-> - How you would disclose AI use in publications
-> - Your guidelines for responsible AI use in research
-> 
-> **Activity 5.4: Create a Continuous Open Science Improvement Plan**
-> Develop a personal or lab action plan for advancing open science practices:
-> - Audit current practices against open results principles
-> - Identify top 3 priorities for improvement
-> - Create SMART goals for the next 6-12 months
-> - Identify resources and support needed
-> - Establish checkpoints for evaluation and adjustment
-> - Plan how to track progress and celebrate successes
-> 
-> Share your plan with colleagues or mentors and ask for accountability.
-> 
-> **Activity 5.5: Design an Open Science Training Program**
-> Create a brief training or workshop for your research community on open results:
-> - Who is your audience?
-> - What are the learning objectives?
-> - What topics will you cover? (Choose 3-5 from this module)
-> - What activities will you include?
-> - How will you assess learning?
-> - Create an outline or agenda for your training session
 
-> Consider actually delivering it to your lab, department, or research group.
+:::{admonition} Activities for Lesson 5
+:class: activity
+
+Complete at least one of the following activities to integrate open results into your research practice:
+
+**Activity 5.1: Write Your Sharing Results OSDMP Section**
+Following the template and guidance in section 5.1, write the Sharing Results section of an Open Science and Data Management Plan for a current or planned research project:
+- Publication strategy (target journals, timeline, open access approach)
+- Manuscript and supplementary materials plan
+- Data availability and accessibility plan
+- Code and analysis sharing plan
+- Communication and outreach strategy
+- Authorship and contribution framework
+
+Have your advisor or colleague review it and provide feedback.
+
+**Activity 5.2: Develop a Lab Open Science Policy**
+Create a policy document for your research group that outlines standards for open results:
+- Expectations for data sharing
+- Code documentation and sharing requirements
+- Default licenses for data and software
+- Preprint practices
+- Authorship decision-making process
+- Collaboration agreements
+- Timeline for sharing results (concurrent with publication vs. embargo)
+
+Present this to your lab and discuss how to implement it.
+
+**Activity 5.3: Evaluate AI Tools for Your Research**
+Research how AI tools (ChatGPT, Claude, specialized scientific AI) could be used ethically in your research:
+- Literature synthesis and analysis
+- Code writing and debugging
+- Figure generation and interpretation
+- Manuscript writing and editing
+- Data analysis and visualization
+
+Write a reflection (300-500 words) on:
+- Which applications are most relevant to your work
+- Potential benefits and risks
+- Ethical considerations
+- How you would disclose AI use in publications
+- Your guidelines for responsible AI use in research
+
+**Activity 5.4: Create a Continuous Open Science Improvement Plan**
+Develop a personal or lab action plan for advancing open science practices:
+- Audit current practices against open results principles
+- Identify top 3 priorities for improvement
+- Create SMART goals for the next 6-12 months
+- Identify resources and support needed
+- Establish checkpoints for evaluation and adjustment
+- Plan how to track progress and celebrate successes
+
+Share your plan with colleagues or mentors and ask for accountability.
+
+**Activity 5.5: Design an Open Science Training Program**
+Create a brief training or workshop for your research community on open results:
+- Who is your audience?
+- What are the learning objectives?
+- What topics will you cover? (Choose 3-5 from this module)
+- What activities will you include?
+- How will you assess learning?
+- Create an outline or agenda for your training session
+
+Consider actually delivering it to your lab, department, or research group.
+:::
 
 ## References
 
