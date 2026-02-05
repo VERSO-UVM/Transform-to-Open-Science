@@ -1,6 +1,6 @@
 # Contributing to Our GitHub
 
-This page is your one-stop shop for uncovering the many resources for open science that are on the TOPS GitHub! Read on to learn more about how to use our GitHub, how to engage with TOPS and participate in the Year of Open Science, and identify resources to help you, your research team, and your organization get started with open science.
+This page is your one-stop shop for uncovering the many resources for open science that are on the GitHub! Read on to learn more about how to use our GitHub, how to engage with us, and identify resources to help you, your research team, and your organization get started with open science.
 
 Before contributing, please read our [License](./LICENSE.md) and our [Code of Conduct](./CODE_OF_CONDUCT.md). A summary of the code of conduct is also below.
 
@@ -8,14 +8,14 @@ Before contributing, please read our [License](./LICENSE.md) and our [Code of Co
 
 No, really, we do! Please come and participate in our community and help us transform to open science together! 
 
-Depending on your level of interaction with TOPS and the TOPS GitHub, visitors to the site can be described as: 
-- A **community member**: anyone in the open science community who visits a TOPS site, utilizes TOPS online tools, or attends a TOPS event.
-- A **participant**: anyone who posts a comment or poses a question in the *GitHub Discussion Space*, reports a site bug or requests a new resource in *GitHub Issues*, or attends a TOPS event and utilizes any virtual chat features during that event. 
+Depending on your level of interaction with us, visitors to the site can be described as: 
+- A **community member**: anyone in the open science community who visits the site, utilizes online tools, or attends an open science event event.
+- A **participant**: anyone who posts a comment or poses a question in the *GitHub Discussion Space*, reports a site bug or requests a new resource in *GitHub Issues*, or attends an event and utilizes any virtual chat features during that event. 
 - A **contributor**: anyone who forks this GitHub repository and submits pull requests to make additions or changes to the posted content.
 
 Everyone reading this page is a community member, and we hope everyone will post comments and join discussions as a participant. Contributors are welcome, particularly to help find and point to other open science resources. 
 
-All community members must abide by the code of conduct when engaging with TOPS, either online or in-person. 
+All community members must abide by the code of conduct when engaging with us, either online or in-person. 
 
 ## Code of Conduct
 The code of conduct can be found [here](./CODE_OF_CONDUCT.md). Responses to code of conduct violations on this GitHub are based on the level of impact, which is tied to where the violation took place–either a comment, discussion post, or in a pull request (PR) to the repository. Code of conduct violations for the GitHub will be addressed in the following manner: 
@@ -35,12 +35,12 @@ The code of conduct can be found [here](./CODE_OF_CONDUCT.md). Responses to code
 
 ## Ways to Contribute to the GitHub
 There are three, major ways to contribute to the  GitHub. 
-- **Ask a question, provide an answer, share your thoughts and contribute to brainstorming through [Discussions](https://github.com/nasa/Transform-to-Open-Science/discussions).** The GitHub discussion area is intended for general Q&A, asking for community stories and experiences, and beginning conversations on new or existing open science topics. 
+- **Ask a question, provide an answer, share your thoughts and contribute to brainstorming through [Discussions](https://github.com/VERSO-UVM/Open-Science-101/discussions).** The GitHub discussion area is intended for general Q&A, asking for community stories and experiences, and beginning conversations on new or existing open science topics. 
   - To learn more about GitHub Discussions check out their [documentation](https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/about-discussions) 
-- **Suggest a change, addition, or deletion to what is already on the GitHub using [Issues](https://github.com/VERSO-UVM/Transform-to-Open-Science/issues).** Issues can be about any TOPS plans, timelines, and content. 
-     - Before submitting a new [issue](https://github.com/VERSO-UVM/Transform-to-Open-Science/issues), check to make sure [a similar issue isn't already open](https://github.com/VERSO-UVM/Transform-to-Open-Science/issues?q=is%3Aopen+is%3Aissue). If one is, contribute to that issue thread with your feedback.
+- **Suggest a change, addition, or deletion to what is already on the GitHub using [Issues](https://github.com/VERSO-UVM/Open-Science-101/issues).** Issues can be about any plans, timelines, and content. 
+  - Before submitting a new [issue](https://github.com/VERSO-UVM/Open-Science-101/issues), check to make sure [a similar issue isn't already open](https://github.com/VERSO-UVM/Open-Science-101/issues?q=is%3Aopen+is%3Aissue). If one is, contribute to that issue thread with your feedback.
      - When submitting a bug report, please try to provide as much detail as possible, i.e. a screenshot or [gist](https://gist.github.com/) that demonstrates the problem, the technology you are using, and any relevant links. 
-     - Issues labeled :sparkles:[`help wanted`](https://github.com/VERSO-UVM/Transform-to-Open-Science/labels/help%20wanted):sparkles: make it easy for you to find ways you can contribute today. 
+    - Issues labeled :sparkles:[`help wanted`](https://github.com/VERSO-UVM/Open-Science-101/labels/help%20wanted):sparkles: make it easy for you to find ways you can contribute today. 
 - **Become a contributor!** [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository and [make commits](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#making-and-pushing-changes) to add resources and additional materials. Here are some ways you can contribute:
      - by reporting bugs
      - by suggesting new features
@@ -48,8 +48,8 @@ There are three, major ways to contribute to the  GitHub.
      - by writing or editing documentation
      - by writing specifications
      - by writing code and documentation (**no pull request is too small**: fix typos, add code comments, clean up inconsistent whitespace)
-     - by reviewing [pull requests](https://github.com/VERSO-UVM/Transform-to-Open-Science/pulls).
-     - by closing [issues](https://github.com/VERSO-UVM/Transform-to-Open-Science/issues)
+    - by reviewing [pull requests](https://github.com/VERSO-UVM/Open-Science-101/pulls).
+    - by closing [issues](https://github.com/VERSO-UVM/Open-Science-101/issues)
 
 In the spirit of open source software, everyone is encouraged to help improve this project!
                                                                

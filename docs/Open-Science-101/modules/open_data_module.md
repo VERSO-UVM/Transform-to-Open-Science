@@ -345,7 +345,7 @@ Under the condition that you provide proper attribution.
 - Precipitation Measurements (same stations and temporal coverage)
 - Station Metadata (location, elevation, instrument types)
 - Quality Control Flags (detailed quality assessment per measurement)
-```
+
 
 #### 1.5 Open Data in the Research Workflow
 
@@ -522,11 +522,10 @@ Before searching, clarify what you need:
 **Search Strategies:**
 
 **Strategy 1: Keyword Search**
-```
+
 Better: "soil microbial community 16S rRNA sequencing"
 Weaker: "microbial data"
 Reason: Specific terms find more relevant results
-```
 
 **Strategy 2: Use Filters**
 - Filter by date range, file type, license, discipline

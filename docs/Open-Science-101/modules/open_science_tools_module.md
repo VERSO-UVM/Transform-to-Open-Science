@@ -159,21 +159,21 @@ Repositories are foundational tools for open science:
 - **Software registries** (PyPI, CRAN) distribute packages
 - Combine multiple repositories for maximum effectiveness
 
-#### Activities for Lesson 1
-
-Complete at least two of the following activities to apply repository concepts:
-
-**Activity 1.1: Repository Mapping**
-Choose one of your current or planned projects and map where each output should live (code, raw data, cleaned data, figures, manuscript, preregistration). Identify the specific repository or platform for each output and explain why it fits.
-
-**Activity 1.2: Development vs. Archive Decision**
-Select a research artifact (e.g., codebase, dataset). Decide what should stay in a development repository versus what should be archived, and draft a release plan that includes a version number and an archival repository with a DOI.
-
-**Activity 1.3: Data Repository Shortlist**
-Create a shortlist of three repositories for your field and compare them on scope, storage limits, metadata requirements, and long-term preservation. Write 150-200 words explaining which one you would choose and why.
-
-**Activity 1.4: Repository Metadata Draft**
-Draft a metadata record for a dataset you have or plan to produce. Include title, description, creators, keywords, license, and a short README outline.
+> #### Activities for Lesson 1
+> 
+> Complete at least two of the following activities to apply repository concepts:
+> 
+> **Activity 1.1: Repository Mapping**
+> Choose one of your current or planned projects and map where each output should live (code, raw data, cleaned data, figures, manuscript, preregistration). Identify the specific repository or platform for each output and explain why it fits.
+> 
+> **Activity 1.2: Development vs. Archive Decision**
+> Select a research artifact (e.g., codebase, dataset). Decide what should stay in a development repository versus what should be archived, and draft a release plan that includes a version number and an archival repository with a DOI.
+> 
+> **Activity 1.3: Data Repository Shortlist**
+> Create a shortlist of three repositories for your field and compare them on scope, storage limits, metadata requirements, and long-term preservation. Write 150-200 words explaining which one you would choose and why.
+> 
+> **Activity 1.4: Repository Metadata Draft**
+> Draft a metadata record for a dataset you have or plan to produce. Include title, description, creators, keywords, license, and a short README outline.
 
 ## Lesson 2: Version Control and Collaboration
 
@@ -347,21 +347,21 @@ Version control is essential for open science:
 - **Workflow discipline** prevents conflicts and maintains clarity
 - **Version control + repositories** = complete research preservation
 
-#### Activities for Lesson 2
-
-Complete at least two of the following activities to practice version control:
-
-**Activity 2.1: Initialize a Research Repository**
-Create a new Git repository for a small research project. Add a README, a license, and a basic folder structure (data, code, docs, results). Make at least three commits with clear messages.
-
-**Activity 2.2: Branch and Merge Practice**
-Create a feature branch, make a change to a file, and merge it back into `main`. Write a short reflection on what you learned about branching and merging.
-
-**Activity 2.3: .gitignore Audit**
-Create or update a `.gitignore` file for your project. Explain why each ignored category (raw data, secrets, build artifacts) should not be tracked in Git.
-
-**Activity 2.4: Collaboration Simulation**
-Open an issue describing a small improvement, then create a pull/merge request that resolves it. Write a brief summary as if you were reviewing your own change.
+> #### Activities for Lesson 2
+> 
+> Complete at least two of the following activities to practice version control:
+> 
+> **Activity 2.1: Initialize a Research Repository**
+> Create a new Git repository for a small research project. Add a README, a license, and a basic folder structure (data, code, docs, results). Make at least three commits with clear messages.
+> 
+> **Activity 2.2: Branch and Merge Practice**
+> Create a feature branch, make a change to a file, and merge it back into `main`. Write a short reflection on what you learned about branching and merging.
+> 
+> **Activity 2.3: .gitignore Audit**
+> Create or update a `.gitignore` file for your project. Explain why each ignored category (raw data, secrets, build artifacts) should not be tracked in Git.
+> 
+> **Activity 2.4: Collaboration Simulation**
+> Open an issue describing a small improvement, then create a pull/merge request that resolves it. Write a brief summary as if you were reviewing your own change.
 
 ## Lesson 3: Persistent Identifiers and Citation
 
@@ -571,21 +571,21 @@ Persistent identifiers are essential research infrastructure:
 - **Proper use** enables discovery, citation tracking, and impact measurement
 - **Best practices** maximize discoverability and credit attribution
 
-#### Activities for Lesson 3
-
-Complete at least two of the following activities to practice using persistent identifiers:
-
-**Activity 3.1: ORCID Setup and Update**
-Create or update your ORCID profile. Add at least one publication, dataset, or software entry and set appropriate visibility permissions.
-
-**Activity 3.2: DOI Planning**
-Choose a research output and draft a plan to mint a DOI (which repository, what metadata you will provide, and how you will cite it).
-
-**Activity 3.3: Citation Practice**
-Write citations for one dataset, one software package, and one paper using DOI-based formats. Note any differences in formatting across resource types.
-
-**Activity 3.4: Identifier Inventory**
-List the identifiers used in your lab or project (DOIs, ORCIDs, grant numbers). Identify one gap and propose how to fill it.
+> #### Activities for Lesson 3
+> 
+> Complete at least two of the following activities to practice using persistent identifiers:
+> 
+> **Activity 3.1: ORCID Setup and Update**
+> Create or update your ORCID profile. Add at least one publication, dataset, or software entry and set appropriate visibility permissions.
+> 
+> **Activity 3.2: DOI Planning**
+> Choose a research output and draft a plan to mint a DOI (which repository, what metadata you will provide, and how you will cite it).
+> 
+> **Activity 3.3: Citation Practice**
+> Write citations for one dataset, one software package, and one paper using DOI-based formats. Note any differences in formatting across resource types.
+> 
+> **Activity 3.4: Identifier Inventory**
+> List the identifiers used in your lab or project (DOIs, ORCIDs, grant numbers). Identify one gap and propose how to fill it.
 
 ## Lesson 4: Open Science Software Ecosystems
 
@@ -800,21 +800,21 @@ Comprehensive tool ecosystem supports open science:
 - **Planning tools** help meet funder requirements
 - **Communication tools** support team collaboration
 
-#### Activities for Lesson 4
-
-Complete at least two of the following activities to explore the open science software ecosystem:
-
-**Activity 4.1: Toolchain Blueprint**
-Sketch a toolchain for a real project, from planning to publication. Include at least one tool for documentation, computation, preprints, project management, and data management planning.
-
-**Activity 4.2: Documentation Tool Trial**
-Choose one documentation tool (Overleaf, Quarto, Jupyter Book, or Markdown + Git). Create a short sample document with a figure and a citation.
-
-**Activity 4.3: Preprint Decision Memo**
-Write a 200-300 word memo on whether you would post a preprint for a current project, including benefits, risks, and timing.
-
-**Activity 4.4: DMP Mini-Plan**
-Draft a one-page data management mini-plan using DMPTool or a similar template, focusing on storage, documentation, sharing, and preservation.
+> #### Activities for Lesson 4
+> 
+> Complete at least two of the following activities to explore the open science software ecosystem:
+> 
+> **Activity 4.1: Toolchain Blueprint**
+> Sketch a toolchain for a real project, from planning to publication. Include at least one tool for documentation, computation, preprints, project management, and data management planning.
+> 
+> **Activity 4.2: Documentation Tool Trial**
+> Choose one documentation tool (Overleaf, Quarto, Jupyter Book, or Markdown + Git). Create a short sample document with a figure and a citation.
+> 
+> **Activity 4.3: Preprint Decision Memo**
+> Write a 200-300 word memo on whether you would post a preprint for a current project, including benefits, risks, and timing.
+> 
+> **Activity 4.4: DMP Mini-Plan**
+> Draft a one-page data management mini-plan using DMPTool or a similar template, focusing on storage, documentation, sharing, and preservation.
 
 ## Lesson 5: Building Your Open Science Toolkit
 
@@ -825,7 +825,7 @@ In this final lesson, you integrate the tools learned throughout this module int
 
 ***Research Stage Analysis:**
 
-![Research Stage Analysis: Tools and Workflow](./images/research_stage_analysis.png)
+![Research Stage Analysis: Tools and Workflow](../images/research_stage_analysis.svg)
 
 ### 5.2 Discipline-Specific Tool Recommendations
 
@@ -1100,19 +1100,19 @@ Building an open science toolkit involves:
 4. Join a relevant community
 5. Help others learn
 
-#### Activities for Lesson 5
-
-Complete at least one of the following activities to build your personal toolkit:
-
-**Activity 5.1: Toolkit Audit and Upgrade**
-List the tools you currently use for planning, coding, documentation, sharing, and preservation. Identify two gaps and create a 30-day plan to fill them.
-
-**Activity 5.2: Sustainable Workflow Plan**
-Create a workflow checklist you will reuse for every project (e.g., ORCID update, repository setup, README, data archiving, DOI minting). Share it with your team.
-
-**Activity 5.3: Community Engagement**
-Join one community (The Carpentries, rOpenSci, RSE, or a discipline-specific group). Attend one meeting or complete one training and summarize what you learned.
-
-**Activity 5.4: Publish a Minimal Example**
-Publish a small code or data artifact with documentation and a clear license. If possible, archive a release in Zenodo to obtain a DOI.
+> #### Activities for Lesson 5
+> 
+> Complete at least one of the following activities to build your personal toolkit:
+> 
+> **Activity 5.1: Toolkit Audit and Upgrade**
+> List the tools you currently use for planning, coding, documentation, sharing, and preservation. Identify two gaps and create a 30-day plan to fill them.
+> 
+> **Activity 5.2: Sustainable Workflow Plan**
+> Create a workflow checklist you will reuse for every project (e.g., ORCID update, repository setup, README, data archiving, DOI minting). Share it with your team.
+> 
+> **Activity 5.3: Community Engagement**
+> Join one community (The Carpentries, rOpenSci, RSE, or a discipline-specific group). Attend one meeting or complete one training and summarize what you learned.
+> 
+> **Activity 5.4: Publish a Minimal Example**
+> Publish a small code or data artifact with documentation and a clear license. If possible, archive a release in Zenodo to obtain a DOI.
 
